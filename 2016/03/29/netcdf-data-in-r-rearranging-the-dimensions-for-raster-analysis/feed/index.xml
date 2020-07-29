@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: NetCDF Data in R: rearranging the dimensions for raster analysis	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 26 Apr 2017 04:00:52 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comment-10755</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Tue, 18 Jul 2017 14:44:51 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210#comment-10755</guid>
+					<description><![CDATA[Hi George,
+
+I&#039;m sorry to hear about the issues. I haven&#039;t worked with ncpdq, but seems like a linux based solution would be more robust than my work-around above. It sounds like you can import the netcdf data to an array and reorganize as necessary, but it&#039;s not very efficient for your data?
+
+Good luck,
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Hi George,</p>
+<p>I&#8217;m sorry to hear about the issues. I haven&#8217;t worked with ncpdq, but seems like a linux based solution would be more robust than my work-around above. It sounds like you can import the netcdf data to an array and reorganize as necessary, but it&#8217;s not very efficient for your data?</p>
+<p>Good luck,<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: George B				</title>
+				<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comment-10736</link>
+		<dc:creator><![CDATA[George B]]></dc:creator>
+		<pubDate>Fri, 14 Jul 2017 12:21:04 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210#comment-10736</guid>
+					<description><![CDATA[Hi Tim,
+I am having the same problem: the dimensions of a 3-Dimensional netCDF file are read in the wrong order by raster. 
+Working with the nco commands (e.g. ncpdq) I have been trying some things, but nothing is working. The problem really seems to be the raster package.
+Your solution is fine, but doesn&#039;t scale well with file-size.
+
+If you have another idea, let me know please.
+Regards,
+George]]></description>
+		<content:encoded><![CDATA[<p>Hi Tim,<br />
+I am having the same problem: the dimensions of a 3-Dimensional netCDF file are read in the wrong order by raster.<br />
+Working with the nco commands (e.g. ncpdq) I have been trying some things, but nothing is working. The problem really seems to be the raster package.<br />
+Your solution is fine, but doesn&#8217;t scale well with file-size.</p>
+<p>If you have another idea, let me know please.<br />
+Regards,<br />
+George</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Nab				</title>
+				<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comment-9938</link>
+		<dc:creator><![CDATA[Nab]]></dc:creator>
+		<pubDate>Wed, 26 Apr 2017 04:00:52 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210#comment-9938</guid>
+					<description><![CDATA[Tim, 
+Thank you very much for the quick response. Will try with ‘gdalUtils’ package.
+Best, 
+Nabin]]></description>
+		<content:encoded><![CDATA[<p>Tim,<br />
+Thank you very much for the quick response. Will try with ‘gdalUtils’ package.<br />
+Best,<br />
+Nabin</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comment-9931</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Tue, 25 Apr 2017 16:15:09 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210#comment-9931</guid>
+					<description><![CDATA[Hi Nab-
+
+I&#039;m glad you found the code helpful.  I&#039;m certainly not an HDF export, but it is my understanding that HDF files can be read by ncdf4 if the HDF files were written in accordance with netCDF-4 rules. If not, that might explain the HDF error you have received. 
+
+You might consider using the &#039;gdalUtils&#039; package instead of ncdf4 to import the HDF file into R; convert to a raster and be on your way. This post should help with that:
+
+http://stackoverflow.com/questions/36772341/reading-hdf-files-into-r-and-converting-them-to-geotiff-rasters
+
+Good luck,
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Hi Nab-</p>
+<p>I&#8217;m glad you found the code helpful.  I&#8217;m certainly not an HDF export, but it is my understanding that HDF files can be read by ncdf4 if the HDF files were written in accordance with netCDF-4 rules. If not, that might explain the HDF error you have received. </p>
+<p>You might consider using the &#8216;gdalUtils&#8217; package instead of ncdf4 to import the HDF file into R; convert to a raster and be on your way. This post should help with that:</p>
+<p><a href="http://stackoverflow.com/questions/36772341/reading-hdf-files-into-r-and-converting-them-to-geotiff-rasters" rel="nofollow">http://stackoverflow.com/questions/36772341/reading-hdf-files-into-r-and-converting-them-to-geotiff-rasters</a></p>
+<p>Good luck,<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Nab				</title>
+				<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comment-9928</link>
+		<dc:creator><![CDATA[Nab]]></dc:creator>
+		<pubDate>Tue, 25 Apr 2017 06:43:32 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210#comment-9928</guid>
+					<description><![CDATA[thanks for the code..extremely helpful. I have a netcdf file (berkeleyearth) data covering 2000 - 2009 , not able to open showing HDF error ? Any guidance please ... One more doubt how to extract data for area of interest ? I am using a polygon ( shape file) to extract this...but unable to create array. Again many thanks]]></description>
+		<content:encoded><![CDATA[<p>thanks for the code..extremely helpful. I have a netcdf file (berkeleyearth) data covering 2000 &#8211; 2009 , not able to open showing HDF error ? Any guidance please &#8230; One more doubt how to extract data for area of interest ? I am using a polygon ( shape file) to extract this&#8230;but unable to create array. Again many thanks</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comment-9520</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Wed, 15 Mar 2017 16:22:42 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210#comment-9520</guid>
+					<description><![CDATA[It&#039;s been brought to my attention that the &quot;ncdf&quot; package has been removed from the CRAN repository. 
+
+Please use the &quot;ncdf4&quot; package and update the code accordingly to enable the above example to work:
+
+Code block 1: library(ncdf4); nc &lt;- nc_open(&quot;fm100_2003.nc&quot;);
+
+Code block 4: array1&lt;-ncvar_get(nc, dname);
+
+Thank you.]]></description>
+		<content:encoded><![CDATA[<p>It&#8217;s been brought to my attention that the &#8220;ncdf&#8221; package has been removed from the CRAN repository. </p>
+<p>Please use the &#8220;ncdf4&#8221; package and update the code accordingly to enable the above example to work:</p>
+<p>Code block 1: library(ncdf4); nc <- nc_open("fm100_2003.nc");
+
+Code block 4: array1<-ncvar_get(nc, dname);
+
+Thank you.
+</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

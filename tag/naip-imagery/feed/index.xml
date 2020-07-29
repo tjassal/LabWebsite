@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>NAIP imagery &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/naip-imagery/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 18:20:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Bing&#8217;s Global Ortho Project &#8211; an impressive imagery resource</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/10/05/bing-imagery-an-impressive-resource/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2012/10/05/bing-imagery-an-impressive-resource/#respond</comments>
+				<pubDate>Fri, 05 Oct 2012 22:37:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[aerial photos]]></category>
+		<category><![CDATA[Bing Imagery]]></category>
+		<category><![CDATA[Global Ortho project]]></category>
+		<category><![CDATA[NAIP imagery]]></category>
+		<category><![CDATA[remote sensing]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=281</guid>
+				<description><![CDATA[A friend of mine recently turned me on to Bing Imagery (thanks Doug!) and I was really impressed. If you haven&#8217;t seen it yet it&#8217;s well worth a look: Bing has now completed their Global Ortho project (accessed through Bing&#8217;s map search engine). The archive covers the Continental United States and Western Europe at 30 &#8230; <a href="https://tjassal.github.io/LabWebsite/2012/10/05/bing-imagery-an-impressive-resource/" class="more-link">Continue reading <span class="screen-reader-text">Bing&#8217;s Global Ortho Project &#8211; an impressive imagery resource</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>A friend of mine recently turned me on to Bing Imagery (thanks Doug!) and I was really impressed. If you haven&#8217;t seen it yet it&#8217;s well worth a look:</p>
+<figure id="attachment_283" aria-describedby="caption-attachment-283" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/10/naip_bing1.jpg"><img class="size-large wp-image-283" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/10/naip_bing1.jpg?resize=474%2C329" alt="A 200 m^2 watering hole near one of my field sites in Wyoming. Cattle trails and the beasts themselves can be seen in both images, but clearly identified in the Bing imagery. Left: NAIP imagery (1 m resolution). Right: BING imagery (30 cm resolution)." width="474" height="329" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/10/naip_bing1.jpg?resize=1024%2C711&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/10/naip_bing1.jpg?resize=300%2C208&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/10/naip_bing1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/10/naip_bing1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-283" class="wp-caption-text">A 200 m^2 watering hole near one of my field sites in Wyoming. Cattle trails and the beasts themselves can be seen in both images, but clearly identified in the Bing imagery. Left: NAIP imagery (1 m resolution). Right: BING imagery (30 cm resolution).</figcaption></figure>
+<p>Bing has now completed their Global Ortho project (accessed through Bing&#8217;s map search engine). The archive covers the Continental United States and Western Europe at 30 cm resolution. However other areas of the globe have excellent coverage as well. I&#8217;m not sure of the resolution, but it appears to have been collected at a finer scale than that of Google Earth. It is difficult to determine the date of the imagery. However, Martijn van Exel has a great <a href="https://oegeo.wordpress.com/2010/12/03/bing-aerial-photos-for-openstreetmap-great-but-are-they-recent/comment-page-1/#comment-1499" target="_blank">post</a> about this on his blog and he developed an interface through openstreetmap to determine imagery acquisition date. Unfortunately it only provides a range of imagery acquisition dates, but better than no date at all.  Check out <a href="http://mvexel.dev.openstreetmap.org/bing/" target="_blank">http://mvexel.dev.openstreetmap.org/bing/</a> (zoom in on your area of interest pretty tight).</p>
+<p>The imagery can only be viewed as a basemap in ArcGIS (to my knowledge). To add to an mxd: File/Add Data/Add Basemap/&#8221;Bing Maps Aerial&#8221;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2012/10/05/bing-imagery-an-impressive-resource/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">281</post-id>	</item>
+	</channel>
+</rss>

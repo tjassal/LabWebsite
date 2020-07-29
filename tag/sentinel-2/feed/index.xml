@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Sentinel-2 &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/sentinel-2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Sun, 10 Jul 2016 06:45:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Visualizing the COVID19 shutdown from space: The Venetian Lagoon</title>
+		<link>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/#respond</comments>
+				<pubDate>Sat, 28 Mar 2020 15:41:27 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coronavirus]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[Sentinel-2]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Venetian Lagoon]]></category>
+		<category><![CDATA[Venice]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2252</guid>
+				<description><![CDATA[The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I &#8230; <a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" class="more-link">Continue reading <span class="screen-reader-text">Visualizing the COVID19 shutdown from space: The Venetian Lagoon</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I forgot.</p>
+<p>There have been a number of social media clips depicting the reduction in emissions due to the slowdown of the global economy using satellite data. Notably from NASA&#8217;s Earth Observatory:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Nitrogen dioxide over <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> has dropped with the coronavirus quarantine, Chinese New Year, and a related economic slowdown. <a href="https://t.co/URfLNy0GZJ">https://t.co/URfLNy0GZJ</a> <a href="https://twitter.com/hashtag/NASA?src=hash&amp;ref_src=twsrc%5Etfw">#NASA</a> <a href="https://twitter.com/hashtag/COVID2019?src=hash&amp;ref_src=twsrc%5Etfw">#COVID2019</a> <a href="https://t.co/PM60uL772K">pic.twitter.com/PM60uL772K</a></p>
+<p>— NASA Earth (@NASAEarth) <a href="https://twitter.com/NASAEarth/status/1235330706827554817?ref_src=twsrc%5Etfw">March 4, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Italy has been extremely hard hit during this pandemic and the entire country was put on lockdown on March 9th. <a href="https://www.cnbc.com/2020/03/18/photos-water-in-venice-italys-canals-clear-amid-covid-19-lockdown.html" target="_blank" rel="noopener noreferrer">Cat Clifford</a> and <a href="https://www.nbcnews.com/science/environment/coronavirus-shutdowns-have-unintended-climate-benefits-n1161921" target="_blank" rel="noopener noreferrer">Denise Chow</a> each wrote brief articles last week detailing the increased clarity in the Venetian canal&#8217;s due to the coronavirus slowdown.</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">A ripple effect of the coronavirus lockdown provides a bit of reprieve for Venice. I imagine if that City were a woman, She&#8217;s stretching her aching back, tired from the constant parade of tourist plodding. <a href="https://t.co/Xq6R9zp8YR">https://t.co/Xq6R9zp8YR</a></p>
+<p>— Catherine Clifford (@CatClifford) <a href="https://twitter.com/CatClifford/status/1240324723382325248?ref_src=twsrc%5Etfw">March 18, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>I was pretty sure the Google Earth Engine archive would not have any imagery with the spatial detail to detect changes in the clarity of the canals (maybe the Grand Canal?). I decided to have a look though, as it would make a nice segue for my change detection lecture in my remote sensing course this week. The 10-m spatial resolution of <a href="https://tjassal.github.io/LabWebsite/?p=1263" target="_blank" rel="noopener noreferrer">Sentinel-2 imagery</a> is not adequate to detect changes in suspended sediment in any of the canals, but the lack of boat traffic around the island compared to this time last year is quite noticeable! Below are two false-color composite images &#8211; one from last March and one from last week &#8211; for visual comparison.</p>
+<p><strong>The Venetian Lagoon March 15, 2019:</strong></p>
+<figure id="attachment_2262" aria-describedby="caption-attachment-2262" style="width: 637px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2262 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?w=637&amp;ssl=1 637w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2262" class="wp-caption-text">The Venetian Lagoon March 15, 2019. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the visible wakes from boat traffic around the island.</figcaption></figure>
+<p><strong>The Venetian Lagoon March 16, 2020:</strong></p>
+<figure id="attachment_2263" aria-describedby="caption-attachment-2263" style="width: 637px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg"><img class="wp-image-2263 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?w=637&amp;ssl=1 637w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2263" class="wp-caption-text">The Venetian Lagoon March 16, 2020. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the reduction in boat wakes around the island.</figcaption></figure>
+<p>For more information on Google Earth Engine, see my previous posts <a href="https://tjassal.github.io/LabWebsite/?p=2019" target="_blank" rel="noopener noreferrer">here</a> and <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener noreferrer">here</a>. See below for the code used in Google Earth Engine to generate the images:</p><pre class="crayon-plain-tag">//pull down specific granule, add layer and set display parameters
+var s2a= ee.Image('COPERNICUS/S2_SR/20190315T101021_20190315T101043_T32TQR');
+Map.addLayer(s2a, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_15March2019')
+
+var s2b= ee.Image('COPERNICUS/S2_SR/20200316T100021_20200316T100023_T32TQR');
+Map.addLayer(s2b, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_16March2020')
+
+// Center map on Venice, Italy
+Map.setCenter(12.33, 45.43, 13);</pre><p><em>*Banner image: The Grand Canal (left) and Piazza San Marco (right) viewed from San Giorgio Maggiore </em><em>during busier times (circa 2007), Venice, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2252</post-id>	</item>
+		<item>
+		<title>Sentinel-2A satellite bolsters the open access earth observation record</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/06/30/sentinel-2a-satellite-bolsters-the-open-access-earth-observation-record/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/06/30/sentinel-2a-satellite-bolsters-the-open-access-earth-observation-record/#respond</comments>
+				<pubDate>Thu, 30 Jun 2016 06:35:00 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[European Space Agency]]></category>
+		<category><![CDATA[Mount Pinatubo]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Sentinel-2]]></category>
+		<category><![CDATA[Sentinel-2A]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1263</guid>
+				<description><![CDATA[The European Space Agency has developed a suite of new satellites with radar and multi-spectral imaging instruments to monitor the Earth&#8217;s surface, oceans and atmosphere. Data from these satellites will bolster the earth observation record with free and open access data. I am particularly interested in the Sentinel-2 mission which will provide high-resolution multipsectral data &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/06/30/sentinel-2a-satellite-bolsters-the-open-access-earth-observation-record/" class="more-link">Continue reading <span class="screen-reader-text">Sentinel-2A satellite bolsters the open access earth observation record</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The European Space Agency has developed a <a href="http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4" target="_blank">suite of new satellites </a>with radar and multi-spectral imaging instruments to monitor the Earth&#8217;s surface, oceans and atmosphere. Data from these satellites will bolster the earth observation record with free and open access data. I am particularly interested in the Sentinel-2 mission which will provide high-resolution multipsectral data for numerous land monitoring applications with a five day revisit time. Sentinel-2A was launched in June 2015; Sentinel-2B is slated for a late 2016 launch.  I thought I&#8217;d have a look at a new Sentinel-2A image that captured Mount Pinatubo because earlier this month marked 25 years since the massive volcanic eruption on the island of Luzon in the Philippines. It was the second largest terrestrial eruption of the 20th century and its effects were felt on a global scale. As you might imagine, the local landscape changed dramatically along with the livelihoods of people in the Pinatubo area.</p>
+<figure id="attachment_1267" aria-describedby="caption-attachment-1267" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg" target="_blank"><img class="wp-image-1267 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?resize=474%2C435" alt="Before image" width="474" height="435" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?resize=1024%2C939&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?resize=300%2C275&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?resize=768%2C704&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?w=1479&amp;ssl=1 1479w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_Before_03Dec1989_crop.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1267" class="wp-caption-text">Landsat TM image of Mount Pinatubo (top center of image) acquired December 3, 1989, six months before the eruption.</figcaption></figure>
+<figure id="attachment_1268" aria-describedby="caption-attachment-1268" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg" target="_blank"><img class="wp-image-1268 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg?resize=474%2C461" alt="After..." width="474" height="461" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg?resize=1024%2C996&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg?resize=300%2C292&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg?resize=768%2C747&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Landsat_After_27Oct1993_crop.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1268" class="wp-caption-text">Landsat TM image of Mount Pinatubo acquired on October 27, 1993; two years after the eruption. Evidence of devastating lahars can be seen radiating from the center of the volcano marked by Crater lake.</figcaption></figure>
+<p>I acquired a Sentinel-2A image from the <a href="http://earthexplorer.usgs.gov/" target="_blank">USGS EarthExplorer archive</a>. The data are delivered in JP2 file format, which unfortunately is not supported in R. There are a number of conversion methods outside of R, but I decided to have a look at the <a href="https://sentinel.esa.int/web/sentinel/toolboxes/sentinel-2" target="_blank">Sentinel-2 Toolbox</a> developed by the European Space Agency.  The toolbox is open source and includes a number of data visualization, analysis and processing tools for Sentinel-2 data and a number of other satellite platforms (e.g. Landsat, MODIS, SPOT, etc.).  The following images were created using the Sentinel-2 toolbox:</p>
+<figure id="attachment_1273" aria-describedby="caption-attachment-1273" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg" target="_blank"><img class="wp-image-1273 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg?resize=474%2C419" alt="dfdfdfdf" width="474" height="419" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg?resize=1024%2C906&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg?resize=300%2C265&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg?resize=768%2C679&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sentinel_RGB_crop2.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1273" class="wp-caption-text">Sentinel-2A image of Mount Pinatubo acquired on March 3, 2016; 10-meter RGB composite (bands 4, 3, 2).</figcaption></figure>
+<figure id="attachment_1275" aria-describedby="caption-attachment-1275" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg" target="_blank"><img class="wp-image-1275 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg?resize=474%2C397" alt="dfdfdfdf" width="474" height="397" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg?resize=1024%2C857&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg?resize=300%2C251&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg?resize=768%2C643&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/Sentinel_NDVI2.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1275" class="wp-caption-text">The Normalized Difference Vegetation Index (NDVI) derived from the Sentinel-2A image; 10 meter resolution using bands 8 (near-infrared) and band 4 (red). Green areas indicate high areas of vegetation productivity; deep red indicates barren areas and/or water.</figcaption></figure>
+<p>The Sentinel-2 satellites measure reflected radiance through the atmosphere with <a href="https://earth.esa.int/web/sentinel/user-guides/sentinel-2-msi/resolutions/spatial" target="_blank">13 spectral bands at various spatial resolutions</a>:</p>
+<ul>
+<li>4 bands at 10 meter: blue (490 nm), green (560 nm), red (665 nm), and near-infrared (842 nm).</li>
+<li>6 bands at 20 meter: 4 narrow bands for vegetation characterization (705 nm, 740 nm, 783 nm, and 865 nm) and 2 larger SWIR bands (1,610 nm and 2,190 nm) for applications such as snow/ice/cloud detection or vegetation moisture stress assessment.</li>
+<li>3 bands at 60 meter: mainly for cloud screening and atmospheric corrections (443 nm for aerosols, 945 nm for water vapor, and 1375 nm for cirrus detection).</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/06/30/sentinel-2a-satellite-bolsters-the-open-access-earth-observation-record/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1263</post-id>	</item>
+	</channel>
+</rss>

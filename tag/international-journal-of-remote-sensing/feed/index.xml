@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>International Journal of Remote Sensing &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/international-journal-of-remote-sensing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 23 Jan 2017 19:31:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Call for Papers: IJRS Special Issue at Intersection of Remote Sensing &#038; Ecology</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/#respond</comments>
+				<pubDate>Mon, 23 Jan 2017 18:29:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Biogeography]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[International Journal of Remote Sensing]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1455</guid>
+				<description><![CDATA[I serve as a reviewer for the International Journal of Remote Sensing and thought I&#8217;d pass along this call for papers on an interesting topic at the intersection of remote sensing and ecology: International Journal of Remote Sensing Special Issue &#8211; Call for Papers Fine Resolution Remote Sensing of Species in Terrestrial and Coastal Ecosystems &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: IJRS Special Issue at Intersection of Remote Sensing &#038; Ecology</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I serve as a reviewer for the <a href="http://www.tandfonline.com/toc/tres20/current" target="_blank">International Journal of Remote Sensing</a> and thought I&#8217;d pass along this call for papers on an interesting topic at the intersection of remote sensing and ecology:</p>
+<p><span style="color: #800000;"><b>International Journal of Remote Sensing</b></span></p>
+<p><span style="color: #ff6600;"><span style="color: #000080;"><b>Special Issue &#8211; Call for Papers</b></span><b></b></span></p>
+<p><span style="color: #800000;"><b>Fine Resolution Remote Sensing of Species in Terrestrial and Coastal Ecosystems</b></span></p>
+<p>The decline and dieback of native species and the invasion of alien species in terrestrial and coastal ecosystems can cause severe environmental changes that harm the functioning of ecosystems and reduce the services they provide. A rapid response and effective management of environmental change requires detailed information on the spatial distribution of individual species over large spatial extents and over multiple time periods. Species-level information is also needed for precision agriculture and urban forestry.</p>
+<p>Although remote sensing has been used to map species for decades, the longstanding challenge is that the accuracy of species maps is often too low to meet the requirements of management, or the methods are too complex or location-specific to be used in routine mapping. On the other hand, in the 21<sup>st</sup> century, we have witnessed a rapid development in both fine resolution remote sensors and statistical theories and techniques, which hold great potential for accurate species mapping.</p>
+<p>This special issue calls for cutting-edge research on using fine resolution remotely sensed data for mapping species in terrestrial or coastal ecosystems, in the following areas:</p>
+<p>1)      Focus on terrestrial or coastal systems (including natural, urban, agriculture, and other aspects);</p>
+<p>2)      Involvement of any single or combination of fine resolution sensors such as UAV, lidar, high spatial resolution satellite imagery, and hyperspectral sensors;</p>
+<p>3)      Incorporation of spectral and/or structural information using new sensors (such as multispectral lidar) and/or the combination of several sensors;</p>
+<p>4)      Development of novel techniques in pre-processing (e.g., image georeferencing and orthorectification) and/or image processing (such as segmentation) to improve the classification accuracy;</p>
+<p>5)      Development or application of new statistical techniques (such as deep learning) for classification, especially in comparison to other parametric and non-parametric methods;</p>
+<p>6)      Development of upscaling framework that can map species over large spatial extent;</p>
+<p>7)      Other novel research not listed above on species mapping with fine resolution sensors.</p>
+<p><b>Important Dates</b></p>
+<p>Full paper submission deadline:  <b>November 1<sup>st</sup>, 2017</b><br />
+Online publication:  <b>Immediately after acceptance and final technical review</b> for compliance with the journal style.</p>
+<p>Expected print publication date: <b>July 2018</b><br />
+<b></b></p>
+<p><b>Editorial information</b></p>
+<p><strong>·</strong>         Guest Editor: <b>Qi Chen</b>, <i>Department of Geography, University of Hawaii at Manoa, USA </i>(<a title="mailto:qichen@hawaii.edu" href="mailto:qichen@hawaii.edu" target="_blank">qichen@hawaii.edu</a>)</p>
+<p><strong>·</strong>         Guest Editor: <b>Tiit Kutser</b>, <i> Estonian Marine Institute, University of Tartu, Estonia</i> (<a title="mailto:tiit.kutser@sea.ee" href="mailto:tiit.kutser@sea.ee" target="_blank">tiit.kutser@sea.ee</a>)</p>
+<p><strong>·</strong>         Guest Editor: <b>Antoine Collin</b>,<i> Ecole Pratique des Hautes Etudes, PSL Research University, France</i> (<a title="mailto:antoine.collin@ephe.sorbonne.fr" href="mailto:antoine.collin@ephe.sorbonne.fr" target="_blank">antoine.collin@ephe.sorbonne.<wbr />fr</a>)<i></i></p>
+<p><strong>·</strong>         Guest Editor: <b>Timothy A.</b> <b>Warner</b>, <i>Department of Geology and Geography, West Virginia University, USA</i> (<a title="mailto:tim.warner@mail.wvu.edu" href="mailto:tim.warner@mail.wvu.edu" target="_blank">tim.warner@mail.wvu.edu</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1455</post-id>	</item>
+	</channel>
+</rss>

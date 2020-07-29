@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>remote sensing &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/remote-sensing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 13 Feb 2019 00:10:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Visualizing the COVID19 shutdown from space: The Venetian Lagoon</title>
+		<link>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/#respond</comments>
+				<pubDate>Sat, 28 Mar 2020 15:41:27 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coronavirus]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[Sentinel-2]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Venetian Lagoon]]></category>
+		<category><![CDATA[Venice]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2252</guid>
+				<description><![CDATA[The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I &#8230; <a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" class="more-link">Continue reading <span class="screen-reader-text">Visualizing the COVID19 shutdown from space: The Venetian Lagoon</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I forgot.</p>
+<p>There have been a number of social media clips depicting the reduction in emissions due to the slowdown of the global economy using satellite data. Notably from NASA&#8217;s Earth Observatory:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Nitrogen dioxide over <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> has dropped with the coronavirus quarantine, Chinese New Year, and a related economic slowdown. <a href="https://t.co/URfLNy0GZJ">https://t.co/URfLNy0GZJ</a> <a href="https://twitter.com/hashtag/NASA?src=hash&amp;ref_src=twsrc%5Etfw">#NASA</a> <a href="https://twitter.com/hashtag/COVID2019?src=hash&amp;ref_src=twsrc%5Etfw">#COVID2019</a> <a href="https://t.co/PM60uL772K">pic.twitter.com/PM60uL772K</a></p>
+<p>— NASA Earth (@NASAEarth) <a href="https://twitter.com/NASAEarth/status/1235330706827554817?ref_src=twsrc%5Etfw">March 4, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Italy has been extremely hard hit during this pandemic and the entire country was put on lockdown on March 9th. <a href="https://www.cnbc.com/2020/03/18/photos-water-in-venice-italys-canals-clear-amid-covid-19-lockdown.html" target="_blank" rel="noopener noreferrer">Cat Clifford</a> and <a href="https://www.nbcnews.com/science/environment/coronavirus-shutdowns-have-unintended-climate-benefits-n1161921" target="_blank" rel="noopener noreferrer">Denise Chow</a> each wrote brief articles last week detailing the increased clarity in the Venetian canal&#8217;s due to the coronavirus slowdown.</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">A ripple effect of the coronavirus lockdown provides a bit of reprieve for Venice. I imagine if that City were a woman, She&#8217;s stretching her aching back, tired from the constant parade of tourist plodding. <a href="https://t.co/Xq6R9zp8YR">https://t.co/Xq6R9zp8YR</a></p>
+<p>— Catherine Clifford (@CatClifford) <a href="https://twitter.com/CatClifford/status/1240324723382325248?ref_src=twsrc%5Etfw">March 18, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>I was pretty sure the Google Earth Engine archive would not have any imagery with the spatial detail to detect changes in the clarity of the canals (maybe the Grand Canal?). I decided to have a look though, as it would make a nice segue for my change detection lecture in my remote sensing course this week. The 10-m spatial resolution of <a href="https://tjassal.github.io/LabWebsite/?p=1263" target="_blank" rel="noopener noreferrer">Sentinel-2 imagery</a> is not adequate to detect changes in suspended sediment in any of the canals, but the lack of boat traffic around the island compared to this time last year is quite noticeable! Below are two false-color composite images &#8211; one from last March and one from last week &#8211; for visual comparison.</p>
+<p><strong>The Venetian Lagoon March 15, 2019:</strong></p>
+<figure id="attachment_2262" aria-describedby="caption-attachment-2262" style="width: 637px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2262 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?w=637&amp;ssl=1 637w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2262" class="wp-caption-text">The Venetian Lagoon March 15, 2019. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the visible wakes from boat traffic around the island.</figcaption></figure>
+<p><strong>The Venetian Lagoon March 16, 2020:</strong></p>
+<figure id="attachment_2263" aria-describedby="caption-attachment-2263" style="width: 637px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg"><img class="wp-image-2263 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?w=637&amp;ssl=1 637w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2263" class="wp-caption-text">The Venetian Lagoon March 16, 2020. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the reduction in boat wakes around the island.</figcaption></figure>
+<p>For more information on Google Earth Engine, see my previous posts <a href="https://tjassal.github.io/LabWebsite/?p=2019" target="_blank" rel="noopener noreferrer">here</a> and <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener noreferrer">here</a>. See below for the code used in Google Earth Engine to generate the images:</p><pre class="crayon-plain-tag">//pull down specific granule, add layer and set display parameters
+var s2a= ee.Image('COPERNICUS/S2_SR/20190315T101021_20190315T101043_T32TQR');
+Map.addLayer(s2a, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_15March2019')
+
+var s2b= ee.Image('COPERNICUS/S2_SR/20200316T100021_20200316T100023_T32TQR');
+Map.addLayer(s2b, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_16March2020')
+
+// Center map on Venice, Italy
+Map.setCenter(12.33, 45.43, 13);</pre><p><em>*Banner image: The Grand Canal (left) and Piazza San Marco (right) viewed from San Giorgio Maggiore </em><em>during busier times (circa 2007), Venice, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2252</post-id>	</item>
+		<item>
+		<title>Mogadore High School visits the KSU Geography Department</title>
+		<link>https://tjassal.github.io/LabWebsite/2020/02/04/mogadore-high-school-visits-ksu/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2020/02/04/mogadore-high-school-visits-ksu/#respond</comments>
+				<pubDate>Tue, 04 Feb 2020 16:39:14 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[high school STEM]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[STEM]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2221</guid>
+				<description><![CDATA[Today the Department of Geography at Kent State University welcomes Mogadore High School. Mr. Jerry Vydra, a KSU alumnus, brought his Environmental Science class to campus to learn about the important role of geography in environmental science.  I spoke with the students about the kind of research I do and how we use it to &#8230; <a href="https://tjassal.github.io/LabWebsite/2020/02/04/mogadore-high-school-visits-ksu/" class="more-link">Continue reading <span class="screen-reader-text">Mogadore High School visits the KSU Geography Department</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Today the Department of Geography at Kent State University welcomes Mogadore High School. Mr. Jerry Vydra, a KSU alumnus, brought his Environmental Science class to campus to learn about the important role of geography in environmental science.  I spoke with the students about the kind of research I do and how we use it to monitor our natural resources. We looked at a lot of pretty pictures of my field sites and what those areas look like from space. We also looked at our home watershed, the Cuyahoga River, in Google Earth and some other areas from around the world that have experienced a lot of environmental change in recent years. All of these examples provided a glimpse into how remote sensing can expand our spatial, temporal and spectral scale of observation.</p>
+<p>MHS Students: click<a href="https://drive.google.com/open?id=1zGHj5rHmrelduLflXQW2mXl2O8HDF9tN" target="_blank" rel="noopener noreferrer"> here</a> for the data we&#8217;ll use today.</p>
+<figure id="attachment_2228" aria-describedby="caption-attachment-2228" style="width: 900px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2228" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?resize=474%2C197" alt="" width="474" height="197" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?w=4018&amp;ssl=1 4018w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?resize=300%2C125&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?resize=768%2C319&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?resize=1024%2C426&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/02/IMG-4881b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2228" class="wp-caption-text">Thanks to Mr. Vydra and his class for stopping by the lab.</figcaption></figure>
+<p><em>*Banner image: </em><em> Nighttime lights of Italy captured by astronauts aboard the International Space Station (source: NASA Earth Observatory).</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2020/02/04/mogadore-high-school-visits-ksu/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2221</post-id>	</item>
+		<item>
+		<title>Presentation at the American Geophysical Union Fall 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/#respond</comments>
+				<pubDate>Sun, 08 Dec 2019 19:25:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2195</guid>
+				<description><![CDATA[I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds on Wednesday afternoon, December 11th in the Moscone &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Geophysical Union Fall 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled <em>Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds </em>on Wednesday afternoon, December 11th in the Moscone South poster hall. If you&#8217;re AGU this year, please stop by.</p>
+<p>Abstract link:</p>
+<p><a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/611491" target="_blank" rel="noopener noreferrer">An Open-Access Framework to Track Post-fire Shifts in Dominant Plant Functional Type at the Watershed Scale</a></p>
+<p><em>*Banner image: Market Street aglow, Twin Peaks, San Francisco.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2195</post-id>	</item>
+		<item>
+		<title>Onward and upward&#8230;to a new position</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/#respond</comments>
+				<pubDate>Mon, 29 Jul 2019 16:04:38 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[academia]]></category>
+		<category><![CDATA[Kent State University]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2118</guid>
+				<description><![CDATA[I&#8217;m happy to announce that I will be joining the faculty at Kent State University this fall! I have accepted a tenure-track position in Environmental Remote Sensing in the Department of Geography. I am very excited to join a dynamic group of faculty that supports the kind of research I do.  I will be building &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/" class="more-link">Continue reading <span class="screen-reader-text">Onward and upward&#8230;to a new position</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I&#8217;m happy to announce that I will be joining the faculty at <a href="https://www.kent.edu/" target="_blank" rel="noopener noreferrer">Kent State University</a> this fall!</p>
+<p>I have accepted a tenure-track position in Environmental Remote Sensing in the <a href="https://www.kent.edu/geography" target="_blank" rel="noopener noreferrer">Department of Geography</a>. I am very excited to join a dynamic group of faculty that supports the kind of research I do.  I will be building a lab that specializes in Landscape Dynamics Research and recruiting undergraduate technicians, master and doctoral graduate students,  post-doc scientists and undergraduate technicians soon. Stay tuned for details.</p>
+<p>Alas, this means I have left the US Geological Survey after 12 years. I appreciate the opportunities afforded to me while I was there and all the ways my career grew. Unfortunately,  the USGS, like nearly all federal agencies these days, has seen massive budget cuts which has reduced the capacity to do science for our country.</p>
+<p>I will miss many colleagues and collaborators and working at the interface of science and natural resource management. I am extremely proud of how we connected our work to those on the front lines of natural resource management. However the heart of my work &#8211; <strong><em>distilling enormous amounts of satellite data to answer ecological questions</em></strong> &#8211; will continue and be the central focus of my new lab.</p>
+<p>Note, my old contact (<strong><em>assalt@usgs.gov</em></strong>) is no longer active. My new contact information:</p>
+<div><i>Timothy Assal</i></div>
+<div><i>Assistant Professor</i></div>
+<div><i>Department of Geography</i></div>
+<div><i>Kent State University</i></div>
+<div><i>Kent, OH 44242 USA</i></div>
+<div><i><a href="mailto:tassal@kent.edu" target="_blank" rel="noopener noreferrer">tassal@kent.edu</a> </i></div>
+<div></div>
+<div></div>
+<div><em>*Banner image: </em>Sometimes I make maps &#8211; this is where I&#8217;m headed</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2118</post-id>	</item>
+		<item>
+		<title>Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/#respond</comments>
+				<pubDate>Sat, 01 Jun 2019 00:35:58 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[focal analysis]]></category>
+		<category><![CDATA[moving window]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2092</guid>
+				<description><![CDATA[Moving window analysis, sometimes referred to as focal analysis, is the process of calculating a value for a specific neighborhood of cells in a given raster. Typical functions calculated across the neighborhood are sum, mean, min, max, range, etc. However, there are some key differences to keep in mind if you are using continuous vs. &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/" class="more-link">Continue reading <span class="screen-reader-text">Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Moving window analysis, sometimes referred to as focal analysis, is the process of calculating a value for a specific neighborhood of cells in a given raster. Typical functions calculated across the neighborhood are sum, mean, min, max, range, etc.</p>
+<p>However, there are some key differences to keep in mind if you are using continuous vs. discrete data and/or applying a rectangular or circular moving window. These are fairly straightforward exercises in a GIS, but they become a bit more complex when executed in R <strong>(especially when applying a circular moving window to discrete data)</strong>. Below I outline examples of these four workflows in R.</p>
+<p><strong><em>1. Apply Rectangular Moving Window to Continuous Data</em></strong></p><pre class="crayon-plain-tag">library(raster)
+set.seed(12345)
+# create raster data
+r &lt;- raster(nrows = 120, ncol = 120, xmn=0)
+r[] &lt;- sample(3, ncell(r), replace=TRUE)
+r #note: pixel resolution is 1.5 x 1.5
+
+#set margins for plots
+par(mfrow=c(1,2), oma=c(0,1, 0, 1))  # all sides have 3 lines of space  
+
+###
+#1 apply rectangular moving window to continuous data
+###
+# 3x3 mean filter - rectangle 
+r.R3 &lt;- focal(r, w=matrix(1/9,nrow=3,ncol=3), na.rm=FALSE) #the default is to not consider NAs
+plot(r, main ="Input Raster") #plot orig
+plot(r.R3, main="Rectangular MW") #plot 3x3 moving window
+#####
+#####</pre><p><figure id="attachment_2102" aria-describedby="caption-attachment-2102" style="width: 672px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2102 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?w=672&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2102" class="wp-caption-text">Output of rectangular 3&#215;3 moving window. Input raster is at left.</figcaption></figure></p>
+<p><strong><em>2. Apply Circular Moving Window to Continuous Data</em></strong></p><pre class="crayon-plain-tag">###
+#2 apply circular moving window to continuous data
+###
+#set the focal weight, since we are using a circle, set number to the radius of the circle (in units of CRS)
+#cell resolution is 1.5 x 1.5
+fw &lt;- focalWeight(r, 4, type='circle') 
+#have a look at the shape of the moving window
+fw
+# apply moving window
+r.C4&lt;-focal(r, w=fw, na.rm=TRUE) 
+plot(r, main ="Input Raster") #plot original
+plot(r.C4, main="Circular MW")
+####
+####</pre><p><figure id="attachment_2103" aria-describedby="caption-attachment-2103" style="width: 672px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2103 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?w=672&amp;ssl=1 672w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2103" class="wp-caption-text">Output of circular moving window. Input raster is at left.</figcaption></figure></p>
+<p><strong><em>3. Apply Rectangular Moving Window to Discrete Data</em></strong></p><pre class="crayon-plain-tag">###
+#3 apply rectangular moving window to discrete data (e.g. integer)
+###
+# 3x3 moving window; note, function is set to modal, so we will find the mode or count of each number...this essentially treats it as categorical
+r.CAT.R3&lt;-focal(r, w=matrix(1,3,3), fun=modal)   
+plot(r) #plot original
+plot(r.CAT.R3)
+####
+####</pre><p><figure id="attachment_2104" aria-describedby="caption-attachment-2104" style="width: 672px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2104 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?w=672&amp;ssl=1 672w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2104" class="wp-caption-text">Output of 3&#215;3 rectangular moving window. Input raster is at left. Note: since the function was set to modal the data is treated as discrete data. Compare output with continuous data.</figcaption></figure></p>
+<p><strong><em>4. Apply Circular Moving Window to Discrete Data</em></strong></p><pre class="crayon-plain-tag">###
+#4 apply circular moving window to discrete data (e.g. integer)
+###
+#set up window
+fw &lt;- ceiling(focalWeight(r, 5, type='circle'))#for integer output; type = circle indicates that d is in the units of the CRS
+fw #take a look at the architecture of the moving window
+#I highly recommend you set the zero's in the moving window to NA. If not, zero's can be added into your discrete data output under certain sizes/shapes of moving windows. Check the legend of the output data to identify if a zero has been introduced.
+fw[fw==0]&lt;-NA
+fw
+#apply focal fxn
+r.CAT.C5&lt;-focal(r, w=fw, fun=modal, na.rm=TRUE)
+plot(r, main ="Input Raster") #plot original
+plot(r.CAT.C5, main="Circular MW")
+#####
+#####</pre><p><figure id="attachment_2105" aria-describedby="caption-attachment-2105" style="width: 672px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2105 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?w=672&amp;ssl=1 672w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2105" class="wp-caption-text">Output of the circular moving window. Input raster is at left. Note: since the function was set to modal the data is treated as discrete data. Compare output with continuous data.</figcaption></figure></p>
+<p>When doing analysis #4 in R, I highly recommend you set the zero&#8217;s in the moving window to NA. If not, zero&#8217;s can be added into your discrete data output under certain sizes/shapes of moving windows. Check the legend of the output data to identify if a zero has been introduced.</p>
+<figure id="attachment_2108" aria-describedby="caption-attachment-2108" style="width: 672px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2108 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?w=672&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2108" class="wp-caption-text">Output of the circular moving window when the zeros in the moving window were not set to NA. This process has introduced zeros into the output data (note legend). Compare output with image above which does not contain zeros.</figcaption></figure>
+<p><em>*Banner image: Milano Centrale Railway Station, Lombardy, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2092</post-id>	</item>
+		<item>
+		<title>Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/#respond</comments>
+				<pubDate>Mon, 08 Apr 2019 14:29:15 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2062</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation on Monday morning (11:15 am), April 8th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled <em>Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation </em>on Monday morning (11:15 am), April 8th, at the Fort Collins Hilton.</p>
+<p>Abstract link:</p>
+<p><a href="http://trdps9.m.attendify.com/app/sessions/9fzv4W8ptuJSXlw9xT/details" target="_blank" rel="noopener noreferrer">Fire Sparks Conversion: Measuring Decadal Changes to Vegetation Structure in the Jemez Mountains</a></p>
+<p><em>*Banner image: Deciduous shrubs leaf out in spring 2016 in an area of the Jemez Mountains, New Mexico, USA. The area in the photo burned in 1996 and 2011.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2062</post-id>	</item>
+		<item>
+		<title>Presentation at the American Association of Geographers 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/#respond</comments>
+				<pubDate>Wed, 03 Apr 2019 18:21:43 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Fire]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[New Mexico]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[vegetation change]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2054</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham. Abstract link: Big fires lead to &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Association of Geographers 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham.</p>
+<p>Abstract link:</p>
+<p><a href="https://aag.secure-abstracts.com/AAG%20Annual%20Meeting%202019/abstracts-gallery/21175" target="_blank" rel="noopener noreferrer">Big fires lead to big changes in the vegetation structure of the Jemez Mountains, New Mexico</a></p>
+<figure id="attachment_1749" aria-describedby="caption-attachment-1749" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1749 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=474%2C316" alt="" width="474" height="316" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1749" class="wp-caption-text">Extensive forest mortality in the Jemez Mountains from the Las Conchas Fire (2011). Photo taken Autumn 2017.</figcaption></figure>
+<p><em>*Banner image: The sun sets on Saint Peter&#8217;s Dome, Jemez Mountains, New Mexico, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2054</post-id>	</item>
+		<item>
+		<title>Exploring Vegetation Dynamics using Google Earth Engine</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comments</comments>
+				<pubDate>Mon, 11 Feb 2019 20:28:56 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[Cuyahoga Valley National Park]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Kent State Univeristy]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019</guid>
+				<description><![CDATA[Below is an example from an upcoming lecture that I will be giving to the Department of Geography at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" class="more-link">Continue reading <span class="screen-reader-text">Exploring Vegetation Dynamics using Google Earth Engine</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[
+<p>Below is an example from an upcoming lecture that I will be giving to the <a href="https://www.kent.edu/geography#" target="_blank" rel="noreferrer noopener" aria-label="Department of Geography (opens in a new tab)">Department of Geography</a> at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI using Google Earth Engine with data from the cloud. Thanks to <a href="https://geohackweek.github.io/" target="_blank" rel="noopener">geohackweek</a> for some pointers on code. </p>
+
+
+
+<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noreferrer noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google’s cloud to run analyses without downloading the data to your local machine. You’ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noreferrer noopener">here.</a></p>
+
+
+
+<p>To execute the example below, please download the park shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2019/02/CVNP.zip" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a> (Note, I&#8217;ve merged the shapefile into a single-part file as GEE doesn&#8217;t seem to be able to handle multi-part files very well). You’ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Uploading table assets” section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Importing assets to your script” section).</p>
+
+
+
+<p>Copy and paste the following code into the Code Editor of GEE:</p>
+
+
+
+<pre class="crayon-plain-tag">// load all Landsat 8 SR image within park boundary for a given season
+var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR')
+//var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
+          .filterBounds(ParkBound)  
+          .filterDate('2018-06-01', '2018-09-30'); //leaf on season (June 1 to Sept 30)
+//          .filterDate('2017-11-15', '2018-03-01'); // leaf-off season Nov 15 to March 1
+
+print(l8collection);
+
+// Mask pixels with clouds and cloud shadows using the 'pixel_qa' band
+// that is based on the cfmask for surface reflectance. 
+// https://landsat.usgs.gov/landsat-surface-reflectance-quality-assessment
+
+// create function to mask clouds, cloud shadows, snow
+var maskClouds = function(image){
+  // make a new single band image from the pixel qa band
+  var pixel_qa = image.select('pixel_qa');
+  // retain clear (0) and water (1) pixels
+  return image.updateMask(pixel_qa.eq(322));   
+};
+
+// use "map" to apply the function to each image in the collection
+var l8masked = l8collection.map(maskClouds);
+print(l8masked);
+
+// create function to add NDVI using NIR (B5) and the red band (B4)
+var getNDVI = function(img){
+  return img.addBands(img.normalizedDifference(['B5','B4']).rename('NDVI'));
+};
+
+// map over image collection
+var l8ndvi = l8masked.map(getNDVI);
+
+// for each pixel, select the "best" set of bands from available images
+// based on the maximum NDVI/greenness
+var composite = l8ndvi.qualityMosaic('NDVI').clip(ParkBound);
+
+//set visualization parameters for NDVI            
+var ndviParams = {min: 0, max: 1, palette: ['red', 'yellow', 'green']};
+Map.addLayer(composite.select('NDVI'), ndviParams, 'NDVI image');
+            
+//export image
+// This will create a task in the 'tasks' tab
+// launch from tasks tab to export image
+Export.image.toDrive({
+  image: composite.select('NDVI'),
+  description: 'CVNP Leaf-on NDVI',
+  //description: 'CVNP Leaf-off NDVI',
+  scale:30 }); //meters</pre>
+
+
+
+
+
+
+
+<figure id="attachment_2027" aria-describedby="caption-attachment-2027" style="width: 300px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg" target="_blank" rel="noopener"><img class="wp-image-2027 " src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=300%2C621" alt="" width="300" height="621" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=145%2C300&amp;ssl=1 145w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2027" class="wp-caption-text">NDVI derived from the leaf-on season over the national park. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values.</figcaption></figure>
+<figure id="attachment_2028" aria-describedby="caption-attachment-2028" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg" target="_blank" rel="noopener"><img class="wp-image-2028 " src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=300%2C622" alt="" width="300" height="622" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=145%2C300&amp;ssl=1 145w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2028" class="wp-caption-text">NDVI derived from the leaf-off season over the national park. A quick comparison with the leaf-on image shows much lower NDVI values, indicating there are a lot of deciduous tree and shrub species within the park.</figcaption></figure>
+<p><em>*Banner image: Changing seasons on Middle Mountain, Colorado, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2019</post-id>	</item>
+		<item>
+		<title>clusterR is sweet &#8211; but beware when using with predict fxn</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comments</comments>
+				<pubDate>Wed, 05 Dec 2018 19:43:20 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[clusterR]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multiple cores]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[optimization]]></category>
+		<category><![CDATA[parallel processing]]></category>
+		<category><![CDATA[performance]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920</guid>
+				<description><![CDATA[I ran into an issue recently using clusterR to predict randomForest model outputs. It took me awhile to troubleshoot,  so if you have had the same problem, hopefully you find this post and it saves you some time. If you&#8217;ve come up with a different solution (i.e. I&#8217;m wrong), please let me know. **It turns &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/" class="more-link">Continue reading <span class="screen-reader-text">clusterR is sweet &#8211; but beware when using with predict fxn</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><em>I ran into an issue recently using <code>clusterR</code> to predict randomForest model outputs. It took me awhile to troubleshoot,  so if you have had the same problem, hopefully you find this post and it saves you some time. If you&#8217;ve come up with a different solution (i.e. I&#8217;m wrong), please let me know. <strong><span style="color: #ff0000;">**It turns out I was wrong! See the solution below**</span></strong><br />
+</em></p>
+<p><strong>In short:</strong> when using clusterR to predict the probability of occurrence output of a randomForest model, it automatically defaults to the binary output. This is problematic if you&#8217;re interested in the probability output to use in another RF model or if you want to set the threshold at which to convert the probability model to a binary data set. However, clusterR works just fine to predict other randomForest outputs (e.g. percent cover, type=&#8217;response&#8217;). See below for an example.</p>
+<p><code>clusterR</code> is a flexible interface for using cluster with other functions. This function only works with functions that have a Raster* object as first argument and that operate on a cell by cell basis (i.e., there is no effect of neigboring cells) and return an object with the same number of cells as the input raster object (from ?clusterR). Martin Šiklar has a <a href="https://www.gis-blog.com/increasing-the-speed-of-raster-processing-with-r-part-33-cluster/" target="_blank" rel="noopener noreferrer">nice post</a> on increasing the speed of raster processing using clusterR.</p>
+<p>Below I&#8217;ve generated a basic randomForest classification model and predict the probability of occurrence output (continuous).</p><pre class="crayon-plain-tag">library(raster)
+#load an example raster stack
+logo &lt;- stack(system.file("external/rlogo.grd", package="raster"))
+plot(logo)
+
+#generate presence and random background (pseudo-absence) points
+presence &lt;- matrix(c(85, 60, 79, 50, 20,48, 50, 30, 70, 90, 48, 48, 48, 53, 50, 46, 54, 70, 84, 85, 74, 84, 95, 85, 66, 42, 26, 4, 19, 17, 5, 52, 10, 68, 50, 52, 18, 20, 30, 60, 7, 14, 26, 29, 39, 45, 51, 56, 46, 38, 31, 22, 34, 60, 70, 73, 63, 46, 43, 28), ncol=2)
+#random background
+background &lt;- cbind(runif(250)*(xmax(logo)-xmin(logo))+xmin(logo), runif(250)*(ymax(logo)-ymin(logo))+ymin(logo))
+
+#extract values for points from stack
+xy &lt;- rbind(cbind(1, presence), cbind(0, background))
+v &lt;- cbind(xy[,1], extract(logo, xy[,2:3]))
+colnames(v)[1] &lt;- 'presback'
+#convert to dataframe
+v.df&lt;-as.data.frame(v)
+
+#check the dataframe
+typeof(v.df$presback) #double
+as.factor(v.df$presback)
+#random forests needs to see the '1' first thus the relevel; 1=present, 0=absent; 
+v.df$presback &lt;-  relevel(as.factor(ifelse(v.df$presback==1,1,0)),"1")
+str(v.df) #ensure y (presback) is a factor because we're interested in a classification, not a regression
+
+##run a random forest model
+library(randomForest)
+model.RF &lt;- randomForest(presback~., data=v.df) #classification model 
+model.RF #note, it's not a great model fit, but not the point here
+#predict probability output without cluster
+r.prob &lt;- predict(logo, type='prob', model.RF, progress='text') #type = 'prob' -&gt; probability of occurrence model
+plot(r.prob)
+points(presence, bg='blue', pch=21)
+points(background, bg='red', pch=21)</pre><p><figure id="attachment_1988" aria-describedby="caption-attachment-1988" style="width: 509px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1988 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?resize=474%2C422" alt="" width="474" height="422" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?w=509&amp;ssl=1 509w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?resize=300%2C267&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1988" class="wp-caption-text">The probability of occurrence model output using the traditional predict function in the raster library.</figcaption></figure></p>
+<p>Next, I use clusterR to predict the same output; however, it results in a binary output.</p><pre class="crayon-plain-tag">#now make the prediction using multiple cores
+library(cluster)
+library(parallel)
+
+# create a cluster and ID the # of cores to use
+beginCluster(3)
+#predict fxn using clusterR
+r.prob.Cluster&lt;-clusterR(logo, predict, args=list(model.RF), progress='text', type='prob')
+endCluster() #delete the cluster
+plot(r.prob.Cluster)
+points(presence, bg='blue', pch=21)</pre><p><figure id="attachment_1990" aria-describedby="caption-attachment-1990" style="width: 509px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1990 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?resize=474%2C422" alt="" width="474" height="422" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?w=509&amp;ssl=1 509w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?resize=300%2C267&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1990" class="wp-caption-text">The probability of occurrence model output when using the predict function in tandem with clusterR. As you can see the output is binary, even though type=&#8217;prob&#8217; was specified.</figcaption></figure></p>
+<p>I&#8217;d highly recommend using clusterR whenever possible as it will save you a lot of time, particularly when making predictions with raster data. It will allow you to work in parallel and take advantage of multiple cores on your machine. My goal here is to simply make you aware of the issue with clusterR with respect to predicting probability of occurrence models. I am unaware of any solution, except to use the longhand predict function in the raster library when you need to predict the probability of occurrence model output.</p>
+<p><strong><span style="color: #ff0000;">**Solution**</span></strong></p>
+<p><span style="color: #ff0000;">I simply failed to have include type=&#8217;prob&#8217; inside the args() part of the clusterR() function. Once I cleaned up the syntax, I had no problem!</span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1920</post-id>	</item>
+		<item>
+		<title>New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/#respond</comments>
+				<pubDate>Mon, 01 Oct 2018 00:49:42 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1875</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work on their Science Blog** In our new paper, published in the Journal of Biogeography, we investigate postfire regeneration patterns of Araucaria‐Nothofagus forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/" class="more-link">Continue reading <span class="screen-reader-text">New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #800000;"><strong><em>**A special thanks to the NASA Landsat Program for featuring our work on their <a style="color: #800000;" href="https://landsat.gsfc.nasa.gov/looking-at-burn-severity-and-post-fire-forest-regeneration-in-chiles-andean-cordillera-home-to-the-monkey-puzzle-tree/" target="_blank" rel="noopener">Science Blog</a>**</em></strong></span></h3>
+<p>In our new paper, published in the <a href="https://onlinelibrary.wiley.com/journal/13652699" target="_blank" rel="noopener">Journal of Biogeography</a>, we investigate postfire regeneration patterns of <em>Araucaria</em><em>‐</em><em>Nothofagus</em> forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and ground measurements to evaluate the relationship between remotely sensed burn severity and forest mortality; and b) assessed controls of burn severity on forest regeneration at local spatio‐temporal scales. The paper is a product of a collaboration with Colorado State University (<a href="http://www.biogeography.colostate.edu/" target="_blank" rel="noopener">Jason Sibold</a>) and the and Universidad Austral de Chile (<a href="http://www.forestal.uach.cl/instituto/conservacion-biodiversidad-territorio/academicos/mauro-gonzalez.php" target="_blank" rel="noopener">Mauro González</a>).</p>
+<p><figure id="attachment_1903" aria-describedby="caption-attachment-1903" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg" target="_blank" rel="noopener"><img class="wp-image-1903 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=1062&amp;ssl=1 1062w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1903" class="wp-caption-text">Study area and fire extent</figcaption></figure></p>
+<p>We think this work is noteworthy because 1) to our knowledge this is the first study that connects field-measured data with satellite-derived burn severity in this corner of the world; 2) one of the primary species of study, <em>Araucaria araucana</em> (known commonly as monkey puzzle tree), is recognized as an endangered species on the <a href="https://www.iucn.org/" target="_blank" rel="noopener">International Union for Conservation of Nature</a> <a href="https://newredlist.iucnredlist.org/" target="_blank" rel="noopener">Red List</a> and faces a plethora of threats; and 3) the framework relies on open data, namely Landsat satellite imagery, and could be applied to long-term monitoring or assessment of similar ecosystems. I would go a step further and argue the availability of Landsat data was the primary reason we were able to get this project off the ground.</p>
+<p>The paper is open access and can be retrieved below:</p>
+<ul>
+<li>Assal, T.J., González, M.E., and Sibold, J.S., 2018. <a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428" target="_blank" rel="noopener">Burn severity controls on postfire Araucaria‐Nothofagus regeneration in the Andean Cordillera</a>: Journal of Biogeography, DOI: https://doi.org/10.1111/jbi.13428. Early View Online at: https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428.</li>
+<li>Assal, T.J., 2018, Burn severity (2002) and field data (2012) from Tolhuaca National Park (Chile): U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P9YMIVFU" target="_blank" rel="noopener">https://doi.org/10.5066/P9YMIVFU</a></li>
+</ul>
+<p><figure id="attachment_1908" aria-describedby="caption-attachment-1908" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg"><img class="size-large wp-image-1908" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=474%2C301" alt="" width="474" height="301" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=1024%2C651&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=300%2C191&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=768%2C488&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1593&amp;ssl=1 1593w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1908" class="wp-caption-text">Fieldwork in Tolhuaca National Park</figcaption></figure></p>
+<p><em>*Banner image: Araucaria mortality in Tolhuaca National Park, 10 years postfire, Andes Mountains, Araucania Region, Chile.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1875</post-id>	</item>
+	</channel>
+</rss>

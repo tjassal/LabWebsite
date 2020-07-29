@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Spatial Statistics &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/spatial-statistics/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 27 Jun 2018 23:35:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the American Geophysical Union Fall 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/#respond</comments>
+				<pubDate>Sun, 08 Dec 2019 19:25:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2195</guid>
+				<description><![CDATA[I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds on Wednesday afternoon, December 11th in the Moscone &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Geophysical Union Fall 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled <em>Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds </em>on Wednesday afternoon, December 11th in the Moscone South poster hall. If you&#8217;re AGU this year, please stop by.</p>
+<p>Abstract link:</p>
+<p><a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/611491" target="_blank" rel="noopener noreferrer">An Open-Access Framework to Track Post-fire Shifts in Dominant Plant Functional Type at the Watershed Scale</a></p>
+<p><em>*Banner image: Market Street aglow, Twin Peaks, San Francisco.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2195</post-id>	</item>
+		<item>
+		<title>Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/#respond</comments>
+				<pubDate>Sat, 01 Jun 2019 00:35:58 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[focal analysis]]></category>
+		<category><![CDATA[moving window]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2092</guid>
+				<description><![CDATA[Moving window analysis, sometimes referred to as focal analysis, is the process of calculating a value for a specific neighborhood of cells in a given raster. Typical functions calculated across the neighborhood are sum, mean, min, max, range, etc. However, there are some key differences to keep in mind if you are using continuous vs. &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/" class="more-link">Continue reading <span class="screen-reader-text">Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Moving window analysis, sometimes referred to as focal analysis, is the process of calculating a value for a specific neighborhood of cells in a given raster. Typical functions calculated across the neighborhood are sum, mean, min, max, range, etc.</p>
+<p>However, there are some key differences to keep in mind if you are using continuous vs. discrete data and/or applying a rectangular or circular moving window. These are fairly straightforward exercises in a GIS, but they become a bit more complex when executed in R <strong>(especially when applying a circular moving window to discrete data)</strong>. Below I outline examples of these four workflows in R.</p>
+<p><strong><em>1. Apply Rectangular Moving Window to Continuous Data</em></strong></p><pre class="crayon-plain-tag">library(raster)
+set.seed(12345)
+# create raster data
+r &lt;- raster(nrows = 120, ncol = 120, xmn=0)
+r[] &lt;- sample(3, ncell(r), replace=TRUE)
+r #note: pixel resolution is 1.5 x 1.5
+
+#set margins for plots
+par(mfrow=c(1,2), oma=c(0,1, 0, 1))  # all sides have 3 lines of space  
+
+###
+#1 apply rectangular moving window to continuous data
+###
+# 3x3 mean filter - rectangle 
+r.R3 &lt;- focal(r, w=matrix(1/9,nrow=3,ncol=3), na.rm=FALSE) #the default is to not consider NAs
+plot(r, main ="Input Raster") #plot orig
+plot(r.R3, main="Rectangular MW") #plot 3x3 moving window
+#####
+#####</pre><p><figure id="attachment_2102" aria-describedby="caption-attachment-2102" style="width: 672px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2102 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?w=672&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2102" class="wp-caption-text">Output of rectangular 3&#215;3 moving window. Input raster is at left.</figcaption></figure></p>
+<p><strong><em>2. Apply Circular Moving Window to Continuous Data</em></strong></p><pre class="crayon-plain-tag">###
+#2 apply circular moving window to continuous data
+###
+#set the focal weight, since we are using a circle, set number to the radius of the circle (in units of CRS)
+#cell resolution is 1.5 x 1.5
+fw &lt;- focalWeight(r, 4, type='circle') 
+#have a look at the shape of the moving window
+fw
+# apply moving window
+r.C4&lt;-focal(r, w=fw, na.rm=TRUE) 
+plot(r, main ="Input Raster") #plot original
+plot(r.C4, main="Circular MW")
+####
+####</pre><p><figure id="attachment_2103" aria-describedby="caption-attachment-2103" style="width: 672px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2103 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?w=672&amp;ssl=1 672w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2103" class="wp-caption-text">Output of circular moving window. Input raster is at left.</figcaption></figure></p>
+<p><strong><em>3. Apply Rectangular Moving Window to Discrete Data</em></strong></p><pre class="crayon-plain-tag">###
+#3 apply rectangular moving window to discrete data (e.g. integer)
+###
+# 3x3 moving window; note, function is set to modal, so we will find the mode or count of each number...this essentially treats it as categorical
+r.CAT.R3&lt;-focal(r, w=matrix(1,3,3), fun=modal)   
+plot(r) #plot original
+plot(r.CAT.R3)
+####
+####</pre><p><figure id="attachment_2104" aria-describedby="caption-attachment-2104" style="width: 672px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2104 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?w=672&amp;ssl=1 672w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2104" class="wp-caption-text">Output of 3&#215;3 rectangular moving window. Input raster is at left. Note: since the function was set to modal the data is treated as discrete data. Compare output with continuous data.</figcaption></figure></p>
+<p><strong><em>4. Apply Circular Moving Window to Discrete Data</em></strong></p><pre class="crayon-plain-tag">###
+#4 apply circular moving window to discrete data (e.g. integer)
+###
+#set up window
+fw &lt;- ceiling(focalWeight(r, 5, type='circle'))#for integer output; type = circle indicates that d is in the units of the CRS
+fw #take a look at the architecture of the moving window
+#I highly recommend you set the zero's in the moving window to NA. If not, zero's can be added into your discrete data output under certain sizes/shapes of moving windows. Check the legend of the output data to identify if a zero has been introduced.
+fw[fw==0]&lt;-NA
+fw
+#apply focal fxn
+r.CAT.C5&lt;-focal(r, w=fw, fun=modal, na.rm=TRUE)
+plot(r, main ="Input Raster") #plot original
+plot(r.CAT.C5, main="Circular MW")
+#####
+#####</pre><p><figure id="attachment_2105" aria-describedby="caption-attachment-2105" style="width: 672px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2105 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?w=672&amp;ssl=1 672w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2105" class="wp-caption-text">Output of the circular moving window. Input raster is at left. Note: since the function was set to modal the data is treated as discrete data. Compare output with continuous data.</figcaption></figure></p>
+<p>When doing analysis #4 in R, I highly recommend you set the zero&#8217;s in the moving window to NA. If not, zero&#8217;s can be added into your discrete data output under certain sizes/shapes of moving windows. Check the legend of the output data to identify if a zero has been introduced.</p>
+<figure id="attachment_2108" aria-describedby="caption-attachment-2108" style="width: 672px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2108 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?w=672&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2108" class="wp-caption-text">Output of the circular moving window when the zeros in the moving window were not set to NA. This process has introduced zeros into the output data (note legend). Compare output with image above which does not contain zeros.</figcaption></figure>
+<p><em>*Banner image: Milano Centrale Railway Station, Lombardy, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2092</post-id>	</item>
+		<item>
+		<title>Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/#respond</comments>
+				<pubDate>Mon, 08 Apr 2019 14:29:15 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2062</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation on Monday morning (11:15 am), April 8th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled <em>Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation </em>on Monday morning (11:15 am), April 8th, at the Fort Collins Hilton.</p>
+<p>Abstract link:</p>
+<p><a href="http://trdps9.m.attendify.com/app/sessions/9fzv4W8ptuJSXlw9xT/details" target="_blank" rel="noopener noreferrer">Fire Sparks Conversion: Measuring Decadal Changes to Vegetation Structure in the Jemez Mountains</a></p>
+<p><em>*Banner image: Deciduous shrubs leaf out in spring 2016 in an area of the Jemez Mountains, New Mexico, USA. The area in the photo burned in 1996 and 2011.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2062</post-id>	</item>
+		<item>
+		<title>clusterR is sweet &#8211; but beware when using with predict fxn</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comments</comments>
+				<pubDate>Wed, 05 Dec 2018 19:43:20 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[clusterR]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multiple cores]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[optimization]]></category>
+		<category><![CDATA[parallel processing]]></category>
+		<category><![CDATA[performance]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920</guid>
+				<description><![CDATA[I ran into an issue recently using clusterR to predict randomForest model outputs. It took me awhile to troubleshoot,  so if you have had the same problem, hopefully you find this post and it saves you some time. If you&#8217;ve come up with a different solution (i.e. I&#8217;m wrong), please let me know. **It turns &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/" class="more-link">Continue reading <span class="screen-reader-text">clusterR is sweet &#8211; but beware when using with predict fxn</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><em>I ran into an issue recently using <code>clusterR</code> to predict randomForest model outputs. It took me awhile to troubleshoot,  so if you have had the same problem, hopefully you find this post and it saves you some time. If you&#8217;ve come up with a different solution (i.e. I&#8217;m wrong), please let me know. <strong><span style="color: #ff0000;">**It turns out I was wrong! See the solution below**</span></strong><br />
+</em></p>
+<p><strong>In short:</strong> when using clusterR to predict the probability of occurrence output of a randomForest model, it automatically defaults to the binary output. This is problematic if you&#8217;re interested in the probability output to use in another RF model or if you want to set the threshold at which to convert the probability model to a binary data set. However, clusterR works just fine to predict other randomForest outputs (e.g. percent cover, type=&#8217;response&#8217;). See below for an example.</p>
+<p><code>clusterR</code> is a flexible interface for using cluster with other functions. This function only works with functions that have a Raster* object as first argument and that operate on a cell by cell basis (i.e., there is no effect of neigboring cells) and return an object with the same number of cells as the input raster object (from ?clusterR). Martin Šiklar has a <a href="https://www.gis-blog.com/increasing-the-speed-of-raster-processing-with-r-part-33-cluster/" target="_blank" rel="noopener noreferrer">nice post</a> on increasing the speed of raster processing using clusterR.</p>
+<p>Below I&#8217;ve generated a basic randomForest classification model and predict the probability of occurrence output (continuous).</p><pre class="crayon-plain-tag">library(raster)
+#load an example raster stack
+logo &lt;- stack(system.file("external/rlogo.grd", package="raster"))
+plot(logo)
+
+#generate presence and random background (pseudo-absence) points
+presence &lt;- matrix(c(85, 60, 79, 50, 20,48, 50, 30, 70, 90, 48, 48, 48, 53, 50, 46, 54, 70, 84, 85, 74, 84, 95, 85, 66, 42, 26, 4, 19, 17, 5, 52, 10, 68, 50, 52, 18, 20, 30, 60, 7, 14, 26, 29, 39, 45, 51, 56, 46, 38, 31, 22, 34, 60, 70, 73, 63, 46, 43, 28), ncol=2)
+#random background
+background &lt;- cbind(runif(250)*(xmax(logo)-xmin(logo))+xmin(logo), runif(250)*(ymax(logo)-ymin(logo))+ymin(logo))
+
+#extract values for points from stack
+xy &lt;- rbind(cbind(1, presence), cbind(0, background))
+v &lt;- cbind(xy[,1], extract(logo, xy[,2:3]))
+colnames(v)[1] &lt;- 'presback'
+#convert to dataframe
+v.df&lt;-as.data.frame(v)
+
+#check the dataframe
+typeof(v.df$presback) #double
+as.factor(v.df$presback)
+#random forests needs to see the '1' first thus the relevel; 1=present, 0=absent; 
+v.df$presback &lt;-  relevel(as.factor(ifelse(v.df$presback==1,1,0)),"1")
+str(v.df) #ensure y (presback) is a factor because we're interested in a classification, not a regression
+
+##run a random forest model
+library(randomForest)
+model.RF &lt;- randomForest(presback~., data=v.df) #classification model 
+model.RF #note, it's not a great model fit, but not the point here
+#predict probability output without cluster
+r.prob &lt;- predict(logo, type='prob', model.RF, progress='text') #type = 'prob' -&gt; probability of occurrence model
+plot(r.prob)
+points(presence, bg='blue', pch=21)
+points(background, bg='red', pch=21)</pre><p><figure id="attachment_1988" aria-describedby="caption-attachment-1988" style="width: 509px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1988 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?resize=474%2C422" alt="" width="474" height="422" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?w=509&amp;ssl=1 509w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?resize=300%2C267&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1988" class="wp-caption-text">The probability of occurrence model output using the traditional predict function in the raster library.</figcaption></figure></p>
+<p>Next, I use clusterR to predict the same output; however, it results in a binary output.</p><pre class="crayon-plain-tag">#now make the prediction using multiple cores
+library(cluster)
+library(parallel)
+
+# create a cluster and ID the # of cores to use
+beginCluster(3)
+#predict fxn using clusterR
+r.prob.Cluster&lt;-clusterR(logo, predict, args=list(model.RF), progress='text', type='prob')
+endCluster() #delete the cluster
+plot(r.prob.Cluster)
+points(presence, bg='blue', pch=21)</pre><p><figure id="attachment_1990" aria-describedby="caption-attachment-1990" style="width: 509px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1990 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?resize=474%2C422" alt="" width="474" height="422" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?w=509&amp;ssl=1 509w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?resize=300%2C267&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1990" class="wp-caption-text">The probability of occurrence model output when using the predict function in tandem with clusterR. As you can see the output is binary, even though type=&#8217;prob&#8217; was specified.</figcaption></figure></p>
+<p>I&#8217;d highly recommend using clusterR whenever possible as it will save you a lot of time, particularly when making predictions with raster data. It will allow you to work in parallel and take advantage of multiple cores on your machine. My goal here is to simply make you aware of the issue with clusterR with respect to predicting probability of occurrence models. I am unaware of any solution, except to use the longhand predict function in the raster library when you need to predict the probability of occurrence model output.</p>
+<p><strong><span style="color: #ff0000;">**Solution**</span></strong></p>
+<p><span style="color: #ff0000;">I simply failed to have include type=&#8217;prob&#8217; inside the args() part of the clusterR() function. Once I cleaned up the syntax, I had no problem!</span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1920</post-id>	</item>
+		<item>
+		<title>Call for Papers: Modelling Forest Systems</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/#respond</comments>
+				<pubDate>Wed, 01 Aug 2018 00:56:03 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[ecological modelling]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[forest ecosystems]]></category>
+		<category><![CDATA[natural resources]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1857</guid>
+				<description><![CDATA[The journal Ecological Modeling has a call for papers in a special issue that highlights the latest trends in modelling forest ecosystems from ecological, economic and social approaches, to facilitate the further generation of interdisciplinary research. This issue will gather theoretical, methodological, and applied papers exploring forest ecosystems. Articles entailing a systems ecology perspective and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Modelling Forest Systems</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<header class="entry-header">The journal <a href="https://www.journals.elsevier.com/ecological-modelling" target="_blank" rel="noopener">Ecological Modeling</a> has a call for papers in a special issue that highlights the latest trends in modelling forest ecosystems from ecological, economic and social approaches, to facilitate the further generation of interdisciplinary research. This issue will gather theoretical, methodological, and applied papers exploring forest ecosystems. Articles entailing a systems ecology perspective and led by young researchers will be preferred.</header>
+<header></header>
+<p>Full details can be found <a href="https://www.journals.elsevier.com/ecological-modelling/call-for-papers/special-virtual-issue-announcement-modelling-forest-systems" target="_blank" rel="noopener">here</a>.</p>
+<p>Deadline: January 31, 2019</p>
+<p>Guest Editors:</p>
+<p>Prof. Juan A. Blanco, Public University of Navarre, Spain<br />
+Dr. Aitor Ameztegui, Univerty of Lleida, Spain<br />
+Dr. Francisco Rodriguez, Fora Forest Technologies, Spain</p>
+<p><em>*Banner image: Bandelier National Monument, New Mexico<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1857</post-id>	</item>
+		<item>
+		<title>New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/#respond</comments>
+				<pubDate>Wed, 27 Jun 2018 23:35:10 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[phenology]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1827</guid>
+				<description><![CDATA[We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/" class="more-link">Continue reading <span class="screen-reader-text">New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p dir="ltr">We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen Days workshops. The data here represents phase I of the project (i.e. development of more accurate maps of conifer and deciduous vegetation). We (myself and my collaborator, Valerie Steen), created a synthesis map of coniferous and deciduous communities in the Bighorn Mountains of Wyoming using a species distribution modeling approach developed in the Wyoming Landscape Conservation Initiative (WLCI) (Assal et al. 2015). We used a RandomForest modeling framework and utilized a number of topographic covariates and temporal remote sensing data from the early, mid and late growing season to capitalize on phenological differences in vegetation types.</p>
+<p dir="ltr">In Phase II of this project (to be completed in FY2018 and 2019), we will conduct a preliminary assessment on the baseline condition of riparian deciduous communities. This will be a proof-of-concept study where the USGS will apply a framework used in prior research in upland aspen and sagebrush communities to detect trends in riparian vegetation condition from the mid-1980s to present (manuscript to follow). We are collaborating with the Wyoming Game and Fish Department, US Forest Service and Wyoming State Forestry Division.</p>
+<ul>
+<li dir="ltr"> Assal, T.J., 2018, Bighorn Mountains, Wyoming Forest Mapping, 2013-2017: U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P98OS2XK" target="_blank" rel="noopener">https://doi.org/10.5066/P98OS2<wbr />XK</a>.</li>
+<li dir="ltr">Assal, T.J., Anderson, P., Sibold, J., 2015. <a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.    <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf">*PDF Download     </a><a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F1639MP5">*Data Download</a></em></li>
+</ul>
+<figure id="attachment_1833" aria-describedby="caption-attachment-1833" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg"><img class="wp-image-1833 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=474%2C318" alt="" width="474" height="318" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=1024%2C686&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=300%2C201&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=768%2C515&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1833" class="wp-caption-text">Aspen Days workshop discussion in the Bighorn Mountains, Wyoming, August 2017 with representatives from the Wyoming Game and Fish Department, US Bureau of Land Management, US Forest Service, Western Aspen Alliance, US Geological Survey and many others .</figcaption></figure>
+<p><em>*Banner image: Magic bus in the Bighorn National Forest, Wyoming.</em></p>
+<div>
+<div></div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1827</post-id>	</item>
+		<item>
+		<title>Call for Papers: Application of Remote Sensing in Hydrological Modeling and Watershed Management</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/#respond</comments>
+				<pubDate>Tue, 01 May 2018 02:30:22 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[hydrologic modeling]]></category>
+		<category><![CDATA[hydrology]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[riparian ecosystems]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[water]]></category>
+		<category><![CDATA[water quality]]></category>
+		<category><![CDATA[watershed assessment]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1780</guid>
+				<description><![CDATA[The open access journal Remote Sensing has a call for papers that highlight recent advances of remote sensing in hydro-environmental assessments. The call is open to a wide range of topics which address that address such assessments by means of image analysis and/or hydrologic modeling. Topics of interest may include, but are not limited to: &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Application of Remote Sensing in Hydrological Modeling and Watershed Management</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<header></header>
+<header></header>
+<header class="entry-header">The open access journal <a href="http://www.mdpi.com/journal/remotesensing" target="_blank" rel="noopener">Remote Sensing</a> has a call for papers that highlight recent advances of remote sensing in hydro-environmental assessments. The call is open to a wide range of topics which address that address such assessments by means of image analysis and/or hydrologic modeling. Topics of interest may include, but are not limited to:</header>
+<header></header>
+<header></header>
+<ul>
+<li>Multi-temporal image analysis for water resources</li>
+<li>Hydrologic Modeling</li>
+<li>Riparian corridor mapping</li>
+<li>Environmentally sensitive lands</li>
+<li>Soil erosion and sediment</li>
+<li>Water availability and quality assessment</li>
+<li>Watershed management</li>
+</ul>
+<p>Full details can be found <a href="http://www.mdpi.com/journal/remotesensing/special_issues/hydromodeling_watershedmanagem#info" target="_blank" rel="noopener">here</a>.</p>
+<p>Deadline: December 31, 2018</p>
+<p>Guest Editors:</p>
+<p>Dr. Cuizhen (Susan) Wang<br />
+Prof. Dr. Fei Yuan<br />
+Prof. Dr. Changshan Wu</p>
+<p><em>*Banner image: Fall Creek, Arapaho National Forest, Colorado<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1780</post-id>	</item>
+		<item>
+		<title>New paper on spruce-beetle outbreak and high-severity wildfire</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/#respond</comments>
+				<pubDate>Mon, 18 Sep 2017 20:50:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[spruce beetle]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1592</guid>
+				<description><![CDATA[Our new paper, lead by my colleagues at Colorado State University and published in the journal PLOS ONE,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/" class="more-link">Continue reading <span class="screen-reader-text">New paper on spruce-beetle outbreak and high-severity wildfire</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Our new paper, lead by my colleagues at Colorado State University and published in the journal <a href="http://journals.plos.org/plosone/" target="_blank" rel="noopener"><em>PLOS ONE</em></a>,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. These results suggest vegetation recovery processes may be negatively impacted by severe spruce beetle outbreaks occurring within a decade of stand-replacing fire. Much of the current subalpine forest in this region has been impacted by recent beetle outbreaks. In the future, these areas could experience higher burn severity which has important implications for the structure and composition of future forests.</p>
+<ul>
+<li>Carlson, A.R., J.S. Sibold, T.J. Assal, J.F. Negron. 2017. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0181778" target="_blank" rel="noopener">Evidence of compounded disturbance effects on vegetation recovery following high-severity wildfire and spruce beetle outbreak.</a> PLoS ONE. 12(8):  e0181778. https://doi.org/10.1371/journal.pone.0181778.</li>
+</ul>
+<p><em>*Banner image: beetle-induced tree mortality photographed on Little Mountain, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1592</post-id>	</item>
+		<item>
+		<title>Call for Papers: IJRS Special Issue at Intersection of Remote Sensing &#038; Ecology</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/#respond</comments>
+				<pubDate>Mon, 23 Jan 2017 18:29:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Biogeography]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[International Journal of Remote Sensing]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1455</guid>
+				<description><![CDATA[I serve as a reviewer for the International Journal of Remote Sensing and thought I&#8217;d pass along this call for papers on an interesting topic at the intersection of remote sensing and ecology: International Journal of Remote Sensing Special Issue &#8211; Call for Papers Fine Resolution Remote Sensing of Species in Terrestrial and Coastal Ecosystems &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: IJRS Special Issue at Intersection of Remote Sensing &#038; Ecology</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I serve as a reviewer for the <a href="http://www.tandfonline.com/toc/tres20/current" target="_blank">International Journal of Remote Sensing</a> and thought I&#8217;d pass along this call for papers on an interesting topic at the intersection of remote sensing and ecology:</p>
+<p><span style="color: #800000;"><b>International Journal of Remote Sensing</b></span></p>
+<p><span style="color: #ff6600;"><span style="color: #000080;"><b>Special Issue &#8211; Call for Papers</b></span><b></b></span></p>
+<p><span style="color: #800000;"><b>Fine Resolution Remote Sensing of Species in Terrestrial and Coastal Ecosystems</b></span></p>
+<p>The decline and dieback of native species and the invasion of alien species in terrestrial and coastal ecosystems can cause severe environmental changes that harm the functioning of ecosystems and reduce the services they provide. A rapid response and effective management of environmental change requires detailed information on the spatial distribution of individual species over large spatial extents and over multiple time periods. Species-level information is also needed for precision agriculture and urban forestry.</p>
+<p>Although remote sensing has been used to map species for decades, the longstanding challenge is that the accuracy of species maps is often too low to meet the requirements of management, or the methods are too complex or location-specific to be used in routine mapping. On the other hand, in the 21<sup>st</sup> century, we have witnessed a rapid development in both fine resolution remote sensors and statistical theories and techniques, which hold great potential for accurate species mapping.</p>
+<p>This special issue calls for cutting-edge research on using fine resolution remotely sensed data for mapping species in terrestrial or coastal ecosystems, in the following areas:</p>
+<p>1)      Focus on terrestrial or coastal systems (including natural, urban, agriculture, and other aspects);</p>
+<p>2)      Involvement of any single or combination of fine resolution sensors such as UAV, lidar, high spatial resolution satellite imagery, and hyperspectral sensors;</p>
+<p>3)      Incorporation of spectral and/or structural information using new sensors (such as multispectral lidar) and/or the combination of several sensors;</p>
+<p>4)      Development of novel techniques in pre-processing (e.g., image georeferencing and orthorectification) and/or image processing (such as segmentation) to improve the classification accuracy;</p>
+<p>5)      Development or application of new statistical techniques (such as deep learning) for classification, especially in comparison to other parametric and non-parametric methods;</p>
+<p>6)      Development of upscaling framework that can map species over large spatial extent;</p>
+<p>7)      Other novel research not listed above on species mapping with fine resolution sensors.</p>
+<p><b>Important Dates</b></p>
+<p>Full paper submission deadline:  <b>November 1<sup>st</sup>, 2017</b><br />
+Online publication:  <b>Immediately after acceptance and final technical review</b> for compliance with the journal style.</p>
+<p>Expected print publication date: <b>July 2018</b><br />
+<b></b></p>
+<p><b>Editorial information</b></p>
+<p><strong>·</strong>         Guest Editor: <b>Qi Chen</b>, <i>Department of Geography, University of Hawaii at Manoa, USA </i>(<a title="mailto:qichen@hawaii.edu" href="mailto:qichen@hawaii.edu" target="_blank">qichen@hawaii.edu</a>)</p>
+<p><strong>·</strong>         Guest Editor: <b>Tiit Kutser</b>, <i> Estonian Marine Institute, University of Tartu, Estonia</i> (<a title="mailto:tiit.kutser@sea.ee" href="mailto:tiit.kutser@sea.ee" target="_blank">tiit.kutser@sea.ee</a>)</p>
+<p><strong>·</strong>         Guest Editor: <b>Antoine Collin</b>,<i> Ecole Pratique des Hautes Etudes, PSL Research University, France</i> (<a title="mailto:antoine.collin@ephe.sorbonne.fr" href="mailto:antoine.collin@ephe.sorbonne.fr" target="_blank">antoine.collin@ephe.sorbonne.<wbr />fr</a>)<i></i></p>
+<p><strong>·</strong>         Guest Editor: <b>Timothy A.</b> <b>Warner</b>, <i>Department of Geology and Geography, West Virginia University, USA</i> (<a title="mailto:tim.warner@mail.wvu.edu" href="mailto:tim.warner@mail.wvu.edu" target="_blank">tim.warner@mail.wvu.edu</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1455</post-id>	</item>
+		<item>
+		<title>Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/#respond</comments>
+				<pubDate>Fri, 30 Sep 2016 00:42:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1354</guid>
+				<description><![CDATA[“A map is the greatest of all epic poems.” Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954) That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/" class="more-link">Continue reading <span class="screen-reader-text">Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>“<em>A map is the greatest of all epic poems.</em>”</p>
+<p><strong>Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954)</strong></p>
+<p>That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource managers charged with making decisions. Below are maps of <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">forest cover</a> (<a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289" target="_blank">Assal et al. 2015</a>) and  <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">trend of forest canopy condition</a> (<a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Assal et al. 2016</a>) in the Little Mountain Ecosystem in southwest Wyoming and northwest Colorado prepared for our agency partners in the Wyoming Landscape Conservation Initiative.</p>
+<p>See below for images of maps (click for higher resolution view); high resolution pdf files can be downloaded from figshare. Please see the publications for detailed methodology.</p>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li> Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Forest Cover Maps. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3863262.v1" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3863262.v1 </a>Retrieved: 18 37, Sep 29, 2016 (GMT)</li>
+<li>Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Trends Maps of Forest Canopy Condition. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3971421.v2" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3971421.v2</a> Retrieved: 18 45, Sep 29, 2016 (GMT)</li>
+</ul>
+<p style="text-align: center;"><em><strong>Little Mountain and Pine Mountain (Wyoming) Forest Cover:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1356 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300" alt="lmpm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><strong><em>Middle Mountain, Diamond Peak and Cold Spring Mountain (Colorado) Forest Cover:</em></strong></p>
+<p style="text-align: center;"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1365 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300" alt="dpmmcsm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Little Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1367 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300" alt="lm_trends_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Pine Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1370 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300" alt="pm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Middle Mountain and Diamond Peak (Colorado) Trend Map of Forest Canopy Condition:<a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1371 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300" alt="dpmm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></strong></em></p>
+<p style="text-align: center;"><em><strong>Cold Spring Mountain (Colorado) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1372 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300" alt="csm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1354</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>WLCI &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/wlci/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 18:04:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the WYOMING-TWS Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/#respond</comments>
+				<pubDate>Wed, 06 Dec 2017 21:11:49 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1628</guid>
+				<description><![CDATA[I will present research on drought-induced variability of sagebrush ecosystem productivity in the Upper Green River Basin at the Wyoming Chapter of The Wildlife Society Annual Meeting in Jackson, WY. My presentation is part of the session entitled: Grassland &#38; Sagebrush Environments. We think this work is noteworthy because it deals with an important disturbance &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the WYOMING-TWS Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on drought-induced variability of sagebrush ecosystem productivity in the Upper Green River Basin at the <a href="http://wytwsconference.org/" target="_blank" rel="noopener">Wyoming Chapter of The Wildlife Society Annual Meeting</a> in Jackson, WY. My presentation is part of the session entitled: <em>Grassland &amp; Sagebrush Environments</em>. We think this work is noteworthy because it deals with an important disturbance (drought) in an important habitat in the West (the Sagebrush Sea). Such a disturbance can have cascading effects on scores of species that live in the sagebrush ecosystem. The project could not have come to fruition without the collaboration of my partners at the Wyoming Game and Fish and the Natural Resources Conservation Service and funding from the <a href="https://www.wlci.gov/" target="_blank" rel="noopener">Wyoming Landscape Conservation Initiative</a>. I hope to submit the manuscript for publication shortly.</p>
+<p><em>*Banner image: the Sagebrush Sea at the foot of the Wind River Mountains, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1628</post-id>	</item>
+		<item>
+		<title>Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/#respond</comments>
+				<pubDate>Tue, 01 Nov 2016 00:30:31 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Current research]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[ggplot2]]></category>
+		<category><![CDATA[growing season anomalies]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[vegetation indices]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1378</guid>
+				<description><![CDATA[Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (Artemisia spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (also an excellent PBS NATURE program by the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/" class="more-link">Continue reading <span class="screen-reader-text">Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (<em>Artemisia</em> spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (<a href="http://www.pbs.org/wnet/nature/sagebrush-sea-about/12170/" target="_blank">also an excellent PBS NATURE program by the same name</a>) and a lot of things eat it, nest in it, and use it for cover. Sagebrush mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) and I am collaborating with a number of folks to understand the extent, severity and timing of the mortality event.</p>
+<figure id="attachment_1391" aria-describedby="caption-attachment-1391" style="width: 300px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg" target="_blank"><img class="wp-image-1391 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225" alt="dfdfdfd" width="300" height="225" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=1422 1422w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1391" class="wp-caption-text">Sagebrush mortality in southwestern Wyoming. Photo: June 2015.</figcaption></figure>
+<p>Numerous causes have been suggested, but recent drought in 2012-13 (see figure below) is the likely mechanism of mortality in this water-limited ecosystem. We will be using a time series of satellite images to gain an understanding of the variability in patterns of vegetation productivity during periods of high, low and average precipitation. Our goal is to use this information to exploit landscape scale remote sensing for detection of subtle changes in productivity in this sparsely vegetated ecosystem to detect sagebrush mortality.</p>
+<figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=474%2C356" alt="dfdfdfdf" width="474" height="356" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Partial sagebrush mortality in southwestern Wyoming (6 inch field notebook for scale). Photo: July 2016.</figcaption></figure>
+<p>If you have any information about sagebrush mortality or questions about our current research, please contact me.</p>
+<p><strong><em>More to come&#8230;</em></strong></p>
+<figure id="attachment_1389" aria-describedby="caption-attachment-1389" style="width: 3375px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg" target="_blank"><img class="wp-image-1389 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=474%2C211" alt="spdsi_1980-2016" width="474" height="211" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=3375&amp;ssl=1 3375w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=300%2C133&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=768%2C341&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=1024%2C455&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1389" class="wp-caption-text">Self-calibrating Palmer Drought Severity Index (sPDSI) for the Upper Green River Basin. Data source: Western Regional Climate Center, WestWide Drought Tracker, http://www.wrcc.dri.edu/wwdt/time/; accessed 14 Oct 2016.</figcaption></figure>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1378</post-id>	</item>
+		<item>
+		<title>Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/#respond</comments>
+				<pubDate>Fri, 30 Sep 2016 00:42:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1354</guid>
+				<description><![CDATA[“A map is the greatest of all epic poems.” Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954) That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/" class="more-link">Continue reading <span class="screen-reader-text">Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>“<em>A map is the greatest of all epic poems.</em>”</p>
+<p><strong>Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954)</strong></p>
+<p>That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource managers charged with making decisions. Below are maps of <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">forest cover</a> (<a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289" target="_blank">Assal et al. 2015</a>) and  <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">trend of forest canopy condition</a> (<a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Assal et al. 2016</a>) in the Little Mountain Ecosystem in southwest Wyoming and northwest Colorado prepared for our agency partners in the Wyoming Landscape Conservation Initiative.</p>
+<p>See below for images of maps (click for higher resolution view); high resolution pdf files can be downloaded from figshare. Please see the publications for detailed methodology.</p>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li> Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Forest Cover Maps. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3863262.v1" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3863262.v1 </a>Retrieved: 18 37, Sep 29, 2016 (GMT)</li>
+<li>Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Trends Maps of Forest Canopy Condition. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3971421.v2" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3971421.v2</a> Retrieved: 18 45, Sep 29, 2016 (GMT)</li>
+</ul>
+<p style="text-align: center;"><em><strong>Little Mountain and Pine Mountain (Wyoming) Forest Cover:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1356 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300" alt="lmpm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><strong><em>Middle Mountain, Diamond Peak and Cold Spring Mountain (Colorado) Forest Cover:</em></strong></p>
+<p style="text-align: center;"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1365 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300" alt="dpmmcsm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Little Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1367 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300" alt="lm_trends_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Pine Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1370 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300" alt="pm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Middle Mountain and Diamond Peak (Colorado) Trend Map of Forest Canopy Condition:<a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1371 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300" alt="dpmm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></strong></em></p>
+<p style="text-align: center;"><em><strong>Cold Spring Mountain (Colorado) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1372 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300" alt="csm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1354</post-id>	</item>
+		<item>
+		<title>Linking field and space-based observations&#8230; how I did it</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/#respond</comments>
+				<pubDate>Wed, 20 Jul 2016 05:48:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[aspen ecosystems]]></category>
+		<category><![CDATA[fish-eye photo]]></category>
+		<category><![CDATA[forest canopy]]></category>
+		<category><![CDATA[hemispherical camera]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[scale]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[spatial resolution]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1295</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work recently** I was invited to speak about some of our Wyoming Landscape Conservation Initiative (WLCI) research at &#8216;Aspen Days&#8217;* last week in Lander, Wyoming. The event brought together natural resource managers and scientists to discuss aspen research, local aspen management projects and the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/" class="more-link">Continue reading <span class="screen-reader-text">Linking field and space-based observations&#8230; how I did it</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #ff0000;"><strong><em>**A special thanks to the <span style="text-decoration: underline; color: #ff0000;"><a style="color: #ff0000; text-decoration: underline;" href="http://landsat.gsfc.nasa.gov/" target="_blank">NASA Landsat Program</a></span> for featuring our <span style="color: #ff0000;">work <span style="text-decoration: underline;"><a style="color: #ff0000; text-decoration: underline;" href="http://landsat.gsfc.nasa.gov/?p=12811" target="_blank">recently</a></span>**</span></em></strong></span></h3>
+<p>I was invited to speak about some of our <a href="https://www.wlci.gov/" target="_blank">Wyoming Landscape Conservation Initiative</a> (WLCI) <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">research</a> at &#8216;Aspen Days&#8217;* last week in Lander, Wyoming. The event brought together natural resource managers and scientists to discuss aspen research, local aspen management projects and the collaborative partnerships needed to sustain aspen ecosystems.</p>
+<figure id="attachment_1308" aria-describedby="caption-attachment-1308" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg" target="_blank"><img class="wp-image-1308 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=474%2C192" alt="Discussion of aspen in the Wind River Mountains, Wyoming, July 2016. " width="474" height="192" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=1024%2C414&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=300%2C121&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=768%2C311&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1308" class="wp-caption-text">Discussion of aspen in the Wind River Mountains, Wyoming, July 2016 with representatives from the Wyoming Game and Fish Department, US Bureau of Land Management, US Forest Service, Western Aspen Alliance, Teton Science School, Wyoming Wildlife Foundation, Wyoming Natural Diversity Database, US Geological Survey and many others .</figcaption></figure>
+<p>It was a great opportunity for me to communicate my research directly with natural resource managers. However, more importantly it was a chance to spend time in the field with people that really know these systems and begin to understand their needs and how our science might be able to help answer those questions. It was also a chance to get out of my comfort zone and interact with people that don&#8217;t spend all of their time thinking about spatial ecology.</p>
+<figure id="attachment_1300" aria-describedby="caption-attachment-1300" style="width: 640px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg" target="_blank"><img class="wp-image-1300 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg?resize=474%2C356" alt="dfdfdfdfdf" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg?w=640&amp;ssl=1 640w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg?resize=300%2C225&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1300" class="wp-caption-text">A handful of the field trip participants under the canopy of an aspen forest captured in a fish-eye photo on Green Mountain, Wyoming, July 2016. Note: the camera utilizes a blue lens for optimum contrast between the sky and foliage.</figcaption></figure>
+<p><em><strong>A key component of the research is our ability to connect what we see on the ground with what we see from the sky via satellite imagery.</strong></em> I had a chance to demonstrate the use of the hemispherical (or fish-eye) imaging system in the field and</p>
+<figure id="attachment_1298" aria-describedby="caption-attachment-1298" style="width: 224px" class="wp-caption alignright"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/L8pixelsizes_crop.png" target="_blank"><img class="wp-image-1298 " src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/L8pixelsizes_crop.png?resize=224%2C242" alt="The spatial resolution of a Landsat pixel is approximate the size of the infield on a baseball diamond. (Image obtained from NASA)." width="224" height="242" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1298" class="wp-caption-text">The spatial resolution of a Landsat pixel is approximately the size of the infield on a baseball diamond. (Image obtained from NASA).</figcaption></figure>
+<p>thought I might expand on the process we used to link ground measurements and space based measurements. There are a number of ways to do this, but I&#8221;ll present our method here. In a recent study, (Assal et al. 2016) we measured forest canopy condition on the ground via a network of fish-eye photographs designed to measure the amount of leaves, branches and stems in the forest canopy. This metric is known as plant area index (Pfeifer et al., 2012) which can be derived from the fish-eye photos via a gap-fraction inversion procedure (Campbell and Norman, 1989) which measures the amount of radiation transmission through the canopy (Martens et al., 1993).</p>
+<p>We used Landsat imagery (30 meter spatial resolution) that was collected from a satellite at the same time as our field campaign. To adequately sample the forest canopy, we established a grid of nine photo points in a sample plot, coincident with a Landsat pixel.</p>
+<figure id="attachment_1303" aria-describedby="caption-attachment-1303" style="width: 905px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg" target="_blank"><img class="wp-image-1303 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?resize=474%2C199" alt="dfdfdfdfd" width="474" height="199" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?w=905&amp;ssl=1 905w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?resize=300%2C126&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?resize=768%2C322&amp;ssl=1 768w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1303" class="wp-caption-text">Left: Plot based sampling design for derivation of vegetation structure traits in a 30 meter Landsat pixel. Each hemispheric photo location is spaced approximately 10m from the nearest photo point. The field of view of each hemispheric photo is shown (red circle) with an approximate radius of 3.5 m. Center: examples of fish-eye photos collected from two field sites. Right: classified photos indicating plant material in green.</figcaption></figure>
+<p>The information from each plot was used to identify a linear relationship between the amount of plant material on the ground and the amount of plant material measured from the satellite (the Normalized Difference Moisture Index was used as a proxy for amount of plant material). Each point in the figure below represents the information obtained from the nine fish-eye photos taken at each sampling location (figure, above left).</p>
+<figure id="attachment_1304" aria-describedby="caption-attachment-1304" style="width: 319px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg" target="_blank"><img class="wp-image-1304" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?resize=319%2C316" alt="dfdfdffd" width="319" height="316" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?w=360&amp;ssl=1 360w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?resize=300%2C298&amp;ssl=1 300w" sizes="(max-width: 319px) 100vw, 319px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1304" class="wp-caption-text">The relationship between field measured plant area index and the normalized difference moisture index measured from the satellite.</figcaption></figure>
+<p>&nbsp;</p>
+<figure id="attachment_1305" aria-describedby="caption-attachment-1305" style="width: 406px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg" target="_blank"><img class="wp-image-1305 " src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?resize=406%2C541" alt="dfdfdfdfdf" width="406" height="541" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?resize=225%2C300&amp;ssl=1 225w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?w=1536&amp;ssl=1 1536w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?w=1422 1422w" sizes="(max-width: 406px) 100vw, 406px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1305" class="wp-caption-text">Demonstrating field collection of fish-eye photos on Little Mountain, Wyoming, August 2015.</figcaption></figure>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Anderson, P.J., Sibold, J., 2016. <a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem. Forest Ecology and Management.</a> 365, 137-151.</li>
+<li>Campbell, G.S., Norman, J.M., 1989. The description and measurement of plant canopy structure. In: Russell, G., Marshall, B., Jarvis, P.G. (Eds.), Plant Canopies: Their Growth, Form, and Function, Society for Experimental Biology: 31. Cambridge University Press, Cambridge, United Kingdom, pp. 1–19.</li>
+<li>Martens, S.N., Ustin, S.L., Rousseau, R.A., 1993. Estimation of tree canopy leaf area index by gap fraction analysis. Forest Ecology and Management. 61, 91–108.</li>
+<li>Pfeifer, M., Gonsamo, A., Disney, M., Pellikka, P., Marchant, R., 2012. Leaf area index for biomes of the Eastern Arc Mountains: Landsat and SPOT observations along precipitation and altitude gradients. Remote Sensing of Environment. 118, 103–115.</li>
+</ul>
+<p><strong><em>*Special thanks to Amy Anderson and Daryl Lutz (Wyoming Game and Fish Department) for organizing the workshop.</em></strong></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1295</post-id>	</item>
+		<item>
+		<title>Seminar at CSU: The Ecological Legacies of Drought, Fire and Insect Disturbance in Western North American Forests</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/#respond</comments>
+				<pubDate>Thu, 24 Sep 2015 23:03:29 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[Dissertation]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecological legacies]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Glacier National Park]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Mountain Pine Beetle]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1033</guid>
+				<description><![CDATA[Well, I suppose I should finally wrap this thing up. I will be giving a public seminar on my dissertation research on Friday October 2nd at 3:30 pm in the Natural and Environmental Sciences Building at Colorado State University. If you&#8217;re local, please stop by to learn about my research (abstract below). THE ECOLOGICAL LEGACIES &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/" class="more-link">Continue reading <span class="screen-reader-text">Seminar at CSU: The Ecological Legacies of Drought, Fire and Insect Disturbance in Western North American Forests</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Well, I suppose I should finally wrap this thing up. I will be giving a public seminar on my dissertation research on Friday October 2nd at 3:30 pm in the Natural and Environmental Sciences Building at Colorado State University. If you&#8217;re local, please stop by to learn about my research (abstract below).</p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg"><img class="aligncenter size-full wp-image-1035" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg?resize=474%2C356" alt="Assal_Defense_Announcement" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg?w=960&amp;ssl=1 960w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg?resize=300%2C225&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<p><strong>THE ECOLOGICAL LEGACIES OF DROUGHT, FIRE, AND INSECT DISTURBANCE IN WESTERN NORTH AMERICAN FORESTS</strong></p>
+<p>Temperate forest ecosystems are subject to various disturbances including insect agents, drought and fire, which can have profound effects on the structure of the ecosystem for many years after the event. Impacts of disturbance can vary widely, therefore an understanding of the legacies of an event are critical in the interpretation of contemporary forest patterns and those of the near future. The primary objective of this dissertation was to investigate the ecological legacies of drought, beetle outbreak and ensuing wildfire in two different ecosystems. A secondary objective of my research was motivated by a lack of available data which precluded investigation of each disturbance.</p>
+<p>I studied the effects of drought on deciduous and coniferous forest along a forest-shrubland ecotone in the southern portion of the Wyoming Basin Ecoregion. The results show that forests in the region have experienced high levels of cumulative drought related mortality over the last decade. Negative trends were not consistent across forest type or distributed randomly across the study area. The patterns of long-term trends highlight areas of forest that are resistant, persistent and vulnerable to severe drought.</p>
+<p>In the second thread of my dissertation, I used multiple lines of evidence to retrospectively characterize a landscape scale mountain pine beetle disturbance from the 1970s in Glacier National Park. The lack of spatially explicit data on this disturbance was a major data gap since wildfire had removed some of the evidence from the landscape. I used this information to assess the influence of beetle severity on the burn severity of subsequent wildfires in the decades after the outbreak. Although many factors contribute to burn severity, my results indicate that beetle severity can positively influence burn severity of wildfire. This is likely due to the change in forest structure in the decades after the outbreak and not as a direct result of tree mortality from the outbreak. The long-term perspective of this study suggests that ecological legacies of high severity disturbance may continue to influence subsequent disturbance for many years after the initial event. This work also provides insight on future disturbance interactions associated with the recent mountain pine beetle outbreak that has impacted tens of millions of hectares in western North America over the last two decades.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1033</post-id>	</item>
+		<item>
+		<title>Spatiotemporal Land Use Map &#8211; Sublette County, Wyoming</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/12/18/sublettecounty/</link>
+				<pubDate>Tue, 18 Dec 2012 20:49:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Jonah Field]]></category>
+		<category><![CDATA[Journal of Maps]]></category>
+		<category><![CDATA[land use change]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[PAPA]]></category>
+		<category><![CDATA[Pinedale]]></category>
+		<category><![CDATA[Pinedale Anticline Project Area]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[Sublette County]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=415</guid>
+				<description><![CDATA[Supplemental data from &#8220;A Tale of Two Land Uses in the American West: Rural Residential Growth and Energy Development&#8221; (Assal and Montag 2012). The paper was published in the Journal of Maps special issue on “Mapping Innovations in Spatial Demography.” Full Resolution PDF (download the file locally and open in Adobe Reader for optimum resolution).]]></description>
+								<content:encoded><![CDATA[<p>Supplemental data from &#8220;<a title="Assal - Land Use" href="https://tjassal.github.io/LabWebsite/?p=208" target="_blank">A Tale of Two Land Uses in the American West: Rural Residential Growth and Energy Development</a>&#8221; (Assal and Montag 2012). The paper was published in the Journal of Maps special issue on <a title="Mapping Innovations in Spatial Demography" href="http://dx.doi.org/10.1080/17445647.2012.745381" target="_blank">“Mapping Innovations in Spatial Demography.”</a></p>
+<figure id="attachment_804" aria-describedby="caption-attachment-804" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/12/Assal_Landuse-change-Sublette-County-Map.jpg"><img class="size-large wp-image-804" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/12/Assal_Landuse-change-Sublette-County-Map.jpg?resize=474%2C335" alt="Click for larger version." width="474" height="335" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/12/Assal_Landuse-change-Sublette-County-Map.jpg?resize=1024%2C724&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/12/Assal_Landuse-change-Sublette-County-Map.jpg?resize=300%2C212&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/12/Assal_Landuse-change-Sublette-County-Map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/12/Assal_Landuse-change-Sublette-County-Map.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-804" class="wp-caption-text">Click for larger version.</figcaption></figure>
+<p><a title="Assal - Land Use, full res. PDF" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2013/12/assal_landuse-change-sublette-county-map11.pdf" target="_blank">Full Resolution PDF</a> (download the file locally and open in Adobe Reader for optimum resolution).</p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/assal_landuse-change-sublette-county-map1.jpg"><img class="aligncenter size-large wp-image-417" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/assal_landuse-change-sublette-county-map1.jpg?resize=1%2C1" alt="Assal_Landuse change Sublette County - Map" width="1" height="1" data-recalc-dims="1" /></a><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/assal_landuse-change-sublette-county-map1.jpg"><img class="aligncenter size-large wp-image-417" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/assal_landuse-change-sublette-county-map1.jpg?resize=1%2C1" alt="Assal_Landuse change Sublette County - Map" width="1" height="1" data-recalc-dims="1" /></a></p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">415</post-id>	</item>
+		<item>
+		<title>A Tale of Two Land Uses in the American West: Rural Residential Growth and Energy Development</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/#respond</comments>
+				<pubDate>Tue, 07 Aug 2012 22:28:01 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[energy development]]></category>
+		<category><![CDATA[environment]]></category>
+		<category><![CDATA[Jonah Field]]></category>
+		<category><![CDATA[Journal of Maps]]></category>
+		<category><![CDATA[land use change]]></category>
+		<category><![CDATA[mapping]]></category>
+		<category><![CDATA[PAPA]]></category>
+		<category><![CDATA[Pinedale]]></category>
+		<category><![CDATA[Pinedale Anticline Project Area]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[Sublette County]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=208</guid>
+				<description><![CDATA[Sublette County, Wyoming has undergone recent land use change in the form of heightened rural residential development on private land and increased energy development on both public and private land. Quantifying landscape change as a result of energy development is not particularly new. Likewise, recent studies have made advances in quantifying residential development over time. &#8230; <a href="https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/" class="more-link">Continue reading <span class="screen-reader-text">A Tale of Two Land Uses in the American West: Rural Residential Growth and Energy Development</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Sublette County, Wyoming has undergone recent land use change in the form of heightened rural residential development on private land and increased energy development on both public and private land. Quantifying landscape change as a result of energy development is not particularly new. Likewise, recent studies have made advances in quantifying residential development over time. However, much of the literature on this subject is related to urban, suburban and/or exurban development. Mapping rural residential development using multi-temporal and multi-spectral imagery has not received much attention. Nearly two-thirds of the population of Sublette County resides in unincorporated areas where such growth has occurred. Energy development within the county has exponentially increased in recent years. Both of these phenomena create changes on the landscape that can be measured over time using remote sensing. The results serve as important baseline data that can be incorporated into land use planning and ecological-wildlife research at the landscape scale.</p>
+<p>In a new article in the <a title="Journal of Maps" href="http://www.journalofmaps.com/" target="_blank">Journal of Maps</a>, my co-author and I integrate energy production data, population census data, ownership parcel data, and a series of Landsat Thematic Mapper and Enhanced Thematic Mapper scenes (over a 25 year period) to create a map that illustrates the changing landscape. This work was done in part to support the <a title="WLCI" href="http://www.wlci.gov/" target="_blank">Wyoming Landscape Conservation Initiative</a>. The paper was published in the special issue “Mapping Innovations in Spatial Demography,” (December 2012) and can be accessed at: <a title="JOM Article" href="http://dx.doi.org/10.1080/17445647.2012.745381" target="_blank">http://dx.doi.org/10.1080/17445647.2012.745381</a> or <a title="JOM Manuscript" href="https://www.fort.usgs.gov/sites/default/files/products/publications/23538/23538.pdf" target="_blank">http://www.fort.usgs.gov/Products/Publications/23538/23538.pdf</a>). You can view and download the supplemental spatiotemporal land use map <a title="LU Map" href="https://tjassal.github.io/LabWebsite/?p=415" target="_blank">here</a>.</p>
+<figure id="attachment_209" aria-describedby="caption-attachment-209" style="width: 463px" class="wp-caption aligncenter"><a href="http://biogeographia.files.wordpress.com/2012/08/jonah_field2.jpg"><img class=" wp-image-209" title="jonah_field2" src="http://biogeographia.files.wordpress.com/2012/08/jonah_field2.jpg?w=300&#038;resize=463%2C136" alt="" width="463" height="136" data-recalc-dims="1" /></a><figcaption id="caption-attachment-209" class="wp-caption-text">The build out of Jonah Field, a natural gas field in Sublette County, illustrated with three satellite images. Jonah Field occupies approximately 125 square kilometers of sagebrush steppe.</figcaption></figure>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">208</post-id>	</item>
+	</channel>
+</rss>

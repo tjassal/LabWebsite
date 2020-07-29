@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>sagebrush steppe &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/sagebrush-steppe/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 14 Dec 2016 02:30:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the WYOMING-TWS Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/#respond</comments>
+				<pubDate>Wed, 06 Dec 2017 21:11:49 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1628</guid>
+				<description><![CDATA[I will present research on drought-induced variability of sagebrush ecosystem productivity in the Upper Green River Basin at the Wyoming Chapter of The Wildlife Society Annual Meeting in Jackson, WY. My presentation is part of the session entitled: Grassland &#38; Sagebrush Environments. We think this work is noteworthy because it deals with an important disturbance &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the WYOMING-TWS Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on drought-induced variability of sagebrush ecosystem productivity in the Upper Green River Basin at the <a href="http://wytwsconference.org/" target="_blank" rel="noopener">Wyoming Chapter of The Wildlife Society Annual Meeting</a> in Jackson, WY. My presentation is part of the session entitled: <em>Grassland &amp; Sagebrush Environments</em>. We think this work is noteworthy because it deals with an important disturbance (drought) in an important habitat in the West (the Sagebrush Sea). Such a disturbance can have cascading effects on scores of species that live in the sagebrush ecosystem. The project could not have come to fruition without the collaboration of my partners at the Wyoming Game and Fish and the Natural Resources Conservation Service and funding from the <a href="https://www.wlci.gov/" target="_blank" rel="noopener">Wyoming Landscape Conservation Initiative</a>. I hope to submit the manuscript for publication shortly.</p>
+<p><em>*Banner image: the Sagebrush Sea at the foot of the Wind River Mountains, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1628</post-id>	</item>
+		<item>
+		<title>Research Presentation at the AGU Fall Meeting 2016</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/#respond</comments>
+				<pubDate>Wed, 14 Dec 2016 02:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[AGU 2016]]></category>
+		<category><![CDATA[AGU16]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Ecosystem productivity]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Upper Green River Basin]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1425</guid>
+				<description><![CDATA[I will present research on drought-induced variability of sagebrushecosystem productivity in the Upper Green River Basin at the AGU Fall Meeting in San Francisco, CA at 10:35 am in Moscone West Rm 2008. My presentation is part of the session entitled: (B32C) Remote Sensing to Support Investigations in Plant-Climate Interactions. A cross-scale approach to understand &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the AGU Fall Meeting 2016</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on drought-induced variability of sagebrushecosystem productivity in the Upper Green River Basin at the AGU Fall Meeting in San Francisco, CA at 10:35 am in Moscone West Rm 2008. My presentation is part of the session entitled: (<span class="FinalNumber">B32C) </span><em> Remote Sensing to Support Investigations in Plant-Climate Interactions</em>.</p>
+<figure id="attachment_1433" aria-describedby="caption-attachment-1433" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg" target="_blank"><img class="wp-image-1433 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?resize=300%2C191" width="300" height="191" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?w=518&amp;ssl=1 518w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1433" class="wp-caption-text">Frequency distribution of net productivity across the Upper Green River Basin. Comparison between an average precipitation year (2010; blue), an wet year (2011; red), and a dry year (2012; green).</figcaption></figure>
+<p><a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/196167" target="_blank"><strong><em><span style="color: #008000;">A cross-scale approach to understand drought-induced variability of sagebrush ecosystem productivity (</span><span class="FinalNumber"><span style="color: #008000;">B32C-02)</span> </span></em></strong></a></p>
+<p><strong>Abstract</strong></p>
+<p>Sagebrush (<i>Artemisia </i>spp.) mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) of the sagebrush steppe of western North America. Numerous causes have been suggested, but recent drought (2012-13) is the likely mechanism of mortality in this water-limited ecosystem which provides critical habitat for many species of wildlife.</p>
+<figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 150px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-thumbnail" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=150%2C150" width="150" height="150" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?zoom=2&amp;resize=150%2C150 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Sagebrush mortality has been reported across the Upper Green River Basin in recent years.</figcaption></figure>
+<p>An understanding of the variability in patterns of productivity with respect to climate is essential to exploit landscape scale remote sensing for detection of subtle changes associated with mortality in this sparse, uniformly vegetated ecosystem. We used the standardized precipitation index to characterize drought conditions and Moderate Resolution Imaging Spectroradiometer (MODIS) satellite imagery (250-m resolution) to characterize broad characteristics of growing season productivity. We calculated per-pixel growing season anomalies over a 16-year period (2000-2015) to identify the spatial and temporal variability in productivity. Metrics derived from Landsat satellite imagery (30-m resolution) were used to further investigate trends within anomalous areas at local scales. We found evidence to support an initial hypothesis that antecedent winter drought was most important in explaining reduced productivity. The results indicate drought effects were inconsistent over space and time. MODIS derived productivity deviated by more than four standard deviations in heavily impacted areas, but was well within the interannual variability in other areas. Growing season anomalies highlighted dramatic declines in productivity during the 2012 and 2013 growing seasons. However, large negative anomalies persisted in other areas during the 2014 growing season, indicating lag effects of drought. We are further investigating if the reduction in productivity is mediated by local biophysical properties. Our analysis identified spatially explicit patterns of ecosystem properties altered by severe drought which are consistent with field observations of sagebrush mortality. The results provide a theoretical framework for future field based investigation at multiple spatiotemporal scales.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1425</post-id>	</item>
+		<item>
+		<title>Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/#respond</comments>
+				<pubDate>Tue, 01 Nov 2016 00:30:31 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Current research]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[ggplot2]]></category>
+		<category><![CDATA[growing season anomalies]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[vegetation indices]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1378</guid>
+				<description><![CDATA[Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (Artemisia spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (also an excellent PBS NATURE program by the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/" class="more-link">Continue reading <span class="screen-reader-text">Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (<em>Artemisia</em> spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (<a href="http://www.pbs.org/wnet/nature/sagebrush-sea-about/12170/" target="_blank">also an excellent PBS NATURE program by the same name</a>) and a lot of things eat it, nest in it, and use it for cover. Sagebrush mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) and I am collaborating with a number of folks to understand the extent, severity and timing of the mortality event.</p>
+<figure id="attachment_1391" aria-describedby="caption-attachment-1391" style="width: 300px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg" target="_blank"><img class="wp-image-1391 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225" alt="dfdfdfd" width="300" height="225" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=1422 1422w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1391" class="wp-caption-text">Sagebrush mortality in southwestern Wyoming. Photo: June 2015.</figcaption></figure>
+<p>Numerous causes have been suggested, but recent drought in 2012-13 (see figure below) is the likely mechanism of mortality in this water-limited ecosystem. We will be using a time series of satellite images to gain an understanding of the variability in patterns of vegetation productivity during periods of high, low and average precipitation. Our goal is to use this information to exploit landscape scale remote sensing for detection of subtle changes in productivity in this sparsely vegetated ecosystem to detect sagebrush mortality.</p>
+<figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=474%2C356" alt="dfdfdfdf" width="474" height="356" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Partial sagebrush mortality in southwestern Wyoming (6 inch field notebook for scale). Photo: July 2016.</figcaption></figure>
+<p>If you have any information about sagebrush mortality or questions about our current research, please contact me.</p>
+<p><strong><em>More to come&#8230;</em></strong></p>
+<figure id="attachment_1389" aria-describedby="caption-attachment-1389" style="width: 3375px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg" target="_blank"><img class="wp-image-1389 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=474%2C211" alt="spdsi_1980-2016" width="474" height="211" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=3375&amp;ssl=1 3375w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=300%2C133&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=768%2C341&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=1024%2C455&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1389" class="wp-caption-text">Self-calibrating Palmer Drought Severity Index (sPDSI) for the Upper Green River Basin. Data source: Western Regional Climate Center, WestWide Drought Tracker, http://www.wrcc.dri.edu/wwdt/time/; accessed 14 Oct 2016.</figcaption></figure>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1378</post-id>	</item>
+		<item>
+		<title>Monitoring of Livestock Grazing Effects on Bureau of Land Management Land</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/01/31/monitoring-of-livestock-grazing-effects-on-bureau-of-land-management-land/</link>
+				<pubDate>Fri, 31 Jan 2014 18:56:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[land health status]]></category>
+		<category><![CDATA[land use impacts]]></category>
+		<category><![CDATA[monitoring]]></category>
+		<category><![CDATA[public lands]]></category>
+		<category><![CDATA[rangeland health]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=515</guid>
+				<description><![CDATA[I am a co-author on a new paper in the journal Rangeland Ecology and Management available at http://dx.doi.org/10.2111/REM-D-12-00178.1 Abstract Public land management agencies, such as the Bureau of Land Management (BLM), are charged with managing rangelands throughout the western United States for multiple uses, such as livestock grazing and conservation of sensitive species and their habitats. &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/01/31/monitoring-of-livestock-grazing-effects-on-bureau-of-land-management-land/" class="more-link">Continue reading <span class="screen-reader-text">Monitoring of Livestock Grazing Effects on Bureau of Land Management Land</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I am a co-author on a new paper in the journal <em>Rangeland Ecology and Management</em> available at <a href="http://dx.doi.org/10.2111/REM-D-12-00178.1" target="_blank">http://dx.doi.org/10.2111/REM-D-12-00178.1</a></p>
+<p><em>Abstract</em></p>
+<p>Public land management agencies, such as the Bureau of Land Management (BLM), are charged with managing rangelands throughout the western United States for multiple uses, such as livestock grazing and conservation of sensitive species and their habitats. Monitoring of condition and trends of these rangelands, particularly with respect to effects of livestock grazing, provides critical information for effective management of these multiuse landscapes. We therefore investigated the availability of livestock grazing-related quantitative monitoring data and qualitative region-specific Land Health Standards (LHS) data across BLM grazing allotments in the western United States. We then queried university and federal rangeland science experts about how best to prioritize rangeland monitoring activities. We found that the most commonly available monitoring data were permittee-reported livestock numbers and season-of-use data (71% of allotments) followed by repeat photo points (58%), estimates of forage utilization (52%), and, finally, quantitative vegetation measurements (37%). Of the 57% of allotments in which LHS had been evaluated as of 2007, the BLM indicated 15% had failed to meet LHS due to livestock grazing. A full complement of all types of monitoring data, however, existed for only 27% of those 15%. Our data inspections, as well as conversations with rangeland experts, indicated a need for greater emphasis on collection of grazing-related monitoring data, particularly ground cover. Prioritization of where monitoring activities should be focused, along with creation of regional monitoring teams, may help improve monitoring. Overall, increased emphasis on monitoring of BLM rangelands will require commitment at multiple institutional levels.</p>
+<p>Kari E. Veblen, David A. Pyke, Cameron L. Aldridge, Michael L. Casazza, Timothy J. Assal, and Melissa A. Farinha. 2014<i>.</i> <a title="Manuscript Link" href="http://www.bioone.org/doi/abs/10.2111/REM-D-12-00178.1" target="_blank">Monitoring of Livestock Grazing Effects on Bureau of Land Management Land.</a> <em>Rangeland Ecology &amp; Management</em> 67(1):68-77.</p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">515</post-id>	</item>
+	</channel>
+</rss>

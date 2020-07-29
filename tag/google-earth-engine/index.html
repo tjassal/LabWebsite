@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Google Earth Engine | The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://tjassal.github.io/LabWebsite/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="https://tjassal.github.io/LabWebsite/wp-content/themes/twentyfourteen/js/html5.js?ver=3.7.0"></script>
+	<![endif]-->
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="The Biogoegraphy &amp; Landscape Dynamics Lab &raquo; Feed" href="https://tjassal.github.io/LabWebsite/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Biogoegraphy &amp; Landscape Dynamics Lab &raquo; Comments Feed" href="https://tjassal.github.io/LabWebsite/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Biogoegraphy &amp; Landscape Dynamics Lab &raquo; Google Earth Engine Tag Feed" href="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/feed/" />
+<link rel='stylesheet' id='twentyfourteen-jetpack-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/jetpack/modules/theme-tools/compat/twentyfourteen.css?ver=8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-classic-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/crayon-syntax-highlighter/themes/classic/classic.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/crayon-syntax-highlighter/fonts/monaco.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://tjassal.github.io/LabWebsite/wp-includes/css/dist/block-library/style.min.css?ver=5.2' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://tjassal.github.io/LabWebsite/wp-includes/css/dist/block-library/theme.min.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo_simplified_cssd-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/nivo-slider-simplified/css/themes/default/default.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo_simplified_cssl-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/nivo-slider-simplified/css/themes/light/light.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo_simplified_cssda-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/nivo-slider-simplified/css/themes/dark/dark.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo_simplified_cssb-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/nivo-slider-simplified/css/themes/bar/bar.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='nivo_simplified_cssns-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/nivo-slider-simplified/css/nivo-slider.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sumoselect-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=1.5.59' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/css/styles.min.css?ver=1.5.59' type='text/css' media='all' />
+<link rel='stylesheet' id='twttr_stylesheet-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/twitter-plugin/css/style.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-lato-css'  href='https://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;display=fallback' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='https://tjassal.github.io/LabWebsite/wp-content/themes/twentyfourteen/style.css?ver=20190507' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-block-style-css'  href='https://tjassal.github.io/LabWebsite/wp-content/themes/twentyfourteen/css/blocks.css?ver=20190102' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='https://tjassal.github.io/LabWebsite/wp-content/themes/twentyfourteen/css/ie.css?ver=20140701' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='tablepress-default-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://tjassal.github.io/LabWebsite/wp-content/plugins/jetpack/css/jetpack.css?ver=8.3' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SDT_DATA = {"ajaxurl":"https:\/\/www.timassal.com\/wp-admin\/admin-ajax.php","siteUrl":"https:\/\/www.timassal.com\/","pluginsUrl":"https:\/\/www.timassal.com\/wp-content\/plugins","isAdmin":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/www.timassal.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js?ver=_2.7.2_beta'></script>
+<script type='text/javascript'>
+var DTGS_NONCE_FRONTEND = "4a3b62fc4b"
+</script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/nivo-slider-simplified/js/jquery.nivo.slider.js?ver=5.2'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.0.3'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/js/jquery.mobile.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.5.59'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.min.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https:\/\/www.timassal.com\/wp-content\/plugins\/photo-gallery\/images\/ajax_loader.png","front_ajax":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=1.5.59'></script>
+<link rel='https://api.w.org/' href='https://tjassal.github.io/LabWebsite/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tjassal.github.io/LabWebsite/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 5.2" />
+
+<!-- BEGIN Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<script type="text/javascript">
+  var clicky_custom = clicky_custom || {};
+  clicky_custom.html_media_track = 1;
+</script>
+
+<script type="text/javascript">var clicky_site_ids = clicky_site_ids || [];clicky_site_ids.push(100918202);</script><script async src="//static.getclicky.com/js"></script>
+<script src='//static.getclicky.com/inc/javascript/video/youtube.js'></script>
+<!-- END Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<meta name="generator" content="Site Kit by Google 1.12.0" />	<link href="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Styles/SyntaxHighlighter.css" type="text/css" rel="stylesheet" />
+	<!-- Analytics by WP-Statistics v12.6.13 - https://wp-statistics.com/ -->
+
+<link rel='dns-prefetch' href='//i0.wp.com'/>
+<link rel='dns-prefetch' href='//i1.wp.com'/>
+<link rel='dns-prefetch' href='//i2.wp.com'/>
+<style type='text/css'>img#wpstats{display:none}</style><meta name="google-site-verification" content="_stmECMCTaWytPcD_dfzAgFVMSl1bmCsOO9IvuAHWrE"></head>
+
+<body class="archive tag tag-google-earth-engine tag-261 wp-embed-responsive do-etfw header-image list-view">
+<div id="page" class="hfeed site">
+		<div id="site-header">
+		<a href="https://tjassal.github.io/LabWebsite/" rel="home">
+			<img src="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/cropped-IMG_0377-Copy3.jpg" width="1260" height="239" alt="The Biogoegraphy &amp; Landscape Dynamics Lab">
+		</a>
+	</div>
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="https://tjassal.github.io/LabWebsite/" rel="home">The Biogoegraphy &amp; Landscape Dynamics Lab</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div id="primary-menu" class="nav-menu"><ul>
+<li class="page_item page-item-239"><a href="https://tjassal.github.io/LabWebsite/">About</a></li>
+<li class="page_item page-item-2 current_page_parent"><a href="https://tjassal.github.io/LabWebsite/sample-page/">Lab Notebook</a></li>
+<li class="page_item page-item-258"><a href="https://tjassal.github.io/LabWebsite/research/">Research</a></li>
+<li class="page_item page-item-543"><a href="https://tjassal.github.io/LabWebsite/publications/">Publications &#038; PRESENTATIONS</a></li>
+<li class="page_item page-item-1965"><a href="https://tjassal.github.io/LabWebsite/media/">Media</a></li>
+<li class="page_item page-item-35"><a href="https://tjassal.github.io/LabWebsite/cv/">Curriculum Vitae</a></li>
+</ul></div>
+			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="https://tjassal.github.io/LabWebsite/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+	<section id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			
+			<header class="archive-header">
+				<h1 class="archive-title">
+				Tag Archives: Google Earth Engine				</h1>
+
+							</header><!-- .archive-header -->
+
+				
+<article id="post-2252" class="post-2252 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-lite tag-coronavirus tag-covid19 tag-google-earth-engine tag-open-data tag-open-source tag-remote-sensing tag-satellite-imagery tag-science-communication tag-science-outreach tag-sentinel-2 tag-time-series tag-venetian-lagoon tag-venice">
+	
+	<a class="post-thumbnail" href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" aria-hidden="true">
+			<img width="672" height="372" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2020/03/DSCN000312b.jpg?resize=672%2C372&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Visualizing the COVID19 shutdown from space: The Venetian Lagoon" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2020/03/DSCN000312b.jpg?resize=672%2C372&amp;ssl=1 672w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2020/03/DSCN000312b.jpg?resize=1038%2C576&amp;ssl=1 1038w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2020/03/DSCN000312b.jpg?zoom=2&amp;resize=672%2C372 1344w" sizes="(max-width: 672px) 100vw, 672px" />	</a>
+
+			
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" rel="bookmark">Visualizing the COVID19 shutdown from space: The Venetian Lagoon</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" rel="bookmark"><time class="entry-date" datetime="2020-03-28T09:41:27-06:00">March 28, 2020</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="https://tjassal.github.io/LabWebsite/author/tim-assalgmail-com/" rel="author">tim.assal@gmail.com</a></span></span>			<span class="comments-link"><a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/#respond">Leave a comment</a></span>
+						</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I forgot.</p>
+<p>There have been a number of social media clips depicting the reduction in emissions due to the slowdown of the global economy using satellite data. Notably from NASA&#8217;s Earth Observatory:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Nitrogen dioxide over <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> has dropped with the coronavirus quarantine, Chinese New Year, and a related economic slowdown. <a href="https://t.co/URfLNy0GZJ">https://t.co/URfLNy0GZJ</a> <a href="https://twitter.com/hashtag/NASA?src=hash&amp;ref_src=twsrc%5Etfw">#NASA</a> <a href="https://twitter.com/hashtag/COVID2019?src=hash&amp;ref_src=twsrc%5Etfw">#COVID2019</a> <a href="https://t.co/PM60uL772K">pic.twitter.com/PM60uL772K</a></p>
+<p>— NASA Earth (@NASAEarth) <a href="https://twitter.com/NASAEarth/status/1235330706827554817?ref_src=twsrc%5Etfw">March 4, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Italy has been extremely hard hit during this pandemic and the entire country was put on lockdown on March 9th. <a href="https://www.cnbc.com/2020/03/18/photos-water-in-venice-italys-canals-clear-amid-covid-19-lockdown.html" target="_blank" rel="noopener noreferrer">Cat Clifford</a> and <a href="https://www.nbcnews.com/science/environment/coronavirus-shutdowns-have-unintended-climate-benefits-n1161921" target="_blank" rel="noopener noreferrer">Denise Chow</a> each wrote brief articles last week detailing the increased clarity in the Venetian canal&#8217;s due to the coronavirus slowdown.</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">A ripple effect of the coronavirus lockdown provides a bit of reprieve for Venice. I imagine if that City were a woman, She&#8217;s stretching her aching back, tired from the constant parade of tourist plodding. <a href="https://t.co/Xq6R9zp8YR">https://t.co/Xq6R9zp8YR</a></p>
+<p>— Catherine Clifford (@CatClifford) <a href="https://twitter.com/CatClifford/status/1240324723382325248?ref_src=twsrc%5Etfw">March 18, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>I was pretty sure the Google Earth Engine archive would not have any imagery with the spatial detail to detect changes in the clarity of the canals (maybe the Grand Canal?). I decided to have a look though, as it would make a nice segue for my change detection lecture in my remote sensing course this week. The 10-m spatial resolution of <a href="https://tjassal.github.io/LabWebsite/?p=1263" target="_blank" rel="noopener noreferrer">Sentinel-2 imagery</a> is not adequate to detect changes in suspended sediment in any of the canals, but the lack of boat traffic around the island compared to this time last year is quite noticeable! Below are two false-color composite images &#8211; one from last March and one from last week &#8211; for visual comparison.</p>
+<p><strong>The Venetian Lagoon March 15, 2019:</strong></p>
+<figure id="attachment_2262" aria-describedby="caption-attachment-2262" style="width: 637px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2262 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?w=637&amp;ssl=1 637w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2262" class="wp-caption-text">The Venetian Lagoon March 15, 2019. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the visible wakes from boat traffic around the island.</figcaption></figure>
+<p><strong>The Venetian Lagoon March 16, 2020:</strong></p>
+<figure id="attachment_2263" aria-describedby="caption-attachment-2263" style="width: 637px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg"><img class="wp-image-2263 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?w=637&amp;ssl=1 637w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2263" class="wp-caption-text">The Venetian Lagoon March 16, 2020. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the reduction in boat wakes around the island.</figcaption></figure>
+<p>For more information on Google Earth Engine, see my previous posts <a href="https://tjassal.github.io/LabWebsite/?p=2019" target="_blank" rel="noopener noreferrer">here</a> and <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener noreferrer">here</a>. See below for the code used in Google Earth Engine to generate the images:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5f218352b1bce733075294" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title">GEE code:</span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Open Code In New Window"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+//pull down specific granule, add layer and set display parameters
+var s2a= ee.Image('COPERNICUS/S2_SR/20190315T101021_20190315T101043_T32TQR');
+Map.addLayer(s2a, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_15March2019')
+
+var s2b= ee.Image('COPERNICUS/S2_SR/20200316T100021_20200316T100023_T32TQR');
+Map.addLayer(s2b, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_16March2020')
+
+// Center map on Venice, Italy
+Map.setCenter(12.33, 45.43, 13);</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5f218352b1bce733075294-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b1bce733075294-2">2</div><div class="crayon-num" data-line="crayon-5f218352b1bce733075294-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b1bce733075294-4">4</div><div class="crayon-num" data-line="crayon-5f218352b1bce733075294-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b1bce733075294-6">6</div><div class="crayon-num" data-line="crayon-5f218352b1bce733075294-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b1bce733075294-8">8</div><div class="crayon-num" data-line="crayon-5f218352b1bce733075294-9">9</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5f218352b1bce733075294-1"><span class="crayon-c">//pull down specific granule, add layer and set display parameters</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b1bce733075294-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">s2a</span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-e">Image</span><span class="crayon-sy">(</span><span class="crayon-s">'COPERNICUS/S2_SR/20190315T101021_20190315T101043_T32TQR'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b1bce733075294-3"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">s2a</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">bands</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'B8'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'B4'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'B3'</span><span class="crayon-sy">]</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">max</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">4000</span><span class="crayon-sy">}</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'S2_15March2019'</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b1bce733075294-4">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b1bce733075294-5"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">s2b</span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-e">Image</span><span class="crayon-sy">(</span><span class="crayon-s">'COPERNICUS/S2_SR/20200316T100021_20200316T100023_T32TQR'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b1bce733075294-6"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">s2b</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">bands</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'B8'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'B4'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'B3'</span><span class="crayon-sy">]</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">max</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">4000</span><span class="crayon-sy">}</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'S2_16March2020'</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5f218352b1bce733075294-7">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b1bce733075294-8"><span class="crayon-c">// Center map on Venice, Italy</span></div><div class="crayon-line" id="crayon-5f218352b1bce733075294-9"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">setCenter</span><span class="crayon-sy">(</span><span class="crayon-cn">12.33</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">45.43</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">13</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0041 seconds] -->
+<p><em>*Banner image: The Grand Canal (left) and Piazza San Marco (right) viewed from San Giorgio Maggiore </em><em>during busier times (circa 2007), Venice, Italy.</em></p>
+<div class="twttr_buttons"><div class="twttr_twitter">
+					<a href="http://twitter.com/share?text=Visualizing+the+COVID19+shutdown+from+space%3A+The+Venetian+Lagoon" class="twitter-share-button" data-via="" data-hashtags=""  data-size="default" data-url="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/"  data-related="" target="_blank">Tweet</a>
+				</div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="https://tjassal.github.io/LabWebsite/tag/coronavirus/" rel="tag">coronavirus</a><a href="https://tjassal.github.io/LabWebsite/tag/covid19/" rel="tag">COVID19</a><a href="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/" rel="tag">Google Earth Engine</a><a href="https://tjassal.github.io/LabWebsite/tag/open-data/" rel="tag">open data</a><a href="https://tjassal.github.io/LabWebsite/tag/open-source/" rel="tag">open source</a><a href="https://tjassal.github.io/LabWebsite/tag/remote-sensing/" rel="tag">remote sensing</a><a href="https://tjassal.github.io/LabWebsite/tag/satellite-imagery/" rel="tag">satellite imagery</a><a href="https://tjassal.github.io/LabWebsite/tag/science-communication/" rel="tag">science communication</a><a href="https://tjassal.github.io/LabWebsite/tag/science-outreach/" rel="tag">science outreach</a><a href="https://tjassal.github.io/LabWebsite/tag/sentinel-2/" rel="tag">Sentinel-2</a><a href="https://tjassal.github.io/LabWebsite/tag/time-series/" rel="tag">time series</a><a href="https://tjassal.github.io/LabWebsite/tag/venetian-lagoon/" rel="tag">Venetian Lagoon</a><a href="https://tjassal.github.io/LabWebsite/tag/venice/" rel="tag">Venice</a></span></footer></article><!-- #post-2252 -->
+
+<article id="post-2019" class="post-2019 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-lite tag-cloud-computing tag-cuyahoga-valley-national-park tag-deciduous-forest tag-forest-ecology tag-google-earth-engine tag-javascript tag-kent-state-univeristy tag-landsat tag-ndvi-time-series tag-open-access tag-open-data tag-open-science tag-raster tag-remote-sensing tag-satellite-imagery tag-science-communication tag-spatial-ecology tag-time-series">
+	
+	<a class="post-thumbnail" href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" aria-hidden="true">
+			<img width="672" height="372" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/2012-LM-110.jpg?resize=672%2C372&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Exploring Vegetation Dynamics using Google Earth Engine" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/2012-LM-110.jpg?resize=672%2C372&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/2012-LM-110.jpg?resize=1038%2C576&amp;ssl=1 1038w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/2012-LM-110.jpg?zoom=2&amp;resize=672%2C372 1344w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/2012-LM-110.jpg?zoom=3&amp;resize=672%2C372 2016w" sizes="(max-width: 672px) 100vw, 672px" />	</a>
+
+			
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" rel="bookmark">Exploring Vegetation Dynamics using Google Earth Engine</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" rel="bookmark"><time class="entry-date" datetime="2019-02-11T13:28:56-06:00">February 11, 2019</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="https://tjassal.github.io/LabWebsite/author/tim-assalgmail-com/" rel="author">tim.assal@gmail.com</a></span></span>			<span class="comments-link"><a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comments">7 Comments</a></span>
+						</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		
+<p>Below is an example from an upcoming lecture that I will be giving to the <a href="https://www.kent.edu/geography#" target="_blank" rel="noreferrer noopener" aria-label="Department of Geography (opens in a new tab)">Department of Geography</a> at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI using Google Earth Engine with data from the cloud. Thanks to <a href="https://geohackweek.github.io/" target="_blank" rel="noopener">geohackweek</a> for some pointers on code. </p>
+
+
+
+<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noreferrer noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google’s cloud to run analyses without downloading the data to your local machine. You’ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noreferrer noopener">here.</a></p>
+
+
+
+<p>To execute the example below, please download the park shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2019/02/CVNP.zip" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a> (Note, I&#8217;ve merged the shapefile into a single-part file as GEE doesn&#8217;t seem to be able to handle multi-part files very well). You’ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Uploading table assets” section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Importing assets to your script” section).</p>
+
+
+
+<p>Copy and paste the following code into the Code Editor of GEE:</p>
+
+
+
+<!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5f218352b25bc205909530" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Open Code In New Window"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+// load all Landsat 8 SR image within park boundary for a given season
+var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR')
+//var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
+          .filterBounds(ParkBound)  
+          .filterDate('2018-06-01', '2018-09-30'); //leaf on season (June 1 to Sept 30)
+//          .filterDate('2017-11-15', '2018-03-01'); // leaf-off season Nov 15 to March 1
+
+print(l8collection);
+
+// Mask pixels with clouds and cloud shadows using the 'pixel_qa' band
+// that is based on the cfmask for surface reflectance. 
+// https://landsat.usgs.gov/landsat-surface-reflectance-quality-assessment
+
+// create function to mask clouds, cloud shadows, snow
+var maskClouds = function(image){
+  // make a new single band image from the pixel qa band
+  var pixel_qa = image.select('pixel_qa');
+  // retain clear (0) and water (1) pixels
+  return image.updateMask(pixel_qa.eq(322));   
+};
+
+// use "map" to apply the function to each image in the collection
+var l8masked = l8collection.map(maskClouds);
+print(l8masked);
+
+// create function to add NDVI using NIR (B5) and the red band (B4)
+var getNDVI = function(img){
+  return img.addBands(img.normalizedDifference(['B5','B4']).rename('NDVI'));
+};
+
+// map over image collection
+var l8ndvi = l8masked.map(getNDVI);
+
+// for each pixel, select the "best" set of bands from available images
+// based on the maximum NDVI/greenness
+var composite = l8ndvi.qualityMosaic('NDVI').clip(ParkBound);
+
+//set visualization parameters for NDVI            
+var ndviParams = {min: 0, max: 1, palette: ['red', 'yellow', 'green']};
+Map.addLayer(composite.select('NDVI'), ndviParams, 'NDVI image');
+            
+//export image
+// This will create a task in the 'tasks' tab
+// launch from tasks tab to export image
+Export.image.toDrive({
+  image: composite.select('NDVI'),
+  description: 'CVNP Leaf-on NDVI',
+  //description: 'CVNP Leaf-off NDVI',
+  scale:30 }); //meters</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-2">2</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-4">4</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-6">6</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-8">8</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-10">10</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-12">12</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-14">14</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-16">16</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-18">18</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-20">20</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-22">22</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-23">23</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-24">24</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-25">25</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-26">26</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-27">27</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-28">28</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-29">29</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-30">30</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-31">31</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-32">32</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-33">33</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-34">34</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-35">35</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-36">36</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-37">37</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-38">38</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-39">39</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-40">40</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-41">41</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-42">42</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-43">43</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-44">44</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-45">45</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-46">46</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-47">47</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b25bc205909530-48">48</div><div class="crayon-num" data-line="crayon-5f218352b25bc205909530-49">49</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5f218352b25bc205909530-1"><span class="crayon-c">// load all Landsat 8 SR image within park boundary for a given season</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">l8collection</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-e">ImageCollection</span><span class="crayon-sy">(</span><span class="crayon-s">'LANDSAT/LC08/C01/T1_SR'</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-3"><span class="crayon-c">//var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-4"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-e">filterBounds</span><span class="crayon-sy">(</span><span class="crayon-v">ParkBound</span><span class="crayon-sy">)</span><span class="crayon-h">&nbsp;&nbsp;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-5"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-e">filterDate</span><span class="crayon-sy">(</span><span class="crayon-s">'2018-06-01'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'2018-09-30'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h"> </span><span class="crayon-c">//leaf on season (June 1 to Sept 30)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-6"><span class="crayon-c">//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.filterDate('2017-11-15', '2018-03-01'); // leaf-off season Nov 15 to March 1</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-7">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-8"><span class="crayon-r">print</span><span class="crayon-sy">(</span><span class="crayon-v">l8collection</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-9">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-10"><span class="crayon-c">// Mask pixels with clouds and cloud shadows using the 'pixel_qa' band</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-11"><span class="crayon-c">// that is based on the cfmask for surface reflectance. </span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-12"><span class="crayon-c">// https://landsat.usgs.gov/landsat-surface-reflectance-quality-assessment</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-13">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-14"><span class="crayon-c">// create function to mask clouds, cloud shadows, snow</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-15"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">maskClouds</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-v">image</span><span class="crayon-sy">)</span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-16"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-c">// make a new single band image from the pixel qa band</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-17"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">pixel_qa</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">image</span><span class="crayon-sy">.</span><span class="crayon-e">select</span><span class="crayon-sy">(</span><span class="crayon-s">'pixel_qa'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-18"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-c">// retain clear (0) and water (1) pixels</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-19"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-st">return</span><span class="crayon-h"> </span><span class="crayon-v">image</span><span class="crayon-sy">.</span><span class="crayon-e">updateMask</span><span class="crayon-sy">(</span><span class="crayon-v">pixel_qa</span><span class="crayon-sy">.</span><span class="crayon-e">eq</span><span class="crayon-sy">(</span><span class="crayon-cn">322</span><span class="crayon-sy">)</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h">&nbsp;&nbsp; </span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-20"><span class="crayon-sy">}</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-21">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-22"><span class="crayon-c">// use "map" to apply the function to each image in the collection</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-23"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">l8masked</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">l8collection</span><span class="crayon-sy">.</span><span class="crayon-e">map</span><span class="crayon-sy">(</span><span class="crayon-v">maskClouds</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-24"><span class="crayon-r">print</span><span class="crayon-sy">(</span><span class="crayon-v">l8masked</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-25">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-26"><span class="crayon-c">// create function to add NDVI using NIR (B5) and the red band (B4)</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-27"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">getNDVI</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-sy">(</span><span class="crayon-v">img</span><span class="crayon-sy">)</span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-28"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-st">return</span><span class="crayon-h"> </span><span class="crayon-v">img</span><span class="crayon-sy">.</span><span class="crayon-e">addBands</span><span class="crayon-sy">(</span><span class="crayon-v">img</span><span class="crayon-sy">.</span><span class="crayon-e">normalizedDifference</span><span class="crayon-sy">(</span><span class="crayon-sy">[</span><span class="crayon-s">'B5'</span><span class="crayon-sy">,</span><span class="crayon-s">'B4'</span><span class="crayon-sy">]</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">rename</span><span class="crayon-sy">(</span><span class="crayon-s">'NDVI'</span><span class="crayon-sy">)</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-29"><span class="crayon-sy">}</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-30">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b25bc205909530-31"><span class="crayon-c">// map over image collection</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-32"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">l8ndvi</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">l8masked</span><span class="crayon-sy">.</span><span class="crayon-e">map</span><span class="crayon-sy">(</span><span class="crayon-v">getNDVI</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-33">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-34"><span class="crayon-c">// for each pixel, select the "best" set of bands from available images</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-35"><span class="crayon-c">// based on the maximum NDVI/greenness</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-36"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">composite</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">l8ndvi</span><span class="crayon-sy">.</span><span class="crayon-e">qualityMosaic</span><span class="crayon-sy">(</span><span class="crayon-s">'NDVI'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">clip</span><span class="crayon-sy">(</span><span class="crayon-v">ParkBound</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-37">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-38"><span class="crayon-c">//set visualization parameters for NDVI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-39"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">ndviParams</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">min</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">0</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">max</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">palette</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'red'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'yellow'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'green'</span><span class="crayon-sy">]</span><span class="crayon-sy">}</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-40"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">composite</span><span class="crayon-sy">.</span><span class="crayon-e">select</span><span class="crayon-sy">(</span><span class="crayon-s">'NDVI'</span><span class="crayon-sy">)</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">ndviParams</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'NDVI image'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-41"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-42"><span class="crayon-c">//export image</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-43"><span class="crayon-c">// This will create a task in the 'tasks' tab</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-44"><span class="crayon-c">// launch from tasks tab to export image</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-45"><span class="crayon-v">Export</span><span class="crayon-sy">.</span><span class="crayon-v">image</span><span class="crayon-sy">.</span><span class="crayon-e">toDrive</span><span class="crayon-sy">(</span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-46"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">image</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-v">composite</span><span class="crayon-sy">.</span><span class="crayon-e">select</span><span class="crayon-sy">(</span><span class="crayon-s">'NDVI'</span><span class="crayon-sy">)</span><span class="crayon-sy">,</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-47"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">description</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-s">'CVNP Leaf-on NDVI'</span><span class="crayon-sy">,</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b25bc205909530-48"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-c">//description: 'CVNP Leaf-off NDVI',</span></div><div class="crayon-line" id="crayon-5f218352b25bc205909530-49"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">scale</span><span class="crayon-o">:</span><span class="crayon-cn">30</span><span class="crayon-h"> </span><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h"> </span><span class="crayon-c">//meters</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0023 seconds] -->
+
+
+
+
+
+
+
+
+<figure id="attachment_2027" aria-describedby="caption-attachment-2027" style="width: 300px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg" target="_blank" rel="noopener"><img class="wp-image-2027" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=300%2C621" alt="" width="300" height="621" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=145%2C300&amp;ssl=1 145w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2027" class="wp-caption-text">NDVI derived from the leaf-on season over the national park. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values.</figcaption></figure>
+<figure id="attachment_2028" aria-describedby="caption-attachment-2028" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg" target="_blank" rel="noopener"><img class="wp-image-2028" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=300%2C622" alt="" width="300" height="622" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=145%2C300&amp;ssl=1 145w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2028" class="wp-caption-text">NDVI derived from the leaf-off season over the national park. A quick comparison with the leaf-on image shows much lower NDVI values, indicating there are a lot of deciduous tree and shrub species within the park.</figcaption></figure>
+<p><em>*Banner image: Changing seasons on Middle Mountain, Colorado, USA.</em></p>
+<div class="twttr_buttons"><div class="twttr_twitter">
+					<a href="http://twitter.com/share?text=Exploring+Vegetation+Dynamics+using+Google+Earth+Engine" class="twitter-share-button" data-via="" data-hashtags=""  data-size="default" data-url="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/"  data-related="" target="_blank">Tweet</a>
+				</div></div>	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="https://tjassal.github.io/LabWebsite/tag/cloud-computing/" rel="tag">Cloud computing</a><a href="https://tjassal.github.io/LabWebsite/tag/cuyahoga-valley-national-park/" rel="tag">Cuyahoga Valley National Park</a><a href="https://tjassal.github.io/LabWebsite/tag/deciduous-forest/" rel="tag">deciduous forest</a><a href="https://tjassal.github.io/LabWebsite/tag/forest-ecology/" rel="tag">forest ecology</a><a href="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/" rel="tag">Google Earth Engine</a><a href="https://tjassal.github.io/LabWebsite/tag/javascript/" rel="tag">JavaScript</a><a href="https://tjassal.github.io/LabWebsite/tag/kent-state-univeristy/" rel="tag">Kent State Univeristy</a><a href="https://tjassal.github.io/LabWebsite/tag/landsat/" rel="tag">Landsat</a><a href="https://tjassal.github.io/LabWebsite/tag/ndvi-time-series/" rel="tag">NDVI time series</a><a href="https://tjassal.github.io/LabWebsite/tag/open-access/" rel="tag">open access</a><a href="https://tjassal.github.io/LabWebsite/tag/open-data/" rel="tag">open data</a><a href="https://tjassal.github.io/LabWebsite/tag/open-science/" rel="tag">Open Science</a><a href="https://tjassal.github.io/LabWebsite/tag/raster/" rel="tag">Raster</a><a href="https://tjassal.github.io/LabWebsite/tag/remote-sensing/" rel="tag">remote sensing</a><a href="https://tjassal.github.io/LabWebsite/tag/satellite-imagery/" rel="tag">satellite imagery</a><a href="https://tjassal.github.io/LabWebsite/tag/science-communication/" rel="tag">science communication</a><a href="https://tjassal.github.io/LabWebsite/tag/spatial-ecology/" rel="tag">spatial ecology</a><a href="https://tjassal.github.io/LabWebsite/tag/time-series/" rel="tag">time series</a></span></footer></article><!-- #post-2019 -->
+
+<article id="post-1762" class="post-1762 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-lite tag-call-for-papers tag-cloud-computing tag-google-earth-engine tag-javascript tag-open-data tag-open-science tag-remote-sensing tag-science-communication tag-spatial-ecology">
+	
+	<a class="post-thumbnail" href="https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/" aria-hidden="true">
+			<img width="672" height="372" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/02/tnp_040.jpg?resize=672%2C372&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Call for Papers: Remote Sensing of Land Change Science with Google Earth Engine" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/02/tnp_040.jpg?resize=672%2C372&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/02/tnp_040.jpg?resize=1038%2C576&amp;ssl=1 1038w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/02/tnp_040.jpg?zoom=2&amp;resize=672%2C372 1344w" sizes="(max-width: 672px) 100vw, 672px" />	</a>
+
+			
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/" rel="bookmark">Call for Papers: Remote Sensing of Land Change Science with Google Earth Engine</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/" rel="bookmark"><time class="entry-date" datetime="2018-02-28T17:53:30-06:00">February 28, 2018</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="https://tjassal.github.io/LabWebsite/author/tim-assalgmail-com/" rel="author">tim.assal@gmail.com</a></span></span>			<span class="comments-link"><a href="https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/#respond">Leave a comment</a></span>
+						</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<div id="stcpDiv">
+<p>The journal <a href="https://www.journals.elsevier.com/remote-sensing-of-environment" target="_blank" rel="noopener">Remote Sensing of Environment</a> has a call for papers that make use of Google Earth Engine (GEE) to analyze earth system processes.</p>
+<p>If you&#8217;re unfamiliar with Google Earth Engine, check out my recent <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener">post</a> where I provide an example to calculate NDVI use GEE.</p>
+<p>Papers that incorporate data and tools developed with GEE are encouraged. The call is open to a wide range of topics including data fusion, change detection, LCLU dynamics, ecosystem monitoring and modeling, urban dynamics, water resources, ecosystem response to climate change, etc. Full details can be found <a href="https://www.journals.elsevier.com/remote-sensing-of-environment/call-for-papers/-special-issue-remote-sensing-of-land-change-science-with-go" target="_blank" rel="noopener">here.</a></p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Tentative Dates: </span><span class="si-deadline"><strong>15 May</strong><b> 2018 (abstracts due); 30 September 2018 (manuscript submission)<br />
+</b></span></p>
+</div>
+<div><em>Guest Editors</em></div>
+<div></div>
+<div>
+<p>Dr. Le Wang, <em>Department of Geography at the State University of New York at Buffal</em>o, Email: <a href="mailto:lewang@buffalo.edu" target="_blank" rel="external noopener">lewang@buffalo.edu</a></p>
+<p>Dr. George Xian, <em>USGS Earth Resources Observation and Science Center, Sioux Falls, South Dakota</em>, E-mail: <a title="mailto:xian@usgs.gov" href="mailto:xian@usgs.gov" target="_blank" rel="external noopener">xian@usgs.gov</a></p>
+<p>Dr. Chunyuan Diao, <em>Department of Geography &amp; Geographic Information Science, , University of Illinois at Urbana-Champaign</em> Email: <a href="mailto:chunyuan@illinois.edu" target="_blank" rel="external noopener">chunyuan@illinois.edu</a></p>
+<p>Dr. David Thau, <em>Google LLC</em>. Email: <a href="mailto:thau@google.com" target="_blank" rel="external noopener">thau@google.com</a></p>
+</div>
+<div><em>*Banner image: post-fire landscape; Tolhuaca National Park, Chile<br />
+</em></div>
+<div class="twttr_buttons">
+<div class="twttr_twitter">
+					<a href="http://twitter.com/share?text=Call+for+Papers%3A+Remote+Sensing+of+Land+Change+Science+with+Google+Earth+Engine" class="twitter-share-button" data-via="" data-hashtags=""  data-size="default" data-url="https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/"  data-related="" target="_blank">Tweet</a>
+				</div>
+</div>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="https://tjassal.github.io/LabWebsite/tag/call-for-papers/" rel="tag">Call for papers</a><a href="https://tjassal.github.io/LabWebsite/tag/cloud-computing/" rel="tag">Cloud computing</a><a href="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/" rel="tag">Google Earth Engine</a><a href="https://tjassal.github.io/LabWebsite/tag/javascript/" rel="tag">JavaScript</a><a href="https://tjassal.github.io/LabWebsite/tag/open-data/" rel="tag">open data</a><a href="https://tjassal.github.io/LabWebsite/tag/open-science/" rel="tag">Open Science</a><a href="https://tjassal.github.io/LabWebsite/tag/remote-sensing/" rel="tag">remote sensing</a><a href="https://tjassal.github.io/LabWebsite/tag/science-communication/" rel="tag">science communication</a><a href="https://tjassal.github.io/LabWebsite/tag/spatial-ecology/" rel="tag">spatial ecology</a></span></footer></article><!-- #post-1762 -->
+
+<article id="post-1659" class="post-1659 post type-post status-publish format-standard has-post-thumbnail hentry category-blog-lite tag-aerial-photos tag-cal-poly-university tag-california tag-cloud-computing tag-color-infrared tag-google-earth-engine tag-javascript tag-ndvi-time-series tag-open-science tag-raster tag-remote-sensing tag-san-luis-obispo tag-science-communication tag-spatial-ecology">
+	
+	<a class="post-thumbnail" href="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/" aria-hidden="true">
+			<img width="672" height="372" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/banner_blend2.jpg?resize=672%2C372&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="A Brief Foray into Google Earth Engine: Calculate NDVI from the Cloud" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/banner_blend2.jpg?resize=672%2C372&amp;ssl=1 672w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/banner_blend2.jpg?resize=1038%2C576&amp;ssl=1 1038w" sizes="(max-width: 672px) 100vw, 672px" />	</a>
+
+			
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/" rel="bookmark">A Brief Foray into Google Earth Engine: Calculate NDVI from the Cloud</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/" rel="bookmark"><time class="entry-date" datetime="2018-01-09T17:41:11-06:00">January 9, 2018</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="https://tjassal.github.io/LabWebsite/author/tim-assalgmail-com/" rel="author">tim.assal@gmail.com</a></span></span>			<span class="comments-link"><a href="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/#respond">Leave a comment</a></span>
+						</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google&#8217;s cloud to run analyses without downloading the data to your local machine. You&#8217;ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noopener">here.</a></p>
+<p>Below is an example from an upcoming lecture to the Anthropology and Geography group of the <a href="https://socialsciences.calpoly.edu/" target="_blank" rel="noopener">Social Sciences Department</a> at Cal Poly University. In my talk I showed an example of the Normalized Difference Vegetation Index for Cal Poly&#8217;s campus. Here I&#8217;ll demonstrate the workflow I used to create NDVI using GEE with data from the cloud.</p>
+<p>To execute the example below, please download the campus shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/CalPoly_campus.zip" target="_blank" rel="noopener">here</a> (originally obtained from the <a href="https://afd.calpoly.edu/facilities/mapsplans/cadfiles/map/gis/" target="_blank" rel="noopener">campus website</a>). You&#8217;ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noopener">instructions</a> (see the &#8220;Uploading table assets&#8221; section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noopener">instructions</a> (see the &#8220;Importing assets to your script&#8221; section). If you&#8217;d like to run the example without downloading campus data, skip to the second code block below.</p>
+<p>Copy and paste the following code into the Code Editor of GEE:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5f218352b2fe7404302681" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title">JavaScript code for Google Earth Engine</span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Open Code In New Window"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+// Load four 2016 NAIP quarter quads, different locations.
+var naip2016 = ee.ImageCollection('USDA/NAIP/DOQQ')
+  .filterBounds(ee.Geometry.Rectangle(-120.73857, 35.36587, -120.61841, 35.25408))
+  .filterDate('2016-01-01', '2016-12-31');
+
+// Spatially mosaic the images in the collection and display.
+var mosaic = naip2016.mosaic();
+
+// Get information about the bands as a list; prints in console at right
+var bandNames = mosaic.bandNames();
+print('Band names: ', bandNames); 
+
+//Get the projection of Band 1
+var b1proj = mosaic.select('B').projection();
+print ('Band 1 projection: ', b1proj);
+
+//set map center to Baker Lawn on CP's campus
+Map.setCenter(-120.65995, 35.9103, 12);
+//display natural color
+Map.addLayer(mosaic, {bands: ['R', 'G', 'B']}, 'NAIP DOQQ'); 
+//display false color IR
+//Map.addLayer(mosaic, {bands: ['N', 'R', 'G']}, 'NAIP DOQQ');  
+
+// Caculate NDVI.
+var ndvi = mosaic.normalizedDifference(['N', 'R']);
+
+// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green
+var ndviParams = {min: -1, max: 1, palette: ['8B0000','FF0000', 'FF4500', 'FFFF00', '00FF00','008000', '006400']};
+
+// Clip NDVI to campus boundary and add to map
+Map.setCenter(-120.65995, 35.31203, 13);
+Map.addLayer(ndvi.clip(table), ndviParams);
+
+//Display the outline of campus as a black line, no fill
+// Create an empty image into which to paint the features, cast to byte.
+var empty = ee.Image().byte();
+
+// Paint all the polygon edges with the same number and width, display.
+var outline = empty.paint({
+  featureCollection: table,
+  color: 1,
+  width: 1
+});
+Map.addLayer(outline, {palette: '000000'}, 'edges');</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-2">2</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-4">4</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-6">6</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-8">8</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-10">10</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-12">12</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-14">14</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-16">16</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-18">18</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-20">20</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-22">22</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-23">23</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-24">24</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-25">25</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-26">26</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-27">27</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-28">28</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-29">29</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-30">30</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-31">31</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-32">32</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-33">33</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-34">34</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-35">35</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-36">36</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-37">37</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-38">38</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-39">39</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-40">40</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-41">41</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-42">42</div><div class="crayon-num" data-line="crayon-5f218352b2fe7404302681-43">43</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2fe7404302681-44">44</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5f218352b2fe7404302681-1"><span class="crayon-c">// Load four 2016 NAIP quarter quads, different locations.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">naip2016</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-e">ImageCollection</span><span class="crayon-sy">(</span><span class="crayon-s">'USDA/NAIP/DOQQ'</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-3"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-e">filterBounds</span><span class="crayon-sy">(</span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-v">Geometry</span><span class="crayon-sy">.</span><span class="crayon-e">Rectangle</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">120.73857</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.36587</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">120.61841</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.25408</span><span class="crayon-sy">)</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-4"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-e">filterDate</span><span class="crayon-sy">(</span><span class="crayon-s">'2016-01-01'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'2016-12-31'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-5">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-6"><span class="crayon-c">// Spatially mosaic the images in the collection and display.</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-7"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">naip2016</span><span class="crayon-sy">.</span><span class="crayon-e">mosaic</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-8">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-9"><span class="crayon-c">// Get information about the bands as a list; prints in console at right</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-10"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">bandNames</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-sy">.</span><span class="crayon-e">bandNames</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-11"><span class="crayon-r">print</span><span class="crayon-sy">(</span><span class="crayon-s">'Band names: '</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">bandNames</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h"> </span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-12">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-13"><span class="crayon-c">//Get the projection of Band 1</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-14"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">b1proj</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-sy">.</span><span class="crayon-e">select</span><span class="crayon-sy">(</span><span class="crayon-s">'B'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">projection</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-15"><span class="crayon-r">print</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-s">'Band 1 projection: '</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">b1proj</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-16">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-17"><span class="crayon-c">//set map center to Baker Lawn on CP's campus</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-18"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">setCenter</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">120.65995</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.9103</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">12</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-19"><span class="crayon-c">//display natural color</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-20"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">mosaic</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">bands</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'R'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'G'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'B'</span><span class="crayon-sy">]</span><span class="crayon-sy">}</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'NAIP DOQQ'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h"> </span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-21"><span class="crayon-c">//display false color IR</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-22"><span class="crayon-c">//Map.addLayer(mosaic, {bands: ['N', 'R', 'G']}, 'NAIP DOQQ');&nbsp;&nbsp;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-23">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-24"><span class="crayon-c">// Caculate NDVI.</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-25"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">ndvi</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-sy">.</span><span class="crayon-e">normalizedDifference</span><span class="crayon-sy">(</span><span class="crayon-sy">[</span><span class="crayon-s">'N'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'R'</span><span class="crayon-sy">]</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-26">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-27"><span class="crayon-c">// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-28"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">ndviParams</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">min</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">max</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">palette</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'8B0000'</span><span class="crayon-sy">,</span><span class="crayon-s">'FF0000'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'FF4500'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'FFFF00'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'00FF00'</span><span class="crayon-sy">,</span><span class="crayon-s">'008000'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'006400'</span><span class="crayon-sy">]</span><span class="crayon-sy">}</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-29">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-30"><span class="crayon-c">// Clip NDVI to campus boundary and add to map</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-31"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">setCenter</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">120.65995</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.31203</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">13</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-32"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">ndvi</span><span class="crayon-sy">.</span><span class="crayon-e">clip</span><span class="crayon-sy">(</span><span class="crayon-v">table</span><span class="crayon-sy">)</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">ndviParams</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-33">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-34"><span class="crayon-c">//Display the outline of campus as a black line, no fill</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-35"><span class="crayon-c">// Create an empty image into which to paint the features, cast to byte.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-36"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">empty</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-e">Image</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-t">byte</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-37">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-38"><span class="crayon-c">// Paint all the polygon edges with the same number and width, display.</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-39"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">outline</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">empty</span><span class="crayon-sy">.</span><span class="crayon-e">paint</span><span class="crayon-sy">(</span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-40"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">featureCollection</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-v">table</span><span class="crayon-sy">,</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-41"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">color</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">1</span><span class="crayon-sy">,</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-42"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-v">width</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">1</span></div><div class="crayon-line" id="crayon-5f218352b2fe7404302681-43"><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2fe7404302681-44"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">outline</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">palette</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-s">'000000'</span><span class="crayon-sy">}</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'edges'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0014 seconds] -->
+<p><figure id="attachment_1689" aria-describedby="caption-attachment-1689" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg" target="_blank" rel="noopener"><img class="wp-image-1689 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=474%2C383" alt="" width="474" height="383" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=1024%2C828&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=300%2C243&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=768%2C621&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?w=1119&amp;ssl=1 1119w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1689" class="wp-caption-text">NDVI derived from color-infrared aerial photos for Cal Poly&#8217;s campus. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values; grey pixels indicate a mask (values below -0.25).</figcaption></figure></p>
+<p>The code below does not require download of any campus data; however, it will calculate NDVI over the entire extent as opposed to the campus extent in the example above. Copy and paste the following code into the Code Editor of GEE:</p><!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-5f218352b2ff2379194851" class="crayon-syntax crayon-theme-classic crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" mouseover overlay hide delay" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title">Code for Google Earth Engine</span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Open Code In New Window"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4; font-size: 12px !important; line-height: 15px !important;">
+// Load four 2016 NAIP quarter quads, different locations.
+var naip2016 = ee.ImageCollection('USDA/NAIP/DOQQ')
+  .filterBounds(ee.Geometry.Rectangle(-120.73857, 35.36587, -120.61841, 35.25408))
+  .filterDate('2016-01-01', '2016-12-31');
+
+// Spatially mosaic the images in the collection and display.
+var mosaic = naip2016.mosaic();
+
+// Get information about the bands as a list; prints in console at right
+var bandNames = mosaic.bandNames();
+print('Band names: ', bandNames); 
+
+//Get the projection of Band 1
+var b1proj = mosaic.select('B').projection();
+print ('Band 1 projection: ', b1proj);
+
+//set map center to Baker Lawn on CP's campus
+Map.setCenter(-120.65995, 35.9103, 12);
+//display natural color
+Map.addLayer(mosaic, {bands: ['R', 'G', 'B']}, 'NAIP DOQQ'); 
+//display false color IR
+
+// Caculate NDVI.
+var ndvi = mosaic.normalizedDifference(['N', 'R']);
+
+// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green
+var ndviParams = {min: -1, max: 1, palette: ['8B0000','FF0000', 'FF4500', 'FFFF00', '00FF00','008000', '006400']};
+//Map.addLayer(ndvi, ndviParams, 'NDVI image');
+
+// Add NDVI to map
+Map.setCenter(-120.65995, 35.31203, 13);
+Map.addLayer(ndvi, ndviParams);</textarea></div>
+			<div class="crayon-main" style="">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums" data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-2">2</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-4">4</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-6">6</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-8">8</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-10">10</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-12">12</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-14">14</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-16">16</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-18">18</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-20">20</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-22">22</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-23">23</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-24">24</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-25">25</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-26">26</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-27">27</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-28">28</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-29">29</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-30">30</div><div class="crayon-num" data-line="crayon-5f218352b2ff2379194851-31">31</div><div class="crayon-num crayon-striped-num" data-line="crayon-5f218352b2ff2379194851-32">32</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div class="crayon-line" id="crayon-5f218352b2ff2379194851-1"><span class="crayon-c">// Load four 2016 NAIP quarter quads, different locations.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-2"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">naip2016</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-e">ImageCollection</span><span class="crayon-sy">(</span><span class="crayon-s">'USDA/NAIP/DOQQ'</span><span class="crayon-sy">)</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-3"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-e">filterBounds</span><span class="crayon-sy">(</span><span class="crayon-v">ee</span><span class="crayon-sy">.</span><span class="crayon-v">Geometry</span><span class="crayon-sy">.</span><span class="crayon-e">Rectangle</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">120.73857</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.36587</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">120.61841</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.25408</span><span class="crayon-sy">)</span><span class="crayon-sy">)</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-4"><span class="crayon-h">&nbsp;&nbsp;</span><span class="crayon-sy">.</span><span class="crayon-e">filterDate</span><span class="crayon-sy">(</span><span class="crayon-s">'2016-01-01'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'2016-12-31'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-5">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-6"><span class="crayon-c">// Spatially mosaic the images in the collection and display.</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-7"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">naip2016</span><span class="crayon-sy">.</span><span class="crayon-e">mosaic</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-8">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-9"><span class="crayon-c">// Get information about the bands as a list; prints in console at right</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-10"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">bandNames</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-sy">.</span><span class="crayon-e">bandNames</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-11"><span class="crayon-r">print</span><span class="crayon-sy">(</span><span class="crayon-s">'Band names: '</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">bandNames</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h"> </span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-12">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-13"><span class="crayon-c">//Get the projection of Band 1</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-14"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">b1proj</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-sy">.</span><span class="crayon-e">select</span><span class="crayon-sy">(</span><span class="crayon-s">'B'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">projection</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-15"><span class="crayon-r">print</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-s">'Band 1 projection: '</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">b1proj</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-16">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-17"><span class="crayon-c">//set map center to Baker Lawn on CP's campus</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-18"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">setCenter</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">120.65995</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.9103</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">12</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-19"><span class="crayon-c">//display natural color</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-20"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">mosaic</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">bands</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'R'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'G'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'B'</span><span class="crayon-sy">]</span><span class="crayon-sy">}</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'NAIP DOQQ'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span><span class="crayon-h"> </span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-21"><span class="crayon-c">//display false color IR</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-22">&nbsp;</div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-23"><span class="crayon-c">// Caculate NDVI.</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-24"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">ndvi</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">mosaic</span><span class="crayon-sy">.</span><span class="crayon-e">normalizedDifference</span><span class="crayon-sy">(</span><span class="crayon-sy">[</span><span class="crayon-s">'N'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'R'</span><span class="crayon-sy">]</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-25">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-26"><span class="crayon-c">// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-27"><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">ndviParams</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-sy">{</span><span class="crayon-v">min</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-o">-</span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">max</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">1</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">palette</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-sy">[</span><span class="crayon-s">'8B0000'</span><span class="crayon-sy">,</span><span class="crayon-s">'FF0000'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'FF4500'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'FFFF00'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'00FF00'</span><span class="crayon-sy">,</span><span class="crayon-s">'008000'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'006400'</span><span class="crayon-sy">]</span><span class="crayon-sy">}</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-28"><span class="crayon-c">//Map.addLayer(ndvi, ndviParams, 'NDVI image');</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-29">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-30"><span class="crayon-c">// Add NDVI to map</span></div><div class="crayon-line" id="crayon-5f218352b2ff2379194851-31"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">setCenter</span><span class="crayon-sy">(</span><span class="crayon-o">-</span><span class="crayon-cn">120.65995</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">35.31203</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-cn">13</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-5f218352b2ff2379194851-32"><span class="crayon-v">Map</span><span class="crayon-sy">.</span><span class="crayon-e">addLayer</span><span class="crayon-sy">(</span><span class="crayon-v">ndvi</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-v">ndviParams</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0013 seconds] -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="twttr_buttons">
+<div class="twttr_twitter">
+					<a href="http://twitter.com/share?text=A+Brief+Foray+into+Google+Earth+Engine%3A+Calculate+NDVI+from+the+Cloud" class="twitter-share-button" data-via="" data-hashtags=""  data-size="default" data-url="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/"  data-related="" target="_blank">Tweet</a>
+				</div>
+</div>
+	</div><!-- .entry-content -->
+	
+	<footer class="entry-meta"><span class="tag-links"><a href="https://tjassal.github.io/LabWebsite/tag/aerial-photos/" rel="tag">aerial photos</a><a href="https://tjassal.github.io/LabWebsite/tag/cal-poly-university/" rel="tag">Cal Poly University</a><a href="https://tjassal.github.io/LabWebsite/tag/california/" rel="tag">California</a><a href="https://tjassal.github.io/LabWebsite/tag/cloud-computing/" rel="tag">Cloud computing</a><a href="https://tjassal.github.io/LabWebsite/tag/color-infrared/" rel="tag">color-infrared</a><a href="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/" rel="tag">Google Earth Engine</a><a href="https://tjassal.github.io/LabWebsite/tag/javascript/" rel="tag">JavaScript</a><a href="https://tjassal.github.io/LabWebsite/tag/ndvi-time-series/" rel="tag">NDVI time series</a><a href="https://tjassal.github.io/LabWebsite/tag/open-science/" rel="tag">Open Science</a><a href="https://tjassal.github.io/LabWebsite/tag/raster/" rel="tag">Raster</a><a href="https://tjassal.github.io/LabWebsite/tag/remote-sensing/" rel="tag">remote sensing</a><a href="https://tjassal.github.io/LabWebsite/tag/san-luis-obispo/" rel="tag">San Luis Obispo</a><a href="https://tjassal.github.io/LabWebsite/tag/science-communication/" rel="tag">science communication</a><a href="https://tjassal.github.io/LabWebsite/tag/spatial-ecology/" rel="tag">spatial ecology</a></span></footer></article><!-- #post-1659 -->
+		</div><!-- #content -->
+	</section><!-- #primary -->
+
+<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="bwp_gallery-2" class="widget bwp_gallery"><h1 class="widget-title">Fieldwork Photos</h1><style id="bwg-style-0">    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails {
+      width: 2704px;
+              justify-content: center;
+        margin:0 auto !important;
+              background-color: rgba(255, 255, 255, 0.00);
+            padding-left: 4px;
+      padding-top: 4px;
+      max-width: 100%;
+            }
+        #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item {
+      justify-content: flex-start;
+      max-width: 100px;
+            width: 100px !important;
+          }
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item > a {
+       margin-right: 4px;
+       margin-bottom: 4px;
+    }
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item0 {
+      padding: 4px;
+            background-color:rgba(232,232,232, 0.30);
+      border: 5px none #FFFFFF;
+      opacity: 1.00;
+      border-radius: 0;
+      box-shadow: 0px 0px 0px #888888;
+    }
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item1 img {
+      max-height: none;
+      max-width: none;
+      padding: 0 !important;
+    }
+        @media only screen and (min-width: 480px) {
+      #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item0 {
+        transition: all 0.3s ease 0s;-webkit-transition: all 0.3s ease 0s;      }
+      #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item0:hover {
+        -ms-transform: rotate(2deg);
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+      }
+    }
+          #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-item1 {
+      padding-top: 100%;
+    }
+        #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-title2,
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-ecommerce2 {
+      color: #CCCCCC;
+      font-family: segoe ui;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 5px;
+      text-shadow: ;
+      max-height: 100%;
+    }
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-thumb-description span {
+    color: #323A45;
+    font-family: Ubuntu;
+    font-size: 12px;
+    max-height: 100%;
+    word-wrap: break-word;
+    }
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-play-icon2 {
+      font-size: 32px;
+    }
+    #bwg_container1_0 #bwg_container2_0 .bwg-container-0.bwg-standard-thumbnails .bwg-ecommerce2 {
+      font-size: 19.2px;
+      color: #CCCCCC;
+    }
+    </style>    <div id="bwg_container1_0"
+         class="bwg_container bwg_thumbnail bwg_thumbnails"
+         data-right-click-protection="0"
+         data-bwg="0"
+         data-current-url="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/"
+         data-lightbox-url="https://tjassal.github.io/LabWebsite/wp-admin/admin-ajax.php?action=GalleryBox&current_view=0&gallery_id=1&tag=0&theme_id=2&shortcode_id=0&sort_by=order&order_by=ASC&current_url=https%3A%2F%2Ftjassal.github.io%2FLabWebsite%2Ftag%2Fgoogle-earth-engine%2F"
+         data-gallery-id="1"
+         data-popup-width="800"
+         data-popup-height="500"
+         data-buttons-position="bottom">
+      <div id="bwg_container2_0">
+             <div id="ajax_loading_0" class="bwg_loading_div_1">
+      <div class="bwg_loading_div_2">
+        <div class="bwg_loading_div_3">
+          <div id="loading_div_0" class="bwg_spider_ajax_loading">
+          </div>
+        </div>
+      </div>
+    </div>
+            <form id="gal_front_form_0"
+              class="bwg-hidden"
+              method="post"
+              action="#"
+              data-current="0"
+              data-shortcode-id="0"
+              data-gallery-type="thumbnails"
+              data-gallery-id="1"
+              data-tag="0"
+              data-album-id="0"
+              data-theme-id="2"
+              data-ajax-url="https://tjassal.github.io/LabWebsite/wp-admin/admin-ajax.php?action=bwg_frontend_data">
+          <div id="bwg_container3_0" class="bwg-background bwg-background-0">
+                <div data-max-count="27"
+         data-thumbnail-width="100"
+         data-bwg="0"
+         data-gallery-id="1"
+         data-lightbox-url="https://tjassal.github.io/LabWebsite/wp-admin/admin-ajax.php?action=GalleryBox&current_view=0&gallery_id=1&tag=0&theme_id=2&shortcode_id=0&sort_by=order&order_by=ASC&current_url=https%3A%2F%2Ftjassal.github.io%2FLabWebsite%2Ftag%2Fgoogle-earth-engine%2F"
+         id="bwg_thumbnails_0"
+         class="bwg-container-0 bwg-thumbnails bwg-standard-thumbnails bwg-container bwg-border-box">
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="30" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/LM_4b.jpg">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="30"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/LM_4b.jpg"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/LM_4b.jpg"
+                   alt="LM_4b  " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="24" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp39.jpg">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="24"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp39.jpg"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp39.jpg"
+                   alt="tnp39    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="8" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8154.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="8"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8154.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8154.JPG"
+                   alt="DSCN8154   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="6" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8000.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="6"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8000.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8000.JPG"
+                   alt="DSCN8000    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="5" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN7946.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="5"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7946.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7946.JPG"
+                   alt="DSCN7946   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="10" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8324.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="10"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8324.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8324.JPG"
+                   alt="DSCN8324   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="7" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8028.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="7"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8028.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8028.JPG"
+                   alt="DSCN8028    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="1" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN7743.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="1"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7743.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7743.JPG"
+                   alt="DSCN7743   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="20" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp20.jpg">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="20"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp20.jpg"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp20.jpg"
+                   alt="tnp20    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="25" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/2014-LM-037.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="25"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-LM-037.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-LM-037.JPG"
+                   alt="2014-LM-037   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="15" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8531.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="15"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8531.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8531.JPG"
+                   alt="DSCN8531    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="13" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8384.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="13"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8384.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8384.JPG"
+                   alt="DSCN8384    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="4" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN7796.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="4"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7796.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7796.JPG"
+                   alt="DSCN7796   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="26" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/2014-LM-069.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="26"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-LM-069.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-LM-069.JPG"
+                   alt="2014-LM-069   " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="23" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp32.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="23"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp32.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp32.JPG"
+                   alt="tnp32    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="2" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN7745.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="2"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7745.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN7745.JPG"
+                   alt="DSCN7745    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="22" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp30.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="22"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp30.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp30.JPG"
+                   alt="tnp30    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="27" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/2014-LM-070.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="27"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-LM-070.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-LM-070.JPG"
+                   alt="2014-LM-070    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="19" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp6.jpg">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="19"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp6.jpg"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp6.jpg"
+                   alt="tnp6    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="17" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8651.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="17"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8651.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8651.JPG"
+                   alt="DSCN8651    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="18" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp1.jpg">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="18"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp1.jpg"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp1.jpg"
+                   alt="tnp1     " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="12" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8331.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="12"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8331.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8331.JPG"
+                   alt="DSCN8331    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="16" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8535.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="16"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8535.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8535.JPG"
+                   alt="DSCN8535    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="28" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/2014-PM-143.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="28"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-PM-143.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/2014-PM-143.JPG"
+                   alt="2014-PM-143    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="21" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/tnp27.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="21"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp27.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/tnp27.JPG"
+                   alt="tnp27    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="14" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8529.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="14"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8529.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8529.JPG"
+                   alt="DSCN8529    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+            <div class="bwg-item">
+        <a class="bwg-a bwg_lightbox"  data-image-id="11" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/DSCN8326.JPG">
+                <div class="bwg-item0">
+          <div class="bwg-item1">
+            <div class="bwg-item2">
+              <img class="skip-lazy bwg_standart_thumb_img_0"
+                   data-id="11"
+                   data-width=""
+                   data-height=""
+                   data-original="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8326.JPG"
+                   src="https://tjassal.github.io/LabWebsite/wp-content/uploads/photo-gallery/thumb/DSCN8326.JPG"
+                   alt="DSCN8326    " />
+            </div>
+            <div class="">
+                                                      </div>
+          </div>
+        </div>
+                                </a>
+      </div>
+          </div>
+              </div>
+        </form>
+          <style>          #bwg_container1_0 #bwg_container2_0 #spider_popup_overlay_0 {
+          background-color: #000000;
+          opacity: 0.70;
+          }
+          </style>        <div id="bwg_spider_popup_loading_0" class="bwg_spider_popup_loading"></div>
+        <div id="spider_popup_overlay_0" class="spider_popup_overlay" onclick="spider_destroypopup(1000)"></div>
+        <input type="hidden" id="bwg_random_seed_0" value="1604529488">
+                </div>
+    </div>
+    <script>
+      jQuery(document).ready(function () {
+        bwg_main_ready();
+      });
+    </script>
+    </aside><aside id="text-4" class="widget widget_text">			<div class="textwidget"></div>
+		</aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h1 class="widget-title">Tags</h1><div class="tagcloud"><ul class='wp-tag-cloud' role='list'>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/andes-mountains/" class="tag-cloud-link tag-link-132 tag-link-position-1" style="font-size: 9.2727272727273pt;" aria-label="Andes Mountains (4 items)">Andes Mountains</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/burn-severity/" class="tag-cloud-link tag-link-161 tag-link-position-2" style="font-size: 9.2727272727273pt;" aria-label="burn severity (4 items)">burn severity</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/call-for-papers/" class="tag-cloud-link tag-link-233 tag-link-position-3" style="font-size: 11.181818181818pt;" aria-label="Call for papers (6 items)">Call for papers</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/chile/" class="tag-cloud-link tag-link-15 tag-link-position-4" style="font-size: 11.181818181818pt;" aria-label="Chile (6 items)">Chile</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/color-infrared/" class="tag-cloud-link tag-link-120 tag-link-position-5" style="font-size: 8pt;" aria-label="color-infrared (3 items)">color-infrared</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/colorado/" class="tag-cloud-link tag-link-16 tag-link-position-6" style="font-size: 12.454545454545pt;" aria-label="Colorado (8 items)">Colorado</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/coniferous-forest/" class="tag-cloud-link tag-link-155 tag-link-position-7" style="font-size: 15pt;" aria-label="coniferous forest (13 items)">coniferous forest</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/deciduous-forest/" class="tag-cloud-link tag-link-154 tag-link-position-8" style="font-size: 15pt;" aria-label="deciduous forest (13 items)">deciduous forest</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/drought/" class="tag-cloud-link tag-link-97 tag-link-position-9" style="font-size: 15.636363636364pt;" aria-label="drought (15 items)">drought</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/ecosystem-disturbance/" class="tag-cloud-link tag-link-164 tag-link-position-10" style="font-size: 16.018181818182pt;" aria-label="ecosystem disturbance (16 items)">ecosystem disturbance</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/ecotone/" class="tag-cloud-link tag-link-149 tag-link-position-11" style="font-size: 8pt;" aria-label="ecotone (3 items)">ecotone</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/emodis/" class="tag-cloud-link tag-link-229 tag-link-position-12" style="font-size: 8pt;" aria-label="eMODIS (3 items)">eMODIS</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/forest-disturbance/" class="tag-cloud-link tag-link-116 tag-link-position-13" style="font-size: 16.018181818182pt;" aria-label="Forest Disturbance (16 items)">Forest Disturbance</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/forest-ecology/" class="tag-cloud-link tag-link-162 tag-link-position-14" style="font-size: 14.490909090909pt;" aria-label="forest ecology (12 items)">forest ecology</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/ggplot2/" class="tag-cloud-link tag-link-219 tag-link-position-15" style="font-size: 9.2727272727273pt;" aria-label="ggplot2 (4 items)">ggplot2</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/glacier-national-park/" class="tag-cloud-link tag-link-111 tag-link-position-16" style="font-size: 8pt;" aria-label="Glacier National Park (3 items)">Glacier National Park</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/google-earth-engine/" class="tag-cloud-link tag-link-261 tag-link-position-17" style="font-size: 9.2727272727273pt;" aria-label="Google Earth Engine (4 items)">Google Earth Engine</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/landsat/" class="tag-cloud-link tag-link-45 tag-link-position-18" style="font-size: 17.163636363636pt;" aria-label="Landsat (20 items)">Landsat</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/lay-summary/" class="tag-cloud-link tag-link-157 tag-link-position-19" style="font-size: 9.2727272727273pt;" aria-label="lay summary (4 items)">lay summary</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/modis/" class="tag-cloud-link tag-link-53 tag-link-position-20" style="font-size: 12.454545454545pt;" aria-label="MODIS (8 items)">MODIS</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/mountain-pine-beetle/" class="tag-cloud-link tag-link-112 tag-link-position-21" style="font-size: 8pt;" aria-label="Mountain Pine Beetle (3 items)">Mountain Pine Beetle</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/ndvi-time-series/" class="tag-cloud-link tag-link-117 tag-link-position-22" style="font-size: 13.090909090909pt;" aria-label="NDVI time series (9 items)">NDVI time series</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/normalized-difference-moisture-index/" class="tag-cloud-link tag-link-177 tag-link-position-23" style="font-size: 9.2727272727273pt;" aria-label="Normalized Difference Moisture Index (4 items)">Normalized Difference Moisture Index</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/open-access/" class="tag-cloud-link tag-link-108 tag-link-position-24" style="font-size: 15pt;" aria-label="open access (13 items)">open access</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/open-data/" class="tag-cloud-link tag-link-156 tag-link-position-25" style="font-size: 15.636363636364pt;" aria-label="open data (15 items)">open data</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/open-science/" class="tag-cloud-link tag-link-145 tag-link-position-26" style="font-size: 18.181818181818pt;" aria-label="Open Science (24 items)">Open Science</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/open-source/" class="tag-cloud-link tag-link-107 tag-link-position-27" style="font-size: 11.818181818182pt;" aria-label="open source (7 items)">open source</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/quaking-aspen/" class="tag-cloud-link tag-link-150 tag-link-position-28" style="font-size: 8pt;" aria-label="quaking aspen (3 items)">quaking aspen</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/raster/" class="tag-cloud-link tag-link-134 tag-link-position-29" style="font-size: 12.454545454545pt;" aria-label="Raster (8 items)">Raster</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/remote-sensing/" class="tag-cloud-link tag-link-63 tag-link-position-30" style="font-size: 22pt;" aria-label="remote sensing (49 items)">remote sensing</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/r-statistics/" class="tag-cloud-link tag-link-135 tag-link-position-31" style="font-size: 16.4pt;" aria-label="R statistics (17 items)">R statistics</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/sagebrush-steppe/" class="tag-cloud-link tag-link-65 tag-link-position-32" style="font-size: 9.2727272727273pt;" aria-label="sagebrush steppe (4 items)">sagebrush steppe</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/satellite-imagery/" class="tag-cloud-link tag-link-66 tag-link-position-33" style="font-size: 18.945454545455pt;" aria-label="satellite imagery (28 items)">satellite imagery</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/science-communication/" class="tag-cloud-link tag-link-71 tag-link-position-34" style="font-size: 20.981818181818pt;" aria-label="science communication (41 items)">science communication</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/science-outreach/" class="tag-cloud-link tag-link-203 tag-link-position-35" style="font-size: 11.181818181818pt;" aria-label="science outreach (6 items)">science outreach</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/spatial-ecology/" class="tag-cloud-link tag-link-165 tag-link-position-36" style="font-size: 17.927272727273pt;" aria-label="spatial ecology (23 items)">spatial ecology</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/spatial-statistics/" class="tag-cloud-link tag-link-119 tag-link-position-37" style="font-size: 15.381818181818pt;" aria-label="Spatial Statistics (14 items)">Spatial Statistics</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/species-distribution-modeling/" class="tag-cloud-link tag-link-139 tag-link-position-38" style="font-size: 11.181818181818pt;" aria-label="species distribution modeling (6 items)">species distribution modeling</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/time-series/" class="tag-cloud-link tag-link-98 tag-link-position-39" style="font-size: 14.109090909091pt;" aria-label="time series (11 items)">time series</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/tolhuaca-national-park/" class="tag-cloud-link tag-link-80 tag-link-position-40" style="font-size: 10.290909090909pt;" aria-label="Tolhuaca National Park (5 items)">Tolhuaca National Park</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/wildfire/" class="tag-cloud-link tag-link-88 tag-link-position-41" style="font-size: 11.818181818182pt;" aria-label="wildfire (7 items)">wildfire</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/wlci/" class="tag-cloud-link tag-link-91 tag-link-position-42" style="font-size: 11.818181818182pt;" aria-label="WLCI (7 items)">WLCI</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/wy/" class="tag-cloud-link tag-link-125 tag-link-position-43" style="font-size: 8pt;" aria-label="WY (3 items)">WY</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/wyoming/" class="tag-cloud-link tag-link-93 tag-link-position-44" style="font-size: 15pt;" aria-label="Wyoming (13 items)">Wyoming</a></li>
+	<li><a href="https://tjassal.github.io/LabWebsite/tag/wyoming-landscape-conservation-initiative/" class="tag-cloud-link tag-link-166 tag-link-position-45" style="font-size: 11.181818181818pt;" aria-label="Wyoming Landscape Conservation Initiative (6 items)">Wyoming Landscape Conservation Initiative</a></li>
+</ul>
+</div>
+</aside></div><!-- #content-sidebar -->
+<div id="secondary">
+		<h2 class="site-description">Research focused on biogeography, spatial ecology and landscape change at Kent State University</h2>
+	
+	
+		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+		<aside id="text-2" class="widget widget_text"><h1 class="widget-title">Contact Information</h1>			<div class="textwidget"><div><strong><i>Timothy J. Assal, Ph.D.<br />
+</i></strong></div>
+<div><strong><i>Assistant Professor</i></strong></div>
+<div><strong><i>Department of Geography</i></strong></div>
+<div><strong><i>Kent State University*</i></strong></div>
+<div><strong><i>Kent, OH 44242 USA</i></strong></div>
+<div><strong><i><a href="mailto:tassal@kent.edu" target="_blank" rel="noopener noreferrer">tassal@kent.edu</a> </i></strong></div>
+<div><a href="https://tjassal.github.io/LabWebsite/" target="_blank" rel="noopener noreferrer"><em><strong>www.timassal.com</strong> </em></a></div>
+</div>
+		</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><a href="http://twitter.com/TimAssal" class="twitter-follow-button">Follow @TimAssal</a>
+
+</div>
+		</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://tjassal.github.io/LabWebsite/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h1 class="widget-title">Recent Posts</h1>		<ul>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2020/04/28/new-publication-on-aspen-in-the-intermountain-west/">New publication on aspen in the intermountain west</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/">Visualizing the COVID19 shutdown from space: The Venetian Lagoon</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2020/03/09/introduction-to-r-technology-workshop-at-kent-state-university/">&#8216;Introduction to R&#8217; Technology Workshop at Kent State University</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2020/02/04/mogadore-high-school-visits-ksu/">Mogadore High School visits the KSU Geography Department</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2020/02/03/why-you-should-use-a-reference-manager/">Why YOU should use a reference manager</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/">Presentation at the American Geophysical Union Fall 2019 Annual Meeting</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/11/07/spatial-mapping-with-ggplot/">Spatial Mapping with ggplot</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/10/30/plotting-probability-curves-to-aid-in-interpretation-of-predictor-variables-in-a-logistic-model/">Plotting probability curves to aid in interpretation of predictor variables in a logistic model</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/">Onward and upward&#8230;to a new position</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/">Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/">Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</a>
+									</li>
+											<li>
+					<a href="https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/">Presentation at the American Association of Geographers 2019 Annual Meeting</a>
+									</li>
+					</ul>
+		</aside><aside id="archives-2" class="widget widget_archive"><h1 class="widget-title">Archives</h1>		<label class="screen-reader-text" for="archives-dropdown-2">Archives</label>
+		<select id="archives-dropdown-2" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://tjassal.github.io/LabWebsite/2020/04/'> April 2020 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2020/03/'> March 2020 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2020/02/'> February 2020 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/12/'> December 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/11/'> November 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/10/'> October 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/07/'> July 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/05/'> May 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/04/'> April 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2019/02/'> February 2019 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/12/'> December 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/09/'> September 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/08/'> August 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/07/'> July 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/06/'> June 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/05/'> May 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/04/'> April 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/02/'> February 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2018/01/'> January 2018 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/12/'> December 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/10/'> October 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/09/'> September 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/08/'> August 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/07/'> July 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/06/'> June 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/05/'> May 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/04/'> April 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/02/'> February 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2017/01/'> January 2017 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/12/'> December 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/11/'> November 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/10/'> October 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/09/'> September 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/08/'> August 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/07/'> July 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/06/'> June 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/04/'> April 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/03/'> March 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/02/'> February 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2016/01/'> January 2016 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/12/'> December 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/11/'> November 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/09/'> September 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/08/'> August 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/07/'> July 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/06/'> June 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2015/02/'> February 2015 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/12/'> December 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/11/'> November 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/10/'> October 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/08/'> August 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/05/'> May 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/04/'> April 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/02/'> February 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2014/01/'> January 2014 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2013/12/'> December 2013 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2013/10/'> October 2013 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2013/09/'> September 2013 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2013/08/'> August 2013 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2013/03/'> March 2013 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2012/12/'> December 2012 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2012/10/'> October 2012 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2012/08/'> August 2012 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2012/07/'> July 2012 </option>
+	<option value='https://tjassal.github.io/LabWebsite/2012/05/'> May 2012 </option>
+
+		</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown-2" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+/* ]]> */
+</script>
+
+		</aside>	</div><!-- #primary-sidebar -->
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+			<div class="site-info">
+												<a href="https://wordpress.org/" class="imprint">
+					Proudly powered by WordPress				</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	
+<!-- BEGIN Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100669114ns.gif" /></p></noscript>
+<!-- END Clicky Analytics v1.6.1 Tracking - https://deconf.com/clicky-analytics-dashboard-wordpress/ -->
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shCore.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCSharp.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushPhp.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushJScript.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushJava.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushVb.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushSql.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushXml.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushDelphi.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushPython.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushRuby.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCss.js"></script>
+<script class="javascript" src="https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/shBrushCpp.js"></script>
+<script class="javascript">
+dp.SyntaxHighlighter.ClipboardSwf = 'https://tjassal.github.io/LabWebsite/wp-content/plugins/google-syntax-highlighter/Scripts/clipboard.swf';
+dp.SyntaxHighlighter.HighlightAll('code');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56217214-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20191001'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/themes/twentyfourteen/js/functions.js?ver=20171218'></script>
+<script type='text/javascript' src='https://tjassal.github.io/LabWebsite/wp-content/plugins/easy-twitter-feed-widget/js/twitter-widgets.js?ver=1.0'></script>
+<script type='text/javascript'>
+!function(d,s,id) {
+					var js,fjs=d.getElementsByTagName(s)[0];
+					if (!d.getElementById(id)) {
+						js=d.createElement(s);
+						js.id=id;
+						js.src="https://platform.twitter.com/widgets.js";
+						fjs.parentNode.insertBefore(js,fjs);
+					}
+				}(document,"script","twitter-wjs")
+</script>
+<script type='text/javascript' src='https://stats.wp.com/e-202031.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:8.3',blog:'77891341',post:'0',tz:'-6',srv:'www.timassal.com'} ]);
+	_stq.push([ 'clickTrackerInit', '77891341', '0' ]);
+</script>
+</body>
+</html>

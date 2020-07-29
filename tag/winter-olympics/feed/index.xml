@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Winter Olympics &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/winter-olympics/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 20:14:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Sochi: A portrait of land cover change</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/02/05/sochi-a-portrait-of-land-cover-change/</link>
+				<pubDate>Wed, 05 Feb 2014 12:00:44 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Black Sea]]></category>
+		<category><![CDATA[Caucasus Mountains]]></category>
+		<category><![CDATA[Land Cover Change]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[olympic geography]]></category>
+		<category><![CDATA[Russia]]></category>
+		<category><![CDATA[Sochi]]></category>
+		<category><![CDATA[Winter Olympics]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=455</guid>
+				<description><![CDATA[The Winter Olympics begin on Friday. Sochi is located in southwest Russia at approximately the same latitude as Toronto, Canada; Marseille, France and Sapporo, Japan. To be exact, the games will take place in Adler, a district of the city that is is located 25 km from downtown Sochi. Adler is just a few kilometers &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/02/05/sochi-a-portrait-of-land-cover-change/" class="more-link">Continue reading <span class="screen-reader-text">Sochi: A portrait of land cover change</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg"><img class="size-large wp-image-524 aligncenter" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg?resize=474%2C347" alt="test sochi" width="474" height="347" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg?w=2840&amp;ssl=1 2840w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg?resize=300%2C220&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg?resize=1024%2C751&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/02/sochi_overview1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<p>The Winter Olympics begin on Friday. Sochi is located in southwest Russia at approximately the same latitude as Toronto, Canada; Marseille, France and Sapporo, Japan. To be exact, the games will take place in Adler, a district of the city that is is located 25 km from downtown Sochi. Adler is just a few kilometers from the Psou River which delineates Russia and Georgia and the nearby Caucaus Mountains have long been considered the boundary between Europe and Asia.</p>
+<p>These Olympics are not without controversy (see any news outlet anywhere in the world for details). The host nation&#8217;s record on social issues, the astronomical cost, and the displacement of local residents are just a few of these stories. However, the games are being touted as the most compact in winter Olympic history.  A construction boom commenced after the winning bid was announced in July 2007. The venues are concentrated in a Coastal Cluster along the Black Sea shore in the Imeretinskaya Valley and a Mountain Cluster approximately 40 km up the valley in Krasnaya Polyana. I took a look at the land cover change associated with Olympic development in these two areas. I acquired a Landsat 5 image collected one month before Sochi received the news on their winning bid (late May 2007) and a Landsat 8 image from early November 2013. The images are displayed as false color images. Urban infrastructure appears bright gray and vegetation appears deep red. The 2007 image was obtained in late spring when forested areas have a higher level of photosynthetic activity resulting in a brighter red color compared to the mid autumn image of 2013.</p>
+<p>Part of this work was featured by NASA Goddard Space Flight Center in a fantastic photo journal: <a href="http://www.flickr.com/photos/gsfc/sets/72157640600081195/" target="_blank">NASA Goes to the Winter Olympics</a>.</p>
+<p>A quick comparison reveals a largely agricultural area was transformed into the Coastal Olympic Cluster with the nearby Olympic Village and Rail Station with transport to the Mountain Cluster.  A spanking new breakwater structure was installed to create a harbor for cruise ships. The airport also received an expansion to handle the increased traffic.</p>
+<figure id="attachment_520" aria-describedby="caption-attachment-520" style="width: 497px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg"><img class="size-large wp-image-520" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg?resize=474%2C425" alt="2007 image" width="474" height="425" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg?w=2756&amp;ssl=1 2756w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg?resize=300%2C269&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg?resize=1024%2C919&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20071.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-520" class="wp-caption-text"><strong>2007 </strong>image of Adler and surrounding environs.</figcaption></figure>
+<figure id="attachment_521" aria-describedby="caption-attachment-521" style="width: 497px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg"><img class="size-large wp-image-521" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg?resize=474%2C425" alt="2013 image" width="474" height="425" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg?w=2756&amp;ssl=1 2756w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg?resize=300%2C269&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg?resize=1024%2C919&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/coastal20131.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-521" class="wp-caption-text"><strong>2013</strong> image of Adler and the newly created Olympic Coastal Cluster.</figcaption></figure>
+<p>Multiple outdoor venues were carved out of forest near the resort town of Krasnaya Polyana.  The footprint associated with the ski jump complex, sliding center, alpine and biathlon ski complexes are all visible in the 2013 image.</p>
+<figure id="attachment_522" aria-describedby="caption-attachment-522" style="width: 497px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg"><img class="size-large wp-image-522" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg?resize=474%2C428" alt="2007 image" width="474" height="428" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg?w=2734&amp;ssl=1 2734w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg?resize=300%2C271&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg?resize=1024%2C926&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20071.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-522" class="wp-caption-text"><strong>2007</strong> image of Krasnaya Polyana and surrounding region.</figcaption></figure>
+<figure id="attachment_523" aria-describedby="caption-attachment-523" style="width: 497px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg"><img class="size-large wp-image-523" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg?resize=474%2C428" alt="2013 image" width="474" height="428" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg?w=2734&amp;ssl=1 2734w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg?resize=300%2C271&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg?resize=1024%2C926&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/02/mountain20131.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-523" class="wp-caption-text"><strong>2013</strong> image with the newly developed Olympic Mountain Cluster.</figcaption></figure>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">455</post-id>	</item>
+	</channel>
+</rss>

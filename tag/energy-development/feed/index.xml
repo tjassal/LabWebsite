@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>energy development &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/energy-development/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 18:04:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>A Tale of Two Land Uses in the American West: Rural Residential Growth and Energy Development</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/#respond</comments>
+				<pubDate>Tue, 07 Aug 2012 22:28:01 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[energy development]]></category>
+		<category><![CDATA[environment]]></category>
+		<category><![CDATA[Jonah Field]]></category>
+		<category><![CDATA[Journal of Maps]]></category>
+		<category><![CDATA[land use change]]></category>
+		<category><![CDATA[mapping]]></category>
+		<category><![CDATA[PAPA]]></category>
+		<category><![CDATA[Pinedale]]></category>
+		<category><![CDATA[Pinedale Anticline Project Area]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[Sublette County]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=208</guid>
+				<description><![CDATA[Sublette County, Wyoming has undergone recent land use change in the form of heightened rural residential development on private land and increased energy development on both public and private land. Quantifying landscape change as a result of energy development is not particularly new. Likewise, recent studies have made advances in quantifying residential development over time. &#8230; <a href="https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/" class="more-link">Continue reading <span class="screen-reader-text">A Tale of Two Land Uses in the American West: Rural Residential Growth and Energy Development</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Sublette County, Wyoming has undergone recent land use change in the form of heightened rural residential development on private land and increased energy development on both public and private land. Quantifying landscape change as a result of energy development is not particularly new. Likewise, recent studies have made advances in quantifying residential development over time. However, much of the literature on this subject is related to urban, suburban and/or exurban development. Mapping rural residential development using multi-temporal and multi-spectral imagery has not received much attention. Nearly two-thirds of the population of Sublette County resides in unincorporated areas where such growth has occurred. Energy development within the county has exponentially increased in recent years. Both of these phenomena create changes on the landscape that can be measured over time using remote sensing. The results serve as important baseline data that can be incorporated into land use planning and ecological-wildlife research at the landscape scale.</p>
+<p>In a new article in the <a title="Journal of Maps" href="http://www.journalofmaps.com/" target="_blank">Journal of Maps</a>, my co-author and I integrate energy production data, population census data, ownership parcel data, and a series of Landsat Thematic Mapper and Enhanced Thematic Mapper scenes (over a 25 year period) to create a map that illustrates the changing landscape. This work was done in part to support the <a title="WLCI" href="http://www.wlci.gov/" target="_blank">Wyoming Landscape Conservation Initiative</a>. The paper was published in the special issue “Mapping Innovations in Spatial Demography,” (December 2012) and can be accessed at: <a title="JOM Article" href="http://dx.doi.org/10.1080/17445647.2012.745381" target="_blank">http://dx.doi.org/10.1080/17445647.2012.745381</a> or <a title="JOM Manuscript" href="https://www.fort.usgs.gov/sites/default/files/products/publications/23538/23538.pdf" target="_blank">http://www.fort.usgs.gov/Products/Publications/23538/23538.pdf</a>). You can view and download the supplemental spatiotemporal land use map <a title="LU Map" href="https://tjassal.github.io/LabWebsite/?p=415" target="_blank">here</a>.</p>
+<figure id="attachment_209" aria-describedby="caption-attachment-209" style="width: 463px" class="wp-caption aligncenter"><a href="http://biogeographia.files.wordpress.com/2012/08/jonah_field2.jpg"><img class=" wp-image-209" title="jonah_field2" src="http://biogeographia.files.wordpress.com/2012/08/jonah_field2.jpg?w=300&#038;resize=463%2C136" alt="" width="463" height="136" data-recalc-dims="1" /></a><figcaption id="caption-attachment-209" class="wp-caption-text">The build out of Jonah Field, a natural gas field in Sublette County, illustrated with three satellite images. Jonah Field occupies approximately 125 square kilometers of sagebrush steppe.</figcaption></figure>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2012/08/07/upcoming-publication-a-tale-of-two-land-uses-in-the-american-west-rural-residential-growth-and-energy-development/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">208</post-id>	</item>
+	</channel>
+</rss>

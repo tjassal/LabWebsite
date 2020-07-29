@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>ecological legacies &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/ecological-legacies/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Thu, 24 Sep 2015 23:03:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Seminar at CSU: The Ecological Legacies of Drought, Fire and Insect Disturbance in Western North American Forests</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/#respond</comments>
+				<pubDate>Thu, 24 Sep 2015 23:03:29 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[Dissertation]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecological legacies]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Glacier National Park]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Mountain Pine Beetle]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1033</guid>
+				<description><![CDATA[Well, I suppose I should finally wrap this thing up. I will be giving a public seminar on my dissertation research on Friday October 2nd at 3:30 pm in the Natural and Environmental Sciences Building at Colorado State University. If you&#8217;re local, please stop by to learn about my research (abstract below). THE ECOLOGICAL LEGACIES &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/" class="more-link">Continue reading <span class="screen-reader-text">Seminar at CSU: The Ecological Legacies of Drought, Fire and Insect Disturbance in Western North American Forests</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Well, I suppose I should finally wrap this thing up. I will be giving a public seminar on my dissertation research on Friday October 2nd at 3:30 pm in the Natural and Environmental Sciences Building at Colorado State University. If you&#8217;re local, please stop by to learn about my research (abstract below).</p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg"><img class="aligncenter size-full wp-image-1035" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg?resize=474%2C356" alt="Assal_Defense_Announcement" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg?w=960&amp;ssl=1 960w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/09/Assal_Defense_Announcement1.jpg?resize=300%2C225&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<p><strong>THE ECOLOGICAL LEGACIES OF DROUGHT, FIRE, AND INSECT DISTURBANCE IN WESTERN NORTH AMERICAN FORESTS</strong></p>
+<p>Temperate forest ecosystems are subject to various disturbances including insect agents, drought and fire, which can have profound effects on the structure of the ecosystem for many years after the event. Impacts of disturbance can vary widely, therefore an understanding of the legacies of an event are critical in the interpretation of contemporary forest patterns and those of the near future. The primary objective of this dissertation was to investigate the ecological legacies of drought, beetle outbreak and ensuing wildfire in two different ecosystems. A secondary objective of my research was motivated by a lack of available data which precluded investigation of each disturbance.</p>
+<p>I studied the effects of drought on deciduous and coniferous forest along a forest-shrubland ecotone in the southern portion of the Wyoming Basin Ecoregion. The results show that forests in the region have experienced high levels of cumulative drought related mortality over the last decade. Negative trends were not consistent across forest type or distributed randomly across the study area. The patterns of long-term trends highlight areas of forest that are resistant, persistent and vulnerable to severe drought.</p>
+<p>In the second thread of my dissertation, I used multiple lines of evidence to retrospectively characterize a landscape scale mountain pine beetle disturbance from the 1970s in Glacier National Park. The lack of spatially explicit data on this disturbance was a major data gap since wildfire had removed some of the evidence from the landscape. I used this information to assess the influence of beetle severity on the burn severity of subsequent wildfires in the decades after the outbreak. Although many factors contribute to burn severity, my results indicate that beetle severity can positively influence burn severity of wildfire. This is likely due to the change in forest structure in the decades after the outbreak and not as a direct result of tree mortality from the outbreak. The long-term perspective of this study suggests that ecological legacies of high severity disturbance may continue to influence subsequent disturbance for many years after the initial event. This work also provides insight on future disturbance interactions associated with the recent mountain pine beetle outbreak that has impacted tens of millions of hectares in western North America over the last two decades.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1033</post-id>	</item>
+	</channel>
+</rss>

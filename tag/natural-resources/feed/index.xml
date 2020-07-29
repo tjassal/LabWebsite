@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>natural resources &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/natural-resources/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 08 Aug 2018 17:56:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Call for Papers: Modelling Forest Systems</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/#respond</comments>
+				<pubDate>Wed, 01 Aug 2018 00:56:03 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[ecological modelling]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[forest ecosystems]]></category>
+		<category><![CDATA[natural resources]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1857</guid>
+				<description><![CDATA[The journal Ecological Modeling has a call for papers in a special issue that highlights the latest trends in modelling forest ecosystems from ecological, economic and social approaches, to facilitate the further generation of interdisciplinary research. This issue will gather theoretical, methodological, and applied papers exploring forest ecosystems. Articles entailing a systems ecology perspective and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Modelling Forest Systems</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<header class="entry-header">The journal <a href="https://www.journals.elsevier.com/ecological-modelling" target="_blank" rel="noopener">Ecological Modeling</a> has a call for papers in a special issue that highlights the latest trends in modelling forest ecosystems from ecological, economic and social approaches, to facilitate the further generation of interdisciplinary research. This issue will gather theoretical, methodological, and applied papers exploring forest ecosystems. Articles entailing a systems ecology perspective and led by young researchers will be preferred.</header>
+<header></header>
+<p>Full details can be found <a href="https://www.journals.elsevier.com/ecological-modelling/call-for-papers/special-virtual-issue-announcement-modelling-forest-systems" target="_blank" rel="noopener">here</a>.</p>
+<p>Deadline: January 31, 2019</p>
+<p>Guest Editors:</p>
+<p>Prof. Juan A. Blanco, Public University of Navarre, Spain<br />
+Dr. Aitor Ameztegui, Univerty of Lleida, Spain<br />
+Dr. Francisco Rodriguez, Fora Forest Technologies, Spain</p>
+<p><em>*Banner image: Bandelier National Monument, New Mexico<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1857</post-id>	</item>
+	</channel>
+</rss>

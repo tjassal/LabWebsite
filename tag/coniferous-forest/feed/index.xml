@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>coniferous forest &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/coniferous-forest/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 27 Jun 2018 23:35:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the American Geophysical Union Fall 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/#respond</comments>
+				<pubDate>Sun, 08 Dec 2019 19:25:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2195</guid>
+				<description><![CDATA[I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds on Wednesday afternoon, December 11th in the Moscone &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Geophysical Union Fall 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled <em>Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds </em>on Wednesday afternoon, December 11th in the Moscone South poster hall. If you&#8217;re AGU this year, please stop by.</p>
+<p>Abstract link:</p>
+<p><a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/611491" target="_blank" rel="noopener noreferrer">An Open-Access Framework to Track Post-fire Shifts in Dominant Plant Functional Type at the Watershed Scale</a></p>
+<p><em>*Banner image: Market Street aglow, Twin Peaks, San Francisco.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2195</post-id>	</item>
+		<item>
+		<title>Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/#respond</comments>
+				<pubDate>Mon, 08 Apr 2019 14:29:15 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2062</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation on Monday morning (11:15 am), April 8th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled <em>Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation </em>on Monday morning (11:15 am), April 8th, at the Fort Collins Hilton.</p>
+<p>Abstract link:</p>
+<p><a href="http://trdps9.m.attendify.com/app/sessions/9fzv4W8ptuJSXlw9xT/details" target="_blank" rel="noopener noreferrer">Fire Sparks Conversion: Measuring Decadal Changes to Vegetation Structure in the Jemez Mountains</a></p>
+<p><em>*Banner image: Deciduous shrubs leaf out in spring 2016 in an area of the Jemez Mountains, New Mexico, USA. The area in the photo burned in 1996 and 2011.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2062</post-id>	</item>
+		<item>
+		<title>Presentation at the American Association of Geographers 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/#respond</comments>
+				<pubDate>Wed, 03 Apr 2019 18:21:43 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Fire]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[New Mexico]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[vegetation change]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2054</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham. Abstract link: Big fires lead to &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Association of Geographers 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham.</p>
+<p>Abstract link:</p>
+<p><a href="https://aag.secure-abstracts.com/AAG%20Annual%20Meeting%202019/abstracts-gallery/21175" target="_blank" rel="noopener noreferrer">Big fires lead to big changes in the vegetation structure of the Jemez Mountains, New Mexico</a></p>
+<figure id="attachment_1749" aria-describedby="caption-attachment-1749" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1749 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=474%2C316" alt="" width="474" height="316" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1749" class="wp-caption-text">Extensive forest mortality in the Jemez Mountains from the Las Conchas Fire (2011). Photo taken Autumn 2017.</figcaption></figure>
+<p><em>*Banner image: The sun sets on Saint Peter&#8217;s Dome, Jemez Mountains, New Mexico, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2054</post-id>	</item>
+		<item>
+		<title>New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/#respond</comments>
+				<pubDate>Mon, 01 Oct 2018 00:49:42 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1875</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work on their Science Blog** In our new paper, published in the Journal of Biogeography, we investigate postfire regeneration patterns of Araucaria‐Nothofagus forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/" class="more-link">Continue reading <span class="screen-reader-text">New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #800000;"><strong><em>**A special thanks to the NASA Landsat Program for featuring our work on their <a style="color: #800000;" href="https://landsat.gsfc.nasa.gov/looking-at-burn-severity-and-post-fire-forest-regeneration-in-chiles-andean-cordillera-home-to-the-monkey-puzzle-tree/" target="_blank" rel="noopener">Science Blog</a>**</em></strong></span></h3>
+<p>In our new paper, published in the <a href="https://onlinelibrary.wiley.com/journal/13652699" target="_blank" rel="noopener">Journal of Biogeography</a>, we investigate postfire regeneration patterns of <em>Araucaria</em><em>‐</em><em>Nothofagus</em> forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and ground measurements to evaluate the relationship between remotely sensed burn severity and forest mortality; and b) assessed controls of burn severity on forest regeneration at local spatio‐temporal scales. The paper is a product of a collaboration with Colorado State University (<a href="http://www.biogeography.colostate.edu/" target="_blank" rel="noopener">Jason Sibold</a>) and the and Universidad Austral de Chile (<a href="http://www.forestal.uach.cl/instituto/conservacion-biodiversidad-territorio/academicos/mauro-gonzalez.php" target="_blank" rel="noopener">Mauro González</a>).</p>
+<figure id="attachment_1903" aria-describedby="caption-attachment-1903" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg" target="_blank" rel="noopener"><img class="wp-image-1903 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=1062&amp;ssl=1 1062w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1903" class="wp-caption-text">Study area and fire extent</figcaption></figure>
+<p>We think this work is noteworthy because 1) to our knowledge this is the first study that connects field-measured data with satellite-derived burn severity in this corner of the world; 2) one of the primary species of study, <em>Araucaria araucana</em> (known commonly as monkey puzzle tree), is recognized as an endangered species on the <a href="https://www.iucn.org/" target="_blank" rel="noopener">International Union for Conservation of Nature</a> <a href="https://newredlist.iucnredlist.org/" target="_blank" rel="noopener">Red List</a> and faces a plethora of threats; and 3) the framework relies on open data, namely Landsat satellite imagery, and could be applied to long-term monitoring or assessment of similar ecosystems. I would go a step further and argue the availability of Landsat data was the primary reason we were able to get this project off the ground.</p>
+<p>The paper is open access and can be retrieved below:</p>
+<ul>
+<li>Assal, T.J., González, M.E., and Sibold, J.S., 2018. <a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428" target="_blank" rel="noopener">Burn severity controls on postfire Araucaria‐Nothofagus regeneration in the Andean Cordillera</a>: Journal of Biogeography, DOI: https://doi.org/10.1111/jbi.13428. Early View Online at: https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428.</li>
+<li>Assal, T.J., 2018, Burn severity (2002) and field data (2012) from Tolhuaca National Park (Chile): U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P9YMIVFU" target="_blank" rel="noopener">https://doi.org/10.5066/P9YMIVFU</a></li>
+</ul>
+<figure id="attachment_1908" aria-describedby="caption-attachment-1908" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg"><img class="size-large wp-image-1908" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=474%2C301" alt="" width="474" height="301" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=1024%2C651&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=300%2C191&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=768%2C488&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1593&amp;ssl=1 1593w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1908" class="wp-caption-text">Fieldwork in Tolhuaca National Park</figcaption></figure>
+<p><em>*Banner image: Araucaria mortality in Tolhuaca National Park, 10 years postfire, Andes Mountains, Araucania Region, Chile.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1875</post-id>	</item>
+		<item>
+		<title>New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/#respond</comments>
+				<pubDate>Wed, 27 Jun 2018 23:35:10 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[phenology]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1827</guid>
+				<description><![CDATA[We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/" class="more-link">Continue reading <span class="screen-reader-text">New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p dir="ltr">We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen Days workshops. The data here represents phase I of the project (i.e. development of more accurate maps of conifer and deciduous vegetation). We (myself and my collaborator, Valerie Steen), created a synthesis map of coniferous and deciduous communities in the Bighorn Mountains of Wyoming using a species distribution modeling approach developed in the Wyoming Landscape Conservation Initiative (WLCI) (Assal et al. 2015). We used a RandomForest modeling framework and utilized a number of topographic covariates and temporal remote sensing data from the early, mid and late growing season to capitalize on phenological differences in vegetation types.</p>
+<p dir="ltr">In Phase II of this project (to be completed in FY2018 and 2019), we will conduct a preliminary assessment on the baseline condition of riparian deciduous communities. This will be a proof-of-concept study where the USGS will apply a framework used in prior research in upland aspen and sagebrush communities to detect trends in riparian vegetation condition from the mid-1980s to present (manuscript to follow). We are collaborating with the Wyoming Game and Fish Department, US Forest Service and Wyoming State Forestry Division.</p>
+<ul>
+<li dir="ltr"> Assal, T.J., 2018, Bighorn Mountains, Wyoming Forest Mapping, 2013-2017: U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P98OS2XK" target="_blank" rel="noopener">https://doi.org/10.5066/P98OS2<wbr />XK</a>.</li>
+<li dir="ltr">Assal, T.J., Anderson, P., Sibold, J., 2015. <a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.    <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf">*PDF Download     </a><a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F1639MP5">*Data Download</a></em></li>
+</ul>
+<figure id="attachment_1833" aria-describedby="caption-attachment-1833" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg"><img class="wp-image-1833 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=474%2C318" alt="" width="474" height="318" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=1024%2C686&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=300%2C201&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=768%2C515&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1833" class="wp-caption-text">Aspen Days workshop discussion in the Bighorn Mountains, Wyoming, August 2017 with representatives from the Wyoming Game and Fish Department, US Bureau of Land Management, US Forest Service, Western Aspen Alliance, US Geological Survey and many others .</figcaption></figure>
+<p><em>*Banner image: Magic bus in the Bighorn National Forest, Wyoming.</em></p>
+<div>
+<div></div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1827</post-id>	</item>
+		<item>
+		<title>Call for Papers: Bark Beetle Epidemics &#8211; causes and consequences</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/#respond</comments>
+				<pubDate>Tue, 17 Oct 2017 18:29:38 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[Dendrochtonus ponderosae]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Lodgepole Pine]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Ponderosa Pine]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1609</guid>
+				<description><![CDATA[The open access journal Forests has a call for papers related to the causes and consequences of bark beetle epidemics on tree, forest and ecosystem processes. Papers that identify environmental or ecological factors that contributed to the recent epidemic, describe mountain pine beetle impacts on ecosystem processes or identify management opportunities that may prevent or &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Bark Beetle Epidemics &#8211; causes and consequences</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>The open access journal <a href="http://www.mdpi.com/journal/forests" target="_blank" rel="noopener">Forests</a> has a call for papers related to the causes and consequences of bark beetle epidemics on tree, forest and ecosystem processes. Papers that identify environmental or ecological factors that contributed to the recent epidemic, describe mountain pine beetle impacts on ecosystem processes or identify management opportunities that may prevent or limit the extent of future outbreaks are encouraged. The call is open to a wide variety of subjects including experimental, monitoring and modeling approaches that further our understanding of the causes and consequences of large scale bark beetle epidemics. Full details can be found <a href="http://www.mdpi.com/si/forests/bark_beetle" target="_blank" rel="noopener">here.</a></p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Deadline for manuscript submissions: <strong>10 June</strong><b> 2018</b></span></p>
+<div>Dr. Robert M. Hubbard, USDA, Forest Service</div>
+</div>
+<div><em>Guest Editor</em></div>
+<div></div>
+<div><em>*Banner image: beetle-induced forest mortality on Pine Mountain, Wyoming.</em></div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1609</post-id>	</item>
+		<item>
+		<title>New paper on spruce-beetle outbreak and high-severity wildfire</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/#respond</comments>
+				<pubDate>Mon, 18 Sep 2017 20:50:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[spruce beetle]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1592</guid>
+				<description><![CDATA[Our new paper, lead by my colleagues at Colorado State University and published in the journal PLOS ONE,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/" class="more-link">Continue reading <span class="screen-reader-text">New paper on spruce-beetle outbreak and high-severity wildfire</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Our new paper, lead by my colleagues at Colorado State University and published in the journal <a href="http://journals.plos.org/plosone/" target="_blank" rel="noopener"><em>PLOS ONE</em></a>,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. These results suggest vegetation recovery processes may be negatively impacted by severe spruce beetle outbreaks occurring within a decade of stand-replacing fire. Much of the current subalpine forest in this region has been impacted by recent beetle outbreaks. In the future, these areas could experience higher burn severity which has important implications for the structure and composition of future forests.</p>
+<ul>
+<li>Carlson, A.R., J.S. Sibold, T.J. Assal, J.F. Negron. 2017. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0181778" target="_blank" rel="noopener">Evidence of compounded disturbance effects on vegetation recovery following high-severity wildfire and spruce beetle outbreak.</a> PLoS ONE. 12(8):  e0181778. https://doi.org/10.1371/journal.pone.0181778.</li>
+</ul>
+<p><em>*Banner image: beetle-induced tree mortality photographed on Little Mountain, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1592</post-id>	</item>
+		<item>
+		<title>Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/#respond</comments>
+				<pubDate>Fri, 30 Sep 2016 00:42:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1354</guid>
+				<description><![CDATA[“A map is the greatest of all epic poems.” Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954) That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/" class="more-link">Continue reading <span class="screen-reader-text">Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>“<em>A map is the greatest of all epic poems.</em>”</p>
+<p><strong>Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954)</strong></p>
+<p>That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource managers charged with making decisions. Below are maps of <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">forest cover</a> (<a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289" target="_blank">Assal et al. 2015</a>) and  <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">trend of forest canopy condition</a> (<a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Assal et al. 2016</a>) in the Little Mountain Ecosystem in southwest Wyoming and northwest Colorado prepared for our agency partners in the Wyoming Landscape Conservation Initiative.</p>
+<p>See below for images of maps (click for higher resolution view); high resolution pdf files can be downloaded from figshare. Please see the publications for detailed methodology.</p>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li> Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Forest Cover Maps. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3863262.v1" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3863262.v1 </a>Retrieved: 18 37, Sep 29, 2016 (GMT)</li>
+<li>Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Trends Maps of Forest Canopy Condition. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3971421.v2" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3971421.v2</a> Retrieved: 18 45, Sep 29, 2016 (GMT)</li>
+</ul>
+<p style="text-align: center;"><em><strong>Little Mountain and Pine Mountain (Wyoming) Forest Cover:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1356 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300" alt="lmpm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><strong><em>Middle Mountain, Diamond Peak and Cold Spring Mountain (Colorado) Forest Cover:</em></strong></p>
+<p style="text-align: center;"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1365 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300" alt="dpmmcsm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Little Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1367 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300" alt="lm_trends_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Pine Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1370 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300" alt="pm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Middle Mountain and Diamond Peak (Colorado) Trend Map of Forest Canopy Condition:<a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1371 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300" alt="dpmm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></strong></em></p>
+<p style="text-align: center;"><em><strong>Cold Spring Mountain (Colorado) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1372 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300" alt="csm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1354</post-id>	</item>
+		<item>
+		<title>Research Presentation at the Ecological Society of America 2016 Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/#respond</comments>
+				<pubDate>Mon, 08 Aug 2016 07:04:20 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[disturbance interactions]]></category>
+		<category><![CDATA[ESA 2016]]></category>
+		<category><![CDATA[ESA2016]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Glacier National Park]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Mountain Pine Beetle]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1333</guid>
+				<description><![CDATA[I will present my research on the influence of an historical mountain pine beetle outbreak (~1970s) on burn severity of subsequent wildfires (1988-2006) in Glacier National Park at the ESA annual meeting in Fort Lauderdale, FL. My talk is part of the session entitled: (COS 93) Ecosystem Stability and Resilience on Friday morning, August 12th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the Ecological Society of America 2016 Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present my research on the influence of an historical mountain pine beetle outbreak (~1970s) on burn severity of subsequent wildfires (1988-2006) in Glacier National Park at the ESA annual meeting in Fort Lauderdale, FL. My talk is part of the session entitled:<a href="https://eco.confex.com/eco/2016/webprogram/Session12185.html" target="_blank"><span style="color: #ff6600;"> (COS 93) <em>Ecosystem Stability and Resilience </em></span></a>on Friday morning, August 12th, in Palm B, Ft. Lauderdale Convention Center.</p>
+<figure id="attachment_1338" aria-describedby="caption-attachment-1338" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg" target="_blank"><img class="wp-image-1338 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=474%2C260" alt="dfdfdf" width="474" height="260" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=1024%2C562&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=300%2C165&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=768%2C421&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1338" class="wp-caption-text">Subapline forest in the gray phase from the recent (~late 90&#8217;s-early 2000&#8217;s) mountain pine beetle outbreak in northern Colorado (photo taken July 2016).</figcaption></figure>
+<p class="subtitle"><span style="text-decoration: underline; color: #008000;"><em><strong><a href="https://eco.confex.com/eco/2016/webprogram/Paper60905.html" target="_blank">After the gray phase: Can an historic mountain pine beetle outbreak influence subsequent patterns of burn severity? (COS 93-4)</a><br />
+</strong></em></span></p>
+<div class="paperauthors"><b>Abstract</b></div>
+<div class="media"></div>
+<div class="abstract">
+<p><b>Background/Question/Methods </b>Native bark beetles are capable of causing widespread mortality during outbreak events in the forests of western North America. These disturbances can have vast effects on forest structure and there is concern that such changes could influence subsequent wildfire behavior and its impact on ecosystems. New research has considered the recent mountain pine beetle outbreak (~1996-2006), but few studies have analyzed the ecological legacies of historic events. Northern Rocky Mountain forests were impacted by a widespread mountain pine beetle outbreak in the late 1970s through the early 1980s. In this study, we evaluated the effect of the historic beetle outbreak and other biophysical variables on the burn severity (derived from Landsat data) of 11 different fires in Glacier National Park over an 18-year period (1988-2006). The extent and arrangement of these disturbances presented a unique opportunity to evaluate the influence of an earlier disturbance on ensuing wildfires. We used sequential autoregression to obtain accurate estimates of model parameters given the high level of spatial autocorrelation associated with wildfire. Models included additional explanatory variables known to influence burn severity such as topography and fuel moisture and variables were evaluated at increasing spatial scales.</p>
+<p><b>Results/Conclusions </b></p>
+<p>The models explained between 54% and 80% of the variability in burn severity of each fire. Historic mountain pine beetle severity was a significant predictor of burn severity in 10 of the 11 fires. The relationship between beetle severity and burn severity was positive across all models and we found no relationship between the effect size of beetle severity and time since the beetle outbreak. However, our results suggest the influence of the beetle outbreak on burn severity is scale-dependent on the pattern of beetle intensity. Fires where beetle severity was the best predictor at broad scales tended to have a larger beetle effect size compared to fires where local beetle severity was the best predictor. A number of factors, including topography and weather, are responsible for the burn severity associated with a given fire. However, our work shows an historic high severity beetle outbreak can influence the burn severity of wildfire for many years after the initial disturbance event. Furthermore, our analysis of historic events can shed light on future compounded disturbances as much of the landscape impacted by the recent beetle outbreak moves beyond the gray phase.</p>
+</div>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Sibold, J., and R. Reich. 2014. <a title="RSE Article" href="http://www.sciencedirect.com/science/article/pii/S0034425714003435" target="_blank">Modeling a Historical Mountain Pine Beetle Outbreak Using Landsat MSS and Multiple Lines of Evidence.</a> <em>Remote Sensing of Environment </em>155:275-288.<em> </em></li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1333</post-id>	</item>
+		<item>
+		<title>New paper documents spatial and temporal trends of drought in a semi-arid forest ecosystem</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/#respond</comments>
+				<pubDate>Wed, 17 Feb 2016 05:00:42 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[fisheye photo]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Forest Ecology and Management]]></category>
+		<category><![CDATA[hemispheric photo]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[leaf area index]]></category>
+		<category><![CDATA[NDMI]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[plant area index]]></category>
+		<category><![CDATA[quaking aspen]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[subalpine fir decline]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1129</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work on their Science Blog** We recently published an open access paper in the journal Forest Ecology and Management, entitled &#8220;Spatial and temporal trends of drought effects in a heterogeneous semi-arid forest ecosystem.&#8221; This is our second paper from this study which took place &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/" class="more-link">Continue reading <span class="screen-reader-text">New paper documents spatial and temporal trends of drought in a semi-arid forest ecosystem</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #ff0000;"><strong><em>**A special thanks to the NASA Landsat Program for featuring our work on their <a style="color: #ff0000;" href="http://landsat.gsfc.nasa.gov/?p=12121" target="_blank">Science Blog</a>**</em></strong></span></h3>
+<p>We recently published an open access paper in the journal <em><a href="http://www.journals.elsevier.com/forest-ecology-and-management/" target="_blank">Forest Ecology and Management</a>,</em> entitled &#8220;Spatial and temporal trends of drought effects in a heterogeneous semi-arid forest ecosystem.&#8221; This is our second paper from this study which took place in southwestern Wyoming and northwestern Colorado. <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">We published a paper in 2015</a> mapping forest functional type across the forest-shrubland ecotone, which represents important habitat for a host of species.</p>
+<figure id="attachment_1156" aria-describedby="caption-attachment-1156" style="width: 300px" class="wp-caption alignleft"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg" target="_blank" rel="attachment wp-att-1156"><img class="wp-image-1156 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=300%2C300" alt="Extent of the forest in the study area (Assal et al., 2015)." width="300" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?w=1062&amp;ssl=1 1062w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1156" class="wp-caption-text">Extent of the forest in the study area (Assal et al., 2015).</figcaption></figure>
+<p>The study area experienced a relatively dry period since 2000, while 2002 and 2012 were both extreme drought years. However, little attention has been given to the effect of top down climatic controls on the condition of the forest across the region. Recent drought-related mortality of aspen has been documented in western North America (Michaelian et al., 2011; Worrall et al., 2008) and multiple studies have documented an increase in mortality rates of coniferous species throughout the western United States over the later part of the 20<sup>th</sup> century (van Mantgem et al., 2009). This prompted the question:</p>
+<p><em>What are the spatial and temporal trends of recent drought in a forested ecosystem expected to be vulnerable to climate change?</em></p>
+<figure id="attachment_1161" aria-describedby="caption-attachment-1161" style="width: 300px" class="wp-caption alignleft"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg" target="_blank" rel="attachment wp-att-1161"><img class="wp-image-1161 size-medium" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=300%2C133" alt="The standardized precipitation index for the study area, identifying wet and dry years." width="300" height="133" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=300%2C133&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=768%2C341&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=1024%2C455&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?w=1422 1422w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1161" class="wp-caption-text">The standardized precipitation index for the study area, use to identify wet and dry years.</figcaption></figure>
+<p>We had no baseline data or long-term plots in the area, so we turned to the remote sensing archive to determine if drought altered forest structure over the course of a decade-and-a-half. We analyzed 22 years of Landsat satellite data to determine changes in forest condition between 1985 and 2012. The driving concept of the analysis was to assess the relationship between recent satellite imagery and the condition of vegetation on the ground; then backcast the relationship over the last thirty years to determine when and where change occurred. We assessed the relationship between plant moisture (a proxy for plant productivity derived from satellite data) and a number of ground based measurements.</p>
+<figure id="attachment_1165" aria-describedby="caption-attachment-1165" style="width: 300px" class="wp-caption alignright"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg" target="_blank" rel="attachment wp-att-1165"><img class="wp-image-1165 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?resize=300%2C212" alt="Left: example of fisheye photos collected from two field sites. Right: classified photos indicating plant material in green. " width="300" height="212" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?resize=300%2C212&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?resize=768%2C543&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?w=1019&amp;ssl=1 1019w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1165" class="wp-caption-text">Left: example of fisheye photos collected from two field sites. Right: classified photos indicating plant material in green.</figcaption></figure>
+<p>In one set of measurements we used hemispheric or fisheye photos to measure the amount of aboveground plant material in a plot. Our results indicate there is a strong linear relationship between the amount of plant material on the ground and plant moisture measured from a satellite.</p>
+<figure id="attachment_1168" aria-describedby="caption-attachment-1168" style="width: 300px" class="wp-caption alignleft"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg" target="_blank" rel="attachment wp-att-1168"><img class="wp-image-1168 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg?resize=300%2C165" alt="Hypothesized trajectories of forest productivity over time." width="300" height="165" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg?resize=300%2C165&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg?w=456&amp;ssl=1 456w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1168" class="wp-caption-text">Hypothesized trajectories of forest productivity over time with respect to drought.</figcaption></figure>
+<p>We hypothesized the long-term trajectory of plant moisture could be used to identify areas of forest that are resistant, persistent or vulnerable to severe drought. To do this, we ran simultaneous regression analyses for every 30 square meter Landsat pixel (upwards of 100,000 regressions) that incorporated plant moisture as the dependent variable and time as the explanatory variable. We then mapped the direction of the slope in each regression equation across the study area to identify trends in forest condition.</p>
+<figure id="attachment_1159" aria-describedby="caption-attachment-1159" style="width: 300px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg" target="_blank" rel="attachment wp-att-1159"><img class="wp-image-1159 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=300%2C183" alt="Locations of forest pixels with positive, negative and no trend over time (Assal et al., 2016). Note, positive and negative trends are significant at the 95% confidence level. Each map panel is displayed at the same scale." width="300" height="183" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=300%2C183&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=768%2C468&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=1024%2C624&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?w=1437&amp;ssl=1 1437w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1159" class="wp-caption-text">Locations of forest pixels with positive, negative and no trend over time (Assal et al., 2016). Note, positive and negative trends are significant at the 95% confidence level. Each map panel is displayed at the same scale.</figcaption></figure>
+<p>Field plots with a negative trend had a lower live tree density, and higher amounts of standing dead and down trees compared to plots with no trend. We can use this information to analyze individual forest stands and analyze the timing of changes in the plant moisture trajectory.</p>
+<figure id="attachment_1174" aria-describedby="caption-attachment-1174" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg" target="_blank" rel="attachment wp-att-1174"><img class="wp-image-1174 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=474%2C233" alt="Top: example of a vulnerable plot (negative trend) with high levels of plant mortality. The trend begins to decline in the early 2000s. Bottom: example of a persistent plot (no statistical trend) with low levels of plant mortality. The fisheye photos indicate low plant material in the vulnerable plot and a high amount of plant material in the persistent plot (bottom right). " width="474" height="233" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=1024%2C503&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=300%2C147&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=768%2C378&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?w=1253&amp;ssl=1 1253w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1174" class="wp-caption-text">Subtle changes in forest structure are difficult to detect with satellite observations, therefore, drought studies require long-term series of observations. Top: example of a vulnerable plot (negative trend) with high levels of plant mortality. The trend begins to decline in the early 2000s. Bottom: example of a persistent plot (no statistical trend) with low levels of plant mortality. The fisheye photos indicate low plant material in the vulnerable plot (top right) and a high amount of plant material in the persistent plot (bottom right).</figcaption></figure>
+<p>Our results identify areas of forest that are resistant, persistent or vulnerable to severe drought. The analysis gives natural resource managers a long-term perspective of the forest dynamics of this ecosystem and could inform treatment options or monitoring efforts. The spatial data generated from the analysis gives managers a glimpse into the recent past and it may hold clues as to how this system will respond to projected climate change. Our framework relies heavily on open access satellite data and could be applied to long-term monitoring of similar ecosystems.</p>
+<figure id="attachment_1177" aria-describedby="caption-attachment-1177" style="width: 840px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg" target="_blank" rel="attachment wp-att-1177"><img class="wp-image-1177 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?resize=474%2C119" alt="Our analysis capitalizes on the changes in moisture over time between a live canopy, a standing dead canopy and even down trees." width="474" height="119" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?w=840&amp;ssl=1 840w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?resize=300%2C75&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?resize=768%2C192&amp;ssl=1 768w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1177" class="wp-caption-text">Our analysis capitalizes on the difference in moisture over time between a live canopy, a standing dead canopy and even down trees.</figcaption></figure>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Anderson, P.J., Sibold, J., 2016. <a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem. Forest Ecology and Management.</a> 365, 137-151.  <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2016/02/FEM_spatial-and-temporal-trends-of-drought.pdf" target="_blank">*PDF Download </a></em></li>
+<li>Assal, T.J., Anderson, P., Sibold, J., 2015. <a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.    <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf">*PDF Download     </a><a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F1639MP5">*Data Download</a></em></li>
+</ul>
+<ul>
+<li>Michaelian, M., Hogg, E.H., Hall, R.J., Arsenault, E., 2011. Massive mortality of aspen following severe drought along the southern edge of the Canadian boreal forest. Global. Change Biology. 17, 2084–2094.</li>
+<li>Van Mantgem, P.J., Stephenson, N.L., Byrne, J.C., Daniels, L.D., Franklin, J.F., Fulé, P.Z., Harmon, M.E., Larson, A.J., Smith, J.M., Taylor, A.H., Veblen, T.T., 2009. Widespread increase of tree mortality rates in the western United States. Science 323 (80), 521–524.</li>
+<li>Worrall, J.J., Egeland, L., Eager, T., Mask, R.A., Johnson, E.W., Kemp, P.A., Shepperd, W. D., 2008. Rapid mortality of Populus tremuloides in southwestern Colorado, USA. Forest Ecology and Management. 255, 686–696.</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1129</post-id>	</item>
+	</channel>
+</rss>

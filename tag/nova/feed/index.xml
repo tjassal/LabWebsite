@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>NOVA &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/nova/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 12 Jan 2015 20:59:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Sustainability from Space</title>
+		<link>https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/#respond</comments>
+				<pubDate>Sat, 05 Oct 2013 19:43:54 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Araucaria-Nothofagus forest]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[earth observation]]></category>
+		<category><![CDATA[environmental sustainability]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Landsat 8]]></category>
+		<category><![CDATA[NBR]]></category>
+		<category><![CDATA[Normalized Burn Ratio]]></category>
+		<category><![CDATA[NOVA]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=839</guid>
+				<description><![CDATA[This post was originally published on the HumanNature blog hosted by the School of Global Environmental Sustainability (SOGES) at Colorado State University. I was as a Sustainability Leadership Fellow at SOGES during the academic year of 2013-2014. My fellowship cohort contributed blog posts that described the connection between our research and sustainability. Below, I highlight the &#8230; <a href="https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/" class="more-link">Continue reading <span class="screen-reader-text">Sustainability from Space</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>This post was originally published on the <a title="SOGES HumanNature Blog" href="http://blog.sustainability.colostate.edu/?q=content/sustainability-space" target="_blank">HumanNature blog </a>hosted by the <a title="SOGES" href="http://sustainability.colostate.edu/" target="_blank">School of Global Environmental Sustainability</a> (SOGES) at Colorado State University. I was as a Sustainability Leadership Fellow at SOGES during the academic year of 2013-2014. My fellowship cohort contributed blog posts that described the connection between our research and sustainability. Below, I highlight the value of the Landsat program and the contribution that remote sensing has and will continue to make toward sustainability research.</p>
+<p>Environmental sustainability requires a balance between economic and social development while ensuring environmental protection. Monitoring of our planets resources is therefore a critical component in the realm of sustainability. We live in a world faced with uncertainty of climate change and rapid population growth, both of which contribute greatly to increasing pressure and competition for natural resources. Over the last 40 years, a growing network of satellites orbiting high above the earth has played an increasingly vital role in global change research. Currently, there are approximately 120 earth observing satellites, each providing a unique birds-eye view of the planet. The images captured by these satellites are more than just pretty pictures. They are records of the Earth’s surface and can reveal what is hidden from our view, enabling us to track changes in the global ecosystem over time. For a thorough treatment of the subject, I would encourage you to check out <a href="http://www.pbs.org/wgbh/nova/earth/earth-from-space.html" target="_blank">NOVA’s recent special</a>.</p>
+<p>Earlier this summer, one of the newest satellites in orbit, Landsat 8, beamed back its first images after launch in February. The imagery provided by Landsat is not quite as sophisticated as some of the other satellites of the last decade. However, the commencement of Landsat 8 is a significant event because it continues the longest running enterprise of satellite imagery which began during the Nixon administration. Any major event since 1972 that left a mark on the planet larger than a soccer field was likely captured by Landsat. The true value lies in the temporal resolution associated with the data collection (every 16 days). Landsat reached new heights in 2008 when the USGS released the entire <a href="http://earthexplorer.usgs.gov/" target="_blank">archive to the public</a>, free of charge. Given the imagery is readily available and covers large areas where ground access can be difficult, it’s no surprise there has been a sharp increase in multi-temporal remote sensing studies. The journal Remote Sensing of Environment dedicated a <a href="http://www.sciencedirect.com/science/article/pii/S003442571200034X" target="_blank">special issue</a> to the legacy of Landsat in 2012.</p>
+<p>I suspect I was more excited than most about the new satellite because this type of data is central in my work. I research how disturbances such as fire, insect outbreaks and drought impact our forests. I use remote sensing to investigate the connection between historical pine beetle damage and wildfire in Glacier National Park, as well as drought stress in semi-arid woodlands in Wyoming. Disturbances have always been a natural occurrence in forests; however, global climate change is expected to increase the extent, frequency and severity of future disturbances. I use remote sensing in part to uncover when, where and why these changes took place. Disturbance alters forest ecosystem structure by both abrupt, conspicuous change and by gradual, slow change over some period of time. Such impacts allow remote sensing to capture the pre and post landscape and detect changes that might not be readily observed, such as drought stress. Through assembling multiple snapshots in time, we can begin to answer more difficult questions regarding the severity of a disturbance and the recovery trajectory for a given area.</p>
+<p>I use many different types of remotely sensed data in my work, but Landsat is always my “go- to.” My work often involves a retrospective analysis of an event and I believe one project epitomizes the utility of Landsat. My advisor and I are working with a colleague at the Universidad Austral de Chile to quantify forest mortality in Tolhuaca National Park. This understudied national park in south-central Chile and an adjacent national forest reserve experienced a devastating wildfire in 2002. We were able to utilize Landsat imagery from before and after the event to calculate the extent and severity of the fire. We are validating our model through field data of canopy mortality and studying the regeneration of key species that will determine what the future forest will look like. The durability of the Landsat program allowed this particular project and so many more to come to fruition. As a write this column millions of pixels are waiting patiently in the archive to help the next scientist tell a story.</p>
+<p><em><strong>*Header Photo</strong> – A mix of live and dead Araucaria forest in Tolhuaca National Park, Chile. </em></p>
+<figure id="attachment_843" aria-describedby="caption-attachment-843" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg"><img class="size-large wp-image-843" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=474%2C355" alt="Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012." width="474" height="355" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-843" class="wp-caption-text">Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012.</figcaption></figure>
+<figure id="attachment_842" aria-describedby="caption-attachment-842" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg"><img class="size-large wp-image-842" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?resize=474%2C310" alt="Unburned Araucaria-Nothofagus forest canopy in Tolhuaca National Park. Photo taken in March 2012. " width="474" height="310" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?resize=1024%2C671&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?resize=300%2C196&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?w=1600&amp;ssl=1 1600w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-842" class="wp-caption-text">Unburned Araucaria-Nothofagus forest canopy in Tolhuaca National Park. Photo taken in March 2012.</figcaption></figure>
+<figure id="attachment_845" aria-describedby="caption-attachment-845" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg"><img class="size-large wp-image-845" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?resize=474%2C369" alt="The extent of the 2002 wildfire derived from Landsat data in relation to the park and reserve boundaries. " width="474" height="369" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?resize=1024%2C799&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?resize=300%2C234&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-845" class="wp-caption-text">The extent of the 2002 wildfire derived from Landsat data in relation to the park and reserve boundaries.</figcaption></figure>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">839</post-id>	</item>
+	</channel>
+</rss>

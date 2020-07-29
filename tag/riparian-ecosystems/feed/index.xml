@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>riparian ecosystems &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/riparian-ecosystems/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 01 May 2018 02:30:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Call for Papers: Application of Remote Sensing in Hydrological Modeling and Watershed Management</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/#respond</comments>
+				<pubDate>Tue, 01 May 2018 02:30:22 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[hydrologic modeling]]></category>
+		<category><![CDATA[hydrology]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[riparian ecosystems]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[water]]></category>
+		<category><![CDATA[water quality]]></category>
+		<category><![CDATA[watershed assessment]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1780</guid>
+				<description><![CDATA[The open access journal Remote Sensing has a call for papers that highlight recent advances of remote sensing in hydro-environmental assessments. The call is open to a wide range of topics which address that address such assessments by means of image analysis and/or hydrologic modeling. Topics of interest may include, but are not limited to: &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Application of Remote Sensing in Hydrological Modeling and Watershed Management</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<header></header>
+<header></header>
+<header class="entry-header">The open access journal <a href="http://www.mdpi.com/journal/remotesensing" target="_blank" rel="noopener">Remote Sensing</a> has a call for papers that highlight recent advances of remote sensing in hydro-environmental assessments. The call is open to a wide range of topics which address that address such assessments by means of image analysis and/or hydrologic modeling. Topics of interest may include, but are not limited to:</header>
+<header></header>
+<header></header>
+<ul>
+<li>Multi-temporal image analysis for water resources</li>
+<li>Hydrologic Modeling</li>
+<li>Riparian corridor mapping</li>
+<li>Environmentally sensitive lands</li>
+<li>Soil erosion and sediment</li>
+<li>Water availability and quality assessment</li>
+<li>Watershed management</li>
+</ul>
+<p>Full details can be found <a href="http://www.mdpi.com/journal/remotesensing/special_issues/hydromodeling_watershedmanagem#info" target="_blank" rel="noopener">here</a>.</p>
+<p>Deadline: December 31, 2018</p>
+<p>Guest Editors:</p>
+<p>Dr. Cuizhen (Susan) Wang<br />
+Prof. Dr. Fei Yuan<br />
+Prof. Dr. Changshan Wu</p>
+<p><em>*Banner image: Fall Creek, Arapaho National Forest, Colorado<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/04/30/call-for-papers-application-of-remote-sensing-in-hydrological-modeling-and-watershed-management/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1780</post-id>	</item>
+	</channel>
+</rss>

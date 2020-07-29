@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Array &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/array/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Fri, 22 Apr 2016 18:29:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>NetCDF Data in R: rearranging the dimensions for raster analysis</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comments</comments>
+				<pubDate>Tue, 29 Mar 2016 23:19:19 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Array]]></category>
+		<category><![CDATA[Climate Data]]></category>
+		<category><![CDATA[Fuel Moisture Data]]></category>
+		<category><![CDATA[Gridded Surface Meteorological Data]]></category>
+		<category><![CDATA[Matrix]]></category>
+		<category><![CDATA[netCDF]]></category>
+		<category><![CDATA[Network Common Data Form]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210</guid>
+				<description><![CDATA[I recently ran into some challenges working with netCDF data in R. Specifically, I wanted to extract data from a netCDF file and convert the file to a raster for additional analyses. It is pretty straightforward to import each time slice of a variable into a RasterBrick. However, once I tried this I realized the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/" class="more-link">Continue reading <span class="screen-reader-text">NetCDF Data in R: rearranging the dimensions for raster analysis</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I recently ran into some challenges working with netCDF data in R. Specifically, I wanted to extract data from a netCDF file and convert the file to a raster for additional analyses. It is pretty straightforward to import each time slice of a variable into a RasterBrick. However, once I tried this I realized the columns, rows, and layers from the netCDF file were not being read properly in R, resulting in an incorrect raster layer. The solution is to import the netCDF file into R as an array and then reorganize the array into the proper dimensions. I hope this is helpful and please let me know if you know of a better solution.</p>
+<p>In this example, I am working with dead fuel moisture data available from Dr. John Abatzoglou’s Applied Climate Science Lab <a href="http://climate.nkn.uidaho.edu/METDATA/" target="_blank">website</a>.</p><pre class="crayon-plain-tag">library(ncdf)
+nc &lt;- open.ncdf("fm100_2003.nc");
+print(nc)
+[1] "file fm100_2003.nc has 3 dimensions:"
+[1] "lon   Size: 1386"
+[1] "lat   Size: 585"
+[1] "day   Size: 365"
+[1] "------------------------"
+[1] "file fm100_2003.nc has 1 variables:"
+[1] "short dead_fuel_moisture_100hr[day,lon,lat]  Longname:dead_fuel_moisture_100hr Missval:-9999"</pre><p>The netCDF file has 3 dimensions and the size of the day dimension corresponds to daily dead fuel moisture of 100-hour fuels for one year (365 days).  I can import these into a RasterBrick for additional analyses:</p><pre class="crayon-plain-tag">r &lt;- "fm100_2003.nc"
+b &lt;- brick(r,varname="dead_fuel_moisture_100hr")</pre><p>However, the issue is that the columns and layers in the RasterBrick are switched, which results in an incorrect raster<code></code> for each layer in the brick. The dimensions of the RasterBrick<code></code> should read 585, 1386, 810810, 365 instead of the dimensions below:</p><pre class="crayon-plain-tag">class       : RasterBrick 
+dimensions  : 1386, 365, 505890, 585  (nrow, ncol, ncell, nlayers)
+resolution  : 1, 0.04166667  (x, y)
+extent      : 37619.5, 37984.5, -124.793, -67.043  (xmin, xmax, ymin, ymax)
+coord. ref. : NA 
+data source : fm100_2003.nc 
+names       : X49.3960227966309, X49.3543561299642, X49.3126894632975, X49.2710227966309, X49.2293561299642, X49.1876894632975, X49.1460227966309, X49.1043561299642, X49.0626894632975, X49.0210227966309, X48.9793561299642, X48.9376894632975, X48.8960227966309, X48.8543561299642, X48.8126894632975, ... 
+degrees_north: 25.0626894632975, 49.3960227966309 (min, max)
+varname     : dead_fuel_moisture_100hr</pre><p>The solution is to import the netCDF file into R as an array and then reorganize the array into the proper dimensions.</p>
+<p>Import the netCDF  file as an array:</p><pre class="crayon-plain-tag">dname &lt;- "dead_fuel_moisture_100hr"
+array1 &lt;- get.var.ncdf(nc, dname) 
+dim(array1)
+[1]  365 1386  585</pre><p>The dimensions of array1 are days, columns, rows which need to be rearranged:</p><pre class="crayon-plain-tag">array2&lt;-aperm(array1, c(3, 2, 1))
+dim(array2)
+[1]  585 1386  365</pre><p>Now the array is organized properly into rows, columns, days. At this point you can access the depth range or each time slice (days 1 through 365) as a matrix:</p><pre class="crayon-plain-tag">#extract day 001 to a matrix
+fm.day.001&lt;-array2[,,1]
+...
+#extract day 365 to a matrix
+fm.day.365&lt;-array2[,,365]</pre><p>If needed, the matrix can be converted to a raster:</p><pre class="crayon-plain-tag">r2&lt;-raster(nrow=585,ncol=1386,vals=fm.day.001, xmn=-124.7722, xmx=-67.06383,  ymn=25.06269, ymx=49.39602)</pre><p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1210</post-id>	</item>
+	</channel>
+</rss>

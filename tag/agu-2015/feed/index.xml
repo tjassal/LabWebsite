@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>AGU 2015 &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/agu-2015/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 12 Dec 2016 06:35:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Research Presentation at the American Geophysical Union Fall Meeting 2015</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/#respond</comments>
+				<pubDate>Mon, 14 Dec 2015 10:12:09 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[AGU 2015]]></category>
+		<category><![CDATA[AGU15]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[Digital hemispheric photos]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[fisheye photos]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[trend analysis]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1099</guid>
+				<description><![CDATA[I will present my research on the effects of drought on deciduous and coniferous forest communities along the shrubland ecotone at the AGU Fall Meeting in San Francisco, CA. My poster presentation is part of the session entitled: (B53F) Remote Sensing to Support Investigations in Plant-Climate Interactions  on Friday afternoon, December 18, in Moscone South. &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the American Geophysical Union Fall Meeting 2015</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>I will present my research on the effects of drought on deciduous and coniferous forest communities along the shrubland ecotone at the AGU Fall Meeting in San Francisco, CA. My poster presentation is part of the session entitled: (<span class="FinalNumber">B53F) </span><em> Remote Sensing to Support Investigations in Plant-Climate Interactions</em>  on Friday afternoon, December 18, in Moscone South.</p>
+</div>
+<div id="stcpDiv">
+<section class="itemSelection "></section>
+<p><em><strong><a href="https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/82817" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem (B53F-0631)</a></strong></em></p>
+<p><strong>Abstract</strong></p>
+<p>Drought-induced forest mortality has been documented across genera in recent years in western North America. Understanding patterns of mortality and plant response to severe drought is important to resource managers, given the frequency of these events are expected to increase in the future. Remote sensing studies have documented changes in forest properties due to direct and indirect effects of drought; however, few have addressed this at local scales needed to characterize highly heterogeneous ecosystems in the forest-shrubland ecotone. We analyzed a 22-year Landsat time series (1985-2012) to determine changes in forest that experienced a relatively dry decade punctuated by two years of extreme drought. We assessed the relationship between vegetation indices and field measures, applied the index to trend analysis to uncover the location, direction and timing of change, and assessed the interaction of climate on topography. The Normalized Difference Moisture Index (NDMI) had the strongest correlation with plant area index (R<sup>2</sup> = 0.64) and canopy gap fraction (R<sup>2</sup> = 0.65). During the study period, 25% of the forested area experienced a significant (p &lt; 0.05) negative trend in NDMI, compared to less than 10% in a positive trend. Trends were not consistent across forest type as a larger amount of coniferous forest was impacted by negative trends than deciduous forest. Southern aspects were least likely to exhibit a negative trend and north aspects were most prevalent. Field plots with a negative trend had a lower live density, and higher amounts of standing dead and down trees compared to plots with no trend. Our analysis identifies spatially explicit patterns of long-term trends anchored with ground based evidence to highlight areas of forest that are resistant, persistent and vulnerable to severe drought. The results provide a long-term perspective for the resource management of this area and can be applied to similar ecosystems throughout western North America.</p>
+<figure id="attachment_1108" aria-describedby="caption-attachment-1108" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg" target="_blank"><img class="wp-image-1108 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?resize=474%2C316" alt="Click for higher resolution." width="474" height="316" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1108" class="wp-caption-text">Click for higher resolution.</figcaption></figure>
+<p>The poster can be accessed and downloaded from figshare <a href="https://figshare.com/articles/Assal_AGU2015_poster_pdf/2058846" target="_blank">here</a>.</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1099</post-id>	</item>
+	</channel>
+</rss>

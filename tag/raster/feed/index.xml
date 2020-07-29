@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Raster &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/raster/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 22 Feb 2017 00:37:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/#respond</comments>
+				<pubDate>Sat, 01 Jun 2019 00:35:58 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[focal analysis]]></category>
+		<category><![CDATA[moving window]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2092</guid>
+				<description><![CDATA[Moving window analysis, sometimes referred to as focal analysis, is the process of calculating a value for a specific neighborhood of cells in a given raster. Typical functions calculated across the neighborhood are sum, mean, min, max, range, etc. However, there are some key differences to keep in mind if you are using continuous vs. &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/" class="more-link">Continue reading <span class="screen-reader-text">Moving Windows in R: Rectangles, Circles, and Zeros&#8230;Oh my!</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Moving window analysis, sometimes referred to as focal analysis, is the process of calculating a value for a specific neighborhood of cells in a given raster. Typical functions calculated across the neighborhood are sum, mean, min, max, range, etc.</p>
+<p>However, there are some key differences to keep in mind if you are using continuous vs. discrete data and/or applying a rectangular or circular moving window. These are fairly straightforward exercises in a GIS, but they become a bit more complex when executed in R <strong>(especially when applying a circular moving window to discrete data)</strong>. Below I outline examples of these four workflows in R.</p>
+<p><strong><em>1. Apply Rectangular Moving Window to Continuous Data</em></strong></p><pre class="crayon-plain-tag">library(raster)
+set.seed(12345)
+# create raster data
+r &lt;- raster(nrows = 120, ncol = 120, xmn=0)
+r[] &lt;- sample(3, ncell(r), replace=TRUE)
+r #note: pixel resolution is 1.5 x 1.5
+
+#set margins for plots
+par(mfrow=c(1,2), oma=c(0,1, 0, 1))  # all sides have 3 lines of space  
+
+###
+#1 apply rectangular moving window to continuous data
+###
+# 3x3 mean filter - rectangle 
+r.R3 &lt;- focal(r, w=matrix(1/9,nrow=3,ncol=3), na.rm=FALSE) #the default is to not consider NAs
+plot(r, main ="Input Raster") #plot orig
+plot(r.R3, main="Rectangular MW") #plot 3x3 moving window
+#####
+#####</pre><p><figure id="attachment_2102" aria-describedby="caption-attachment-2102" style="width: 672px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2102 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?w=672&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Rectangle.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2102" class="wp-caption-text">Output of rectangular 3&#215;3 moving window. Input raster is at left.</figcaption></figure></p>
+<p><strong><em>2. Apply Circular Moving Window to Continuous Data</em></strong></p><pre class="crayon-plain-tag">###
+#2 apply circular moving window to continuous data
+###
+#set the focal weight, since we are using a circle, set number to the radius of the circle (in units of CRS)
+#cell resolution is 1.5 x 1.5
+fw &lt;- focalWeight(r, 4, type='circle') 
+#have a look at the shape of the moving window
+fw
+# apply moving window
+r.C4&lt;-focal(r, w=fw, na.rm=TRUE) 
+plot(r, main ="Input Raster") #plot original
+plot(r.C4, main="Circular MW")
+####
+####</pre><p><figure id="attachment_2103" aria-describedby="caption-attachment-2103" style="width: 672px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2103 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?w=672&amp;ssl=1 672w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_ContinuousData_Circular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2103" class="wp-caption-text">Output of circular moving window. Input raster is at left.</figcaption></figure></p>
+<p><strong><em>3. Apply Rectangular Moving Window to Discrete Data</em></strong></p><pre class="crayon-plain-tag">###
+#3 apply rectangular moving window to discrete data (e.g. integer)
+###
+# 3x3 moving window; note, function is set to modal, so we will find the mode or count of each number...this essentially treats it as categorical
+r.CAT.R3&lt;-focal(r, w=matrix(1,3,3), fun=modal)   
+plot(r) #plot original
+plot(r.CAT.R3)
+####
+####</pre><p><figure id="attachment_2104" aria-describedby="caption-attachment-2104" style="width: 672px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2104 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?w=672&amp;ssl=1 672w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Rectangular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2104" class="wp-caption-text">Output of 3&#215;3 rectangular moving window. Input raster is at left. Note: since the function was set to modal the data is treated as discrete data. Compare output with continuous data.</figcaption></figure></p>
+<p><strong><em>4. Apply Circular Moving Window to Discrete Data</em></strong></p><pre class="crayon-plain-tag">###
+#4 apply circular moving window to discrete data (e.g. integer)
+###
+#set up window
+fw &lt;- ceiling(focalWeight(r, 5, type='circle'))#for integer output; type = circle indicates that d is in the units of the CRS
+fw #take a look at the architecture of the moving window
+#I highly recommend you set the zero's in the moving window to NA. If not, zero's can be added into your discrete data output under certain sizes/shapes of moving windows. Check the legend of the output data to identify if a zero has been introduced.
+fw[fw==0]&lt;-NA
+fw
+#apply focal fxn
+r.CAT.C5&lt;-focal(r, w=fw, fun=modal, na.rm=TRUE)
+plot(r, main ="Input Raster") #plot original
+plot(r.CAT.C5, main="Circular MW")
+#####
+#####</pre><p><figure id="attachment_2105" aria-describedby="caption-attachment-2105" style="width: 672px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2105 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?w=672&amp;ssl=1 672w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2019/06/MW_DiscreteData_Circular.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2105" class="wp-caption-text">Output of the circular moving window. Input raster is at left. Note: since the function was set to modal the data is treated as discrete data. Compare output with continuous data.</figcaption></figure></p>
+<p>When doing analysis #4 in R, I highly recommend you set the zero&#8217;s in the moving window to NA. If not, zero&#8217;s can be added into your discrete data output under certain sizes/shapes of moving windows. Check the legend of the output data to identify if a zero has been introduced.</p>
+<figure id="attachment_2108" aria-describedby="caption-attachment-2108" style="width: 672px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2108 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?resize=474%2C319" alt="" width="474" height="319" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?w=672&amp;ssl=1 672w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/05/MW_DiscreteData_Circular_ZerosIntroduced.jpeg?resize=300%2C202&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2108" class="wp-caption-text">Output of the circular moving window when the zeros in the moving window were not set to NA. This process has introduced zeros into the output data (note legend). Compare output with image above which does not contain zeros.</figcaption></figure>
+<p><em>*Banner image: Milano Centrale Railway Station, Lombardy, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/05/31/moving-windows-in-r-rectangles-circles-and-zeros-oh-my/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2092</post-id>	</item>
+		<item>
+		<title>Exploring Vegetation Dynamics using Google Earth Engine</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comments</comments>
+				<pubDate>Mon, 11 Feb 2019 20:28:56 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[Cuyahoga Valley National Park]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Kent State Univeristy]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019</guid>
+				<description><![CDATA[Below is an example from an upcoming lecture that I will be giving to the Department of Geography at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" class="more-link">Continue reading <span class="screen-reader-text">Exploring Vegetation Dynamics using Google Earth Engine</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[
+<p>Below is an example from an upcoming lecture that I will be giving to the <a href="https://www.kent.edu/geography#" target="_blank" rel="noreferrer noopener" aria-label="Department of Geography (opens in a new tab)">Department of Geography</a> at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI using Google Earth Engine with data from the cloud. Thanks to <a href="https://geohackweek.github.io/" target="_blank" rel="noopener">geohackweek</a> for some pointers on code. </p>
+
+
+
+<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noreferrer noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google’s cloud to run analyses without downloading the data to your local machine. You’ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noreferrer noopener">here.</a></p>
+
+
+
+<p>To execute the example below, please download the park shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2019/02/CVNP.zip" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a> (Note, I&#8217;ve merged the shapefile into a single-part file as GEE doesn&#8217;t seem to be able to handle multi-part files very well). You’ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Uploading table assets” section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Importing assets to your script” section).</p>
+
+
+
+<p>Copy and paste the following code into the Code Editor of GEE:</p>
+
+
+
+<pre class="crayon-plain-tag">// load all Landsat 8 SR image within park boundary for a given season
+var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR')
+//var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
+          .filterBounds(ParkBound)  
+          .filterDate('2018-06-01', '2018-09-30'); //leaf on season (June 1 to Sept 30)
+//          .filterDate('2017-11-15', '2018-03-01'); // leaf-off season Nov 15 to March 1
+
+print(l8collection);
+
+// Mask pixels with clouds and cloud shadows using the 'pixel_qa' band
+// that is based on the cfmask for surface reflectance. 
+// https://landsat.usgs.gov/landsat-surface-reflectance-quality-assessment
+
+// create function to mask clouds, cloud shadows, snow
+var maskClouds = function(image){
+  // make a new single band image from the pixel qa band
+  var pixel_qa = image.select('pixel_qa');
+  // retain clear (0) and water (1) pixels
+  return image.updateMask(pixel_qa.eq(322));   
+};
+
+// use "map" to apply the function to each image in the collection
+var l8masked = l8collection.map(maskClouds);
+print(l8masked);
+
+// create function to add NDVI using NIR (B5) and the red band (B4)
+var getNDVI = function(img){
+  return img.addBands(img.normalizedDifference(['B5','B4']).rename('NDVI'));
+};
+
+// map over image collection
+var l8ndvi = l8masked.map(getNDVI);
+
+// for each pixel, select the "best" set of bands from available images
+// based on the maximum NDVI/greenness
+var composite = l8ndvi.qualityMosaic('NDVI').clip(ParkBound);
+
+//set visualization parameters for NDVI            
+var ndviParams = {min: 0, max: 1, palette: ['red', 'yellow', 'green']};
+Map.addLayer(composite.select('NDVI'), ndviParams, 'NDVI image');
+            
+//export image
+// This will create a task in the 'tasks' tab
+// launch from tasks tab to export image
+Export.image.toDrive({
+  image: composite.select('NDVI'),
+  description: 'CVNP Leaf-on NDVI',
+  //description: 'CVNP Leaf-off NDVI',
+  scale:30 }); //meters</pre>
+
+
+
+
+
+
+
+<figure id="attachment_2027" aria-describedby="caption-attachment-2027" style="width: 300px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg" target="_blank" rel="noopener"><img class="wp-image-2027 " src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=300%2C621" alt="" width="300" height="621" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=145%2C300&amp;ssl=1 145w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2027" class="wp-caption-text">NDVI derived from the leaf-on season over the national park. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values.</figcaption></figure>
+<figure id="attachment_2028" aria-describedby="caption-attachment-2028" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg" target="_blank" rel="noopener"><img class="wp-image-2028 " src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=300%2C622" alt="" width="300" height="622" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=145%2C300&amp;ssl=1 145w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2028" class="wp-caption-text">NDVI derived from the leaf-off season over the national park. A quick comparison with the leaf-on image shows much lower NDVI values, indicating there are a lot of deciduous tree and shrub species within the park.</figcaption></figure>
+<p><em>*Banner image: Changing seasons on Middle Mountain, Colorado, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2019</post-id>	</item>
+		<item>
+		<title>A Brief Foray into Google Earth Engine: Calculate NDVI from the Cloud</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/#respond</comments>
+				<pubDate>Wed, 10 Jan 2018 00:41:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[aerial photos]]></category>
+		<category><![CDATA[Cal Poly University]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[color-infrared]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[San Luis Obispo]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1659</guid>
+				<description><![CDATA[Google Earth Engine (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google&#8217;s cloud to run analyses without downloading the data to your local machine. You&#8217;ll need to sign up as a developer &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/" class="more-link">Continue reading <span class="screen-reader-text">A Brief Foray into Google Earth Engine: Calculate NDVI from the Cloud</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google&#8217;s cloud to run analyses without downloading the data to your local machine. You&#8217;ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noopener">here.</a></p>
+<p>Below is an example from an upcoming lecture to the Anthropology and Geography group of the <a href="https://socialsciences.calpoly.edu/" target="_blank" rel="noopener">Social Sciences Department</a> at Cal Poly University. In my talk I showed an example of the Normalized Difference Vegetation Index for Cal Poly&#8217;s campus. Here I&#8217;ll demonstrate the workflow I used to create NDVI using GEE with data from the cloud.</p>
+<p>To execute the example below, please download the campus shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/CalPoly_campus.zip" target="_blank" rel="noopener">here</a> (originally obtained from the <a href="https://afd.calpoly.edu/facilities/mapsplans/cadfiles/map/gis/" target="_blank" rel="noopener">campus website</a>). You&#8217;ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noopener">instructions</a> (see the &#8220;Uploading table assets&#8221; section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noopener">instructions</a> (see the &#8220;Importing assets to your script&#8221; section). If you&#8217;d like to run the example without downloading campus data, skip to the second code block below.</p>
+<p>Copy and paste the following code into the Code Editor of GEE:</p><pre class="crayon-plain-tag">// Load four 2016 NAIP quarter quads, different locations.
+var naip2016 = ee.ImageCollection('USDA/NAIP/DOQQ')
+  .filterBounds(ee.Geometry.Rectangle(-120.73857, 35.36587, -120.61841, 35.25408))
+  .filterDate('2016-01-01', '2016-12-31');
+
+// Spatially mosaic the images in the collection and display.
+var mosaic = naip2016.mosaic();
+
+// Get information about the bands as a list; prints in console at right
+var bandNames = mosaic.bandNames();
+print('Band names: ', bandNames); 
+
+//Get the projection of Band 1
+var b1proj = mosaic.select('B').projection();
+print ('Band 1 projection: ', b1proj);
+
+//set map center to Baker Lawn on CP's campus
+Map.setCenter(-120.65995, 35.9103, 12);
+//display natural color
+Map.addLayer(mosaic, {bands: ['R', 'G', 'B']}, 'NAIP DOQQ'); 
+//display false color IR
+//Map.addLayer(mosaic, {bands: ['N', 'R', 'G']}, 'NAIP DOQQ');  
+
+// Caculate NDVI.
+var ndvi = mosaic.normalizedDifference(['N', 'R']);
+
+// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green
+var ndviParams = {min: -1, max: 1, palette: ['8B0000','FF0000', 'FF4500', 'FFFF00', '00FF00','008000', '006400']};
+
+// Clip NDVI to campus boundary and add to map
+Map.setCenter(-120.65995, 35.31203, 13);
+Map.addLayer(ndvi.clip(table), ndviParams);
+
+//Display the outline of campus as a black line, no fill
+// Create an empty image into which to paint the features, cast to byte.
+var empty = ee.Image().byte();
+
+// Paint all the polygon edges with the same number and width, display.
+var outline = empty.paint({
+  featureCollection: table,
+  color: 1,
+  width: 1
+});
+Map.addLayer(outline, {palette: '000000'}, 'edges');</pre><p><figure id="attachment_1689" aria-describedby="caption-attachment-1689" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg" target="_blank" rel="noopener"><img class="wp-image-1689 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=474%2C383" alt="" width="474" height="383" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=1024%2C828&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=300%2C243&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=768%2C621&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?w=1119&amp;ssl=1 1119w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1689" class="wp-caption-text">NDVI derived from color-infrared aerial photos for Cal Poly&#8217;s campus. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values; grey pixels indicate a mask (values below -0.25).</figcaption></figure></p>
+<p>The code below does not require download of any campus data; however, it will calculate NDVI over the entire extent as opposed to the campus extent in the example above. Copy and paste the following code into the Code Editor of GEE:</p><pre class="crayon-plain-tag">// Load four 2016 NAIP quarter quads, different locations.
+var naip2016 = ee.ImageCollection('USDA/NAIP/DOQQ')
+  .filterBounds(ee.Geometry.Rectangle(-120.73857, 35.36587, -120.61841, 35.25408))
+  .filterDate('2016-01-01', '2016-12-31');
+
+// Spatially mosaic the images in the collection and display.
+var mosaic = naip2016.mosaic();
+
+// Get information about the bands as a list; prints in console at right
+var bandNames = mosaic.bandNames();
+print('Band names: ', bandNames); 
+
+//Get the projection of Band 1
+var b1proj = mosaic.select('B').projection();
+print ('Band 1 projection: ', b1proj);
+
+//set map center to Baker Lawn on CP's campus
+Map.setCenter(-120.65995, 35.9103, 12);
+//display natural color
+Map.addLayer(mosaic, {bands: ['R', 'G', 'B']}, 'NAIP DOQQ'); 
+//display false color IR
+
+// Caculate NDVI.
+var ndvi = mosaic.normalizedDifference(['N', 'R']);
+
+// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green
+var ndviParams = {min: -1, max: 1, palette: ['8B0000','FF0000', 'FF4500', 'FFFF00', '00FF00','008000', '006400']};
+//Map.addLayer(ndvi, ndviParams, 'NDVI image');
+
+// Add NDVI to map
+Map.setCenter(-120.65995, 35.31203, 13);
+Map.addLayer(ndvi, ndviParams);</pre><p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1659</post-id>	</item>
+		<item>
+		<title>RasterViz in R: Drought Anomalies on California&#8217;s Central Coast</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/#respond</comments>
+				<pubDate>Wed, 03 Jan 2018 00:37:19 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cal Poly University]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[California drought]]></category>
+		<category><![CDATA[Data Visualization]]></category>
+		<category><![CDATA[DataViz]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[San Luis Obispo]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1665</guid>
+				<description><![CDATA[Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I will use in an upcoming lecture to the Anthropology and Geography group of the Social Sciences Department at Cal Poly University. The goal is to gain a brief understanding on vegetation productivity &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/" class="more-link">Continue reading <span class="screen-reader-text">RasterViz in R: Drought Anomalies on California&#8217;s Central Coast</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I will use in an upcoming lecture to the Anthropology and Geography group of the <a href="https://socialsciences.calpoly.edu/" target="_blank" rel="noopener">Social Sciences Department</a> at Cal Poly University. The goal is to gain a brief understanding on vegetation productivity dynamics in the vicinity of San Luis Obispo and the Central Coast using remote sensing and R. I&#8217;ve selected 17 HUC 10 watersheds from the <a href="https://nhd.usgs.gov/" target="_blank" rel="noopener">National Hydrography Dataset</a> as the area of interest.</p>
+<p>We know when the drought hit at a statewide level from the <a href="http://droughtmonitor.unl.edu/" target="_blank" rel="noopener">US Drought Monitor</a>. Now let&#8217;s use satellite data and R to visualize the drought at a local scale using a reproducible example in R.</p>
+<p><figure id="attachment_1676" aria-describedby="caption-attachment-1676" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg" target="_blank" rel="noopener"><img class="wp-image-1676 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=474%2C185" alt="" width="474" height="185" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=1024%2C399&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=300%2C117&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=768%2C299&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1676" class="wp-caption-text">Data from US Drought Monitoring Center indicates the Central Coast did not experience drought conditions in mid-August of 2006 (left); whereas it experienced exceptional drought in mid-August of 2014 (right).</figcaption></figure></p>
+<p>I used <a href="https://lta.cr.usgs.gov/emodis" target="_blank" rel="noopener">eMODIS</a> (EROS Moderate Resolution Imaging Spectroradiometer) data to characterize the NDVI derived productivity of the AOI during the month of August. eMODIS is a standardized product which uses MODIS surface reflectance from a 7-day composite period (Brown et al. 2015). I used all eMODIS images from August during the period 2000 through 2016 to calculate the 17-year August mean. I then calculated August productivity anomalies for a dry year (2014) and an average year (2006) to identify the spatial and temporal variability in productivity within the watershed.</p>
+<p>To execute the example below, please download the data <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/SLO_Data.zip" target="_blank" rel="noopener">here.</a> I have not included the base data or code to calculate the global mean and annual anomalies.</p>
+<p>Load the required packages in R (note: the Rcolorbrewer library is loaded with the <a href="https://oscarperpinan.github.io/rastervis/" target="_blank" rel="noopener">rasterVis</a> library).</p><pre class="crayon-plain-tag">library(rgdal)   #Geospatial Data Abstraction Library
+library(raster)  #Geographic data analysis &amp; modeling Lib
+library(rasterVis) #Raster Visualization library</pre><p>Load the required data:</p><pre class="crayon-plain-tag">#load .shp (proj is the same as the raster data)
+huc.shp &lt;- readOGR(".", "SLO_HUC10_LEA")
+
+#load raster data
+Global.mean.August&lt;-raster("August_GLOBAL_MEAN.tif")
+August.2006.Z&lt;-raster("August_2006_Z.tif")
+August.2014.Z&lt;-raster("August_2014_Z.tif")</pre><p>Plot the mean productivity for August (2000-2016):</p><pre class="crayon-plain-tag">#plot mean August NDVI 2000-2016
+# set a color ramp of yellow to green
+cols &lt;- colorRampPalette(brewer.pal(9,"YlGn"))
+# create a level plot - for Mean August NDVI
+p&lt;-levelplot(Global.mean.August,main="Average August Productivity (NDVI; 2000-2016)",
+             col.regions=cols)
+# overlay the spatialpolygonsdataframe
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+#plot the data
+plot(map.overlay)
+
+#export graphic
+jpeg("Global_mean_August.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><figure id="attachment_1681" aria-describedby="caption-attachment-1681" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg" target="_blank" rel="noopener"><img class="wp-image-1681 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=300%2C300&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=768%2C768&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1681" class="wp-caption-text">Note: the NDVI values are scaled by a value of 10000. The gray graphics along the top and left axes represent the mean of the row (right) and column (top) values.</figcaption></figure></p>
+<p>Plot the 2014 and 2006 August productivity anomalies:</p><pre class="crayon-plain-tag">#plot Aug 2014 anomaly (dry year)
+# set a color ramp of red to blue
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2014.Z,main="August 2014 NDVI Anomaly",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+plot(map.overlay)
+
+#export graphic
+jpeg("Aug2014_Anomaly.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device
+
+#plot Aug 2006 anomaly (average year)
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2006.Z,main="August 2006 NDVI Anomaly",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+plot(map.overlay)
+
+#export graphic
+jpeg("Aug2006_Anomaly.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg" target="_blank" rel="noopener"><img class="aligncenter wp-image-1680 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<p><figure id="attachment_1679" aria-describedby="caption-attachment-1679" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg" target="_blank" rel="noopener"><img class="wp-image-1679 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1679" class="wp-caption-text">Compare drought-year anomalies (top) with average-year anomalies (bottom). The anomalies are analogous to Z-scores and were calculated as the deviation from mean, normalized by the standard deviation. These maps clearly indicate that the majority of the area experienced very strong negative anomalies (dark red) in 2014 and a mix of positive (blue) and subtle negative anomalies (light red) in 2006.</figcaption></figure></p>
+<p><strong>Literature Cited</strong></p>
+<p>Brown, J. F., D. Howard, B. Wylie, A. Frieze, L. Ji, and C. Gacke. 2015. Application-ready expedited MODIS data for operational land surface monitoring of vegetation condition. Remote Sensing 7:16226–16240.</p>
+<p><em>*Banner image: MODIS image of central California from <a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=91379" target="_blank" rel="noopener">NASA Earth Observatory.</a></em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1665</post-id>	</item>
+		<item>
+		<title>Presentation at the WYOMING-TWS Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/#respond</comments>
+				<pubDate>Wed, 06 Dec 2017 21:11:49 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1628</guid>
+				<description><![CDATA[I will present research on drought-induced variability of sagebrush ecosystem productivity in the Upper Green River Basin at the Wyoming Chapter of The Wildlife Society Annual Meeting in Jackson, WY. My presentation is part of the session entitled: Grassland &#38; Sagebrush Environments. We think this work is noteworthy because it deals with an important disturbance &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the WYOMING-TWS Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on drought-induced variability of sagebrush ecosystem productivity in the Upper Green River Basin at the <a href="http://wytwsconference.org/" target="_blank" rel="noopener">Wyoming Chapter of The Wildlife Society Annual Meeting</a> in Jackson, WY. My presentation is part of the session entitled: <em>Grassland &amp; Sagebrush Environments</em>. We think this work is noteworthy because it deals with an important disturbance (drought) in an important habitat in the West (the Sagebrush Sea). Such a disturbance can have cascading effects on scores of species that live in the sagebrush ecosystem. The project could not have come to fruition without the collaboration of my partners at the Wyoming Game and Fish and the Natural Resources Conservation Service and funding from the <a href="https://www.wlci.gov/" target="_blank" rel="noopener">Wyoming Landscape Conservation Initiative</a>. I hope to submit the manuscript for publication shortly.</p>
+<p><em>*Banner image: the Sagebrush Sea at the foot of the Wind River Mountains, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/12/06/presentation-at-the-wy-tws-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1628</post-id>	</item>
+		<item>
+		<title>Raster Visualization in R: Vegetation productivity in the Yuba River Watershed</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/#comments</comments>
+				<pubDate>Wed, 22 Feb 2017 00:37:53 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Data Visualization]]></category>
+		<category><![CDATA[DataViz]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1473</guid>
+				<description><![CDATA[Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I used in a recent lecture I gave in the Department of Geography and Environment at San Francisco State University. The goal is to gain a brief understanding on vegetation productivity dynamics in &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/" class="more-link">Continue reading <span class="screen-reader-text">Raster Visualization in R: Vegetation productivity in the Yuba River Watershed</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I used in a recent lecture I gave in the <a href="https://geog.sfsu.edu/" target="_blank">Department of Geography and Environment</a> at San Francisco State University. The goal is to gain a brief understanding on vegetation productivity dynamics in the Yuba River Watershed (where the <a href="http://www.sfsu.edu/~sierra/" target="_blank">SFSU Sierra Nevada Field Campus</a> is located) and quickly display the data using Oscar Perpiñán&#8217;s excellent R package <a href="https://oscarperpinan.github.io/rastervis/" target="_blank">rasterVis</a>.</p>
+<p>I used <a href="https://lta.cr.usgs.gov/emodis" target="_blank">eMODIS</a> (EROS Moderate Resolution Imaging Spectroradiometer) data to characterize the NDVI derived productivity of the Yuba River Basin during the month of August. eMODIS is a standardized product which uses MODIS surface reflectance from a 7-day composite period (Brown et al. 2015). I used all eMODIS images from August during the period 2000 through 2016 to calculate the 17-year August mean. I then calculated August productivity anomalies for a dry year (2014) and an average year (2006) to identify the spatial and temporal variability in productivity within the watershed (based on regional data; Malone et al. 2016).</p>
+<p>To execute the example below, please download the data <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2017/02/Yuba_Data.zip" target="_blank">here.</a> I have not included the base data or code to calculate the global mean and anomalies.</p>
+<p>Load the required packages in R (note: the Rcolorbrewer library is loaded with the rasterVis library).</p><pre class="crayon-plain-tag">library(rgdal)   #Geospatial Data Abstraction Library
+library(raster)  #Geographic data analysis &amp; modeling Lib
+library(rasterVis) #Raster Visualization library</pre><p>Load the required data:</p><pre class="crayon-plain-tag">#load .shp (proj is the same as the raster data)
+huc.shp &lt;- readOGR(".", "yuba_watershed_HUC08_LEA")
+
+#load raster data
+Global.mean.August&lt;-raster("august_yuba_mean_2000_2016.tif")
+August.2006.Z&lt;-raster("August_2006_Z.tif")
+August.2014.Z&lt;-raster("August_2014_Z.tif")</pre><p>Plot the mean productivity for August (2000-2016):</p><pre class="crayon-plain-tag">#plot mean August NDVI 2000-2016
+# set a color ramp of yellow to green
+cols &lt;- colorRampPalette(brewer.pal(9,"YlGn"))
+
+# create a level plot - for Mean August NDVI
+p&lt;-levelplot(Global.mean.August,main="Average August Productivity (NDVI; 2000-2016) - Yuba River Watershed",
+             col.regions=cols)
+
+# overlay the spatialpolygonsdataframe
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=2.5, col='black'))
+
+#plot the data
+plot(map.overlay)
+
+#export graphic
+jpeg("Global_mean_August.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><figure id="attachment_1486" aria-describedby="caption-attachment-1486" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August.jpg" target="_blank"><img class="wp-image-1486 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741-1024x789.jpg?resize=474%2C365" width="474" height="365" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?resize=1024%2C789&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?resize=300%2C231&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?resize=768%2C592&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1486" class="wp-caption-text">Note: the NDVI values are scaled by a value of 10000. The gray graphics along the top and left axes represent the mean of the row (right) and column (top) values.</figcaption></figure></p>
+<p>Plot the 2014 and 2006 August productivity anomalies:</p><pre class="crayon-plain-tag">#plot Aug 2014 anomaly (dry year)
+# set a color ramp of red to blue
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2014.Z,main="August 2014 NDVI Anomaly - Yuba River Watershed",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=2.5, col='black'))
+
+#plot Aug 2006 anomaly (average year)
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2006.Z,main="August 2006 NDVI Anomaly - Yuba River Watershed",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=2.5, col='black'))</pre><p><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly.jpg" target="_blank"><img class="wp-image-1484 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985-1024x829.jpg?resize=474%2C384" width="474" height="384" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?resize=1024%2C829&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?resize=300%2C243&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?resize=768%2C622&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<p><figure id="attachment_1485" aria-describedby="caption-attachment-1485" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly.jpg" target="_blank"><img class="wp-image-1485 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997-1024x813.jpg?resize=474%2C376" width="474" height="376" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?resize=1024%2C813&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?resize=300%2C238&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?resize=768%2C609&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1485" class="wp-caption-text">Compare dry-year anomalies (top) with average-year anomalies (bottom). The anomalies are analogous to Z-scores and were calculated as the deviation from mean, normalized by the standard deviation.</figcaption></figure></p>
+<p><strong>Literature Cited</strong></p>
+<p>Brown, J. F., D. Howard, B. Wylie, A. Frieze, L. Ji, and C. Gacke. 2015. Application-ready expedited MODIS data for operational land surface monitoring of vegetation condition. Remote Sensing 7:16226–16240.</p>
+<p>Malone, S. L., M. G. Tulbure, A. J. Pérez-luque, T. J. Assal, L. L. Bremer, D. P. Drucker, V. Hillis, S. Varela, and M. L. Goulden. 2016. Drought resistance across California ecosystems : evaluating changes in carbon dynamics using satellite imagery. Ecosphere 7:1–19.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1473</post-id>	</item>
+		<item>
+		<title>NetCDF Data in R: rearranging the dimensions for raster analysis</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comments</comments>
+				<pubDate>Tue, 29 Mar 2016 23:19:19 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Array]]></category>
+		<category><![CDATA[Climate Data]]></category>
+		<category><![CDATA[Fuel Moisture Data]]></category>
+		<category><![CDATA[Gridded Surface Meteorological Data]]></category>
+		<category><![CDATA[Matrix]]></category>
+		<category><![CDATA[netCDF]]></category>
+		<category><![CDATA[Network Common Data Form]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210</guid>
+				<description><![CDATA[I recently ran into some challenges working with netCDF data in R. Specifically, I wanted to extract data from a netCDF file and convert the file to a raster for additional analyses. It is pretty straightforward to import each time slice of a variable into a RasterBrick. However, once I tried this I realized the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/" class="more-link">Continue reading <span class="screen-reader-text">NetCDF Data in R: rearranging the dimensions for raster analysis</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I recently ran into some challenges working with netCDF data in R. Specifically, I wanted to extract data from a netCDF file and convert the file to a raster for additional analyses. It is pretty straightforward to import each time slice of a variable into a RasterBrick. However, once I tried this I realized the columns, rows, and layers from the netCDF file were not being read properly in R, resulting in an incorrect raster layer. The solution is to import the netCDF file into R as an array and then reorganize the array into the proper dimensions. I hope this is helpful and please let me know if you know of a better solution.</p>
+<p>In this example, I am working with dead fuel moisture data available from Dr. John Abatzoglou’s Applied Climate Science Lab <a href="http://climate.nkn.uidaho.edu/METDATA/" target="_blank">website</a>.</p><pre class="crayon-plain-tag">library(ncdf)
+nc &lt;- open.ncdf("fm100_2003.nc");
+print(nc)
+[1] "file fm100_2003.nc has 3 dimensions:"
+[1] "lon   Size: 1386"
+[1] "lat   Size: 585"
+[1] "day   Size: 365"
+[1] "------------------------"
+[1] "file fm100_2003.nc has 1 variables:"
+[1] "short dead_fuel_moisture_100hr[day,lon,lat]  Longname:dead_fuel_moisture_100hr Missval:-9999"</pre><p>The netCDF file has 3 dimensions and the size of the day dimension corresponds to daily dead fuel moisture of 100-hour fuels for one year (365 days).  I can import these into a RasterBrick for additional analyses:</p><pre class="crayon-plain-tag">r &lt;- "fm100_2003.nc"
+b &lt;- brick(r,varname="dead_fuel_moisture_100hr")</pre><p>However, the issue is that the columns and layers in the RasterBrick are switched, which results in an incorrect raster<code></code> for each layer in the brick. The dimensions of the RasterBrick<code></code> should read 585, 1386, 810810, 365 instead of the dimensions below:</p><pre class="crayon-plain-tag">class       : RasterBrick 
+dimensions  : 1386, 365, 505890, 585  (nrow, ncol, ncell, nlayers)
+resolution  : 1, 0.04166667  (x, y)
+extent      : 37619.5, 37984.5, -124.793, -67.043  (xmin, xmax, ymin, ymax)
+coord. ref. : NA 
+data source : fm100_2003.nc 
+names       : X49.3960227966309, X49.3543561299642, X49.3126894632975, X49.2710227966309, X49.2293561299642, X49.1876894632975, X49.1460227966309, X49.1043561299642, X49.0626894632975, X49.0210227966309, X48.9793561299642, X48.9376894632975, X48.8960227966309, X48.8543561299642, X48.8126894632975, ... 
+degrees_north: 25.0626894632975, 49.3960227966309 (min, max)
+varname     : dead_fuel_moisture_100hr</pre><p>The solution is to import the netCDF file into R as an array and then reorganize the array into the proper dimensions.</p>
+<p>Import the netCDF  file as an array:</p><pre class="crayon-plain-tag">dname &lt;- "dead_fuel_moisture_100hr"
+array1 &lt;- get.var.ncdf(nc, dname) 
+dim(array1)
+[1]  365 1386  585</pre><p>The dimensions of array1 are days, columns, rows which need to be rearranged:</p><pre class="crayon-plain-tag">array2&lt;-aperm(array1, c(3, 2, 1))
+dim(array2)
+[1]  585 1386  365</pre><p>Now the array is organized properly into rows, columns, days. At this point you can access the depth range or each time slice (days 1 through 365) as a matrix:</p><pre class="crayon-plain-tag">#extract day 001 to a matrix
+fm.day.001&lt;-array2[,,1]
+...
+#extract day 365 to a matrix
+fm.day.365&lt;-array2[,,365]</pre><p>If needed, the matrix can be converted to a raster:</p><pre class="crayon-plain-tag">r2&lt;-raster(nrow=585,ncol=1386,vals=fm.day.001, xmn=-124.7722, xmx=-67.06383,  ymn=25.06269, ymx=49.39602)</pre><p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1210</post-id>	</item>
+		<item>
+		<title>Raster Analysis in R: rescaling and conditional statements</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/#comments</comments>
+				<pubDate>Thu, 26 Feb 2015 00:57:37 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Centering data]]></category>
+		<category><![CDATA[conditional statement]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[Raster rescale function]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=859</guid>
+				<description><![CDATA[I frequently benefit from notes that others have posted regarding workflows in R. Recently I ran into some challenges working with raster data while writing code for species distribution modeling. Although some of the information is already out there, I decided to wrap it together here and add a little context. Like everything I do &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/" class="more-link">Continue reading <span class="screen-reader-text">Raster Analysis in R: rescaling and conditional statements</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I frequently benefit from notes that others have posted regarding workflows in R. Recently I ran into some challenges working with raster data while writing code for species distribution modeling. Although some of the information is already out there, I decided to wrap it together here and add a little context. Like everything I do in R, there are probably more efficient ways to accomplish these tasks, but I hope this is helpful.</p>
+<p>In this example, I am working with the outputs of predictive habitat distribution models of two forest cover types developed using logistic regression. Assume a raster is a surface indicating probability of occurrence (0-1) for a given cover type and only one cover type can be present for any given pixel. If a pixel is predicted to contain both forest types, the values from each model above the presence threshold need to be linearly rescaled from 0 to 1. Then the cover type with the highest occurrence probability will be assigned to the pixel.</p>
+<p>*Load the required packages</p><pre class="crayon-plain-tag">library(raster)
+library(rgdal)</pre><p>Rescale raster cell values between 0 and 1. I will try to post the example raster data set soon. The function below uses cellStats, so the entire range of values are considered.</p><pre class="crayon-plain-tag">#load raster
+r1&lt;-raster("base_raster.img")
+
+#fxn to rescale cell values between 0 and 1
+rasterRescale&lt;-function(r){
+  ((r-cellStats(r,"min"))/(cellStats(r,"max")-cellStats(r,"min")))
+}
+
+#run the fxn
+r2&lt;-rasterRescale(r1)
+plot(r2)</pre><p><figure id="attachment_889" aria-describedby="caption-attachment-889" style="width: 529px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-889 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg?resize=474%2C480" alt="Raster with values scaled between 0 and 1." width="474" height="480" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg?w=529&amp;ssl=1 529w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg?resize=296%2C300&amp;ssl=1 296w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-889" class="wp-caption-text">Plot of raster r2 with cell values scaled between 0 and 1.</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>The function above is not particularly helpful in our situation since we only want to rescale the data above a model selected threshold. We must first reclassify the data below the threshold (e.g. 0.6). In the example below, values of 0 could be reclassified to NA, but in my workflow it&#8217;s helpful to set values to 0 so the raster can be incorporated into raster math calculations later on.</p><pre class="crayon-plain-tag">#reclassify values below 0.6 to 0; retain cell values above 0.6
+r2[r2&lt;=0.6]=0
+plot(r2)</pre><p><figure id="attachment_888" aria-describedby="caption-attachment-888" style="width: 529px" class="wp-caption alignnone"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-888 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg?resize=474%2C480" alt=" " width="474" height="480" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg?w=529&amp;ssl=1 529w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg?resize=296%2C300&amp;ssl=1 296w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-888" class="wp-caption-text">Plot of raster r2 with cell values below the threshold (0.6) set to 0.</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>Now we can rescale the data above the threshold from 0 to 1. Compare the differences between the map above with the one below.</p><pre class="crayon-plain-tag">#fxn to rescale values between 0 and 1, but rmin and rmax must be specified
+rasterRescale.Set&lt;-function(r, rmin, rmax){
+  ((r-rmin)/(rmax-rmin))
+}
+
+#run fxn to rescale raster; rmin=0.6; rmax=1
+r3&lt;-rasterRescale.Set(r2, 0.6, 1)
+#ensure minimum values are set to 0
+r3[r3&lt;=0]=0
+plot(r3)</pre><p><figure id="attachment_887" aria-describedby="caption-attachment-887" style="width: 529px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-887 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg?resize=474%2C480" alt="Rplot4" width="474" height="480" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg?w=529&amp;ssl=1 529w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg?resize=296%2C300&amp;ssl=1 296w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-887" class="wp-caption-text">Plot of raster r3 with cell values above threshold rescaled between 0 and 1. Areas below threshold are set to 0, not NA.</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>Once each raster is rescaled accordingly, we need to determine which raster has a higher value for a given cell and assign a new value accordingly. This is a straightforward exercise in ArcGIS, but it is a bit more complicated in R.</p>
+<p>In my example, one would want to identify the pixels where both species are predicted to occur. I won&#8217;t go into that step here, as the workflow below only addresses those pixels where there are probability values for each cover type.</p><pre class="crayon-plain-tag">#assume raster r5 and r6 have a range of values that overlap
+#r5 rmin=0.35, rmax=1
+#r6 rmin=0.6, rmax=1
+#determine which cell value is higher, assign 1 if r5, assign 2 if r6, if 0, assign a 0 again
+
+#returns all values of a Raster* object as a matrix
+as.matrix(r5)
+as.matrix(r6)
+
+#create an empty raster r7 that matches the extent of the other rasters
+r7&lt;-raster(ncol=518, nrow=428, xmn=643128.9, xmx=648308.9, ymn=4523269, ymx=4527549)
+projection(r7)="+proj=utm +zone=12 +ellps=WGS84 +units=m +no_defs" #assign projection to match
+
+#fxn to execute a conditional statement
+Con=function(condition, trueValue, falseValue){
+  return(condition * trueValue + (!condition)*falseValue)
+}
+
+#create a matrix m and execute conditional statement
+m = as.matrix(Con(r5&gt;r6,1,Con(r5&lt;r6, 2, 0))) #if r5&lt;r6, assign value of 1, else value of 2
+
+#assign values of matrix m to raster r7
+values(m)=r7
+
+#the raster r7 contains a value of 1 if r5 pixel had a higher value, 2 if r6 had a higher value and 0 if both input rasters had a value of 0.</pre><p>Now the raster r7 can be used to overwrite the value of a pixel in an ensemble model where both cover types are predicted to occur. Since pixels where only one cover type were predicted to occur are zeroed out, raster r7 can be incorporated into the ensemble model through a basic raster math calculation.</p>
+<p><strong>Literature Cited</strong></p>
+<p>Assal, T., Anderson, P., Sibold, J., 2015. <a title="Manuscript Link" href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract" target="_blank" rel="noopener noreferrer">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">859</post-id>	</item>
+	</channel>
+</rss>

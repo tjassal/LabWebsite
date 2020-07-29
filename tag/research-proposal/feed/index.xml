@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>research proposal &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/research-proposal/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 03 May 2016 23:55:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Exploiting the ‘deluge from space&#8217;* to quantify ecosystem status and trends</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/04/29/exploiting-the-deluge-from-space-to-quantify-ecosystem-status-and-trends/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/04/29/exploiting-the-deluge-from-space-to-quantify-ecosystem-status-and-trends/#respond</comments>
+				<pubDate>Fri, 29 Apr 2016 23:51:07 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[research proposal]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[scientific synthesis]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1237</guid>
+				<description><![CDATA[I have recently transitioned into a new position as a Research Ecologist at the United States Geological Survey Fort Collins Science Center under a USGS Postdoctoral Fellowship. I&#8217;ve been at the center since 2007, and my new role will afford me the chance to continue working with colleagues while building new collaborations. My research will &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/04/29/exploiting-the-deluge-from-space-to-quantify-ecosystem-status-and-trends/" class="more-link">Continue reading <span class="screen-reader-text">Exploiting the ‘deluge from space&#8217;* to quantify ecosystem status and trends</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I have recently transitioned into a new position as a Research Ecologist at the United States Geological Survey Fort Collins Science Center under a USGS Postdoctoral Fellowship. I&#8217;ve been at the center since 2007, and my new role will afford me the chance to continue working with colleagues while building new collaborations. My research will focus on the effect of multiple disturbances on the structure of sagebrush, montane forest and agricultural ecosystems. The research will help to frame broad questions related to ecosystem resilience, resistance, persistence and vulnerability with regard to climate change and related natural and anthropogenic disturbance. I will collaborate with USGS colleagues that are <strong><em>program-based scientists</em></strong> (Patrick Anderson, Wyoming Landscape Conservation Initiative; Mark Vandever, Conservation Reserve Program) and <strong><em>place-based scientists</em></strong> (Craig Allen, Ellis Margolis, Collin Haffey, Jemez Mountain Landscape).</p>
+<p>Open science advocates have started to share their proposals for a number of really good reasons; one of which is to help others write better proposals (see Ethan White’s <a href="https://jabberwocky.weecology.org/2012/08/08/on-making-my-grant-proposals-open-access/" target="_blank">excellent post</a> on the subject). I’ve benefited from that ideology so I’ve decided to share my proposal <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2016/05/Assal_USGS_postdoc_proposal.pdf" target="_blank">here</a>. My proposed research plan is admittedly brief, but it is somewhat unique because I had to wrap several disparate projects together under one umbrella (i.e. <em><strong>scientific synthesis and collaboration using space based observations</strong></em>) to meet the needs of my science center. Hopefully this proposal provides some background and context for others that need to link disparate projects under one proposal.</p>
+<p>A few links:</p>
+<ul>
+<li>Ethan White’s <a href="https://jabberwocky.weecology.org/2012/08/10/a-list-of-publicly-available-grant-proposals-in-the-biological-sciences/" target="_blank">list of publicly available grant proposals in the biological sciences</a></li>
+<li>Daniel Hocking’s <a href="https://danieljhocking.wordpress.com/2014/07/01/usgs-mendenhall-fellowship/" target="_blank">USGS Mendenhall Fellowship Proposal</a></li>
+<li>*The <a href="http://www.colorado.edu/geography/jkbalch/jkbprofile/Earth_Lab.html" target="_blank">Earth Lab at CU</a> inspired the use of this phrase</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/04/29/exploiting-the-deluge-from-space-to-quantify-ecosystem-status-and-trends/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1237</post-id>	</item>
+	</channel>
+</rss>

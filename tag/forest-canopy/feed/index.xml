@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>forest canopy &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/forest-canopy/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Thu, 25 Aug 2016 16:24:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Linking field and space-based observations&#8230; how I did it</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/#respond</comments>
+				<pubDate>Wed, 20 Jul 2016 05:48:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[aspen ecosystems]]></category>
+		<category><![CDATA[fish-eye photo]]></category>
+		<category><![CDATA[forest canopy]]></category>
+		<category><![CDATA[hemispherical camera]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[scale]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[spatial resolution]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1295</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work recently** I was invited to speak about some of our Wyoming Landscape Conservation Initiative (WLCI) research at &#8216;Aspen Days&#8217;* last week in Lander, Wyoming. The event brought together natural resource managers and scientists to discuss aspen research, local aspen management projects and the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/" class="more-link">Continue reading <span class="screen-reader-text">Linking field and space-based observations&#8230; how I did it</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #ff0000;"><strong><em>**A special thanks to the <span style="text-decoration: underline; color: #ff0000;"><a style="color: #ff0000; text-decoration: underline;" href="http://landsat.gsfc.nasa.gov/" target="_blank">NASA Landsat Program</a></span> for featuring our <span style="color: #ff0000;">work <span style="text-decoration: underline;"><a style="color: #ff0000; text-decoration: underline;" href="http://landsat.gsfc.nasa.gov/?p=12811" target="_blank">recently</a></span>**</span></em></strong></span></h3>
+<p>I was invited to speak about some of our <a href="https://www.wlci.gov/" target="_blank">Wyoming Landscape Conservation Initiative</a> (WLCI) <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">research</a> at &#8216;Aspen Days&#8217;* last week in Lander, Wyoming. The event brought together natural resource managers and scientists to discuss aspen research, local aspen management projects and the collaborative partnerships needed to sustain aspen ecosystems.</p>
+<figure id="attachment_1308" aria-describedby="caption-attachment-1308" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg" target="_blank"><img class="wp-image-1308 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=474%2C192" alt="Discussion of aspen in the Wind River Mountains, Wyoming, July 2016. " width="474" height="192" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=1024%2C414&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=300%2C121&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?resize=768%2C311&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/IMG_8663b-2.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1308" class="wp-caption-text">Discussion of aspen in the Wind River Mountains, Wyoming, July 2016 with representatives from the Wyoming Game and Fish Department, US Bureau of Land Management, US Forest Service, Western Aspen Alliance, Teton Science School, Wyoming Wildlife Foundation, Wyoming Natural Diversity Database, US Geological Survey and many others .</figcaption></figure>
+<p>It was a great opportunity for me to communicate my research directly with natural resource managers. However, more importantly it was a chance to spend time in the field with people that really know these systems and begin to understand their needs and how our science might be able to help answer those questions. It was also a chance to get out of my comfort zone and interact with people that don&#8217;t spend all of their time thinking about spatial ecology.</p>
+<figure id="attachment_1300" aria-describedby="caption-attachment-1300" style="width: 640px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg" target="_blank"><img class="wp-image-1300 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg?resize=474%2C356" alt="dfdfdfdfdf" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg?w=640&amp;ssl=1 640w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/DHP_fieldtrip.jpg?resize=300%2C225&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1300" class="wp-caption-text">A handful of the field trip participants under the canopy of an aspen forest captured in a fish-eye photo on Green Mountain, Wyoming, July 2016. Note: the camera utilizes a blue lens for optimum contrast between the sky and foliage.</figcaption></figure>
+<p><em><strong>A key component of the research is our ability to connect what we see on the ground with what we see from the sky via satellite imagery.</strong></em> I had a chance to demonstrate the use of the hemispherical (or fish-eye) imaging system in the field and</p>
+<figure id="attachment_1298" aria-describedby="caption-attachment-1298" style="width: 224px" class="wp-caption alignright"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/L8pixelsizes_crop.png" target="_blank"><img class="wp-image-1298 " src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/07/L8pixelsizes_crop.png?resize=224%2C242" alt="The spatial resolution of a Landsat pixel is approximate the size of the infield on a baseball diamond. (Image obtained from NASA)." width="224" height="242" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1298" class="wp-caption-text">The spatial resolution of a Landsat pixel is approximately the size of the infield on a baseball diamond. (Image obtained from NASA).</figcaption></figure>
+<p>thought I might expand on the process we used to link ground measurements and space based measurements. There are a number of ways to do this, but I&#8221;ll present our method here. In a recent study, (Assal et al. 2016) we measured forest canopy condition on the ground via a network of fish-eye photographs designed to measure the amount of leaves, branches and stems in the forest canopy. This metric is known as plant area index (Pfeifer et al., 2012) which can be derived from the fish-eye photos via a gap-fraction inversion procedure (Campbell and Norman, 1989) which measures the amount of radiation transmission through the canopy (Martens et al., 1993).</p>
+<p>We used Landsat imagery (30 meter spatial resolution) that was collected from a satellite at the same time as our field campaign. To adequately sample the forest canopy, we established a grid of nine photo points in a sample plot, coincident with a Landsat pixel.</p>
+<figure id="attachment_1303" aria-describedby="caption-attachment-1303" style="width: 905px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg" target="_blank"><img class="wp-image-1303 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?resize=474%2C199" alt="dfdfdfdfd" width="474" height="199" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?w=905&amp;ssl=1 905w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?resize=300%2C126&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/sample1.jpg?resize=768%2C322&amp;ssl=1 768w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1303" class="wp-caption-text">Left: Plot based sampling design for derivation of vegetation structure traits in a 30 meter Landsat pixel. Each hemispheric photo location is spaced approximately 10m from the nearest photo point. The field of view of each hemispheric photo is shown (red circle) with an approximate radius of 3.5 m. Center: examples of fish-eye photos collected from two field sites. Right: classified photos indicating plant material in green.</figcaption></figure>
+<p>The information from each plot was used to identify a linear relationship between the amount of plant material on the ground and the amount of plant material measured from the satellite (the Normalized Difference Moisture Index was used as a proxy for amount of plant material). Each point in the figure below represents the information obtained from the nine fish-eye photos taken at each sampling location (figure, above left).</p>
+<figure id="attachment_1304" aria-describedby="caption-attachment-1304" style="width: 319px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg" target="_blank"><img class="wp-image-1304" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?resize=319%2C316" alt="dfdfdffd" width="319" height="316" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?w=360&amp;ssl=1 360w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/Figure5.jpg?resize=300%2C298&amp;ssl=1 300w" sizes="(max-width: 319px) 100vw, 319px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1304" class="wp-caption-text">The relationship between field measured plant area index and the normalized difference moisture index measured from the satellite.</figcaption></figure>
+<p>&nbsp;</p>
+<figure id="attachment_1305" aria-describedby="caption-attachment-1305" style="width: 406px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg" target="_blank"><img class="wp-image-1305 " src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?resize=406%2C541" alt="dfdfdfdfdf" width="406" height="541" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?resize=768%2C1024&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?resize=225%2C300&amp;ssl=1 225w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?w=1536&amp;ssl=1 1536w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/07/LM_4b.jpg?w=1422 1422w" sizes="(max-width: 406px) 100vw, 406px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1305" class="wp-caption-text">Demonstrating field collection of fish-eye photos on Little Mountain, Wyoming, August 2015.</figcaption></figure>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Anderson, P.J., Sibold, J., 2016. <a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem. Forest Ecology and Management.</a> 365, 137-151.</li>
+<li>Campbell, G.S., Norman, J.M., 1989. The description and measurement of plant canopy structure. In: Russell, G., Marshall, B., Jarvis, P.G. (Eds.), Plant Canopies: Their Growth, Form, and Function, Society for Experimental Biology: 31. Cambridge University Press, Cambridge, United Kingdom, pp. 1–19.</li>
+<li>Martens, S.N., Ustin, S.L., Rousseau, R.A., 1993. Estimation of tree canopy leaf area index by gap fraction analysis. Forest Ecology and Management. 61, 91–108.</li>
+<li>Pfeifer, M., Gonsamo, A., Disney, M., Pellikka, P., Marchant, R., 2012. Leaf area index for biomes of the Eastern Arc Mountains: Landsat and SPOT observations along precipitation and altitude gradients. Remote Sensing of Environment. 118, 103–115.</li>
+</ul>
+<p><strong><em>*Special thanks to Amy Anderson and Daryl Lutz (Wyoming Game and Fish Department) for organizing the workshop.</em></strong></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/07/19/linking-field-and-space-based-observations-how-i-did-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1295</post-id>	</item>
+	</channel>
+</rss>

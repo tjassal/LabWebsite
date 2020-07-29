@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Function &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/function/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Sat, 18 Jul 2015 01:11:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>R Function to write model output to a file</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/#comments</comments>
+				<pubDate>Thu, 16 Jul 2015 23:40:13 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Function]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Write to textfile]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=961</guid>
+				<description><![CDATA[If you are running a lot of models in R it can be helpful to save the outputs of each model quickly and efficiently. Please note there are a lot of elaborate and detailed workflows out there to produce LaTeX tables from summary outputs using kable, xtable, etc. Here is a basic function that will &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/" class="more-link">Continue reading <span class="screen-reader-text">R Function to write model output to a file</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>If you are running a lot of models in R it can be helpful to save the outputs of each model quickly and efficiently. Please note there are a lot of elaborate and detailed workflows out there to produce LaTeX tables from summary outputs using kable, xtable, etc. Here is a basic function that will write a title and the summary output of multiple models to one text file using the <a title="Sink Fxn" href="http://www.inside-r.org/r-doc/base/sink" target="_blank">sink</a> function in R.</p>
+<p>The function:</p><pre class="crayon-plain-tag">#FUNCTION to write output to text file
+#supply fxn with title of model (in quotes) and model name
+writeOutput.F &lt;- function(output.title, modelname) {
+  sink(file="modeloutputs.txt", append=TRUE) #creates an empty file; if TRUE, it will append to the file
+  print("##########################", row.names=FALSE)
+  print(output.title, row.names=FALSE)
+  print("##########################",  row.names=FALSE)
+  summary(modelname) #write summary of the model to text file 
+}</pre><p>Example Code:</p><pre class="crayon-plain-tag">data(iris)
+head(iris)
+
+model1 &lt;- lm(Sepal.Length ~ Petal.Width, data = iris)
+#Write model output to file
+writeOutput.F("Simple Linear Regression Example", model1) 
+
+model2 &lt;- lm(Sepal.Length ~ Petal.Width + Sepal.Width + Petal.Length, data = iris)
+#Write model output to file
+writeOutput.F("Multiple Linear Regression Example", model2)
+
+closeAllConnections() #close all connections and restore all sink diversions. This will also return the connection to the R Console</pre><p>Example Output:</p>
+<p><a title="Example output text file" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/07/modeloutputs.txt" target="_blank">modeloutputs.txt</a></p><pre class="crayon-plain-tag">[1] "##########################"
+[1] "Simple Linear Regression Example"
+[1] "##########################"
+
+Call:
+lm(formula = Sepal.Length ~ Petal.Width, data = iris)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-1.38822 -0.29358 -0.04393  0.26429  1.34521 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)  4.77763    0.07293   65.51   &lt;2e-16 ***
+Petal.Width  0.88858    0.05137   17.30   &lt;2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.478 on 148 degrees of freedom
+Multiple R-squared:  0.669,	Adjusted R-squared:  0.6668 
+F-statistic: 299.2 on 1 and 148 DF,  p-value: &lt; 2.2e-16
+
+[1] "##########################"
+[1] "Multiple Linear Regression Example"
+[1] "##########################"
+
+Call:
+lm(formula = Sepal.Length ~ Petal.Width + Sepal.Width + Petal.Length, 
+    data = iris)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.82816 -0.21989  0.01875  0.19709  0.84570 
+
+Coefficients:
+             Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)   1.85600    0.25078   7.401 9.85e-12 ***
+Petal.Width  -0.55648    0.12755  -4.363 2.41e-05 ***
+Sepal.Width   0.65084    0.06665   9.765  &lt; 2e-16 ***
+Petal.Length  0.70913    0.05672  12.502  &lt; 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3145 on 146 degrees of freedom
+Multiple R-squared:  0.8586,	Adjusted R-squared:  0.8557 
+F-statistic: 295.5 on 3 and 146 DF,  p-value: &lt; 2.2e-16</pre><p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">961</post-id>	</item>
+	</channel>
+</rss>

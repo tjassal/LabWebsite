@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Raster Visualization in R: Vegetation productivity in the Yuba River Watershed	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 22 Feb 2017 00:37:53 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: Ayodele				</title>
+				<link>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/#comment-13239</link>
+		<dc:creator><![CDATA[Ayodele]]></dc:creator>
+		<pubDate>Mon, 09 Apr 2018 18:46:15 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1473#comment-13239</guid>
+					<description><![CDATA[Hi,
+Thanks so much the plot. They were very helpful. Can you paste the code you used to calculate the NDVI anomaly.]]></description>
+		<content:encoded><![CDATA[<p>Hi,<br />
+Thanks so much the plot. They were very helpful. Can you paste the code you used to calculate the NDVI anomaly.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

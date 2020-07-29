@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Seminar at CSU: The Ecological Legacies of Drought, Fire and Insect Disturbance in Western North American Forests	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2015/09/24/seminar-at-csu-the-ecological-legacies-of-drought-fire-and-insect-disturbance-in-western-north-american-forests/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Thu, 24 Sep 2015 23:03:29 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+</channel>
+</rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Macroecology &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/macroecology/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 01 Dec 2014 06:12:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Synthesis Collaboration to Focus on Impacts of Drought in California</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/08/31/synthesis-collaboration-to-focus-on-impacts-of-drought-in-california/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2014/08/31/synthesis-collaboration-to-focus-on-impacts-of-drought-in-california/#respond</comments>
+				<pubDate>Sun, 31 Aug 2014 16:15:45 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Carbon sink]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[Ecological Analysis]]></category>
+		<category><![CDATA[ecosystem resilience]]></category>
+		<category><![CDATA[Macroecology]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NCEAS]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[OSS]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=700</guid>
+				<description><![CDATA[This summer I had the privilege of attending the Open Science for Synthesis (OSS) training hosted by UC Santa Barbara’s National Center for Ecological Analysis and Synthesis (NCEAS). OSS is geared toward early career scientists who want to learn new software and technology skills needed for open, collaborative, and reproducible synthesis research. Forty-five scientists participated &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/08/31/synthesis-collaboration-to-focus-on-impacts-of-drought-in-california/" class="more-link">Continue reading <span class="screen-reader-text">Synthesis Collaboration to Focus on Impacts of Drought in California</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="content">
+<div id="block-system-main" class="block block-system no-title odd first block-count-4 block-region-content block-main">
+<article id="node-1341" class="node node-news node-promoted article odd node-full ia-n clearfix">
+<div class="node-content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden view-mode-full">
+<div class="field-items">
+<div class="field-item even">This summer I had the privilege of attending the <a title="NCEAS OSS" href="https://www.nceas.ucsb.edu/OSS" target="_blank">Open Science for Synthesis (OSS)</a> training hosted by UC Santa Barbara’s National Center for Ecological Analysis and Synthesis (<a title="NCEAS" href="https://www.nceas.ucsb.edu/" target="_blank">NCEAS</a>). OSS is geared toward early career scientists who want to learn new software and technology skills needed for open, collaborative, and reproducible synthesis research. <a title="OSS Participants" href="https://www.nceas.ucsb.edu/news/open-science-synthesis-announcing-2014-program-participants" target="_blank">Forty-five scientists</a> participated in the program: 23 attended NCEAS and 22 were hosted by the University of North Carolina’s Renaissance Computing Institute (<a title="RENCI" href="http://www.renci.org/" target="_blank">RENCI</a>).</p>
+</div>
+<div class="field-item even"></div>
+<div class="field-item even">
+<p>We received training from a great group of instructors through a mix of lectures, exercises, and hands-on work via collaborative group synthesis research projects. The diverse training covered a wide variety of information, spanning tools for hardcore computational biology to the social aspects of collaboration. We self-selected into small synthesis groups based on our proposals and research interests.</p>
+</div>
+<div class="field-item even"></div>
+<div class="field-item even">
+<p>Our team is analyzing the impacts of the drought in California. As of mid-August over 99% of the state is classified in severe, extreme or exceptional drought.</p>
+<figure id="attachment_742" aria-describedby="caption-attachment-742" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg"><img class="size-large wp-image-742" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=474%2C366" alt="Source: US Drought Monitor (droughtmonitor.unl.edu/)" width="474" height="366" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=1024%2C791&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=300%2C231&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?w=1056&amp;ssl=1 1056w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-742" class="wp-caption-text">Source: US Drought Monitor (droughtmonitor.unl.edu/)</figcaption></figure>
+<p>&nbsp;</p>
+<p>We plan to analyze historical trends of drought in California, determine how much the carbon sink has been reduced by the current drought, and consider differences in resilience between ecosystems.</p>
+<p>Our team is composed of nine scientists based in five different countries. My collaborators include:</p>
+<table>
+<tbody>
+<tr>
+<td width="187">Leah Bremer</td>
+<td width="384">Stanford University, USA</td>
+</tr>
+<tr>
+<td width="187">Debora Drucker</td>
+<td width="384">Brazilian Agricultural Research Corporation (EMBRAPA), Brazil</td>
+</tr>
+<tr>
+<td width="187">Vickn Hillis</td>
+<td width="384">University of California, Davis, USA</td>
+</tr>
+<tr>
+<td width="187">Sparkle Malone</td>
+<td width="384">US Forest Service, Rocky Mountain Research Station, USA</td>
+</tr>
+<tr>
+<td width="187">Antonio Jesus Perez-Luque</td>
+<td width="384">University of Granada, Spain</td>
+</tr>
+<tr>
+<td width="187">Paul Selmants</td>
+<td width="384">University of Hawaii, Manoa, USA</td>
+</tr>
+<tr>
+<td width="187">Mirela Tulbure</td>
+<td width="384">University of New South Wales, Australia</td>
+</tr>
+<tr>
+<td width="187">Sara Varela</td>
+<td width="384">Charles University, Czech Republic</td>
+</tr>
+</tbody>
+</table>
+<figure id="attachment_741" aria-describedby="caption-attachment-741" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/nceas_Group_Map.jpeg"><img class="wp-image-741 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/nceas_Group_Map.jpeg?resize=474%2C309" alt="" width="474" height="309" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/nceas_Group_Map.jpeg?resize=1024%2C668&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/nceas_Group_Map.jpeg?resize=300%2C195&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/nceas_Group_Map.jpeg?w=1200&amp;ssl=1 1200w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/nceas_Group_Map.jpeg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-741" class="wp-caption-text">NCEAS Drought Collaboration (see our<a title="Github link" href="https://github.com/macroecology/Drought_CA/blob/master/GroupMap/ggplotGroupMap.R" target="_blank"> github page</a> for the R code used to generate this map in ggplot).</figcaption></figure>
+<p>&nbsp;</p>
+<figure id="attachment_723" aria-describedby="caption-attachment-723" style="width: 1024px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_macro_ecologygroup.jpg"><img class="size-full wp-image-723" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_macro_ecologygroup.jpg?resize=474%2C314" alt="The NCEAS Macroecology Drought Synthesis Group (photo by Antonio Jesus Perez-Luque)" width="474" height="314" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_macro_ecologygroup.jpg?w=1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_macro_ecologygroup.jpg?resize=300%2C198&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_macro_ecologygroup.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-723" class="wp-caption-text">The NCEAS Macroecology Drought Synthesis Group (photo by Antonio Jesus Perez-Luque)</figcaption></figure>
+<p>&nbsp;</p>
+<figure id="attachment_722" aria-describedby="caption-attachment-722" style="width: 1024px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_groupie.jpg"><img class="size-full wp-image-722" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_groupie.jpg?resize=474%2C267" alt="We can be hip too. (Groupie by Sara Varela)" width="474" height="267" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_groupie.jpg?w=1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_groupie.jpg?resize=300%2C168&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/11/nceas_groupie.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-722" class="wp-caption-text">Who says science can&#8217;t be hip? (Groupie by Sara Varela)</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2014/08/31/synthesis-collaboration-to-focus-on-impacts-of-drought-in-california/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">700</post-id>	</item>
+	</channel>
+</rss>

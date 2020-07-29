@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Exploring Vegetation Dynamics using Google Earth Engine	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 30 Oct 2019 16:52:01 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13323</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Sun, 16 Feb 2020 00:50:12 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13323</guid>
+					<description><![CDATA[Hi Ioannis,
+
+I wasn&#039;t able to access your script. However, this thread might be helpful:
+
+https://gis.stackexchange.com/questions/279622/writing-code-for-monthly-ndvi-medians-in-google-earth-engine
+
+Good luck,
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Hi Ioannis,</p>
+<p>I wasn&#8217;t able to access your script. However, this thread might be helpful:</p>
+<p><a href="https://gis.stackexchange.com/questions/279622/writing-code-for-monthly-ndvi-medians-in-google-earth-engine" rel="nofollow">https://gis.stackexchange.com/questions/279622/writing-code-for-monthly-ndvi-medians-in-google-earth-engine</a></p>
+<p>Good luck,<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Ioannis Faraslis				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13322</link>
+		<dc:creator><![CDATA[Ioannis Faraslis]]></dc:creator>
+		<pubDate>Sat, 08 Feb 2020 14:57:37 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13322</guid>
+					<description><![CDATA[Thanks for the nice example. 
+I&#039;m trying to create monthly minimum NDVI from Landsat-5 image collection from the period 1985-2012. Even if I applied mask and buffer function (-6000) I get bad quality images per month. The case study area consists of 4 different path and row of Landsat-5.
+Please see the script code: 
+https://code.earthengine.google.com/?scriptPath=users%2Ffaraslisgiannis%2FLandsat%3AVCI_TCI%2FNDVI_min_Monthly
+Is there another approach to create minimum monthly NDVI? 
+Thanks in Advance]]></description>
+		<content:encoded><![CDATA[<p>Thanks for the nice example.<br />
+I&#8217;m trying to create monthly minimum NDVI from Landsat-5 image collection from the period 1985-2012. Even if I applied mask and buffer function (-6000) I get bad quality images per month. The case study area consists of 4 different path and row of Landsat-5.<br />
+Please see the script code:<br />
+<a href="https://code.earthengine.google.com/?scriptPath=users%2Ffaraslisgiannis%2FLandsat%3AVCI_TCI%2FNDVI_min_Monthly" rel="nofollow">https://code.earthengine.google.com/?scriptPath=users%2Ffaraslisgiannis%2FLandsat%3AVCI_TCI%2FNDVI_min_Monthly</a><br />
+Is there another approach to create minimum monthly NDVI?<br />
+Thanks in Advance</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13321</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Wed, 30 Oct 2019 16:52:01 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13321</guid>
+					<description><![CDATA[Hi Kate,
+
+Sorry for the late reply. I&#039;m sure most/all of this could be down in GEE, but given that you are only dealing with two dates, it might be easier to pull the 2016 data out of GEE (or acquire from another source) and do the operation in R or some other application. 
+
+However, here are some thoughts to each question:
+
+1. Upload the 2008 SPOT data as a new asset. Yes, you can calculate NDVI with the SPOT data just as you would with any other multi-spectral image in GEE. See https://developers.google.com/earth-engine/image_upload
+
+2 - 3. You will need to address this issue before proceeding in any application. I have not dealt with this in GEE, but see my initial comment. I think this is why it would be best to do outside of GEE. 
+
+4. If the SPOT image has a quality layer, I would use that. If not, you might consider thresholding the data for clouds and cloud shadows (NDVI values &lt;&gt; X will be masked out). 
+
+Good luck!
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Hi Kate,</p>
+<p>Sorry for the late reply. I&#8217;m sure most/all of this could be down in GEE, but given that you are only dealing with two dates, it might be easier to pull the 2016 data out of GEE (or acquire from another source) and do the operation in R or some other application. </p>
+<p>However, here are some thoughts to each question:</p>
+<p>1. Upload the 2008 SPOT data as a new asset. Yes, you can calculate NDVI with the SPOT data just as you would with any other multi-spectral image in GEE. See <a href="https://developers.google.com/earth-engine/image_upload" rel="nofollow">https://developers.google.com/earth-engine/image_upload</a></p>
+<p>2 &#8211; 3. You will need to address this issue before proceeding in any application. I have not dealt with this in GEE, but see my initial comment. I think this is why it would be best to do outside of GEE. </p>
+<p>4. If the SPOT image has a quality layer, I would use that. If not, you might consider thresholding the data for clouds and cloud shadows (NDVI values <> X will be masked out). </p>
+<p>Good luck!<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Kate McAnally				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13320</link>
+		<dc:creator><![CDATA[Kate McAnally]]></dc:creator>
+		<pubDate>Fri, 02 Aug 2019 17:39:37 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13320</guid>
+					<description><![CDATA[I have spot images from 2008 and would like to detection change using  NDVI by comparing the spot NDVI  with NDVI calculated from 2016 Sentinel image available in GEE. 
+
+1. Can the spot data be imported to GEE and the NDVI calculated and then subtracted from the Sentinel NDVI to detect the change? If so are there size limits of the spot import.
+2. If it is possible is this a good idea given the different orientation of the pixels. 
+3. Can the pixel orientation be changed in GEE? 
+4. Any thoughts about how to masking clouds for the spot images. 
+Thanks in advance. 
+
+Kate]]></description>
+		<content:encoded><![CDATA[<p>I have spot images from 2008 and would like to detection change using  NDVI by comparing the spot NDVI  with NDVI calculated from 2016 Sentinel image available in GEE. </p>
+<p>1. Can the spot data be imported to GEE and the NDVI calculated and then subtracted from the Sentinel NDVI to detect the change? If so are there size limits of the spot import.<br />
+2. If it is possible is this a good idea given the different orientation of the pixels.<br />
+3. Can the pixel orientation be changed in GEE?<br />
+4. Any thoughts about how to masking clouds for the spot images.<br />
+Thanks in advance. </p>
+<p>Kate</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Hasan Shamim				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13318</link>
+		<dc:creator><![CDATA[Hasan Shamim]]></dc:creator>
+		<pubDate>Wed, 20 Feb 2019 10:16:59 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13318</guid>
+					<description><![CDATA[Yes, in my case I had to use composite of about three months to avoid clouds in NDVI. Thank you for your reply. 
+
+Can I make one request? If you are making future lectures or tutorials can you make one regarding “Zonal Statistics inside GEE”. It can be like, separating NDVI values in different regions of an area or forest. 
+
+Thank you again.]]></description>
+		<content:encoded><![CDATA[<p>Yes, in my case I had to use composite of about three months to avoid clouds in NDVI. Thank you for your reply. </p>
+<p>Can I make one request? If you are making future lectures or tutorials can you make one regarding “Zonal Statistics inside GEE”. It can be like, separating NDVI values in different regions of an area or forest. </p>
+<p>Thank you again.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13317</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Wed, 20 Feb 2019 03:06:46 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13317</guid>
+					<description><![CDATA[Hello Hasan-
+
+I&#039;m glad you found the code helpful. 
+
+The qualityMosaic() method sets each pixel in the composite based on which image in the collection has a maximum value for the specified band (see https://developers.google.com/earth-engine/ic_composite_mosaic) for more. The quality mosaic method is essentially finding the best set of pixels (which could be from one or two images) as opposed to using one scene that is all clear. Clouds and cloud shadows have very low (usually negative NDVI) so they will drop out.
+
+However, keep in mind that Landsat has a revisit time of 16 days. It might be very difficult to create monthly composites in a subtropical area when there is only one (and a max of two) images during that monthly time period - you will most likely have no data values in your monthly NDVI. If there is any way you can kick up your time frame to two months or seasonally, you&#039;ll have a much better chance of minimizing clouds. 
+
+Good luck,
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Hello Hasan-</p>
+<p>I&#8217;m glad you found the code helpful. </p>
+<p>The qualityMosaic() method sets each pixel in the composite based on which image in the collection has a maximum value for the specified band (see <a href="https://developers.google.com/earth-engine/ic_composite_mosaic" rel="nofollow">https://developers.google.com/earth-engine/ic_composite_mosaic</a>) for more. The quality mosaic method is essentially finding the best set of pixels (which could be from one or two images) as opposed to using one scene that is all clear. Clouds and cloud shadows have very low (usually negative NDVI) so they will drop out.</p>
+<p>However, keep in mind that Landsat has a revisit time of 16 days. It might be very difficult to create monthly composites in a subtropical area when there is only one (and a max of two) images during that monthly time period &#8211; you will most likely have no data values in your monthly NDVI. If there is any way you can kick up your time frame to two months or seasonally, you&#8217;ll have a much better chance of minimizing clouds. </p>
+<p>Good luck,<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Hasan Shamim				</title>
+				<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comment-13316</link>
+		<dc:creator><![CDATA[Hasan Shamim]]></dc:creator>
+		<pubDate>Wed, 13 Feb 2019 14:48:14 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019#comment-13316</guid>
+					<description><![CDATA[Thanks for the examples.. I will try it. Really appreciate you sharing it. I am very new user of GEE. I am following your lecture notes, it&#039;s really helpful.
+
+I have a question regarding &quot;qualityMosaic&quot;, as you are using in this example. Can you please give a suggestion?
+
+If I try to calculate NDVI per month in a given year and try to make a time series, would it be wise to go for quality mosaic or just find best landsat images for the month and calculate NDVI? For your note, my study area is a mangrove forest.]]></description>
+		<content:encoded><![CDATA[<p>Thanks for the examples.. I will try it. Really appreciate you sharing it. I am very new user of GEE. I am following your lecture notes, it&#8217;s really helpful.</p>
+<p>I have a question regarding &#8220;qualityMosaic&#8221;, as you are using in this example. Can you please give a suggestion?</p>
+<p>If I try to calculate NDVI per month in a given year and try to make a time series, would it be wise to go for quality mosaic or just find best landsat images for the month and calculate NDVI? For your note, my study area is a mangrove forest.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

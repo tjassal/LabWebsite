@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Kent State University &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/kent-state-university/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 30 Jul 2019 03:15:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Onward and upward&#8230;to a new position</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/#respond</comments>
+				<pubDate>Mon, 29 Jul 2019 16:04:38 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[academia]]></category>
+		<category><![CDATA[Kent State University]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2118</guid>
+				<description><![CDATA[I&#8217;m happy to announce that I will be joining the faculty at Kent State University this fall! I have accepted a tenure-track position in Environmental Remote Sensing in the Department of Geography. I am very excited to join a dynamic group of faculty that supports the kind of research I do.  I will be building &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/" class="more-link">Continue reading <span class="screen-reader-text">Onward and upward&#8230;to a new position</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I&#8217;m happy to announce that I will be joining the faculty at <a href="https://www.kent.edu/" target="_blank" rel="noopener noreferrer">Kent State University</a> this fall!</p>
+<p>I have accepted a tenure-track position in Environmental Remote Sensing in the <a href="https://www.kent.edu/geography" target="_blank" rel="noopener noreferrer">Department of Geography</a>. I am very excited to join a dynamic group of faculty that supports the kind of research I do.  I will be building a lab that specializes in Landscape Dynamics Research and recruiting undergraduate technicians, master and doctoral graduate students,  post-doc scientists and undergraduate technicians soon. Stay tuned for details.</p>
+<p>Alas, this means I have left the US Geological Survey after 12 years. I appreciate the opportunities afforded to me while I was there and all the ways my career grew. Unfortunately,  the USGS, like nearly all federal agencies these days, has seen massive budget cuts which has reduced the capacity to do science for our country.</p>
+<p>I will miss many colleagues and collaborators and working at the interface of science and natural resource management. I am extremely proud of how we connected our work to those on the front lines of natural resource management. However the heart of my work &#8211; <strong><em>distilling enormous amounts of satellite data to answer ecological questions</em></strong> &#8211; will continue and be the central focus of my new lab.</p>
+<p>Note, my old contact (<strong><em>assalt@usgs.gov</em></strong>) is no longer active. My new contact information:</p>
+<div><i>Timothy Assal</i></div>
+<div><i>Assistant Professor</i></div>
+<div><i>Department of Geography</i></div>
+<div><i>Kent State University</i></div>
+<div><i>Kent, OH 44242 USA</i></div>
+<div><i><a href="mailto:tassal@kent.edu" target="_blank" rel="noopener noreferrer">tassal@kent.edu</a> </i></div>
+<div></div>
+<div></div>
+<div><em>*Banner image: </em>Sometimes I make maps &#8211; this is where I&#8217;m headed</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/07/29/onward-and-upward-to-a-new-position/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2118</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>fire scar &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/fire-scar/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 20:19:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Recent fire scars highlight the complexity of the Wildland Urban Interface in Southern Cal</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/05/31/recent-fire-scars-highlight-the-complexity-of-the-wildland-urban-interface-in-southern-cal/</link>
+				<pubDate>Sun, 01 Jun 2014 05:31:03 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn scar]]></category>
+		<category><![CDATA[fire scar]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[southern California]]></category>
+		<category><![CDATA[Urban Interface]]></category>
+		<category><![CDATA[wildfire]]></category>
+		<category><![CDATA[Wildland Urban Interface]]></category>
+		<category><![CDATA[WUI]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=649</guid>
+				<description><![CDATA[Several large and destructive wildfires burned parts of San Diego County in mid-May. I must admit I do not track wildfires as closely as I should unless they are in close proximity to the Front Range of Colorado, where I live. However, I have relatives that live in San Diego County and have visited the &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/05/31/recent-fire-scars-highlight-the-complexity-of-the-wildland-urban-interface-in-southern-cal/" class="more-link">Continue reading <span class="screen-reader-text">Recent fire scars highlight the complexity of the Wildland Urban Interface in Southern Cal</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Several large and destructive wildfires burned parts of San Diego County in mid-May. I must admit I do not track wildfires as closely as I should unless they are in close proximity to the Front Range of Colorado, where I live. However, I have relatives that live in San Diego County and have visited the area several times so I dedicated a bit more attention to these fires. The Poinsettia fire burned a small area in Carlsbad, while the Cocos fire burned south of San Marcos and the Bernardo fire east of Solano Beach. A recent Landsat 8 image, acquired on May 25th, captured the impact of the fires on the landscape after all three were fully contained. The Cocos and Bernardo fires were large and left a fairly conspicuous scar on the landscape. However, the Poinsettia fire scar is difficult to identify at a regional scale in a natural color Landsat image. This is in large part because the fire was only 600 acres in size. However, it is also difficult to identify in the matrix of urban, suburban and exurban elements of the landscape in northern San Diego County. The Poinsettia fire started in a small urban park in a highly populated area (the cause is still under investigation and arson has not been ruled out).</p>
+<p>The image below utilizes the two shortwave-infrared bands and the near-infrared band on the Operational Land Imager sensor onboard Landsat 8. The fire scars are much more conspicuous in the false color image compared to the natural color image (below), especially the smaller Poinsettia fire scar. The near-infrared band is sensitive to living vegetation whereas the shortwave range is sensitive to ash, char and water content. Both of these ecosystem properties are impacted by fire, therefore the burn scars jump out of the false-color image.</p>
+<figure id="attachment_665" aria-describedby="caption-attachment-665" style="width: 497px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg"><img class="size-large wp-image-665" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?resize=474%2C412" alt="False color image (Landsat 8 - Bands 7, 6, 5) of the region acquired on May 25, 2014. Compare with the natural color image below. The large burn scar located between the Cocos and Bernardo fires was from the October 2007 Witch Creek fire." width="474" height="412" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?w=2991&amp;ssl=1 2991w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?resize=300%2C260&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-665" class="wp-caption-text">False color image (Landsat 8 &#8211; Bands 7, 6, 5) of the region acquired on May 25, 2014. Compare with the natural color image below. The large burn scar located between the Cocos and Bernardo fires was from the October 2007 Witch Creek fire.</figcaption></figure>
+<figure id="attachment_663" aria-describedby="caption-attachment-663" style="width: 497px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg"><img class="size-large wp-image-663" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?resize=474%2C412" alt="Natural color image (Landsat 8, bands 4, 3, 2) of the region acquired on May 25, 2014  " width="474" height="412" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?w=2991&amp;ssl=1 2991w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?resize=300%2C260&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-663" class="wp-caption-text">Natural color image (Landsat 8 &#8211; bands 4, 3, 2) of the region acquired on May 25, 2014. Compare with the false color image above.</figcaption></figure>
+<p>This prompted the question, where is the Wildland-Urban Interface in this area? The Wildland-Urban interface (or WUI) is generally defined in the Federal Register as &#8220;the<br />
+area where houses meet or intermingle with undeveloped wildland vegetation.&#8221; The WUI is a nexus between human-environment issues (such as habitat fragmentation) and natural hazards (such as wildfire risk). Specifically the WUI must meet or exceed a minimum density of one structure per 40 acres. In their 2005 Ecological Applications paper, Radeloff et al., conducted a spatially detailed assessment of the WUI across the United States. They utilized census block data and vegetation cover information (National Land Cover Data) to identify the WUI. I queried their updated 2010 data to identify WUI and non-WUI areas in the vicinity. The map below identifies the Cocos and Bernardo fire scars are partially within the WUI, but the Poinsettia fire scar is located completely outside the WUI. The area in the vicinity of the Poinsettia fire does not meet the requirement of the WUI due to the absence of natural vegetation which serves as fuel. The assessment of wildland fire risk is very complex and involves many factors in addition to proximity of the WUI. The Poinsettia fire illustrates that areas outside of the WUI are clearly at risk if fire weather, ignition and vegetative fuels are present.</p>
+<p>&nbsp;</p>
+<figure id="attachment_666" aria-describedby="caption-attachment-666" style="width: 497px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg"><img class="size-large wp-image-666" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?resize=474%2C412" alt="test caption" width="474" height="412" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?w=2991&amp;ssl=1 2991w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?resize=300%2C260&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-666" class="wp-caption-text">The juxtaposition of the Wildland-Urban Interface (red) and non-Wildland Urban Interface (gray).</figcaption></figure>
+<p>An image from the Thermal Infrared Sensor (band 11) identifies the hotspots (dark blue) associated with the burn scars of the three fires. All of the fires were contained when the image was acquired. However, recently burned areas contain blackened soils with little vegetation that quickly heat up compared to other areas. Lighter colors indicate lower relative temperatures in the image associated with water and vegetation.</p>
+<p>&nbsp;</p>
+<figure id="attachment_664" aria-describedby="caption-attachment-664" style="width: 497px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg"><img class="size-large wp-image-664" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?resize=474%2C412" alt="Natural color image (Landsat 8, bands 4, 3, 2) of the region acquired on May 25, 2014. Compare with the false color image above." width="474" height="412" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?w=2991&amp;ssl=1 2991w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?resize=300%2C260&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-664" class="wp-caption-text">Thermal image (Landsat 8, band 11) of the region acquired on May 25, 2014. Compare with the images above.</figcaption></figure>
+<p>References:</p>
+<p>Radeloff, V.C., R.B. Hammer, S.I Stewart, J.S. Fried, S.S. Holcomb, and J.F. McKeefry. 2005. The Wildland Urban Interface in the United States. Ecological Applications 15: 799-805.</p>
+<p>University of Wisconsin SILVAS Lab &#8211; <a href="http://silvis.forest.wisc.edu/maps/wui_main" target="_blank">The Wildland Urban Interface</a></p>
+<p>Landsat 8 image acquired from <a href="http://earthexplorer.usgs.gov/" target="_blank">USGS EarthExplorer</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">649</post-id>	</item>
+	</channel>
+</rss>

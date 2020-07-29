@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>eruption &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/eruption/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 18:26:36 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Puyehue Volcanic Eruption &#8211; a view from above</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/05/19/puyehue-volcanic-eruption-a-satellite-view/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2012/05/19/puyehue-volcanic-eruption-a-satellite-view/#respond</comments>
+				<pubDate>Sun, 20 May 2012 04:25:56 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[eruption]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Puyehue]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[volcano]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=15</guid>
+				<description><![CDATA[The eruption of Chile’s Puyehue Volcano in June 2011 didn’t get much press in the Northern Hemisphere. I traveled through the region in March 2012 and found that ash and pumice still blanket the landscape. I was intrigued if this event was captured from space. Sure enough the Landsat satellite captured the ongoing event on &#8230; <a href="https://tjassal.github.io/LabWebsite/2012/05/19/puyehue-volcanic-eruption-a-satellite-view/" class="more-link">Continue reading <span class="screen-reader-text">Puyehue Volcanic Eruption &#8211; a view from above</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The eruption of Chile’s Puyehue Volcano in June 2011 didn’t get much press in the Northern Hemisphere. I traveled through the region in March 2012 and found that ash and pumice still blanket the landscape.</p>
+<figure id="attachment_219" aria-describedby="caption-attachment-219" style="width: 550px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/08/ar96b2.jpg"><img class="size-full wp-image-219" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/08/ar96b2.jpg?resize=474%2C290" alt="Photo taken just east of the Chile-Argentina border crossing." width="474" height="290" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/08/ar96b2.jpg?w=550&amp;ssl=1 550w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/08/ar96b2.jpg?resize=300%2C183&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-219" class="wp-caption-text">Photo taken just east of the Chile-Argentina border crossing (March 2012).</figcaption></figure>
+<p>I was intrigued if this event was captured from space. Sure enough the Landsat satellite captured the ongoing event on June 26, 2011 (data obtained from USGS EarthExplorer). The Puyehue-Cordon Caulle chain eruption began in early June.</p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/05/puyehue_june26_20112.jpg"><img class="aligncenter size-large wp-image-16" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/05/puyehue_june26_20112.jpg?resize=474%2C430" alt="Puyehue_June26_2011" width="474" height="430" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/05/puyehue_june26_20112.jpg?resize=1024%2C930&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/05/puyehue_june26_20112.jpg?resize=300%2C272&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/05/puyehue_june26_20112.jpg?w=1441&amp;ssl=1 1441w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2012/05/puyehue_june26_20112.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<p class="size-medium wp-image-219">Photos of the eruption and aftermath can be found <a title="The Atlantic" href="http://www.theatlantic.com/infocus/2011/06/chiles-puyehue-volcano-erupts/100081/">here</a> or <a href="http://www.npr.org/2011/06/07/137044632/photo-gallery-chile-volcano-eruptshttp://" target="_blank">here</a>.</p>
+<p>[googlemaps https://maps.google.com/maps/ms?msa=0&amp;amp;msid=206718246504044193440.0004c37990fec0fd100b0&amp;amp;hl=en&amp;amp;ie=UTF8&amp;amp;t=p&amp;amp;ll=-40.380028,-72.410889&amp;amp;spn=2.929059,4.669189&amp;amp;z=7&amp;amp;output=embed&amp;w=425&amp;h=350]</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2012/05/19/puyehue-volcanic-eruption-a-satellite-view/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">15</post-id>	</item>
+	</channel>
+</rss>

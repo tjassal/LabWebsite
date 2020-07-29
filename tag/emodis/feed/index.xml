@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>eMODIS &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/emodis/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 22 Feb 2017 00:37:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>RasterViz in R: Drought Anomalies on California&#8217;s Central Coast</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/#respond</comments>
+				<pubDate>Wed, 03 Jan 2018 00:37:19 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cal Poly University]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[California drought]]></category>
+		<category><![CDATA[Data Visualization]]></category>
+		<category><![CDATA[DataViz]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[San Luis Obispo]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1665</guid>
+				<description><![CDATA[Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I will use in an upcoming lecture to the Anthropology and Geography group of the Social Sciences Department at Cal Poly University. The goal is to gain a brief understanding on vegetation productivity &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/" class="more-link">Continue reading <span class="screen-reader-text">RasterViz in R: Drought Anomalies on California&#8217;s Central Coast</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I will use in an upcoming lecture to the Anthropology and Geography group of the <a href="https://socialsciences.calpoly.edu/" target="_blank" rel="noopener">Social Sciences Department</a> at Cal Poly University. The goal is to gain a brief understanding on vegetation productivity dynamics in the vicinity of San Luis Obispo and the Central Coast using remote sensing and R. I&#8217;ve selected 17 HUC 10 watersheds from the <a href="https://nhd.usgs.gov/" target="_blank" rel="noopener">National Hydrography Dataset</a> as the area of interest.</p>
+<p>We know when the drought hit at a statewide level from the <a href="http://droughtmonitor.unl.edu/" target="_blank" rel="noopener">US Drought Monitor</a>. Now let&#8217;s use satellite data and R to visualize the drought at a local scale using a reproducible example in R.</p>
+<figure id="attachment_1676" aria-describedby="caption-attachment-1676" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg" target="_blank" rel="noopener"><img class="wp-image-1676 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=474%2C185" alt="" width="474" height="185" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=1024%2C399&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=300%2C117&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=768%2C299&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1676" class="wp-caption-text">Data from US Drought Monitoring Center indicates the Central Coast did not experience drought conditions in mid-August of 2006 (left); whereas it experienced exceptional drought in mid-August of 2014 (right).</figcaption></figure>
+<p>I used <a href="https://lta.cr.usgs.gov/emodis" target="_blank" rel="noopener">eMODIS</a> (EROS Moderate Resolution Imaging Spectroradiometer) data to characterize the NDVI derived productivity of the AOI during the month of August. eMODIS is a standardized product which uses MODIS surface reflectance from a 7-day composite period (Brown et al. 2015). I used all eMODIS images from August during the period 2000 through 2016 to calculate the 17-year August mean. I then calculated August productivity anomalies for a dry year (2014) and an average year (2006) to identify the spatial and temporal variability in productivity within the watershed.</p>
+<p>To execute the example below, please download the data <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/SLO_Data.zip" target="_blank" rel="noopener">here.</a> I have not included the base data or code to calculate the global mean and annual anomalies.</p>
+<p>Load the required packages in R (note: the Rcolorbrewer library is loaded with the <a href="https://oscarperpinan.github.io/rastervis/" target="_blank" rel="noopener">rasterVis</a> library).</p><pre class="crayon-plain-tag">library(rgdal)   #Geospatial Data Abstraction Library
+library(raster)  #Geographic data analysis &amp; modeling Lib
+library(rasterVis) #Raster Visualization library</pre><p>Load the required data:</p><pre class="crayon-plain-tag">#load .shp (proj is the same as the raster data)
+huc.shp &lt;- readOGR(".", "SLO_HUC10_LEA")
+
+#load raster data
+Global.mean.August&lt;-raster("August_GLOBAL_MEAN.tif")
+August.2006.Z&lt;-raster("August_2006_Z.tif")
+August.2014.Z&lt;-raster("August_2014_Z.tif")</pre><p>Plot the mean productivity for August (2000-2016):</p><pre class="crayon-plain-tag">#plot mean August NDVI 2000-2016
+# set a color ramp of yellow to green
+cols &lt;- colorRampPalette(brewer.pal(9,"YlGn"))
+# create a level plot - for Mean August NDVI
+p&lt;-levelplot(Global.mean.August,main="Average August Productivity (NDVI; 2000-2016)",
+             col.regions=cols)
+# overlay the spatialpolygonsdataframe
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+#plot the data
+plot(map.overlay)
+
+#export graphic
+jpeg("Global_mean_August.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><figure id="attachment_1681" aria-describedby="caption-attachment-1681" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg" target="_blank" rel="noopener"><img class="wp-image-1681 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=300%2C300&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=768%2C768&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1681" class="wp-caption-text">Note: the NDVI values are scaled by a value of 10000. The gray graphics along the top and left axes represent the mean of the row (right) and column (top) values.</figcaption></figure></p>
+<p>Plot the 2014 and 2006 August productivity anomalies:</p><pre class="crayon-plain-tag">#plot Aug 2014 anomaly (dry year)
+# set a color ramp of red to blue
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2014.Z,main="August 2014 NDVI Anomaly",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+plot(map.overlay)
+
+#export graphic
+jpeg("Aug2014_Anomaly.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device
+
+#plot Aug 2006 anomaly (average year)
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2006.Z,main="August 2006 NDVI Anomaly",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+plot(map.overlay)
+
+#export graphic
+jpeg("Aug2006_Anomaly.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg" target="_blank" rel="noopener"><img class="aligncenter wp-image-1680 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<figure id="attachment_1679" aria-describedby="caption-attachment-1679" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg" target="_blank" rel="noopener"><img class="wp-image-1679 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1679" class="wp-caption-text">Compare drought-year anomalies (top) with average-year anomalies (bottom). The anomalies are analogous to Z-scores and were calculated as the deviation from mean, normalized by the standard deviation. These maps clearly indicate that the majority of the area experienced very strong negative anomalies (dark red) in 2014 and a mix of positive (blue) and subtle negative anomalies (light red) in 2006.</figcaption></figure>
+<p><strong>Literature Cited</strong></p>
+<p>Brown, J. F., D. Howard, B. Wylie, A. Frieze, L. Ji, and C. Gacke. 2015. Application-ready expedited MODIS data for operational land surface monitoring of vegetation condition. Remote Sensing 7:16226–16240.</p>
+<p><em>*Banner image: MODIS image of central California from <a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=91379" target="_blank" rel="noopener">NASA Earth Observatory.</a></em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1665</post-id>	</item>
+		<item>
+		<title>Raster Visualization in R: Vegetation productivity in the Yuba River Watershed</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/#comments</comments>
+				<pubDate>Wed, 22 Feb 2017 00:37:53 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Data Visualization]]></category>
+		<category><![CDATA[DataViz]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1473</guid>
+				<description><![CDATA[Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I used in a recent lecture I gave in the Department of Geography and Environment at San Francisco State University. The goal is to gain a brief understanding on vegetation productivity dynamics in &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/" class="more-link">Continue reading <span class="screen-reader-text">Raster Visualization in R: Vegetation productivity in the Yuba River Watershed</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I used in a recent lecture I gave in the <a href="https://geog.sfsu.edu/" target="_blank">Department of Geography and Environment</a> at San Francisco State University. The goal is to gain a brief understanding on vegetation productivity dynamics in the Yuba River Watershed (where the <a href="http://www.sfsu.edu/~sierra/" target="_blank">SFSU Sierra Nevada Field Campus</a> is located) and quickly display the data using Oscar Perpiñán&#8217;s excellent R package <a href="https://oscarperpinan.github.io/rastervis/" target="_blank">rasterVis</a>.</p>
+<p>I used <a href="https://lta.cr.usgs.gov/emodis" target="_blank">eMODIS</a> (EROS Moderate Resolution Imaging Spectroradiometer) data to characterize the NDVI derived productivity of the Yuba River Basin during the month of August. eMODIS is a standardized product which uses MODIS surface reflectance from a 7-day composite period (Brown et al. 2015). I used all eMODIS images from August during the period 2000 through 2016 to calculate the 17-year August mean. I then calculated August productivity anomalies for a dry year (2014) and an average year (2006) to identify the spatial and temporal variability in productivity within the watershed (based on regional data; Malone et al. 2016).</p>
+<p>To execute the example below, please download the data <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2017/02/Yuba_Data.zip" target="_blank">here.</a> I have not included the base data or code to calculate the global mean and anomalies.</p>
+<p>Load the required packages in R (note: the Rcolorbrewer library is loaded with the rasterVis library).</p><pre class="crayon-plain-tag">library(rgdal)   #Geospatial Data Abstraction Library
+library(raster)  #Geographic data analysis &amp; modeling Lib
+library(rasterVis) #Raster Visualization library</pre><p>Load the required data:</p><pre class="crayon-plain-tag">#load .shp (proj is the same as the raster data)
+huc.shp &lt;- readOGR(".", "yuba_watershed_HUC08_LEA")
+
+#load raster data
+Global.mean.August&lt;-raster("august_yuba_mean_2000_2016.tif")
+August.2006.Z&lt;-raster("August_2006_Z.tif")
+August.2014.Z&lt;-raster("August_2014_Z.tif")</pre><p>Plot the mean productivity for August (2000-2016):</p><pre class="crayon-plain-tag">#plot mean August NDVI 2000-2016
+# set a color ramp of yellow to green
+cols &lt;- colorRampPalette(brewer.pal(9,"YlGn"))
+
+# create a level plot - for Mean August NDVI
+p&lt;-levelplot(Global.mean.August,main="Average August Productivity (NDVI; 2000-2016) - Yuba River Watershed",
+             col.regions=cols)
+
+# overlay the spatialpolygonsdataframe
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=2.5, col='black'))
+
+#plot the data
+plot(map.overlay)
+
+#export graphic
+jpeg("Global_mean_August.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><figure id="attachment_1486" aria-describedby="caption-attachment-1486" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August.jpg" target="_blank"><img class="wp-image-1486 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741-1024x789.jpg?resize=474%2C365" width="474" height="365" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?resize=1024%2C789&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?resize=300%2C231&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?resize=768%2C592&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Global_mean_August-e1487722496741.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1486" class="wp-caption-text">Note: the NDVI values are scaled by a value of 10000. The gray graphics along the top and left axes represent the mean of the row (right) and column (top) values.</figcaption></figure></p>
+<p>Plot the 2014 and 2006 August productivity anomalies:</p><pre class="crayon-plain-tag">#plot Aug 2014 anomaly (dry year)
+# set a color ramp of red to blue
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2014.Z,main="August 2014 NDVI Anomaly - Yuba River Watershed",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=2.5, col='black'))
+
+#plot Aug 2006 anomaly (average year)
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2006.Z,main="August 2006 NDVI Anomaly - Yuba River Watershed",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=2.5, col='black'))</pre><p><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly.jpg" target="_blank"><img class="wp-image-1484 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985-1024x829.jpg?resize=474%2C384" width="474" height="384" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?resize=1024%2C829&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?resize=300%2C243&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?resize=768%2C622&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2014_Anomaly-e1487722807985.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<figure id="attachment_1485" aria-describedby="caption-attachment-1485" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly.jpg" target="_blank"><img class="wp-image-1485 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997-1024x813.jpg?resize=474%2C376" width="474" height="376" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?resize=1024%2C813&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?resize=300%2C238&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?resize=768%2C609&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2017/02/Aug2006_Anomaly-e1487722954997.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1485" class="wp-caption-text">Compare dry-year anomalies (top) with average-year anomalies (bottom). The anomalies are analogous to Z-scores and were calculated as the deviation from mean, normalized by the standard deviation.</figcaption></figure>
+<p><strong>Literature Cited</strong></p>
+<p>Brown, J. F., D. Howard, B. Wylie, A. Frieze, L. Ji, and C. Gacke. 2015. Application-ready expedited MODIS data for operational land surface monitoring of vegetation condition. Remote Sensing 7:16226–16240.</p>
+<p>Malone, S. L., M. G. Tulbure, A. J. Pérez-luque, T. J. Assal, L. L. Bremer, D. P. Drucker, V. Hillis, S. Varela, and M. L. Goulden. 2016. Drought resistance across California ecosystems : evaluating changes in carbon dynamics using satellite imagery. Ecosphere 7:1–19.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/02/21/raster-visualization-in-r-vegetation-productivity-in-the-yuba-river-watershed/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1473</post-id>	</item>
+		<item>
+		<title>Research Presentation at the AGU Fall Meeting 2016</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/#respond</comments>
+				<pubDate>Wed, 14 Dec 2016 02:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[AGU 2016]]></category>
+		<category><![CDATA[AGU16]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Ecosystem productivity]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Upper Green River Basin]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1425</guid>
+				<description><![CDATA[I will present research on drought-induced variability of sagebrushecosystem productivity in the Upper Green River Basin at the AGU Fall Meeting in San Francisco, CA at 10:35 am in Moscone West Rm 2008. My presentation is part of the session entitled: (B32C) Remote Sensing to Support Investigations in Plant-Climate Interactions. A cross-scale approach to understand &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the AGU Fall Meeting 2016</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on drought-induced variability of sagebrushecosystem productivity in the Upper Green River Basin at the AGU Fall Meeting in San Francisco, CA at 10:35 am in Moscone West Rm 2008. My presentation is part of the session entitled: (<span class="FinalNumber">B32C) </span><em> Remote Sensing to Support Investigations in Plant-Climate Interactions</em>.</p>
+<figure id="attachment_1433" aria-describedby="caption-attachment-1433" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg" target="_blank"><img class="wp-image-1433 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?resize=300%2C191" width="300" height="191" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?w=518&amp;ssl=1 518w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1433" class="wp-caption-text">Frequency distribution of net productivity across the Upper Green River Basin. Comparison between an average precipitation year (2010; blue), an wet year (2011; red), and a dry year (2012; green).</figcaption></figure>
+<p><a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/196167" target="_blank"><strong><em><span style="color: #008000;">A cross-scale approach to understand drought-induced variability of sagebrush ecosystem productivity (</span><span class="FinalNumber"><span style="color: #008000;">B32C-02)</span> </span></em></strong></a></p>
+<p><strong>Abstract</strong></p>
+<p>Sagebrush (<i>Artemisia </i>spp.) mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) of the sagebrush steppe of western North America. Numerous causes have been suggested, but recent drought (2012-13) is the likely mechanism of mortality in this water-limited ecosystem which provides critical habitat for many species of wildlife.</p>
+<figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 150px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-thumbnail" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=150%2C150" width="150" height="150" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?zoom=2&amp;resize=150%2C150 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Sagebrush mortality has been reported across the Upper Green River Basin in recent years.</figcaption></figure>
+<p>An understanding of the variability in patterns of productivity with respect to climate is essential to exploit landscape scale remote sensing for detection of subtle changes associated with mortality in this sparse, uniformly vegetated ecosystem. We used the standardized precipitation index to characterize drought conditions and Moderate Resolution Imaging Spectroradiometer (MODIS) satellite imagery (250-m resolution) to characterize broad characteristics of growing season productivity. We calculated per-pixel growing season anomalies over a 16-year period (2000-2015) to identify the spatial and temporal variability in productivity. Metrics derived from Landsat satellite imagery (30-m resolution) were used to further investigate trends within anomalous areas at local scales. We found evidence to support an initial hypothesis that antecedent winter drought was most important in explaining reduced productivity. The results indicate drought effects were inconsistent over space and time. MODIS derived productivity deviated by more than four standard deviations in heavily impacted areas, but was well within the interannual variability in other areas. Growing season anomalies highlighted dramatic declines in productivity during the 2012 and 2013 growing seasons. However, large negative anomalies persisted in other areas during the 2014 growing season, indicating lag effects of drought. We are further investigating if the reduction in productivity is mediated by local biophysical properties. Our analysis identified spatially explicit patterns of ecosystem properties altered by severe drought which are consistent with field observations of sagebrush mortality. The results provide a theoretical framework for future field based investigation at multiple spatiotemporal scales.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1425</post-id>	</item>
+	</channel>
+</rss>

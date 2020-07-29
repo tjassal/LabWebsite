@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>retrieval of vegetation biophysical parameters &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/retrieval-of-vegetation-biophysical-parameters/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Fri, 30 Jun 2017 16:37:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Call for Papers: Remote Sensing of Vegetation Parameters</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/#respond</comments>
+				<pubDate>Thu, 29 Jun 2017 12:16:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[leaf area index]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[radiative transfer models]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[retrieval of vegetation biophysical parameters]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[vegetation monitoring applications]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1548</guid>
+				<description><![CDATA[The open access journal Forests has a call for papers related to remote sensing of leaf area index and other vegetation parameters. The call is open to a wide variety of applications including ecology, agriculture, forestry, food security, etc. Full details can be found here. Deadline for manuscript submissions: 15 April 2018 Dr. Javier García-Haro Prof. &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Remote Sensing of Vegetation Parameters</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>The open access journal <a href="http://www.mdpi.com/journal/forests" target="_blank" rel="noopener">Forests</a> has a call for papers related to remote sensing of leaf area index and other vegetation parameters. The call is open to a wide variety of applications including ecology, agriculture, forestry, food security, etc. Full details can be found <a href="http://www.mdpi.com/si/forests/LAI_remotesensing" target="_blank" rel="noopener">here</a>.</p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Deadline for manuscript submissions: <strong>15 A</strong><b>pril 2018</b></span></p>
+<div>Dr. Javier García-Haro</div>
+<div>Prof. Dr. Hongliang Fang</div>
+<div>Prof. Dr. Juan Manuel Lopez-Sanchez</div>
+</div>
+<div><em>Guest Editors</em></div>
+<div></div>
+<div>
+<div></div>
+<div></div>
+<div>
+<p><em>*Banner image: aspen canopy on Cold Spring Mountain, Colorado.</em></p>
+</div>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1548</post-id>	</item>
+	</channel>
+</rss>

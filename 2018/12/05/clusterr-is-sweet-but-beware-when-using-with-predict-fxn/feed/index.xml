@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: clusterR is sweet &#8211; but beware when using with predict fxn	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 19 Dec 2018 19:43:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: Haqiq Rahmani				</title>
+				<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comment-13325</link>
+		<dc:creator><![CDATA[Haqiq Rahmani]]></dc:creator>
+		<pubDate>Thu, 23 Jul 2020 01:27:17 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920#comment-13325</guid>
+					<description><![CDATA[When I run the random forest predict function in the cluster in R it fails with the below error. 
+
+Any help is appreciated. 
+Thanks
+Haqiq
+
+&#062; beginCluster()
+4 cores detected, using 3
+&#062; system.time(preds_rf  endCluster()]]></description>
+		<content:encoded><![CDATA[<p>When I run the random forest predict function in the cluster in R it fails with the below error. </p>
+<p>Any help is appreciated.<br />
+Thanks<br />
+Haqiq</p>
+<p>&gt; beginCluster()<br />
+4 cores detected, using 3<br />
+&gt; system.time(preds_rf  endCluster()</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comment-13319</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Fri, 03 May 2019 15:23:00 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920#comment-13319</guid>
+					<description><![CDATA[Hi Stuart,
+
+A big thanks for identifying the error in my code! I&#039;m a little embarrassed of the syntax error, but hopefully my mistake will help a few others.
+
+Cheers,
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Hi Stuart,</p>
+<p>A big thanks for identifying the error in my code! I&#8217;m a little embarrassed of the syntax error, but hopefully my mistake will help a few others.</p>
+<p>Cheers,<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Stuart				</title>
+				<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comment-13315</link>
+		<dc:creator><![CDATA[Stuart]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2019 00:49:23 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920#comment-13315</guid>
+					<description><![CDATA[You just need to add type = &#039;prob&#039; inside the args() part of the clusterR() function.
+
+beginCluster(3)
+r.prob.Cluster&#060;-clusterR(logo, predict, args=list(model.RF, type = &#039;prob&#039;), progress=&#039;text&#039;)
+endCluster()
+plot(r.prob.Cluster)
+points(presence, bg=&#039;blue&#039;, pch=21)
+identical(r.prob[], r.prob.Cluster[]) # TRUE]]></description>
+		<content:encoded><![CDATA[<p>You just need to add type = &#8216;prob&#8217; inside the args() part of the clusterR() function.</p>
+<p>beginCluster(3)<br />
+r.prob.Cluster&lt;-clusterR(logo, predict, args=list(model.RF, type = &#039;prob&#039;), progress=&#039;text&#039;)<br />
+endCluster()<br />
+plot(r.prob.Cluster)<br />
+points(presence, bg=&#039;blue&#039;, pch=21)<br />
+identical(r.prob[], r.prob.Cluster[]) # TRUE</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comment-13314</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Wed, 19 Dec 2018 19:43:59 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920#comment-13314</guid>
+					<description><![CDATA[Thanks Martin; my pleasure. Thanks for your post on clusterR, it was very helpful!]]></description>
+		<content:encoded><![CDATA[<p>Thanks Martin; my pleasure. Thanks for your post on clusterR, it was very helpful!</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Martin Siklar				</title>
+				<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comment-13313</link>
+		<dc:creator><![CDATA[Martin Siklar]]></dc:creator>
+		<pubDate>Mon, 10 Dec 2018 15:46:25 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920#comment-13313</guid>
+					<description><![CDATA[Thanks for the tag! I really appreciate it.
+Great blog and content btw.
+
+Cheers Martin]]></description>
+		<content:encoded><![CDATA[<p>Thanks for the tag! I really appreciate it.<br />
+Great blog and content btw.</p>
+<p>Cheers Martin</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

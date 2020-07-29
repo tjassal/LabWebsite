@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>electromagnetic spectrum &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/electromagnetic-spectrum/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Fri, 12 Jun 2015 17:13:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>New paper offers retrospective view of the 1970s mountain pine beetle outbreak in Glacier National Park</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/12/09/new-paper-offers-retrospective-view-of-the-1970s-mountain-pine-beetle-outbreak-in-glacier-national-park/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2014/12/09/new-paper-offers-retrospective-view-of-the-1970s-mountain-pine-beetle-outbreak-in-glacier-national-park/#respond</comments>
+				<pubDate>Tue, 09 Dec 2014 19:44:43 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Bark Beetle Outbreak]]></category>
+		<category><![CDATA[color-infrared]]></category>
+		<category><![CDATA[Dendroctonus ponderosae]]></category>
+		<category><![CDATA[electromagnetic spectrum]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Glacier National Park]]></category>
+		<category><![CDATA[Landsat MSS]]></category>
+		<category><![CDATA[Mountain Pine Beetle]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Red Attack Phase]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[Spectral trajectory]]></category>
+		<category><![CDATA[tree mortality]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=706</guid>
+				<description><![CDATA[We recently published a new paper in the journal Remote Sensing of Environment, entitled “Modeling a Historical Mountain Pine Beetle Outbreak Using Multiple Lines of Evidence.” We have developed a new method for reconstructing past (1970s) bark beetle outbreaks using a novel combination of aerial photography and Landsat imagery. The lack of spatially explicit data &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/12/09/new-paper-offers-retrospective-view-of-the-1970s-mountain-pine-beetle-outbreak-in-glacier-national-park/" class="more-link">Continue reading <span class="screen-reader-text">New paper offers retrospective view of the 1970s mountain pine beetle outbreak in Glacier National Park</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>We recently published a new paper in the journal <a title="RSE December 2014" href="http://www.journals.elsevier.com/remote-sensing-of-environment" target="_blank"><em>Remote Sensing of Environment</em></a>, entitled “Modeling a Historical Mountain Pine Beetle Outbreak Using Multiple Lines of Evidence.” We have developed a new method for reconstructing past (1970s) bark beetle outbreaks using a novel combination of aerial photography and Landsat imagery. The lack of spatially explicit data on this disturbance represents both a major data gap and a critical research challenge in that wildfire fire has removed some of the evidence from the landscape. We utilized multiple lines of evidence to model forest canopy mortality as a proxy for beetle outbreak severity.</p>
+<p>The driving concept of the analysis was to map tree mortality in aerial photos and “scale-up” the information to a time series of satellite images. Color-infrared photography utilizes areas of the electromagnetic spectrum that are not visible to the human eye. Living vegetation absorbs blue and red light energy, while radiation in the green and near-infrared portion of the spectrum is reflected. Therefore, the reflectance captured in color-infrared photos can be used to distinguish between areas of live trees and dead trees (see the figure below). Satellite images do not contain the detail of aerial photos, but they allow us to track the reflectance of an area, known as the spectral trajectory, over time. The changes in a spectral trajectory provide clues as to the condition of forest with regard to mountain pine beetle activity.</p>
+<p>This project is a critical first step in our overall goal to identify the ecological consequences of the interactions of bark beetles with subsequent fire events over the last several decades in the US Rocky Mountains. The work presents a quantitative application of remote sensing to forest disturbance and is timely given the recent mountain pine beetle outbreak throughout western North America. Furthermore, we believe the paper establishes a platform for future research of historical forest disturbance that would be very beneficial to the field of forest ecology.</p>
+<figure id="attachment_790" aria-describedby="caption-attachment-790" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/12/RSE_fig2.jpg"><img class="size-large wp-image-790" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/12/RSE_fig2.jpg?resize=474%2C374" alt="(Left) Landscape photo taken in the Summer of 1980 showing a mixture of live and dead trees in the red attack stage in Waterton Valley (source: Glacier National Park Research Library). (Right) A color-infrared aerial photo of the same area acquired in October 1980 (source: NASA/Glacier National Park). Themosaic of live and dead forest can be identified in both images. The letters correspond to the same area in each photo (A= stream confluence, B= small patch of live trees, surrounded by dead forest, C= linear ribbon of dead forest)." width="474" height="374" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/12/RSE_fig2.jpg?resize=1024%2C808&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/12/RSE_fig2.jpg?resize=300%2C236&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/12/RSE_fig2.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/12/RSE_fig2.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-790" class="wp-caption-text">(Left) Landscape photo taken in the Summer of 1980 showing a mixture of live and dead trees in the red attack stage in Waterton Valley (source: Glacier National Park Research Library). (Right) A color-infrared aerial photo of the same area acquired in October 1980 (source: NASA/Glacier National Park). The mosaic of live and dead forest can be identified in both images. The letters correspond to the same area in each photo (A= stream confluence, B= small patch of live trees, surrounded by dead forest, C= linear ribbon of dead forest).</figcaption></figure>
+<p><em><strong>*Header Photo</strong> – View of Upper Waterton Lake, looking north into Canada. Patches of live and dead trees can be seen on the adjoining slopes. The dead trees are indicative of the “red attack” stage (orange/red needles) and were likely killed by beetles within 1 to 3 years before the photo was taken in the summer of 1980. (Photo provided by the Glacier National Park Research Library).</em></p>
+<p><strong><em>Manuscript Abstract</em></strong></p>
+<p>Mountain pine beetles are significant forest disturbance agents, capable of inducing widespread mortality in coniferous forests in western North America. Various remote sensing approaches have assessed the impacts of beetle outbreaks over the last two decades. However, few studies have addressed the impacts of historical mountain pine beetle outbreaks, including the 1970s event that impacted Glacier National Park. The lack of spatially explicit data on this disturbance represents both a major data gap and a critical research challenge in that wildfire has removed some of the evidence from the landscape. We utilized multiple lines of evidence to model forest canopy mortality as a proxy for outbreak severity. We incorporate historical aerial and landscape photos, aerial detection survey data, a nine-year collection of satellite imagery and abiotic data. This study presents a remote sensing based framework to (1) relate measurements of canopy mortality from fine-scale aerial photography to coarse-scale multispectral imagery and (2) classify the severity of mountain pine beetle affected areas using a temporal sequence of Landsat data and other landscape variables. We sampled canopy mortality in 261 plots from aerial photos and found that insect effects on mortality were evident in changes to the Normalized Difference Vegetation Index (NDVI) over time. We tested multiple spectral indices and found that a combination of NDVI and the green band resulted in the strongest model. We report a two-step process where we utilize a generalized least squares model to account for the large-scale variability in the data and a binary regression tree to describe the small-scale variability. The final model had a root mean square error estimate of 9.8% canopy mortality, a mean absolute error of 7.6% and an R<sup>2 </sup>of 0.82. The results demonstrate that a model of percent canopy mortality as a continuous variable can be developed to identify a gradient of mountain pine beetle severity on the landscape.</p>
+<p>Assal, T.J., Sibold, J., and R. Reich. 2014. <a title="RSE Article" href="http://www.sciencedirect.com/science/article/pii/S0034425714003435" target="_blank">Modeling a Historical Mountain Pine Beetle Outbreak Using Landsat MSS and Multiple Lines of Evidence.</a> <em>Remote Sensing of Environment </em>155:275-288.<em> </em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2014/12/09/new-paper-offers-retrospective-view-of-the-1970s-mountain-pine-beetle-outbreak-in-glacier-national-park/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">706</post-id>	</item>
+	</channel>
+</rss>

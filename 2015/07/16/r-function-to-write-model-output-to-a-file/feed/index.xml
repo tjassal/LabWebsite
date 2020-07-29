@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: R Function to write model output to a file	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 22 Jul 2015 06:54:12 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/#comment-1517</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Fri, 21 Aug 2015 23:40:21 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=961#comment-1517</guid>
+					<description><![CDATA[Thanks for the information Antonio.
+
+I figured there was something like this out there, but apparently I did not look hard enough!
+
+Hope you&#039;re doing well!
+
+Abrazos,
+Tim]]></description>
+		<content:encoded><![CDATA[<p>Thanks for the information Antonio.</p>
+<p>I figured there was something like this out there, but apparently I did not look hard enough!</p>
+<p>Hope you&#8217;re doing well!</p>
+<p>Abrazos,<br />
+Tim</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Antonio J.				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/07/16/r-function-to-write-model-output-to-a-file/#comment-1041</link>
+		<dc:creator><![CDATA[Antonio J.]]></dc:creator>
+		<pubDate>Wed, 22 Jul 2015 06:54:12 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=961#comment-1041</guid>
+					<description><![CDATA[Hi Tim, 
+
+Thanks for this useful function. It looks like simple but it&#039;s very useful to get results from models. Specifically, it&#039;ll be useful if you&#039;re running  a lot of models or you have a loop and you need to save the outputs. 
+
+For your example it could be also useful to include a function from broom package (https://cran.r-project.org/web/packages/broom/index.html) which returns the model&#039;s parameters like a paper table. The function is &lt;em&gt;tidy&lt;/em&gt;.  I hope this can be useful. 
+
+Thanks for the function. 
+Hugs.]]></description>
+		<content:encoded><![CDATA[<p>Hi Tim, </p>
+<p>Thanks for this useful function. It looks like simple but it&#8217;s very useful to get results from models. Specifically, it&#8217;ll be useful if you&#8217;re running  a lot of models or you have a loop and you need to save the outputs. </p>
+<p>For your example it could be also useful to include a function from broom package (<a href="https://cran.r-project.org/web/packages/broom/index.html" rel="nofollow">https://cran.r-project.org/web/packages/broom/index.html</a>) which returns the model&#8217;s parameters like a paper table. The function is <em>tidy</em>.  I hope this can be useful. </p>
+<p>Thanks for the function.<br />
+Hugs.</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

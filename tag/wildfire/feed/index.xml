@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>wildfire &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/wildfire/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 May 2017 00:31:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/#respond</comments>
+				<pubDate>Mon, 01 Oct 2018 00:49:42 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1875</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work on their Science Blog** In our new paper, published in the Journal of Biogeography, we investigate postfire regeneration patterns of Araucaria‐Nothofagus forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/" class="more-link">Continue reading <span class="screen-reader-text">New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #800000;"><strong><em>**A special thanks to the NASA Landsat Program for featuring our work on their <a style="color: #800000;" href="https://landsat.gsfc.nasa.gov/looking-at-burn-severity-and-post-fire-forest-regeneration-in-chiles-andean-cordillera-home-to-the-monkey-puzzle-tree/" target="_blank" rel="noopener">Science Blog</a>**</em></strong></span></h3>
+<p>In our new paper, published in the <a href="https://onlinelibrary.wiley.com/journal/13652699" target="_blank" rel="noopener">Journal of Biogeography</a>, we investigate postfire regeneration patterns of <em>Araucaria</em><em>‐</em><em>Nothofagus</em> forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and ground measurements to evaluate the relationship between remotely sensed burn severity and forest mortality; and b) assessed controls of burn severity on forest regeneration at local spatio‐temporal scales. The paper is a product of a collaboration with Colorado State University (<a href="http://www.biogeography.colostate.edu/" target="_blank" rel="noopener">Jason Sibold</a>) and the and Universidad Austral de Chile (<a href="http://www.forestal.uach.cl/instituto/conservacion-biodiversidad-territorio/academicos/mauro-gonzalez.php" target="_blank" rel="noopener">Mauro González</a>).</p>
+<figure id="attachment_1903" aria-describedby="caption-attachment-1903" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg" target="_blank" rel="noopener"><img class="wp-image-1903 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=1062&amp;ssl=1 1062w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1903" class="wp-caption-text">Study area and fire extent</figcaption></figure>
+<p>We think this work is noteworthy because 1) to our knowledge this is the first study that connects field-measured data with satellite-derived burn severity in this corner of the world; 2) one of the primary species of study, <em>Araucaria araucana</em> (known commonly as monkey puzzle tree), is recognized as an endangered species on the <a href="https://www.iucn.org/" target="_blank" rel="noopener">International Union for Conservation of Nature</a> <a href="https://newredlist.iucnredlist.org/" target="_blank" rel="noopener">Red List</a> and faces a plethora of threats; and 3) the framework relies on open data, namely Landsat satellite imagery, and could be applied to long-term monitoring or assessment of similar ecosystems. I would go a step further and argue the availability of Landsat data was the primary reason we were able to get this project off the ground.</p>
+<p>The paper is open access and can be retrieved below:</p>
+<ul>
+<li>Assal, T.J., González, M.E., and Sibold, J.S., 2018. <a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428" target="_blank" rel="noopener">Burn severity controls on postfire Araucaria‐Nothofagus regeneration in the Andean Cordillera</a>: Journal of Biogeography, DOI: https://doi.org/10.1111/jbi.13428. Early View Online at: https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428.</li>
+<li>Assal, T.J., 2018, Burn severity (2002) and field data (2012) from Tolhuaca National Park (Chile): U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P9YMIVFU" target="_blank" rel="noopener">https://doi.org/10.5066/P9YMIVFU</a></li>
+</ul>
+<figure id="attachment_1908" aria-describedby="caption-attachment-1908" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg"><img class="size-large wp-image-1908" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=474%2C301" alt="" width="474" height="301" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=1024%2C651&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=300%2C191&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=768%2C488&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1593&amp;ssl=1 1593w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1908" class="wp-caption-text">Fieldwork in Tolhuaca National Park</figcaption></figure>
+<p><em>*Banner image: Araucaria mortality in Tolhuaca National Park, 10 years postfire, Andes Mountains, Araucania Region, Chile.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1875</post-id>	</item>
+		<item>
+		<title>New Data Set &#8211; Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/#respond</comments>
+				<pubDate>Wed, 29 Aug 2018 14:09:00 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1871</guid>
+				<description><![CDATA[We recently published a new data set to support an upcoming paper in the Journal of Biogeography. The goal of the project was to investigate forest regeneration patterns after a severe wildfire in the Andes Mountains and is in collaboration with Colorado State University and Universidad Austral de Chile. The data release includes information on &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/" class="more-link">Continue reading <span class="screen-reader-text">New Data Set &#8211; Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>We recently published a new data set to support an upcoming paper in the Journal of Biogeography. The goal of the project was to investigate forest regeneration patterns after a severe wildfire in the Andes Mountains and is in collaboration with Colorado State University and Universidad Austral de Chile. The data release includes information on wildfire burn severity and post-fire regeneration data collected in Tolhuaca National Park. To our knowledge this is the first study that connects field-measured data with satellite-derived burn severity in this corner of the world. We presented this work at the <a href="https://tjassal.github.io/LabWebsite/?p=1576" target="_blank" rel="noopener">Ecological Society of America 2017 Meeting</a> and the project was featured on the <a href="https://tjassal.github.io/LabWebsite/?p=839" target="_blank" rel="noopener">SOGES HumanNature blog</a>.</p>
+<ul>
+<li>Assal, T.J., 2018, Burn severity (2002) and field data (2012) from Tolhuaca National Park (Chile): U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P9YMIVFU" target="_blank" rel="noopener">https://doi.org/10.5066/P9YMIVFU</a></li>
+</ul>
+<figure id="attachment_1877" aria-describedby="caption-attachment-1877" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg"><img class="wp-image-1877 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=474%2C308" alt="" width="474" height="308" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=1024%2C666&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=300%2C195&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=768%2C499&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?w=1543&amp;ssl=1 1543w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1877" class="wp-caption-text">Gonzalo and Paul approve.</figcaption></figure>
+<p><em>*Banner image: False-color Landsat image on the west slope of the Andes Mountains, Araucania Region, Chile.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1871</post-id>	</item>
+		<item>
+		<title>New paper on spruce-beetle outbreak and high-severity wildfire</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/#respond</comments>
+				<pubDate>Mon, 18 Sep 2017 20:50:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[spruce beetle]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1592</guid>
+				<description><![CDATA[Our new paper, lead by my colleagues at Colorado State University and published in the journal PLOS ONE,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/" class="more-link">Continue reading <span class="screen-reader-text">New paper on spruce-beetle outbreak and high-severity wildfire</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Our new paper, lead by my colleagues at Colorado State University and published in the journal <a href="http://journals.plos.org/plosone/" target="_blank" rel="noopener"><em>PLOS ONE</em></a>,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. These results suggest vegetation recovery processes may be negatively impacted by severe spruce beetle outbreaks occurring within a decade of stand-replacing fire. Much of the current subalpine forest in this region has been impacted by recent beetle outbreaks. In the future, these areas could experience higher burn severity which has important implications for the structure and composition of future forests.</p>
+<ul>
+<li>Carlson, A.R., J.S. Sibold, T.J. Assal, J.F. Negron. 2017. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0181778" target="_blank" rel="noopener">Evidence of compounded disturbance effects on vegetation recovery following high-severity wildfire and spruce beetle outbreak.</a> PLoS ONE. 12(8):  e0181778. https://doi.org/10.1371/journal.pone.0181778.</li>
+</ul>
+<p><em>*Banner image: beetle-induced tree mortality photographed on Little Mountain, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1592</post-id>	</item>
+		<item>
+		<title>Presentation at the Ecological Society of America 2017 Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/#respond</comments>
+				<pubDate>Sun, 06 Aug 2017 19:55:50 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Araucaria araucana]]></category>
+		<category><![CDATA[Araucaria-Nothofagus forest]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[dNBR]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Nothofagus dombeyi]]></category>
+		<category><![CDATA[RdNBR]]></category>
+		<category><![CDATA[regeneration]]></category>
+		<category><![CDATA[relative dNBR]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[South America]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[temperate forests]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+		<category><![CDATA[Zero-inflated negative binomial model]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1576</guid>
+				<description><![CDATA[I will present research of burn severity controls on post-fire Araucaria-Nothofagus regeneration in the Andean Cordillera at the ESA annual meeting in Portland, OR. My talk is part of the session entitled: (COS 153) – Communities: Spatial Patterns and Environmental Gradients on Thursday afternoon (2:10 pm), August 10th, in the Oregon Convention Center, C120-121. Details: &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the Ecological Society of America 2017 Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research of burn severity controls on post-fire <em>Araucaria-Nothofagus</em> regeneration in the Andean Cordillera at the <a href="http://www.esa.org/portland/" target="_blank" rel="noopener">ESA annual meeting</a> in Portland, OR. My talk is part of the session entitled: <a href="https://eco.confex.com/eco/2017/webprogram/Session13800.html" target="_blank" rel="noopener">(COS 153) – Communities: Spatial Patterns and Environmental Gradients</a> on Thursday afternoon (2:10 pm), August 10<sup>th</sup>, in the Oregon Convention Center, C120-121.</p>
+<p>Details:</p>
+<p class="subtitle"><a href="https://eco.confex.com/eco/2017/webprogram/Paper66665.html" target="_blank" rel="noopener">Burn severity and post-fire regeneration in Chilean <em>Araucaria</em>&#8211;<em>Nothofagus</em> forest (COS 153 &#8211; 3)</a></p>
+<figure id="attachment_843" aria-describedby="caption-attachment-843" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg"><img class="size-large wp-image-843" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=474%2C356" alt="" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-843" class="wp-caption-text">Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012.</figcaption></figure>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1576</post-id>	</item>
+		<item>
+		<title>Call for Papers: Remote Sensing of Wildfire</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/05/30/call-for-papers-remote-sensing-of-wildfire/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/05/30/call-for-papers-remote-sensing-of-wildfire/#respond</comments>
+				<pubDate>Wed, 31 May 2017 00:19:58 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[fire effects]]></category>
+		<category><![CDATA[mapping]]></category>
+		<category><![CDATA[monitoring]]></category>
+		<category><![CDATA[prescribed fire]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1538</guid>
+				<description><![CDATA[The open access journal Remote Sensing has a call for papers related to remote sensing of wildfire. The topics of interest are diverse, ranging from wildfire risk to the ecological effects of fire. Full details can be found here. Deadline for manuscript submissions: 30 June 2018 Wildfires (which include forest fires, grass fires, brush fires, &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/05/30/call-for-papers-remote-sensing-of-wildfire/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Remote Sensing of Wildfire</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The open access journal <a href="http://www.mdpi.com/journal/remotesensing" target="_blank" rel="noopener noreferrer">Remote Sensing</a> has a call for papers related to remote sensing of wildfire. The topics of interest are diverse, ranging from wildfire risk to the ecological effects of fire. Full details can be found <a href="http://www.mdpi.com/journal/remotesensing/special_issues/wildfire_rs" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p><span class="si-deadline">Deadline for manuscript submissions: <b>30 June 2018</b></span></p>
+<div>
+<p>Wildfires (which include forest fires, grass fires, brush fires, bush fires, and peat fires, among others) are an integral part of so many ecosystems across the world. In general, these fires are primarily viewed negatively despite their favorable contributions. Here, the purpose is to gather scientists/researchers related to this topic, aiming to highlight ongoing research investigations and new applications in the field. In this framework, the editors of this Special Issue would like to invite both applied and theoretical research contributions; submissions of original works furthering knowledge concerned with any aspect of the use of remote sensing in wildfires. Note that these manuscripts must be, not only unpublished, but also not under consideration for potential publication elsewhere. In addition, the manuscripts must employ one of the following remote sensing data types: Optical, thermal, hyperspectral, active and passive microwave acquired by either airborne or spaceborne remote sensing platforms, dealing with wildfires. The topics of interest include, but not limited to:</p>
+<ul>
+<li>Comprehending of the pre-fire conditions,</li>
+<li>Forecasting of wildfire danger/risk,</li>
+<li>Modelling of wildfire behavior,</li>
+<li>Fighting the wildfire,</li>
+<li>Modelling prescribed burning,</li>
+<li>Relation between vegetation phenology and fire,</li>
+<li>Monitoring of the vegetation recovery following the fire events,</li>
+<li>Mapping of burn area and ecological impacts,</li>
+<li>Modelling of smoke propagation, and</li>
+<li>Analyzing of historical fire regimes, among others.</li>
+</ul>
+<p>Dr. Quazi K. Hassan<br />
+Dr. George P. Petropoulos<br />
+<em>Guest Editors</em></p>
+<p><em>*Banner image: Landsat 8 image of the Sand Fire in southern California from <a href="https://earthobservatory.nasa.gov/NaturalHazards/view.php?id=88445" target="_blank" rel="noopener noreferrer">NASA Earth Observatory</a>.</em></p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/05/30/call-for-papers-remote-sensing-of-wildfire/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1538</post-id>	</item>
+		<item>
+		<title>Recent fire scars highlight the complexity of the Wildland Urban Interface in Southern Cal</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/05/31/recent-fire-scars-highlight-the-complexity-of-the-wildland-urban-interface-in-southern-cal/</link>
+				<pubDate>Sun, 01 Jun 2014 05:31:03 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn scar]]></category>
+		<category><![CDATA[fire scar]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[southern California]]></category>
+		<category><![CDATA[Urban Interface]]></category>
+		<category><![CDATA[wildfire]]></category>
+		<category><![CDATA[Wildland Urban Interface]]></category>
+		<category><![CDATA[WUI]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=649</guid>
+				<description><![CDATA[Several large and destructive wildfires burned parts of San Diego County in mid-May. I must admit I do not track wildfires as closely as I should unless they are in close proximity to the Front Range of Colorado, where I live. However, I have relatives that live in San Diego County and have visited the &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/05/31/recent-fire-scars-highlight-the-complexity-of-the-wildland-urban-interface-in-southern-cal/" class="more-link">Continue reading <span class="screen-reader-text">Recent fire scars highlight the complexity of the Wildland Urban Interface in Southern Cal</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Several large and destructive wildfires burned parts of San Diego County in mid-May. I must admit I do not track wildfires as closely as I should unless they are in close proximity to the Front Range of Colorado, where I live. However, I have relatives that live in San Diego County and have visited the area several times so I dedicated a bit more attention to these fires. The Poinsettia fire burned a small area in Carlsbad, while the Cocos fire burned south of San Marcos and the Bernardo fire east of Solano Beach. A recent Landsat 8 image, acquired on May 25th, captured the impact of the fires on the landscape after all three were fully contained. The Cocos and Bernardo fires were large and left a fairly conspicuous scar on the landscape. However, the Poinsettia fire scar is difficult to identify at a regional scale in a natural color Landsat image. This is in large part because the fire was only 600 acres in size. However, it is also difficult to identify in the matrix of urban, suburban and exurban elements of the landscape in northern San Diego County. The Poinsettia fire started in a small urban park in a highly populated area (the cause is still under investigation and arson has not been ruled out).</p>
+<p>The image below utilizes the two shortwave-infrared bands and the near-infrared band on the Operational Land Imager sensor onboard Landsat 8. The fire scars are much more conspicuous in the false color image compared to the natural color image (below), especially the smaller Poinsettia fire scar. The near-infrared band is sensitive to living vegetation whereas the shortwave range is sensitive to ash, char and water content. Both of these ecosystem properties are impacted by fire, therefore the burn scars jump out of the false-color image.</p>
+<figure id="attachment_665" aria-describedby="caption-attachment-665" style="width: 497px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg"><img class="size-large wp-image-665" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?resize=474%2C412" alt="False color image (Landsat 8 - Bands 7, 6, 5) of the region acquired on May 25, 2014. Compare with the natural color image below. The large burn scar located between the Cocos and Bernardo fires was from the October 2007 Witch Creek fire." width="474" height="412" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?w=2991&amp;ssl=1 2991w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?resize=300%2C260&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_bands7651.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-665" class="wp-caption-text">False color image (Landsat 8 &#8211; Bands 7, 6, 5) of the region acquired on May 25, 2014. Compare with the natural color image below. The large burn scar located between the Cocos and Bernardo fires was from the October 2007 Witch Creek fire.</figcaption></figure>
+<figure id="attachment_663" aria-describedby="caption-attachment-663" style="width: 497px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg"><img class="size-large wp-image-663" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?resize=474%2C412" alt="Natural color image (Landsat 8, bands 4, 3, 2) of the region acquired on May 25, 2014  " width="474" height="412" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?w=2991&amp;ssl=1 2991w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?resize=300%2C260&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2014/05/image_truecolor1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-663" class="wp-caption-text">Natural color image (Landsat 8 &#8211; bands 4, 3, 2) of the region acquired on May 25, 2014. Compare with the false color image above.</figcaption></figure>
+<p>This prompted the question, where is the Wildland-Urban Interface in this area? The Wildland-Urban interface (or WUI) is generally defined in the Federal Register as &#8220;the<br />
+area where houses meet or intermingle with undeveloped wildland vegetation.&#8221; The WUI is a nexus between human-environment issues (such as habitat fragmentation) and natural hazards (such as wildfire risk). Specifically the WUI must meet or exceed a minimum density of one structure per 40 acres. In their 2005 Ecological Applications paper, Radeloff et al., conducted a spatially detailed assessment of the WUI across the United States. They utilized census block data and vegetation cover information (National Land Cover Data) to identify the WUI. I queried their updated 2010 data to identify WUI and non-WUI areas in the vicinity. The map below identifies the Cocos and Bernardo fire scars are partially within the WUI, but the Poinsettia fire scar is located completely outside the WUI. The area in the vicinity of the Poinsettia fire does not meet the requirement of the WUI due to the absence of natural vegetation which serves as fuel. The assessment of wildland fire risk is very complex and involves many factors in addition to proximity of the WUI. The Poinsettia fire illustrates that areas outside of the WUI are clearly at risk if fire weather, ignition and vegetative fuels are present.</p>
+<p>&nbsp;</p>
+<figure id="attachment_666" aria-describedby="caption-attachment-666" style="width: 497px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg"><img class="size-large wp-image-666" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?resize=474%2C412" alt="test caption" width="474" height="412" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?w=2991&amp;ssl=1 2991w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?resize=300%2C260&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_wui1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-666" class="wp-caption-text">The juxtaposition of the Wildland-Urban Interface (red) and non-Wildland Urban Interface (gray).</figcaption></figure>
+<p>An image from the Thermal Infrared Sensor (band 11) identifies the hotspots (dark blue) associated with the burn scars of the three fires. All of the fires were contained when the image was acquired. However, recently burned areas contain blackened soils with little vegetation that quickly heat up compared to other areas. Lighter colors indicate lower relative temperatures in the image associated with water and vegetation.</p>
+<p>&nbsp;</p>
+<figure id="attachment_664" aria-describedby="caption-attachment-664" style="width: 497px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg"><img class="size-large wp-image-664" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?resize=474%2C412" alt="Natural color image (Landsat 8, bands 4, 3, 2) of the region acquired on May 25, 2014. Compare with the false color image above." width="474" height="412" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?w=2991&amp;ssl=1 2991w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?resize=300%2C260&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?resize=1024%2C890&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/socal_band111.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-664" class="wp-caption-text">Thermal image (Landsat 8, band 11) of the region acquired on May 25, 2014. Compare with the images above.</figcaption></figure>
+<p>References:</p>
+<p>Radeloff, V.C., R.B. Hammer, S.I Stewart, J.S. Fried, S.S. Holcomb, and J.F. McKeefry. 2005. The Wildland Urban Interface in the United States. Ecological Applications 15: 799-805.</p>
+<p>University of Wisconsin SILVAS Lab &#8211; <a href="http://silvis.forest.wisc.edu/maps/wui_main" target="_blank">The Wildland Urban Interface</a></p>
+<p>Landsat 8 image acquired from <a href="http://earthexplorer.usgs.gov/" target="_blank">USGS EarthExplorer</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">649</post-id>	</item>
+		<item>
+		<title>Sustainability from Space</title>
+		<link>https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/#respond</comments>
+				<pubDate>Sat, 05 Oct 2013 19:43:54 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Araucaria-Nothofagus forest]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[earth observation]]></category>
+		<category><![CDATA[environmental sustainability]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Landsat 8]]></category>
+		<category><![CDATA[NBR]]></category>
+		<category><![CDATA[Normalized Burn Ratio]]></category>
+		<category><![CDATA[NOVA]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=839</guid>
+				<description><![CDATA[This post was originally published on the HumanNature blog hosted by the School of Global Environmental Sustainability (SOGES) at Colorado State University. I was as a Sustainability Leadership Fellow at SOGES during the academic year of 2013-2014. My fellowship cohort contributed blog posts that described the connection between our research and sustainability. Below, I highlight the &#8230; <a href="https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/" class="more-link">Continue reading <span class="screen-reader-text">Sustainability from Space</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>This post was originally published on the <a title="SOGES HumanNature Blog" href="http://blog.sustainability.colostate.edu/?q=content/sustainability-space" target="_blank">HumanNature blog </a>hosted by the <a title="SOGES" href="http://sustainability.colostate.edu/" target="_blank">School of Global Environmental Sustainability</a> (SOGES) at Colorado State University. I was as a Sustainability Leadership Fellow at SOGES during the academic year of 2013-2014. My fellowship cohort contributed blog posts that described the connection between our research and sustainability. Below, I highlight the value of the Landsat program and the contribution that remote sensing has and will continue to make toward sustainability research.</p>
+<p>Environmental sustainability requires a balance between economic and social development while ensuring environmental protection. Monitoring of our planets resources is therefore a critical component in the realm of sustainability. We live in a world faced with uncertainty of climate change and rapid population growth, both of which contribute greatly to increasing pressure and competition for natural resources. Over the last 40 years, a growing network of satellites orbiting high above the earth has played an increasingly vital role in global change research. Currently, there are approximately 120 earth observing satellites, each providing a unique birds-eye view of the planet. The images captured by these satellites are more than just pretty pictures. They are records of the Earth’s surface and can reveal what is hidden from our view, enabling us to track changes in the global ecosystem over time. For a thorough treatment of the subject, I would encourage you to check out <a href="http://www.pbs.org/wgbh/nova/earth/earth-from-space.html" target="_blank">NOVA’s recent special</a>.</p>
+<p>Earlier this summer, one of the newest satellites in orbit, Landsat 8, beamed back its first images after launch in February. The imagery provided by Landsat is not quite as sophisticated as some of the other satellites of the last decade. However, the commencement of Landsat 8 is a significant event because it continues the longest running enterprise of satellite imagery which began during the Nixon administration. Any major event since 1972 that left a mark on the planet larger than a soccer field was likely captured by Landsat. The true value lies in the temporal resolution associated with the data collection (every 16 days). Landsat reached new heights in 2008 when the USGS released the entire <a href="http://earthexplorer.usgs.gov/" target="_blank">archive to the public</a>, free of charge. Given the imagery is readily available and covers large areas where ground access can be difficult, it’s no surprise there has been a sharp increase in multi-temporal remote sensing studies. The journal Remote Sensing of Environment dedicated a <a href="http://www.sciencedirect.com/science/article/pii/S003442571200034X" target="_blank">special issue</a> to the legacy of Landsat in 2012.</p>
+<p>I suspect I was more excited than most about the new satellite because this type of data is central in my work. I research how disturbances such as fire, insect outbreaks and drought impact our forests. I use remote sensing to investigate the connection between historical pine beetle damage and wildfire in Glacier National Park, as well as drought stress in semi-arid woodlands in Wyoming. Disturbances have always been a natural occurrence in forests; however, global climate change is expected to increase the extent, frequency and severity of future disturbances. I use remote sensing in part to uncover when, where and why these changes took place. Disturbance alters forest ecosystem structure by both abrupt, conspicuous change and by gradual, slow change over some period of time. Such impacts allow remote sensing to capture the pre and post landscape and detect changes that might not be readily observed, such as drought stress. Through assembling multiple snapshots in time, we can begin to answer more difficult questions regarding the severity of a disturbance and the recovery trajectory for a given area.</p>
+<p>I use many different types of remotely sensed data in my work, but Landsat is always my “go- to.” My work often involves a retrospective analysis of an event and I believe one project epitomizes the utility of Landsat. My advisor and I are working with a colleague at the Universidad Austral de Chile to quantify forest mortality in Tolhuaca National Park. This understudied national park in south-central Chile and an adjacent national forest reserve experienced a devastating wildfire in 2002. We were able to utilize Landsat imagery from before and after the event to calculate the extent and severity of the fire. We are validating our model through field data of canopy mortality and studying the regeneration of key species that will determine what the future forest will look like. The durability of the Landsat program allowed this particular project and so many more to come to fruition. As a write this column millions of pixels are waiting patiently in the archive to help the next scientist tell a story.</p>
+<p><em><strong>*Header Photo</strong> – A mix of live and dead Araucaria forest in Tolhuaca National Park, Chile. </em></p>
+<figure id="attachment_843" aria-describedby="caption-attachment-843" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg"><img class="size-large wp-image-843" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=474%2C355" alt="Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012." width="474" height="355" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-843" class="wp-caption-text">Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012.</figcaption></figure>
+<figure id="attachment_842" aria-describedby="caption-attachment-842" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg"><img class="size-large wp-image-842" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?resize=474%2C310" alt="Unburned Araucaria-Nothofagus forest canopy in Tolhuaca National Park. Photo taken in March 2012. " width="474" height="310" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?resize=1024%2C671&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?resize=300%2C196&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?w=1600&amp;ssl=1 1600w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp24.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-842" class="wp-caption-text">Unburned Araucaria-Nothofagus forest canopy in Tolhuaca National Park. Photo taken in March 2012.</figcaption></figure>
+<figure id="attachment_845" aria-describedby="caption-attachment-845" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg"><img class="size-large wp-image-845" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?resize=474%2C369" alt="The extent of the 2002 wildfire derived from Landsat data in relation to the park and reserve boundaries. " width="474" height="369" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?resize=1024%2C799&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?resize=300%2C234&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/TNP_Fire_Extent.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-845" class="wp-caption-text">The extent of the 2002 wildfire derived from Landsat data in relation to the park and reserve boundaries.</figcaption></figure>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2013/10/05/sustainability-from-space/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">839</post-id>	</item>
+	</channel>
+</rss>

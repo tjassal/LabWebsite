@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>ForestSAT 2014 &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/forestsat-2014/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Thu, 20 Nov 2014 23:27:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Research Presentation at ForestSAT 2014</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/11/05/research-presentation-at-forestsat-2014/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2014/11/05/research-presentation-at-forestsat-2014/#comments</comments>
+				<pubDate>Wed, 05 Nov 2014 09:10:32 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ForestSAT 2014]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[tree mortality]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=712</guid>
+				<description><![CDATA[I will present my research on the impacts of drought to aspen and conifer communities at the ForestSAT 2014 Conference in Riva del Garda, Italy (http://forestsat2014.com/). My presentation will take place in the Forest Health track on Wednesday November 5. Spatial and temporal analysis of drought impacts on semi-arid woodlands Palazzo dei Congressi Room: Sala &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/11/05/research-presentation-at-forestsat-2014/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at ForestSAT 2014</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present my research on the impacts of drought to aspen and conifer communities at the ForestSAT 2014 Conference in Riva del Garda, Italy (<a href="http://forestsat2014.com/">http://forestsat2014.com/</a>). My presentation will take place in the Forest Health track on Wednesday November 5.</p>
+<p><em><strong>Spatial and temporal analysis of drought impacts on semi-arid woodlands</strong></em></p>
+<p>Palazzo dei Congressi<br />
+Room: Sala 300; 16.15-17.45</p>
+<p><strong>Abstract</strong></p>
+<p>Semi-arid woodlands located on prominent ridges in the Wyoming Basin ecoregion (USA) form an important link between the northern and southern Rocky Mountains. The Little Mountain Ecosystem provides important habitat for many wildlife species and grazing of domestic livestock is an important land use. Woodland communities are dominated by quaking aspen and several conifer species that persist at the xeric fringes of their range in a vast matrix of sagebrush steppe. The area is subject to periodic drought, yet little is known about the impacts of drought on these communities.</p>
+<p>Multiple studies have documented a recent increase in mortality rates of coniferous species in western North America (Allen et al., 2010; Breshears et al., 2005; van Mantgem et al., 2009) due to increased water deficit associated with drought and secondary agents such as bark beetle outbreaks. Extensive drought related mortality of quaking aspen has been documented in the boreal forest-parkland ecotone in Canada (Michaelian et al., 2011) and in parts of Colorado, USA (Worrall et al., 2008). Ecotones are important barometers of climate change and we suspect tree stress, dieback or mortality from recent severe droughts.</p>
+<p>The use of temporal remotely sensed data has been effective in monitoring drought induced changes in forests and woodlands (Maselli, 2004; Vogelmann et al., 2012). A primary challenge in spectral change analysis is to segregate long term vegetation change from interannual phenology differences in response to fluctuation in climate. We sought to quantify the spatial and temporal impacts of recent drought in an ecosystem that is expected to be vulnerable to drought stress and climate change impacts. A long-term objective of our research is to develop a program to identify and monitor gradual woodland change from abrupt disturbance (e.g. wildfire or management treatments) over large areas of southwest Wyoming.</p>
+<p>We used a 13 year collection of MODIS vegetation indices (MOD13Q1) to characterize annual woodland phenology to identify the window of peak greenness. We utilized SPOT-5 imagery to exploit phenological differences to map woodland cover type using classification and regression tree analysis. Our results confirm that woodlands occupy a much smaller percentage of the landscape as compared to regional land cover data. Furthermore, our results describe the spatial heterogeneity of woodland patches (greater number of patches, smaller mean patch size) that is not captured by regional data. This information is critical for accurate measurement of edge density as extensive herbivory of aspen is an important management concern in woodland regeneration.</p>
+<p>We also assembled a long-term (&gt;25 years) data set of Landsat TM imagery to estimate the impacts of drought on photosynthetic activity (PA) of the woodlands. We tested multiple vegetation indices to identify anomalies in the long-term trend. PA in the years following drought typically resulted in one of three trajectories. Persistent woodlands rebounded after drought periods, whereas PA of woodlands experiencing mortality exhibited a sharp decrease. A third trajectory exhibited decreasing PA over numerous years following a drought period. These areas exhibited lag effects of the drought, including conifer mortality from biotic agents. Recent field data was collected to measure plot level mortality, but this does not provide information on the timing of mortality. Our results do not indicate widespread tree mortality, but instead delineate portions of the landscape that are highly vulnerable to drought (rapid mortality), experience lag effects (delayed mortality), or resiliency (persistence). Challenges associated with remote sensing of semi-arid woodlands relate to the open canopy of aspen communities and understory vegetation that may obscure the spectral impact of change. The results demonstrate the utility of time-series analysis from readily available remote sensing data. Furthermore, the approach holds potential to monitor localized, gradual change over broad spatial and temporal scales to aid management of this unique ecosystem.</p>
+<p><strong>References</strong></p>
+<p>Allen, C. D., Macalady, A. K., Chenchouni, H., Bachelet, D., McDowell, N., Vennetier, M., Kitzberger, T., Rigling, A., Breshears, D. D., Hogg, E. H. (Ted), Gonzalez, P., Fensham, R., Zhang, Z., Castro, J., Demidova, N., Lim, J.-H., Allard, G., Running, S. W., Semerci, A., &amp; Cobb, N. (2010). A global overview of drought and heat-induced tree mortality reveals emerging climate change risks for forests. Forest Ecology and Management, 259(4), 660–684. doi:10.1016/j.foreco.2009.09.001</p>
+<p>Breshears, D. D., Cobb, N. S., Rich, P. M., Price, K. P., Allen, C. D., Balice, R. G., Romme, W. H., Kastens, J. H., Floyd, M. L., Belnap, J., Anderson, J. J., Myers, O. B., &amp; Meyer, C. W. (2005). Regional vegetation die-off in response to global-change-type drought. Proceedings of the National Academy of Sciences of the United States of America, 102(42), 15144–8. doi:10.1073/pnas.0505734102</p>
+<p>Maselli, F. (2004). Monitoring forest conditions in a protected Mediterranean coastal area by the analysis of multiyear NDVI data. Remote Sensing of Environment, 89(4), 423–433. doi:10.1016/j.rse.2003.10.020</p>
+<p>Michaelian, M., Hogg, E. H., Hall, R. J., &amp; Arsenault, E. (2011). Massive mortality of aspen following severe drought along the southern edge of the Canadian boreal forest. Global Change Biology, 17(6), 2084–2094. doi:10.1111/j.1365-2486.2010.02357.x</p>
+<p>Van Mantgem, P. J., Stephenson, N. L., Byrne, J. C., Daniels, L. D., Franklin, J. F., Fulé, P. Z., Harmon, M. E., Larson, A. J., Smith, J. M., Taylor, A. H., &amp; Veblen, T. T. (2009). Widespread increase of tree mortality rates in the western United States. Science, 323, 521–524. doi:10.1126/science.1165000</p>
+<p>Vogelmann, J. E., Xian, G., Homer, C., &amp; Tolk, B. (2012). Monitoring gradual ecosystem change using Landsat time series analyses: Case studies in selected forest and rangeland ecosystems. Remote Sensing of Environment, 122, 92–105. doi:10.1016/j.rse.2011.06.027</p>
+<p>Worrall, J. J., Egeland, L., Eager, T., Mask, R. a., Johnson, E. W., Kemp, P. a., &amp; Shepperd, W. D. (2008). Rapid mortality of Populus tremuloides in southwestern Colorado, USA. Forest Ecology and Management, 255(3-4), 686–696. doi:10.1016/j.foreco.2007.09.071</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2014/11/05/research-presentation-at-forestsat-2014/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">712</post-id>	</item>
+	</channel>
+</rss>

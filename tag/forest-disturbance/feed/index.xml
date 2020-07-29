@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Forest Disturbance &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/forest-disturbance/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 29 Aug 2018 14:09:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the American Geophysical Union Fall 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/#respond</comments>
+				<pubDate>Sun, 08 Dec 2019 19:25:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2195</guid>
+				<description><![CDATA[I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds on Wednesday afternoon, December 11th in the Moscone &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Geophysical Union Fall 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled <em>Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds </em>on Wednesday afternoon, December 11th in the Moscone South poster hall. If you&#8217;re AGU this year, please stop by.</p>
+<p>Abstract link:</p>
+<p><a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/611491" target="_blank" rel="noopener noreferrer">An Open-Access Framework to Track Post-fire Shifts in Dominant Plant Functional Type at the Watershed Scale</a></p>
+<p><em>*Banner image: Market Street aglow, Twin Peaks, San Francisco.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2195</post-id>	</item>
+		<item>
+		<title>Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/#respond</comments>
+				<pubDate>Mon, 08 Apr 2019 14:29:15 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2062</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation on Monday morning (11:15 am), April 8th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the US-International Assoc. for Landscape Ecology Annual Meeting 2019</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the US-IALE Annual Meeting in Fort Collins, CO. My talk is part of the session entitled <em>Wildfire-driven Forest Conversion in Western North American Landscapes: Emerging Science and Implications for Resilience and Adaptation </em>on Monday morning (11:15 am), April 8th, at the Fort Collins Hilton.</p>
+<p>Abstract link:</p>
+<p><a href="http://trdps9.m.attendify.com/app/sessions/9fzv4W8ptuJSXlw9xT/details" target="_blank" rel="noopener noreferrer">Fire Sparks Conversion: Measuring Decadal Changes to Vegetation Structure in the Jemez Mountains</a></p>
+<p><em>*Banner image: Deciduous shrubs leaf out in spring 2016 in an area of the Jemez Mountains, New Mexico, USA. The area in the photo burned in 1996 and 2011.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/08/presentation-at-the-us-international-assoc-for-landscape-ecology-annual-meeting-2019/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2062</post-id>	</item>
+		<item>
+		<title>Presentation at the American Association of Geographers 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/#respond</comments>
+				<pubDate>Wed, 03 Apr 2019 18:21:43 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Fire]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[New Mexico]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[vegetation change]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2054</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham. Abstract link: Big fires lead to &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Association of Geographers 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham.</p>
+<p>Abstract link:</p>
+<p><a href="https://aag.secure-abstracts.com/AAG%20Annual%20Meeting%202019/abstracts-gallery/21175" target="_blank" rel="noopener noreferrer">Big fires lead to big changes in the vegetation structure of the Jemez Mountains, New Mexico</a></p>
+<figure id="attachment_1749" aria-describedby="caption-attachment-1749" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1749 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=474%2C316" alt="" width="474" height="316" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1749" class="wp-caption-text">Extensive forest mortality in the Jemez Mountains from the Las Conchas Fire (2011). Photo taken Autumn 2017.</figcaption></figure>
+<p><em>*Banner image: The sun sets on Saint Peter&#8217;s Dome, Jemez Mountains, New Mexico, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2054</post-id>	</item>
+		<item>
+		<title>New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/#respond</comments>
+				<pubDate>Mon, 01 Oct 2018 00:49:42 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1875</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work on their Science Blog** In our new paper, published in the Journal of Biogeography, we investigate postfire regeneration patterns of Araucaria‐Nothofagus forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/" class="more-link">Continue reading <span class="screen-reader-text">New paper on Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #800000;"><strong><em>**A special thanks to the NASA Landsat Program for featuring our work on their <a style="color: #800000;" href="https://landsat.gsfc.nasa.gov/looking-at-burn-severity-and-post-fire-forest-regeneration-in-chiles-andean-cordillera-home-to-the-monkey-puzzle-tree/" target="_blank" rel="noopener">Science Blog</a>**</em></strong></span></h3>
+<p>In our new paper, published in the <a href="https://onlinelibrary.wiley.com/journal/13652699" target="_blank" rel="noopener">Journal of Biogeography</a>, we investigate postfire regeneration patterns of <em>Araucaria</em><em>‐</em><em>Nothofagus</em> forests on the west slope of the Andes Mountains in the Araucanía region of Chile. Specifically, we: a) used satellite data and ground measurements to evaluate the relationship between remotely sensed burn severity and forest mortality; and b) assessed controls of burn severity on forest regeneration at local spatio‐temporal scales. The paper is a product of a collaboration with Colorado State University (<a href="http://www.biogeography.colostate.edu/" target="_blank" rel="noopener">Jason Sibold</a>) and the and Universidad Austral de Chile (<a href="http://www.forestal.uach.cl/instituto/conservacion-biodiversidad-territorio/academicos/mauro-gonzalez.php" target="_blank" rel="noopener">Mauro González</a>).</p>
+<figure id="attachment_1903" aria-describedby="caption-attachment-1903" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg" target="_blank" rel="noopener"><img class="wp-image-1903 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=1062&amp;ssl=1 1062w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/Figure1_with_fire_extent.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1903" class="wp-caption-text">Study area and fire extent</figcaption></figure>
+<p>We think this work is noteworthy because 1) to our knowledge this is the first study that connects field-measured data with satellite-derived burn severity in this corner of the world; 2) one of the primary species of study, <em>Araucaria araucana</em> (known commonly as monkey puzzle tree), is recognized as an endangered species on the <a href="https://www.iucn.org/" target="_blank" rel="noopener">International Union for Conservation of Nature</a> <a href="https://newredlist.iucnredlist.org/" target="_blank" rel="noopener">Red List</a> and faces a plethora of threats; and 3) the framework relies on open data, namely Landsat satellite imagery, and could be applied to long-term monitoring or assessment of similar ecosystems. I would go a step further and argue the availability of Landsat data was the primary reason we were able to get this project off the ground.</p>
+<p>The paper is open access and can be retrieved below:</p>
+<ul>
+<li>Assal, T.J., González, M.E., and Sibold, J.S., 2018. <a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428" target="_blank" rel="noopener">Burn severity controls on postfire Araucaria‐Nothofagus regeneration in the Andean Cordillera</a>: Journal of Biogeography, DOI: https://doi.org/10.1111/jbi.13428. Early View Online at: https://onlinelibrary.wiley.com/doi/10.1111/jbi.13428.</li>
+<li>Assal, T.J., 2018, Burn severity (2002) and field data (2012) from Tolhuaca National Park (Chile): U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P9YMIVFU" target="_blank" rel="noopener">https://doi.org/10.5066/P9YMIVFU</a></li>
+</ul>
+<figure id="attachment_1908" aria-describedby="caption-attachment-1908" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg"><img class="size-large wp-image-1908" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=474%2C301" alt="" width="474" height="301" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=1024%2C651&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=300%2C191&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?resize=768%2C488&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1593&amp;ssl=1 1593w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/10/tnp_122_copy.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1908" class="wp-caption-text">Fieldwork in Tolhuaca National Park</figcaption></figure>
+<p><em>*Banner image: Araucaria mortality in Tolhuaca National Park, 10 years postfire, Andes Mountains, Araucania Region, Chile.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/09/30/new-paper-on-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1875</post-id>	</item>
+		<item>
+		<title>New Data Set &#8211; Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/#respond</comments>
+				<pubDate>Wed, 29 Aug 2018 14:09:00 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1871</guid>
+				<description><![CDATA[We recently published a new data set to support an upcoming paper in the Journal of Biogeography. The goal of the project was to investigate forest regeneration patterns after a severe wildfire in the Andes Mountains and is in collaboration with Colorado State University and Universidad Austral de Chile. The data release includes information on &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/" class="more-link">Continue reading <span class="screen-reader-text">New Data Set &#8211; Burn Severity and Post-fire Regeneration in the Andean Cordillera, Chile</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>We recently published a new data set to support an upcoming paper in the Journal of Biogeography. The goal of the project was to investigate forest regeneration patterns after a severe wildfire in the Andes Mountains and is in collaboration with Colorado State University and Universidad Austral de Chile. The data release includes information on wildfire burn severity and post-fire regeneration data collected in Tolhuaca National Park. To our knowledge this is the first study that connects field-measured data with satellite-derived burn severity in this corner of the world. We presented this work at the <a href="https://tjassal.github.io/LabWebsite/?p=1576" target="_blank" rel="noopener">Ecological Society of America 2017 Meeting</a> and the project was featured on the <a href="https://tjassal.github.io/LabWebsite/?p=839" target="_blank" rel="noopener">SOGES HumanNature blog</a>.</p>
+<ul>
+<li>Assal, T.J., 2018, Burn severity (2002) and field data (2012) from Tolhuaca National Park (Chile): U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P9YMIVFU" target="_blank" rel="noopener">https://doi.org/10.5066/P9YMIVFU</a></li>
+</ul>
+<figure id="attachment_1877" aria-describedby="caption-attachment-1877" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg"><img class="wp-image-1877 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=474%2C308" alt="" width="474" height="308" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=1024%2C666&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=300%2C195&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?resize=768%2C499&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?w=1543&amp;ssl=1 1543w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/08/tnp_433.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1877" class="wp-caption-text">Gonzalo and Paul approve.</figcaption></figure>
+<p><em>*Banner image: False-color Landsat image on the west slope of the Andes Mountains, Araucania Region, Chile.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/08/29/new-data-set-burn-severity-and-post-fire-regeneration-in-the-andean-cordillera-chile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1871</post-id>	</item>
+		<item>
+		<title>Call for Papers: Modelling Forest Systems</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/#respond</comments>
+				<pubDate>Wed, 01 Aug 2018 00:56:03 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[ecological modelling]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[forest ecosystems]]></category>
+		<category><![CDATA[natural resources]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1857</guid>
+				<description><![CDATA[The journal Ecological Modeling has a call for papers in a special issue that highlights the latest trends in modelling forest ecosystems from ecological, economic and social approaches, to facilitate the further generation of interdisciplinary research. This issue will gather theoretical, methodological, and applied papers exploring forest ecosystems. Articles entailing a systems ecology perspective and &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Modelling Forest Systems</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<header class="entry-header">The journal <a href="https://www.journals.elsevier.com/ecological-modelling" target="_blank" rel="noopener">Ecological Modeling</a> has a call for papers in a special issue that highlights the latest trends in modelling forest ecosystems from ecological, economic and social approaches, to facilitate the further generation of interdisciplinary research. This issue will gather theoretical, methodological, and applied papers exploring forest ecosystems. Articles entailing a systems ecology perspective and led by young researchers will be preferred.</header>
+<header></header>
+<p>Full details can be found <a href="https://www.journals.elsevier.com/ecological-modelling/call-for-papers/special-virtual-issue-announcement-modelling-forest-systems" target="_blank" rel="noopener">here</a>.</p>
+<p>Deadline: January 31, 2019</p>
+<p>Guest Editors:</p>
+<p>Prof. Juan A. Blanco, Public University of Navarre, Spain<br />
+Dr. Aitor Ameztegui, Univerty of Lleida, Spain<br />
+Dr. Francisco Rodriguez, Fora Forest Technologies, Spain</p>
+<p><em>*Banner image: Bandelier National Monument, New Mexico<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/07/31/call-for-papers-modelling-forest-systems/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1857</post-id>	</item>
+		<item>
+		<title>Call for Papers: Bark Beetle Epidemics &#8211; causes and consequences</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/#respond</comments>
+				<pubDate>Tue, 17 Oct 2017 18:29:38 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[Dendrochtonus ponderosae]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Lodgepole Pine]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Ponderosa Pine]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1609</guid>
+				<description><![CDATA[The open access journal Forests has a call for papers related to the causes and consequences of bark beetle epidemics on tree, forest and ecosystem processes. Papers that identify environmental or ecological factors that contributed to the recent epidemic, describe mountain pine beetle impacts on ecosystem processes or identify management opportunities that may prevent or &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Bark Beetle Epidemics &#8211; causes and consequences</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>The open access journal <a href="http://www.mdpi.com/journal/forests" target="_blank" rel="noopener">Forests</a> has a call for papers related to the causes and consequences of bark beetle epidemics on tree, forest and ecosystem processes. Papers that identify environmental or ecological factors that contributed to the recent epidemic, describe mountain pine beetle impacts on ecosystem processes or identify management opportunities that may prevent or limit the extent of future outbreaks are encouraged. The call is open to a wide variety of subjects including experimental, monitoring and modeling approaches that further our understanding of the causes and consequences of large scale bark beetle epidemics. Full details can be found <a href="http://www.mdpi.com/si/forests/bark_beetle" target="_blank" rel="noopener">here.</a></p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Deadline for manuscript submissions: <strong>10 June</strong><b> 2018</b></span></p>
+<div>Dr. Robert M. Hubbard, USDA, Forest Service</div>
+</div>
+<div><em>Guest Editor</em></div>
+<div></div>
+<div><em>*Banner image: beetle-induced forest mortality on Pine Mountain, Wyoming.</em></div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1609</post-id>	</item>
+		<item>
+		<title>New paper on spruce-beetle outbreak and high-severity wildfire</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/#respond</comments>
+				<pubDate>Mon, 18 Sep 2017 20:50:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[spruce beetle]]></category>
+		<category><![CDATA[wildfire]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1592</guid>
+				<description><![CDATA[Our new paper, lead by my colleagues at Colorado State University and published in the journal PLOS ONE,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/" class="more-link">Continue reading <span class="screen-reader-text">New paper on spruce-beetle outbreak and high-severity wildfire</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Our new paper, lead by my colleagues at Colorado State University and published in the journal <a href="http://journals.plos.org/plosone/" target="_blank" rel="noopener"><em>PLOS ONE</em></a>,  investigates the short-term compounded effects of spruce beetle and wildfire in subalpine forests in southwestern Colorado. We think this work is noteworthy because areas that were more heavily affected by spruce beetle corresponded to reduced post-fire vegetation. These results suggest vegetation recovery processes may be negatively impacted by severe spruce beetle outbreaks occurring within a decade of stand-replacing fire. Much of the current subalpine forest in this region has been impacted by recent beetle outbreaks. In the future, these areas could experience higher burn severity which has important implications for the structure and composition of future forests.</p>
+<ul>
+<li>Carlson, A.R., J.S. Sibold, T.J. Assal, J.F. Negron. 2017. <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0181778" target="_blank" rel="noopener">Evidence of compounded disturbance effects on vegetation recovery following high-severity wildfire and spruce beetle outbreak.</a> PLoS ONE. 12(8):  e0181778. https://doi.org/10.1371/journal.pone.0181778.</li>
+</ul>
+<p><em>*Banner image: beetle-induced tree mortality photographed on Little Mountain, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/09/18/new-paper-on-spruce-beetle-outbreak-and-high-severity-wildfire/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1592</post-id>	</item>
+		<item>
+		<title>Presentation at the Ecological Society of America 2017 Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/#respond</comments>
+				<pubDate>Sun, 06 Aug 2017 19:55:50 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Araucaria araucana]]></category>
+		<category><![CDATA[Araucaria-Nothofagus forest]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[dNBR]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Nothofagus dombeyi]]></category>
+		<category><![CDATA[RdNBR]]></category>
+		<category><![CDATA[regeneration]]></category>
+		<category><![CDATA[relative dNBR]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[South America]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[temperate forests]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+		<category><![CDATA[Zero-inflated negative binomial model]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1576</guid>
+				<description><![CDATA[I will present research of burn severity controls on post-fire Araucaria-Nothofagus regeneration in the Andean Cordillera at the ESA annual meeting in Portland, OR. My talk is part of the session entitled: (COS 153) – Communities: Spatial Patterns and Environmental Gradients on Thursday afternoon (2:10 pm), August 10th, in the Oregon Convention Center, C120-121. Details: &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the Ecological Society of America 2017 Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research of burn severity controls on post-fire <em>Araucaria-Nothofagus</em> regeneration in the Andean Cordillera at the <a href="http://www.esa.org/portland/" target="_blank" rel="noopener">ESA annual meeting</a> in Portland, OR. My talk is part of the session entitled: <a href="https://eco.confex.com/eco/2017/webprogram/Session13800.html" target="_blank" rel="noopener">(COS 153) – Communities: Spatial Patterns and Environmental Gradients</a> on Thursday afternoon (2:10 pm), August 10<sup>th</sup>, in the Oregon Convention Center, C120-121.</p>
+<p>Details:</p>
+<p class="subtitle"><a href="https://eco.confex.com/eco/2017/webprogram/Paper66665.html" target="_blank" rel="noopener">Burn severity and post-fire regeneration in Chilean <em>Araucaria</em>&#8211;<em>Nothofagus</em> forest (COS 153 &#8211; 3)</a></p>
+<figure id="attachment_843" aria-describedby="caption-attachment-843" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg"><img class="size-large wp-image-843" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=474%2C356" alt="" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-843" class="wp-caption-text">Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012.</figcaption></figure>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1576</post-id>	</item>
+		<item>
+		<title>Research Presentation at the Ecological Society of America 2016 Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/#respond</comments>
+				<pubDate>Mon, 08 Aug 2016 07:04:20 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[disturbance interactions]]></category>
+		<category><![CDATA[ESA 2016]]></category>
+		<category><![CDATA[ESA2016]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Glacier National Park]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Mountain Pine Beetle]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1333</guid>
+				<description><![CDATA[I will present my research on the influence of an historical mountain pine beetle outbreak (~1970s) on burn severity of subsequent wildfires (1988-2006) in Glacier National Park at the ESA annual meeting in Fort Lauderdale, FL. My talk is part of the session entitled: (COS 93) Ecosystem Stability and Resilience on Friday morning, August 12th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the Ecological Society of America 2016 Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present my research on the influence of an historical mountain pine beetle outbreak (~1970s) on burn severity of subsequent wildfires (1988-2006) in Glacier National Park at the ESA annual meeting in Fort Lauderdale, FL. My talk is part of the session entitled:<a href="https://eco.confex.com/eco/2016/webprogram/Session12185.html" target="_blank"><span style="color: #ff6600;"> (COS 93) <em>Ecosystem Stability and Resilience </em></span></a>on Friday morning, August 12th, in Palm B, Ft. Lauderdale Convention Center.</p>
+<figure id="attachment_1338" aria-describedby="caption-attachment-1338" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg" target="_blank"><img class="wp-image-1338 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=474%2C260" alt="dfdfdf" width="474" height="260" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=1024%2C562&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=300%2C165&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=768%2C421&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1338" class="wp-caption-text">Subapline forest in the gray phase from the recent (~late 90&#8217;s-early 2000&#8217;s) mountain pine beetle outbreak in northern Colorado (photo taken July 2016).</figcaption></figure>
+<p class="subtitle"><span style="text-decoration: underline; color: #008000;"><em><strong><a href="https://eco.confex.com/eco/2016/webprogram/Paper60905.html" target="_blank">After the gray phase: Can an historic mountain pine beetle outbreak influence subsequent patterns of burn severity? (COS 93-4)</a><br />
+</strong></em></span></p>
+<div class="paperauthors"><b>Abstract</b></div>
+<div class="media"></div>
+<div class="abstract">
+<p><b>Background/Question/Methods </b>Native bark beetles are capable of causing widespread mortality during outbreak events in the forests of western North America. These disturbances can have vast effects on forest structure and there is concern that such changes could influence subsequent wildfire behavior and its impact on ecosystems. New research has considered the recent mountain pine beetle outbreak (~1996-2006), but few studies have analyzed the ecological legacies of historic events. Northern Rocky Mountain forests were impacted by a widespread mountain pine beetle outbreak in the late 1970s through the early 1980s. In this study, we evaluated the effect of the historic beetle outbreak and other biophysical variables on the burn severity (derived from Landsat data) of 11 different fires in Glacier National Park over an 18-year period (1988-2006). The extent and arrangement of these disturbances presented a unique opportunity to evaluate the influence of an earlier disturbance on ensuing wildfires. We used sequential autoregression to obtain accurate estimates of model parameters given the high level of spatial autocorrelation associated with wildfire. Models included additional explanatory variables known to influence burn severity such as topography and fuel moisture and variables were evaluated at increasing spatial scales.</p>
+<p><b>Results/Conclusions </b></p>
+<p>The models explained between 54% and 80% of the variability in burn severity of each fire. Historic mountain pine beetle severity was a significant predictor of burn severity in 10 of the 11 fires. The relationship between beetle severity and burn severity was positive across all models and we found no relationship between the effect size of beetle severity and time since the beetle outbreak. However, our results suggest the influence of the beetle outbreak on burn severity is scale-dependent on the pattern of beetle intensity. Fires where beetle severity was the best predictor at broad scales tended to have a larger beetle effect size compared to fires where local beetle severity was the best predictor. A number of factors, including topography and weather, are responsible for the burn severity associated with a given fire. However, our work shows an historic high severity beetle outbreak can influence the burn severity of wildfire for many years after the initial disturbance event. Furthermore, our analysis of historic events can shed light on future compounded disturbances as much of the landscape impacted by the recent beetle outbreak moves beyond the gray phase.</p>
+</div>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Sibold, J., and R. Reich. 2014. <a title="RSE Article" href="http://www.sciencedirect.com/science/article/pii/S0034425714003435" target="_blank">Modeling a Historical Mountain Pine Beetle Outbreak Using Landsat MSS and Multiple Lines of Evidence.</a> <em>Remote Sensing of Environment </em>155:275-288.<em> </em></li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1333</post-id>	</item>
+	</channel>
+</rss>

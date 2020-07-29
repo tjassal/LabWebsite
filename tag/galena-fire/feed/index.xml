@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Galena Fire &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/galena-fire/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 17:19:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>The Galena Fire Through a Brand New Lens</title>
+		<link>https://tjassal.github.io/LabWebsite/2013/03/25/the-galena-fire-through-a-brand-new-lens/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2013/03/25/the-galena-fire-through-a-brand-new-lens/#respond</comments>
+				<pubDate>Mon, 25 Mar 2013 23:48:25 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[Fort Collins]]></category>
+		<category><![CDATA[Galena Fire]]></category>
+		<category><![CDATA[Horsetooth Reservoir]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Landsat 8]]></category>
+		<category><![CDATA[Landsat Data Continuity Mission]]></category>
+		<category><![CDATA[nature]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=325</guid>
+				<description><![CDATA[The first fire of 2013 in the state of Colorado is already on the books. The Galena Fire started on March 15 and burned over 1300 acres on the west side of town. I was curious if the fire was captured by any open data satellites. However, since the Landsat Thematic Mapper (Landsat 5) is &#8230; <a href="https://tjassal.github.io/LabWebsite/2013/03/25/the-galena-fire-through-a-brand-new-lens/" class="more-link">Continue reading <span class="screen-reader-text">The Galena Fire Through a Brand New Lens</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The first fire of 2013 in the state of Colorado is already on the books. The Galena Fire started on March 15 and burned over 1300 acres on the west side of town. I was curious if the fire was captured by any open data satellites. However, since the Landsat Thematic Mapper (Landsat 5) is no longer functioning, that left Landsat Enhanced Thematic Mapper (Landsat 7) as the only option. Imagery from this satellite has a stripped appearance due to the failure of the scan line corrector 10 years ago. Sure enough though, Landsat ETM captured the area two days after the fire:</p>
+<figure id="attachment_326" aria-describedby="caption-attachment-326" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/03/l7_galenafire1.jpg"><img class="size-large wp-image-326" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/03/l7_galenafire1.jpg?resize=474%2C399" alt="The Galena Fire according to Landsat 7." width="474" height="399" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/03/l7_galenafire1.jpg?resize=1024%2C864&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/03/l7_galenafire1.jpg?resize=300%2C253&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/03/l7_galenafire1.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/03/l7_galenafire1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-326" class="wp-caption-text">The Galena Fire according to Landsat 7.</figcaption></figure>
+<p>Not bad, but the stripping is a little distracting. Much to my delight, NASA just released the first images of the newly launched Landsat Data Continuity Mission (aka Landsat 8) of &#8230;the Galena Fire. Below is a beautiful composite image (green, near-infrared and shortwave-infrared) acquired three days after the fire on March 18, 2013. The burn scar from the fire appears in a bright red color just west of Horsetooth Reservior and just to the east of last year&#8217;s High Park fire perimeter.</p>
+<figure id="attachment_327" aria-describedby="caption-attachment-327" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2013/03/l8_galenafire1.jpg"><img class="size-large wp-image-327" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2013/03/l8_galenafire1.jpg?resize=474%2C384" alt="The Galena Fire through the lens of Landsat 8." width="474" height="384" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2013/03/l8_galenafire1.jpg?resize=1024%2C831&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2013/03/l8_galenafire1.jpg?resize=300%2C243&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2013/03/l8_galenafire1.jpg?w=1293&amp;ssl=1 1293w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2013/03/l8_galenafire1.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-327" class="wp-caption-text">The Galena Fire through the lens of Landsat 8.</figcaption></figure>
+<p>Thanks to the good people of NASA and the USGS for making this image available. Read more on the new satellite <a title="LDCM" href="http://www.nasa.gov/mission_pages/landsat/news/first-images-feature.html" target="_blank">here</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2013/03/25/the-galena-fire-through-a-brand-new-lens/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">325</post-id>	</item>
+	</channel>
+</rss>

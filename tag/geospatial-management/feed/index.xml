@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>geospatial management &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/geospatial-management/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 01 Dec 2014 06:34:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>New paper outlines a geospatial framework for collaborative, landscape-scale projects</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/04/28/new-paper-outlines-geospatial-framework-for-collaborative-landscape-scale-projects/</link>
+				<pubDate>Mon, 28 Apr 2014 13:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[data management]]></category>
+		<category><![CDATA[geographic products]]></category>
+		<category><![CDATA[geospatial collaboration]]></category>
+		<category><![CDATA[geospatial coordination]]></category>
+		<category><![CDATA[geospatial management]]></category>
+		<category><![CDATA[Journal of Map and Geography Libraries]]></category>
+		<category><![CDATA[libraries]]></category>
+		<category><![CDATA[life cycle]]></category>
+		<category><![CDATA[scalability]]></category>
+		<category><![CDATA[volunteered geographic information]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=556</guid>
+				<description><![CDATA[I am a coauthor on a new paper recently published in the Journal of Map and Geography Libraries. The paper is part of a special issue entitled: &#8220;Ten Years of Progress: Looking Back and Forward at the State of Geospatial Information.&#8221; Our paper grew out of an effort to establish a geospatial management framework for &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/04/28/new-paper-outlines-geospatial-framework-for-collaborative-landscape-scale-projects/" class="more-link">Continue reading <span class="screen-reader-text">New paper outlines a geospatial framework for collaborative, landscape-scale projects</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I am a coauthor on a new paper recently published in the <a title="JMGL" href="http://www.tandfonline.com/toc/wmgl20/current#.U1wB5FcvDyo" target="_blank"><em>Journal of Map and Geography Libraries</em></a>. The paper is part of a special issue entitled: &#8220;Ten Years of Progress: Looking Back and Forward at the State of Geospatial Information.&#8221; Our paper grew out of an effort to establish a geospatial management framework for the <a title="WLCI" href="https://www.wlci.gov/" target="_blank">Wyoming Landscape Conservation Initiative</a> (WLCI). We did not think any existing geospatial guide met the needs of a landscape-scale program such as the WLCI. A landscape-scale program spans more than one jurisdictional unit of the organizations involved, for example, multiple states, regional offices, and districts.  A collaborative or multi-organizational program is any project involving two or more parties with diverse objectives that represent federal, state, or local jurisdictions and nongovernmental organizations working together on a common program directive. Organizations may include academic, government, nongovernment, commercial, and nonprofit institutions. However, we believe the scalable framework introduced is applicable to any geospatial project and will benefit a diverse group including natural resource managers, scientists and geospatial professionals.</p>
+<p><em><strong>Abstract</strong></em></p>
+<p>Geospatial data play an increasingly important role in natural resources management, conservation, and science-based projects. The management and effective use of spatial data becomes significantly more complex when the efforts involve a myriad of landscape-scale projects combined with a multiorganizational collaboration. There is sparse literature to guide users on this daunting subject; therefore, we present a framework of considerations for working with geospatial data that will provide direction to data stewards, scientists, collaborators, and managers for developing geospatial management plans. The concepts we present apply to a variety of geospatial programs or projects, which we describe as a “scalable framework” of processes for integrating geospatial efforts with management, science, and conservation initiatives. Our framework includes five tenets of geospatial data management: (1) the importance of investing in data management and standardization, (2) the scalability of content/efforts addressed in geospatial management plans, (3) the lifecycle of a geospatial effort, (4) a framework for the integration of geographic information systems (GIS) in a landscape-scale conservation or management program, and (5) the major geospatial considerations prior to data acquisition. We conclude with a discussion of future considerations and challenges.</p>
+<p><span style="font-size: 11pt; line-height: 16.866666793823px; font-family: Calibri, sans-serif;">O&#8217;Donnell, M., T.J.Assal, P.J. Anderson, and Z.H. Bowen. 2014. <a href="http://www.tandfonline.com/doi/pdf/10.1080/15420353.2014.885925" target="_blank">Geospatial Considerations for a Multi-Organization Landscape-Scale Program</a>. <em>Journal of Map and Geography Libraries</em> 10(1):62-99.</span><span style="font-size: 11pt; line-height: 16.866666793823px; font-family: Calibri, sans-serif;"><br />
+</span></p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">556</post-id>	</item>
+	</channel>
+</rss>

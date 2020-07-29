@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Bash script to download MODIS data	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 30 Jun 2015 23:33:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: swati				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/#comment-10898</link>
+		<dc:creator><![CDATA[swati]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2017 16:00:26 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=941#comment-10898</guid>
+					<description><![CDATA[Hi ,
+
+Tried today but it downloaded files with 1kb volume ..??
+nothing was there in the hdf files and modisHDF function is not accepted by R.]]></description>
+		<content:encoded><![CDATA[<p>Hi ,</p>
+<p>Tried today but it downloaded files with 1kb volume ..??<br />
+nothing was there in the hdf files and modisHDF function is not accepted by R.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/#comment-10897</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2017 15:43:41 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=941#comment-10897</guid>
+					<description><![CDATA[Hello-
+
+Yes, I believe the additional NASA Earthdata login and password will need to be incorporated into the script. I have not had a chance to update my script yet, but here is some information I received from NASA LP DAAC.
+
+Have a look at the  DAAC2Disk tool:
+
+https://lpdaac.usgs.gov/data_access/data_pool
+
+See the link to a Command Line Tips document that you might find helpful if you are using curl or wget to download your data.
+
+And make sure that your URS login profile is authorized to use the data pool.
+
+https://urs.earthdata.nasa.gov/
+
+Select the My Applications tab and add data pool to the list if it isn&#039;t already there. This way you can add your user id and password in your script and you won&#039;t have to worry about it.
+
+Good luck.]]></description>
+		<content:encoded><![CDATA[<p>Hello-</p>
+<p>Yes, I believe the additional NASA Earthdata login and password will need to be incorporated into the script. I have not had a chance to update my script yet, but here is some information I received from NASA LP DAAC.</p>
+<p>Have a look at the  DAAC2Disk tool:</p>
+<p><a href="https://lpdaac.usgs.gov/data_access/data_pool" rel="nofollow">https://lpdaac.usgs.gov/data_access/data_pool</a></p>
+<p>See the link to a Command Line Tips document that you might find helpful if you are using curl or wget to download your data.</p>
+<p>And make sure that your URS login profile is authorized to use the data pool.</p>
+<p><a href="https://urs.earthdata.nasa.gov/" rel="nofollow">https://urs.earthdata.nasa.gov/</a></p>
+<p>Select the My Applications tab and add data pool to the list if it isn&#8217;t already there. This way you can add your user id and password in your script and you won&#8217;t have to worry about it.</p>
+<p>Good luck.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: swati				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/#comment-10895</link>
+		<dc:creator><![CDATA[swati]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2017 06:03:30 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=941#comment-10895</guid>
+					<description><![CDATA[Hi , LP DAAS has retired MRT tool, will that affect this ?]]></description>
+		<content:encoded><![CDATA[<p>Hi , LP DAAS has retired MRT tool, will that affect this ?</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: swati				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/#comment-10894</link>
+		<dc:creator><![CDATA[swati]]></dc:creator>
+		<pubDate>Thu, 03 Aug 2017 05:28:36 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=941#comment-10894</guid>
+					<description><![CDATA[thanks for sharing this, very much helpful.]]></description>
+		<content:encoded><![CDATA[<p>thanks for sharing this, very much helpful.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: N. Kantanos				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/#comment-5679</link>
+		<dc:creator><![CDATA[N. Kantanos]]></dc:creator>
+		<pubDate>Mon, 09 May 2016 05:45:01 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=941#comment-5679</guid>
+					<description><![CDATA[Great script - thanks for posting!]]></description>
+		<content:encoded><![CDATA[<p>Great script &#8211; thanks for posting!</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

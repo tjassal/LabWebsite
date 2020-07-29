@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Human Nature Blog &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/human-nature-blog/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 19 Aug 2013 23:57:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Guest post on the Human Nature blog: Sustainability from Space</title>
+		<link>https://tjassal.github.io/LabWebsite/2013/08/19/guest-post-on-the-human-nature-blog-sustainability-from-space/</link>
+				<pubDate>Mon, 19 Aug 2013 23:57:17 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colostate]]></category>
+		<category><![CDATA[Human Nature Blog]]></category>
+		<category><![CDATA[School of Global Environmental Sustainability]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[SoGES]]></category>
+		<category><![CDATA[sustainability]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=394</guid>
+				<description><![CDATA[I was recently selected as a 2013-2014 Sustainability Leadership Fellow by the School of Global Environmental Sustainability at Colorado State University. The aim of the fellowship program is to improve our ability to communicate our science to the media and the public. The program at CSU is modeled after the highly successful Aldo Leopold Leadership &#8230; <a href="https://tjassal.github.io/LabWebsite/2013/08/19/guest-post-on-the-human-nature-blog-sustainability-from-space/" class="more-link">Continue reading <span class="screen-reader-text">Guest post on the Human Nature blog: Sustainability from Space</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><em></em>I was recently selected as a 2013-2014 Sustainability Leadership Fellow by the <a href="http://sustainability.colostate.edu/" target="_blank">School of Global Environmental Sustainability</a> at Colorado State University. The aim of the fellowship program is to improve our ability to communicate our science to the media and the public. The program at CSU is modeled after the highly successful<a href="http://leopoldleadership.stanford.edu/" target="_blank"> Aldo Leopold Leadership Program</a>. Communication is vital to science and frankly, there are a lot of really good scientists out there that cannot convey their work to non-scientists. The aim of this fellowship is to help myself and the rest of my cohorts from falling into that category.</p>
+<p>The fellowship program kicked off with a two-day science communication workshop facilitated by Liz Neeley of <a href="http://www.compassonline.org/" target="_blank">COMPASS</a>. We had the privilege of working with journalists from NPR and Scientific American as well as several free-lance science writers. Their job was to get all of us out of our scientific shell and distill our message more succinctly. The highlight of the workshop for me was getting grilled by NPR&#8217;s Christopher Joyce on my message box. Yep, that <a href="http://www.npr.org/people/2100689/christopher-joyce" target="_blank">Christopher Joyce</a>!</p>
+<p>My fellowship cohort will be contributing guest blog posts about the connection between our research and sustainability to the Human Nature blog hosted by SoGES. My entry entitled &#8220;Sustainability from Space&#8221; kicked off the posting last week. In the post I highlight the value of the Landsat program and the contribution that remote sensing has and will continue to make toward sustainability research.  It can be viewed on the Human Nature blog <a href="http://blog.sustainability.colostate.edu/?q=content/sustainability-space" target="_blank">here</a>.</p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">394</post-id>	</item>
+	</channel>
+</rss>

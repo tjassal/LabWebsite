@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>land use impacts &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/land-use-impacts/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Fri, 31 Jan 2014 18:56:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Monitoring of Livestock Grazing Effects on Bureau of Land Management Land</title>
+		<link>https://tjassal.github.io/LabWebsite/2014/01/31/monitoring-of-livestock-grazing-effects-on-bureau-of-land-management-land/</link>
+				<pubDate>Fri, 31 Jan 2014 18:56:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[land health status]]></category>
+		<category><![CDATA[land use impacts]]></category>
+		<category><![CDATA[monitoring]]></category>
+		<category><![CDATA[public lands]]></category>
+		<category><![CDATA[rangeland health]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=515</guid>
+				<description><![CDATA[I am a co-author on a new paper in the journal Rangeland Ecology and Management available at http://dx.doi.org/10.2111/REM-D-12-00178.1 Abstract Public land management agencies, such as the Bureau of Land Management (BLM), are charged with managing rangelands throughout the western United States for multiple uses, such as livestock grazing and conservation of sensitive species and their habitats. &#8230; <a href="https://tjassal.github.io/LabWebsite/2014/01/31/monitoring-of-livestock-grazing-effects-on-bureau-of-land-management-land/" class="more-link">Continue reading <span class="screen-reader-text">Monitoring of Livestock Grazing Effects on Bureau of Land Management Land</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I am a co-author on a new paper in the journal <em>Rangeland Ecology and Management</em> available at <a href="http://dx.doi.org/10.2111/REM-D-12-00178.1" target="_blank">http://dx.doi.org/10.2111/REM-D-12-00178.1</a></p>
+<p><em>Abstract</em></p>
+<p>Public land management agencies, such as the Bureau of Land Management (BLM), are charged with managing rangelands throughout the western United States for multiple uses, such as livestock grazing and conservation of sensitive species and their habitats. Monitoring of condition and trends of these rangelands, particularly with respect to effects of livestock grazing, provides critical information for effective management of these multiuse landscapes. We therefore investigated the availability of livestock grazing-related quantitative monitoring data and qualitative region-specific Land Health Standards (LHS) data across BLM grazing allotments in the western United States. We then queried university and federal rangeland science experts about how best to prioritize rangeland monitoring activities. We found that the most commonly available monitoring data were permittee-reported livestock numbers and season-of-use data (71% of allotments) followed by repeat photo points (58%), estimates of forage utilization (52%), and, finally, quantitative vegetation measurements (37%). Of the 57% of allotments in which LHS had been evaluated as of 2007, the BLM indicated 15% had failed to meet LHS due to livestock grazing. A full complement of all types of monitoring data, however, existed for only 27% of those 15%. Our data inspections, as well as conversations with rangeland experts, indicated a need for greater emphasis on collection of grazing-related monitoring data, particularly ground cover. Prioritization of where monitoring activities should be focused, along with creation of regional monitoring teams, may help improve monitoring. Overall, increased emphasis on monitoring of BLM rangelands will require commitment at multiple institutional levels.</p>
+<p>Kari E. Veblen, David A. Pyke, Cameron L. Aldridge, Michael L. Casazza, Timothy J. Assal, and Melissa A. Farinha. 2014<i>.</i> <a title="Manuscript Link" href="http://www.bioone.org/doi/abs/10.2111/REM-D-12-00178.1" target="_blank">Monitoring of Livestock Grazing Effects on Bureau of Land Management Land.</a> <em>Rangeland Ecology &amp; Management</em> 67(1):68-77.</p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">515</post-id>	</item>
+	</channel>
+</rss>

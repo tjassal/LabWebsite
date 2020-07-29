@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>AGU16 &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/agu16/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 14 Dec 2016 02:30:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Research Presentation at the AGU Fall Meeting 2016</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/#respond</comments>
+				<pubDate>Wed, 14 Dec 2016 02:29:24 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[AGU 2016]]></category>
+		<category><![CDATA[AGU16]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Ecosystem productivity]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Upper Green River Basin]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1425</guid>
+				<description><![CDATA[I will present research on drought-induced variability of sagebrushecosystem productivity in the Upper Green River Basin at the AGU Fall Meeting in San Francisco, CA at 10:35 am in Moscone West Rm 2008. My presentation is part of the session entitled: (B32C) Remote Sensing to Support Investigations in Plant-Climate Interactions. A cross-scale approach to understand &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the AGU Fall Meeting 2016</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on drought-induced variability of sagebrushecosystem productivity in the Upper Green River Basin at the AGU Fall Meeting in San Francisco, CA at 10:35 am in Moscone West Rm 2008. My presentation is part of the session entitled: (<span class="FinalNumber">B32C) </span><em> Remote Sensing to Support Investigations in Plant-Climate Interactions</em>.</p>
+<figure id="attachment_1433" aria-describedby="caption-attachment-1433" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg" target="_blank"><img class="wp-image-1433 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?resize=300%2C191" width="300" height="191" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?resize=300%2C191&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/12/sumZscores_2010_12.jpeg?w=518&amp;ssl=1 518w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1433" class="wp-caption-text">Frequency distribution of net productivity across the Upper Green River Basin. Comparison between an average precipitation year (2010; blue), an wet year (2011; red), and a dry year (2012; green).</figcaption></figure>
+<p><a href="https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/196167" target="_blank"><strong><em><span style="color: #008000;">A cross-scale approach to understand drought-induced variability of sagebrush ecosystem productivity (</span><span class="FinalNumber"><span style="color: #008000;">B32C-02)</span> </span></em></strong></a></p>
+<p><strong>Abstract</strong></p>
+<p>Sagebrush (<i>Artemisia </i>spp.) mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) of the sagebrush steppe of western North America. Numerous causes have been suggested, but recent drought (2012-13) is the likely mechanism of mortality in this water-limited ecosystem which provides critical habitat for many species of wildlife.</p>
+<figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 150px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-thumbnail" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=150%2C150" width="150" height="150" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?zoom=2&amp;resize=150%2C150 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Sagebrush mortality has been reported across the Upper Green River Basin in recent years.</figcaption></figure>
+<p>An understanding of the variability in patterns of productivity with respect to climate is essential to exploit landscape scale remote sensing for detection of subtle changes associated with mortality in this sparse, uniformly vegetated ecosystem. We used the standardized precipitation index to characterize drought conditions and Moderate Resolution Imaging Spectroradiometer (MODIS) satellite imagery (250-m resolution) to characterize broad characteristics of growing season productivity. We calculated per-pixel growing season anomalies over a 16-year period (2000-2015) to identify the spatial and temporal variability in productivity. Metrics derived from Landsat satellite imagery (30-m resolution) were used to further investigate trends within anomalous areas at local scales. We found evidence to support an initial hypothesis that antecedent winter drought was most important in explaining reduced productivity. The results indicate drought effects were inconsistent over space and time. MODIS derived productivity deviated by more than four standard deviations in heavily impacted areas, but was well within the interannual variability in other areas. Growing season anomalies highlighted dramatic declines in productivity during the 2012 and 2013 growing seasons. However, large negative anomalies persisted in other areas during the 2014 growing season, indicating lag effects of drought. We are further investigating if the reduction in productivity is mediated by local biophysical properties. Our analysis identified spatially explicit patterns of ecosystem properties altered by severe drought which are consistent with field observations of sagebrush mortality. The results provide a theoretical framework for future field based investigation at multiple spatiotemporal scales.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/12/13/research-presentation-at-the-agu-fall-meeting-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1425</post-id>	</item>
+	</channel>
+</rss>

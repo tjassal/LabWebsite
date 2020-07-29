@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Satellite Imagery Download &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/satellite-imagery-download/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 30 Jun 2015 23:33:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Bash script to download MODIS data</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/#comments</comments>
+				<pubDate>Tue, 30 Jun 2015 23:28:01 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Bash Script]]></category>
+		<category><![CDATA[EVI]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[Satellite Imagery Download]]></category>
+		<category><![CDATA[vegetation indicies]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=941</guid>
+				<description><![CDATA[I recently needed to acquire MODIS composite vegetation indices (e.g. NDVI, EVI, etc.) during the growing season for numerous years. MODIS provides 16-day vegetation indices with 250 m resolution (e.g. MOD13Q1) based on the maximum value composite method. The vegetation indices are retrieved daily from atmosphere-corrected, bidirectional surface reflectance. The 16-day composite indices provide consistent spatial &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/" class="more-link">Continue reading <span class="screen-reader-text">Bash script to download MODIS data</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I recently needed to acquire MODIS composite vegetation indices (e.g. NDVI, EVI, etc.) during the growing season for numerous years. MODIS provides <a title="MODIS Vegetation Indices" href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/mod13q1" target="_blank">16-day vegetation indices</a> with 250 m resolution (e.g. MOD13Q1) based on the maximum value composite method. The vegetation indices are retrieved daily from atmosphere-corrected, bidirectional surface reflectance. The 16-day composite indices provide consistent spatial and temporal comparisons of vegetation canopy greenness, a composite property of leaf area, chlorophyll and canopy structure.</p>
+<p>There are several R libraries to access and process the data. I needed to download the raster data so I could run zonal statistics on my data. Babak Naimi has created an outstanding implemented function in R (<a title="ModisDownload.R link" href="http://r-gis.net/?q=ModisDownload" target="_blank">ModisDownload.R</a>) that can download, mosaic, reproject and subset MODIS tiles. This framework takes advantage of the <a title="MRT" href="https://lpdaac.usgs.gov/tools/modis_reprojection_tool" target="_blank">MODIS Reprojection Tool</a> (MRT) developed LP DAAC.</p>
+<p>There is great utility here, but I found it very slow to download MODIS tiles on my network in R. I decided to write a script to download the MODIS tiles with minimal inputs, then process (mosaic, reproject and subset) the tiles in R using several functions available in ModisDownload. The script below only takes approximately 5-10% of the time to download one MODIS tile, compared to downloading in R.</p>
+<p>The script can be run from a command line shell in windows (e.g. gitBash). The only input needed is a text file (named <a title="Example date file" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/06/modis_dates.txt" target="_blank">modis_dates.txt</a>) with the dates of composite tiles to be downloaded. Ensure the .txt file is in the same directory as the script. The script below downloads two tiles (h09v04 and h10v04) from the MODIS TERRA instrument (i.e. MOLT) for each of the dates in the .txt file. The instrument (MOLT), product type ( MOD13Q1) and tiles (i.e. h, v index) are hard wired in the script below but could easily be changed.</p><pre class="crayon-plain-tag">#!/bin/bash
+
+#script to download MODIS hdf files for tile h09v04 and h10v04
+#update modis_dates.txt to determine which dates it downloads.
+
+#create a text file of all unique date directories
+url=http://e4ftl01.cr.usgs.gov/MODIS_Composites/MOLT/MOD13Q1.005/
+for j in $(cat modis_dates.txt);
+do 
+
+	#this will find specific hdf file and print it to a text file; #it will exclude .xml files 
+	wget -O - "${url}${j}" | grep ".hdf" | grep -v '.xml'| grep -e "h09v04" -e "h10v04" &gt; hdflist.txt
+	
+	#clean up file name
+	#remove first 52 chars and write to temp file
+	sed -r 's/^.{52}//' hdflist.txt &gt; temp1.txt
+	#remove last 86 chars
+	sed 's/.\{86\}$//' temp1.txt  &gt; MODIS_scene_url.txt
+	rm hdflist.txt #delete file
+	rm temp1.txt 3 #delete file
+
+	# download each image in the MODIS_scene_url.txt file
+	for i in $(cat MODIS_scene_url.txt);
+	do 
+	 	 wget "${url}${j}/${i}"
+	done
+
+done</pre><p>Now the MODIS .hdf tiles can be input into R and mosaicked, reprojected and subset (and subsequently deleted) using the mosaicHDF and reprojectHDF functions in Naimi&#8217;s ModisDownload library.  An R script can loop through a directory with 2 tiles x 14 dates (~28 .hdf image tiles) and perform the above processes and output a .tif file cropped to the extent of the state of Wyoming in just a few minutes.</p>
+<p>This is probably not the most eloquent method, but it met my needs and hopefully will help some of you too. Let me know if it&#8217;s useful,  where it can be improved or any questions.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/06/30/script-to-download-modis-data/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">941</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	
+	>
+<channel>
+	<title>
+	Comments on: Raster Analysis in R: rescaling and conditional statements	</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Sun, 27 Mar 2016 19:29:42 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+			<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/#comment-12233</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 22:32:01 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=859#comment-12233</guid>
+					<description><![CDATA[Thanks Ben - great to hear!]]></description>
+		<content:encoded><![CDATA[<p>Thanks Ben &#8211; great to hear!</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Ben Sleeter				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/#comment-12232</link>
+		<dc:creator><![CDATA[Ben Sleeter]]></dc:creator>
+		<pubDate>Fri, 15 Dec 2017 21:21:02 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=859#comment-12232</guid>
+					<description><![CDATA[I use this as a regular part of my workflow!]]></description>
+		<content:encoded><![CDATA[<p>I use this as a regular part of my workflow!</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: tim.assal@gmail.com				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/#comment-5237</link>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+		<pubDate>Sun, 27 Mar 2016 19:29:42 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=859#comment-5237</guid>
+					<description><![CDATA[Thanks Liza; glad to hear it!]]></description>
+		<content:encoded><![CDATA[<p>Thanks Liza; glad to hear it!</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Liza le Roux				</title>
+				<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/#comment-5205</link>
+		<dc:creator><![CDATA[Liza le Roux]]></dc:creator>
+		<pubDate>Fri, 25 Mar 2016 16:16:03 +0000</pubDate>
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=859#comment-5205</guid>
+					<description><![CDATA[This has been very helpful.  Thank you for taking the time]]></description>
+		<content:encoded><![CDATA[<p>This has been very helpful.  Thank you for taking the time</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>species distribution modeling &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/species-distribution-modeling/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 27 Jun 2018 23:35:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>clusterR is sweet &#8211; but beware when using with predict fxn</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/#comments</comments>
+				<pubDate>Wed, 05 Dec 2018 19:43:20 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[clusterR]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multiple cores]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[optimization]]></category>
+		<category><![CDATA[parallel processing]]></category>
+		<category><![CDATA[performance]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1920</guid>
+				<description><![CDATA[I ran into an issue recently using clusterR to predict randomForest model outputs. It took me awhile to troubleshoot,  so if you have had the same problem, hopefully you find this post and it saves you some time. If you&#8217;ve come up with a different solution (i.e. I&#8217;m wrong), please let me know. **It turns &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/" class="more-link">Continue reading <span class="screen-reader-text">clusterR is sweet &#8211; but beware when using with predict fxn</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><em>I ran into an issue recently using <code>clusterR</code> to predict randomForest model outputs. It took me awhile to troubleshoot,  so if you have had the same problem, hopefully you find this post and it saves you some time. If you&#8217;ve come up with a different solution (i.e. I&#8217;m wrong), please let me know. <strong><span style="color: #ff0000;">**It turns out I was wrong! See the solution below**</span></strong><br />
+</em></p>
+<p><strong>In short:</strong> when using clusterR to predict the probability of occurrence output of a randomForest model, it automatically defaults to the binary output. This is problematic if you&#8217;re interested in the probability output to use in another RF model or if you want to set the threshold at which to convert the probability model to a binary data set. However, clusterR works just fine to predict other randomForest outputs (e.g. percent cover, type=&#8217;response&#8217;). See below for an example.</p>
+<p><code>clusterR</code> is a flexible interface for using cluster with other functions. This function only works with functions that have a Raster* object as first argument and that operate on a cell by cell basis (i.e., there is no effect of neigboring cells) and return an object with the same number of cells as the input raster object (from ?clusterR). Martin Šiklar has a <a href="https://www.gis-blog.com/increasing-the-speed-of-raster-processing-with-r-part-33-cluster/" target="_blank" rel="noopener noreferrer">nice post</a> on increasing the speed of raster processing using clusterR.</p>
+<p>Below I&#8217;ve generated a basic randomForest classification model and predict the probability of occurrence output (continuous).</p><pre class="crayon-plain-tag">library(raster)
+#load an example raster stack
+logo &lt;- stack(system.file("external/rlogo.grd", package="raster"))
+plot(logo)
+
+#generate presence and random background (pseudo-absence) points
+presence &lt;- matrix(c(85, 60, 79, 50, 20,48, 50, 30, 70, 90, 48, 48, 48, 53, 50, 46, 54, 70, 84, 85, 74, 84, 95, 85, 66, 42, 26, 4, 19, 17, 5, 52, 10, 68, 50, 52, 18, 20, 30, 60, 7, 14, 26, 29, 39, 45, 51, 56, 46, 38, 31, 22, 34, 60, 70, 73, 63, 46, 43, 28), ncol=2)
+#random background
+background &lt;- cbind(runif(250)*(xmax(logo)-xmin(logo))+xmin(logo), runif(250)*(ymax(logo)-ymin(logo))+ymin(logo))
+
+#extract values for points from stack
+xy &lt;- rbind(cbind(1, presence), cbind(0, background))
+v &lt;- cbind(xy[,1], extract(logo, xy[,2:3]))
+colnames(v)[1] &lt;- 'presback'
+#convert to dataframe
+v.df&lt;-as.data.frame(v)
+
+#check the dataframe
+typeof(v.df$presback) #double
+as.factor(v.df$presback)
+#random forests needs to see the '1' first thus the relevel; 1=present, 0=absent; 
+v.df$presback &lt;-  relevel(as.factor(ifelse(v.df$presback==1,1,0)),"1")
+str(v.df) #ensure y (presback) is a factor because we're interested in a classification, not a regression
+
+##run a random forest model
+library(randomForest)
+model.RF &lt;- randomForest(presback~., data=v.df) #classification model 
+model.RF #note, it's not a great model fit, but not the point here
+#predict probability output without cluster
+r.prob &lt;- predict(logo, type='prob', model.RF, progress='text') #type = 'prob' -&gt; probability of occurrence model
+plot(r.prob)
+points(presence, bg='blue', pch=21)
+points(background, bg='red', pch=21)</pre><p><figure id="attachment_1988" aria-describedby="caption-attachment-1988" style="width: 509px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1988 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?resize=474%2C422" alt="" width="474" height="422" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?w=509&amp;ssl=1 509w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_longhand.jpeg?resize=300%2C267&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1988" class="wp-caption-text">The probability of occurrence model output using the traditional predict function in the raster library.</figcaption></figure></p>
+<p>Next, I use clusterR to predict the same output; however, it results in a binary output.</p><pre class="crayon-plain-tag">#now make the prediction using multiple cores
+library(cluster)
+library(parallel)
+
+# create a cluster and ID the # of cores to use
+beginCluster(3)
+#predict fxn using clusterR
+r.prob.Cluster&lt;-clusterR(logo, predict, args=list(model.RF), progress='text', type='prob')
+endCluster() #delete the cluster
+plot(r.prob.Cluster)
+points(presence, bg='blue', pch=21)</pre><p><figure id="attachment_1990" aria-describedby="caption-attachment-1990" style="width: 509px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1990 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?resize=474%2C422" alt="" width="474" height="422" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?w=509&amp;ssl=1 509w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/12/RF_predict_usingCluster.jpeg?resize=300%2C267&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1990" class="wp-caption-text">The probability of occurrence model output when using the predict function in tandem with clusterR. As you can see the output is binary, even though type=&#8217;prob&#8217; was specified.</figcaption></figure></p>
+<p>I&#8217;d highly recommend using clusterR whenever possible as it will save you a lot of time, particularly when making predictions with raster data. It will allow you to work in parallel and take advantage of multiple cores on your machine. My goal here is to simply make you aware of the issue with clusterR with respect to predicting probability of occurrence models. I am unaware of any solution, except to use the longhand predict function in the raster library when you need to predict the probability of occurrence model output.</p>
+<p><strong><span style="color: #ff0000;">**Solution**</span></strong></p>
+<p><span style="color: #ff0000;">I simply failed to have include type=&#8217;prob&#8217; inside the args() part of the clusterR() function. Once I cleaned up the syntax, I had no problem!</span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/12/05/clusterr-is-sweet-but-beware-when-using-with-predict-fxn/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1920</post-id>	</item>
+		<item>
+		<title>New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/#respond</comments>
+				<pubDate>Wed, 27 Jun 2018 23:35:10 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[phenology]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1827</guid>
+				<description><![CDATA[We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/" class="more-link">Continue reading <span class="screen-reader-text">New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p dir="ltr">We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen Days workshops. The data here represents phase I of the project (i.e. development of more accurate maps of conifer and deciduous vegetation). We (myself and my collaborator, Valerie Steen), created a synthesis map of coniferous and deciduous communities in the Bighorn Mountains of Wyoming using a species distribution modeling approach developed in the Wyoming Landscape Conservation Initiative (WLCI) (Assal et al. 2015). We used a RandomForest modeling framework and utilized a number of topographic covariates and temporal remote sensing data from the early, mid and late growing season to capitalize on phenological differences in vegetation types.</p>
+<p dir="ltr">In Phase II of this project (to be completed in FY2018 and 2019), we will conduct a preliminary assessment on the baseline condition of riparian deciduous communities. This will be a proof-of-concept study where the USGS will apply a framework used in prior research in upland aspen and sagebrush communities to detect trends in riparian vegetation condition from the mid-1980s to present (manuscript to follow). We are collaborating with the Wyoming Game and Fish Department, US Forest Service and Wyoming State Forestry Division.</p>
+<ul>
+<li dir="ltr"> Assal, T.J., 2018, Bighorn Mountains, Wyoming Forest Mapping, 2013-2017: U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P98OS2XK" target="_blank" rel="noopener">https://doi.org/10.5066/P98OS2<wbr />XK</a>.</li>
+<li dir="ltr">Assal, T.J., Anderson, P., Sibold, J., 2015. <a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.    <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf">*PDF Download     </a><a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F1639MP5">*Data Download</a></em></li>
+</ul>
+<figure id="attachment_1833" aria-describedby="caption-attachment-1833" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg"><img class="wp-image-1833 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=474%2C318" alt="" width="474" height="318" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=1024%2C686&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=300%2C201&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=768%2C515&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1833" class="wp-caption-text">Aspen Days workshop discussion in the Bighorn Mountains, Wyoming, August 2017 with representatives from the Wyoming Game and Fish Department, US Bureau of Land Management, US Forest Service, Western Aspen Alliance, US Geological Survey and many others .</figcaption></figure>
+<p><em>*Banner image: Magic bus in the Bighorn National Forest, Wyoming.</em></p>
+<div>
+<div></div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1827</post-id>	</item>
+		<item>
+		<title>Call for Papers: IJRS Special Issue at Intersection of Remote Sensing &#038; Ecology</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/#respond</comments>
+				<pubDate>Mon, 23 Jan 2017 18:29:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Biogeography]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[International Journal of Remote Sensing]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1455</guid>
+				<description><![CDATA[I serve as a reviewer for the International Journal of Remote Sensing and thought I&#8217;d pass along this call for papers on an interesting topic at the intersection of remote sensing and ecology: International Journal of Remote Sensing Special Issue &#8211; Call for Papers Fine Resolution Remote Sensing of Species in Terrestrial and Coastal Ecosystems &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: IJRS Special Issue at Intersection of Remote Sensing &#038; Ecology</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I serve as a reviewer for the <a href="http://www.tandfonline.com/toc/tres20/current" target="_blank">International Journal of Remote Sensing</a> and thought I&#8217;d pass along this call for papers on an interesting topic at the intersection of remote sensing and ecology:</p>
+<p><span style="color: #800000;"><b>International Journal of Remote Sensing</b></span></p>
+<p><span style="color: #ff6600;"><span style="color: #000080;"><b>Special Issue &#8211; Call for Papers</b></span><b></b></span></p>
+<p><span style="color: #800000;"><b>Fine Resolution Remote Sensing of Species in Terrestrial and Coastal Ecosystems</b></span></p>
+<p>The decline and dieback of native species and the invasion of alien species in terrestrial and coastal ecosystems can cause severe environmental changes that harm the functioning of ecosystems and reduce the services they provide. A rapid response and effective management of environmental change requires detailed information on the spatial distribution of individual species over large spatial extents and over multiple time periods. Species-level information is also needed for precision agriculture and urban forestry.</p>
+<p>Although remote sensing has been used to map species for decades, the longstanding challenge is that the accuracy of species maps is often too low to meet the requirements of management, or the methods are too complex or location-specific to be used in routine mapping. On the other hand, in the 21<sup>st</sup> century, we have witnessed a rapid development in both fine resolution remote sensors and statistical theories and techniques, which hold great potential for accurate species mapping.</p>
+<p>This special issue calls for cutting-edge research on using fine resolution remotely sensed data for mapping species in terrestrial or coastal ecosystems, in the following areas:</p>
+<p>1)      Focus on terrestrial or coastal systems (including natural, urban, agriculture, and other aspects);</p>
+<p>2)      Involvement of any single or combination of fine resolution sensors such as UAV, lidar, high spatial resolution satellite imagery, and hyperspectral sensors;</p>
+<p>3)      Incorporation of spectral and/or structural information using new sensors (such as multispectral lidar) and/or the combination of several sensors;</p>
+<p>4)      Development of novel techniques in pre-processing (e.g., image georeferencing and orthorectification) and/or image processing (such as segmentation) to improve the classification accuracy;</p>
+<p>5)      Development or application of new statistical techniques (such as deep learning) for classification, especially in comparison to other parametric and non-parametric methods;</p>
+<p>6)      Development of upscaling framework that can map species over large spatial extent;</p>
+<p>7)      Other novel research not listed above on species mapping with fine resolution sensors.</p>
+<p><b>Important Dates</b></p>
+<p>Full paper submission deadline:  <b>November 1<sup>st</sup>, 2017</b><br />
+Online publication:  <b>Immediately after acceptance and final technical review</b> for compliance with the journal style.</p>
+<p>Expected print publication date: <b>July 2018</b><br />
+<b></b></p>
+<p><b>Editorial information</b></p>
+<p><strong>·</strong>         Guest Editor: <b>Qi Chen</b>, <i>Department of Geography, University of Hawaii at Manoa, USA </i>(<a title="mailto:qichen@hawaii.edu" href="mailto:qichen@hawaii.edu" target="_blank">qichen@hawaii.edu</a>)</p>
+<p><strong>·</strong>         Guest Editor: <b>Tiit Kutser</b>, <i> Estonian Marine Institute, University of Tartu, Estonia</i> (<a title="mailto:tiit.kutser@sea.ee" href="mailto:tiit.kutser@sea.ee" target="_blank">tiit.kutser@sea.ee</a>)</p>
+<p><strong>·</strong>         Guest Editor: <b>Antoine Collin</b>,<i> Ecole Pratique des Hautes Etudes, PSL Research University, France</i> (<a title="mailto:antoine.collin@ephe.sorbonne.fr" href="mailto:antoine.collin@ephe.sorbonne.fr" target="_blank">antoine.collin@ephe.sorbonne.<wbr />fr</a>)<i></i></p>
+<p><strong>·</strong>         Guest Editor: <b>Timothy A.</b> <b>Warner</b>, <i>Department of Geology and Geography, West Virginia University, USA</i> (<a title="mailto:tim.warner@mail.wvu.edu" href="mailto:tim.warner@mail.wvu.edu" target="_blank">tim.warner@mail.wvu.edu</a>)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/01/23/call-for-papers-ijrs-special-issue-at-intersection-of-remote-sensing-ecology/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1455</post-id>	</item>
+		<item>
+		<title>Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/#respond</comments>
+				<pubDate>Fri, 30 Sep 2016 00:42:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1354</guid>
+				<description><![CDATA[“A map is the greatest of all epic poems.” Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954) That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/" class="more-link">Continue reading <span class="screen-reader-text">Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>“<em>A map is the greatest of all epic poems.</em>”</p>
+<p><strong>Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954)</strong></p>
+<p>That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource managers charged with making decisions. Below are maps of <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">forest cover</a> (<a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289" target="_blank">Assal et al. 2015</a>) and  <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">trend of forest canopy condition</a> (<a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Assal et al. 2016</a>) in the Little Mountain Ecosystem in southwest Wyoming and northwest Colorado prepared for our agency partners in the Wyoming Landscape Conservation Initiative.</p>
+<p>See below for images of maps (click for higher resolution view); high resolution pdf files can be downloaded from figshare. Please see the publications for detailed methodology.</p>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li> Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Forest Cover Maps. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3863262.v1" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3863262.v1 </a>Retrieved: 18 37, Sep 29, 2016 (GMT)</li>
+<li>Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Trends Maps of Forest Canopy Condition. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3971421.v2" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3971421.v2</a> Retrieved: 18 45, Sep 29, 2016 (GMT)</li>
+</ul>
+<p style="text-align: center;"><em><strong>Little Mountain and Pine Mountain (Wyoming) Forest Cover:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1356 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300" alt="lmpm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><strong><em>Middle Mountain, Diamond Peak and Cold Spring Mountain (Colorado) Forest Cover:</em></strong></p>
+<p style="text-align: center;"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1365 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300" alt="dpmmcsm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Little Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1367 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300" alt="lm_trends_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Pine Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1370 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300" alt="pm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Middle Mountain and Diamond Peak (Colorado) Trend Map of Forest Canopy Condition:<a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1371 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300" alt="dpmm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></strong></em></p>
+<p style="text-align: center;"><em><strong>Cold Spring Mountain (Colorado) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1372 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300" alt="csm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1354</post-id>	</item>
+		<item>
+		<title>New paper establishes a framework to map forest functional type in the forest-shrubland ecotone using predictive habitat distribution modeling</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/08/25/new-paper-establishes-a-framework-to-map-forest-functional-type-in-the-forest-shrubland-ecotone-using-predictive-habitat-distribution-modeling/</link>
+				<pubDate>Wed, 26 Aug 2015 04:55:59 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[color-infrared]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[logistic regression model]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[phenology]]></category>
+		<category><![CDATA[quaking aspen]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial autocorrelation]]></category>
+		<category><![CDATA[spatial scale]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[SPOT5]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=984</guid>
+				<description><![CDATA[We recently published a paper in the journal Remote Sensing Letters, entitled “Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.” Our study area is located in the southern portion of the Wyoming Basin Ecoregion centered on several prominent forested ridges surrounded by shrubland. Although the forests are &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/08/25/new-paper-establishes-a-framework-to-map-forest-functional-type-in-the-forest-shrubland-ecotone-using-predictive-habitat-distribution-modeling/" class="more-link">Continue reading <span class="screen-reader-text">New paper establishes a framework to map forest functional type in the forest-shrubland ecotone using predictive habitat distribution modeling</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<figure id="attachment_615" aria-describedby="caption-attachment-615" style="width: 150px" class="wp-caption alignleft"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/dscn80281.jpg" target="_blank"><img class="wp-image-615 size-thumbnail" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/dscn80281.jpg?resize=150%2C150" alt="Early autumn on Little Mountain, Wyoming (click to enlarge)." width="150" height="150" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/dscn80281.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/dscn80281.jpg?zoom=2&amp;resize=150%2C150 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/05/dscn80281.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-615" class="wp-caption-text">Early autumn on Little Mountain, Wyoming (click to enlarge).</figcaption></figure>
+<p>We recently published a paper in the journal <a title="RSL Site" href="http://www.tandfonline.com/toc/trsl20/current#.VduxYZe1a6E" target="_blank"><em>Remote Sensing Letters</em></a>, entitled “Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.” Our study area is located in the southern portion of the Wyoming Basin Ecoregion centered on several prominent forested ridges surrounded by shrubland. Although the forests are extensive in some areas, they are characterized by small, isolated patches that act as islands in a sea of sagebrush. The forest-shrubland ecotone (or transition area) provides habitat for many different species and therefore it is important to have accurate data on the type, size and extent of forest type.</p>
+<figure id="attachment_989" aria-describedby="caption-attachment-989" style="width: 150px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg" target="_blank"><img class="wp-image-989 size-thumbnail" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg?resize=150%2C150" alt="Extent of the study area in Wyoming, Colorado and Utah (click to enlarge)." width="150" height="150" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg?w=1062&amp;ssl=1 1062w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure1.jpg?w=948 948w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-989" class="wp-caption-text">Extent of the study area in Wyoming, Colorado and Utah (click to enlarge).</figcaption></figure>
+<p>However, in heterogeneous ecosystems such as the one, <a href="https://tjassal.github.io/LabWebsite/?p=1064" target="_blank">regional and national land cover mapping products typically lack the spatial resolution needed to adequately characterize the extent and juxtaposition of land cover</a>. We present a framework that incorporates aerial photos, satellite imagery and topographic information to model dominant forest cover at local scales across a forest-shrubland ecotone.</p>
+<figure id="attachment_1017" aria-describedby="caption-attachment-1017" style="width: 5912px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg" target="_blank"><img class="wp-image-1017 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg?resize=474%2C113" alt="Canyon country below the forested bluffs on Diamond Peak, Colorado." width="474" height="113" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg?w=5912&amp;ssl=1 5912w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg?resize=300%2C71&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg?resize=1024%2C244&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DP_pano2.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1017" class="wp-caption-text">Canyon country below the forested bluffs on Diamond Peak, Colorado.</figcaption></figure>
+<figure id="attachment_997" aria-describedby="caption-attachment-997" style="width: 150px" class="wp-caption alignleft"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2010-LM-154b.jpg" target="_blank"><img class="wp-image-997 size-thumbnail" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2010-LM-154b.jpg?resize=150%2C150" alt="A small patch of forest on Little Mountain, Wyoming (click to enlarge)." width="150" height="150" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2010-LM-154b.jpg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2010-LM-154b.jpg?zoom=2&amp;resize=150%2C150 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2010-LM-154b.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-997" class="wp-caption-text">A small patch of forest on Little Mountain, Wyoming (click to enlarge).</figcaption></figure>
+<figure id="attachment_1015" aria-describedby="caption-attachment-1015" style="width: 150px" class="wp-caption alignright"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8560.jpg" target="_blank"><img class="wp-image-1015 size-thumbnail" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8560.jpg?resize=150%2C150" alt="The forest-shrubland ecotone on Middle Mountain, Colorado (click to enlarge)." width="150" height="150" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8560.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8560.jpg?zoom=2&amp;resize=150%2C150 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8560.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1015" class="wp-caption-text">Mortality in the forest-shrubland ecotone on Middle Mountain, Colorado (click to enlarge).</figcaption></figure>
+<p>The driving concept of the analysis was to exploit phenological differences in forest cover type by “viewing” the forest at different times of the year. Phenology is the study of the timing of specific biological events, such as plant flowering, animal migration, reproduction, etc. The phenological event of interest in our study is leaf drop by deciduous trees in autumn. Simply put, deciduous forests look different to our eyes (and satellites) in the summer than they do once the leaves turn color and fall off in autumn. Deciduous forest and coniferous forest look slightly different during the summer, but they look very different after deciduous leaves fall to the ground. In our study area, the iconic Quaking aspen tree is the sole deciduous forest type. Satellites can differentiate between vegetation types based on the amount of radiation that is absorbed or reflected which is different when there are leaves on the trees compared to when the leaves are off the trees. In our study we interpreted forest cover type in aerial photos and used this to “scale-up” the information to satellite imagery. We developed probability of occurrence models for both deciduous and coniferous forest, and then combined the model outputs into a synthesis map depicting forest cover type.</p>
+<figure id="attachment_1012" aria-describedby="caption-attachment-1012" style="width: 150px" class="wp-caption alignleft"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN5845.jpg" target="_blank"><img class="wp-image-1012 size-thumbnail" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN5845.jpg?resize=150%2C150" alt="Dense coniferous forest on Diamond Peak, Colorado (click to enlarge)." width="150" height="150" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN5845.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN5845.jpg?zoom=2&amp;resize=150%2C150 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN5845.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1012" class="wp-caption-text">Dense coniferous forest on Diamond Peak, Colorado (click to enlarge).</figcaption></figure>
+<figure id="attachment_110" aria-describedby="caption-attachment-110" style="width: 150px" class="wp-caption alignright"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/07/lme_woodland2.jpg" target="_blank"><img class="wp-image-110 size-thumbnail" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/07/lme_woodland2.jpg?resize=150%2C150" alt="Extensive forest on Little Mountain, Wyoming (click to enlarge)." width="150" height="150" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/07/lme_woodland2.jpg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/07/lme_woodland2.jpg?zoom=2&amp;resize=150%2C150 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2012/07/lme_woodland2.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-110" class="wp-caption-text">Extensive forest on Little Mountain, Wyoming (click to enlarge).</figcaption></figure>
+<p>The output of this project provides valuable information that we used in <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">subsequent research to assess the effects of drought on forest community type</a> in this semi-arid region (<a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Assal et al. 2016</a>). The results from our analysis are suitable to characterize the extent and juxtaposition of forest cover in a highly heterogeneous ecosystem (see below). The input data we used in the models has a resolution of 10 meters and the output synthesis map has an overall classification accuracy of 87%. This approach enabled us to capture the extent and pattern of broad forest and very small and isolated patches that are missed by regional land cover data. Furthermore our framework utilizes open access aerial photos (source: <a title="NAIP INFO" href="http://www.fsa.usda.gov/programs-and-services/aerial-photography/imagery-programs/naip-imagery/index" target="_blank">National Agriculture Imagery Program</a>) and satellite data (source: <a title="SPOT NA Data Buy" href="https://lta.cr.usgs.gov/SPOT_NADB" target="_blank">SPOT5 – North America Data Buy</a>). In this way, it is transferable to other highly heterogeneous ecosystems to develop critical baseline tree cover data that can be updated at regular intervals to monitor the effects of disturbance and long-term ecosystem dynamics. Finally, our analysis addressed spatial autocorrelation in species distribution models (SDMs). Spatial autocorrelation is often ignored in SDMs and there is not a lot of literature on how to test for it in logistic regression models. It is my hope that this paper provides information on both aspects of spatial autocorrelation.</p>
+<figure id="attachment_990" aria-describedby="caption-attachment-990" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure3.jpg" target="_blank"><img class="wp-image-990 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure3.jpg?resize=474%2C249" alt="Comparison of forest type maps derived from each data source of a representative area of the landscape on Little Mountain: (a) 2009 colour-infrared aerial photo (National Agriculture Imagery Program) where dark red/black hues indicate coniferous forest, red hues indicate deciduous forest, grey/light red/blue hues represent non-forest and (b) USGS synthesis map. Note: Each map panel is displayed at the same scale and extent." width="474" height="249" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure3.jpg?resize=1024%2C539&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure3.jpg?resize=300%2C158&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure3.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/Figure3.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-990" class="wp-caption-text">Comparison of forest type maps derived from each data source of a representative area of<br /> the landscape on Little Mountain: (a) 2009 colour-infrared aerial photo (National Agriculture<br /> Imagery Program) where dark red/black hues indicate coniferous forest, red hues indicate deciduous forest, grey/light red/blue hues represent non-forest and (b) USGS synthesis map.<br /> Note: Each map panel is displayed at the same scale and extent.</figcaption></figure>
+<figure id="attachment_993" aria-describedby="caption-attachment-993" style="width: 5903px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg" target="_blank"><img class="wp-image-993 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg?resize=474%2C66" alt="Looking southwest at Middle Mountain and Diamond Peak, Colorado from Pine Mountain, Wyoming" width="474" height="66" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg?w=5903&amp;ssl=1 5903w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg?resize=300%2C42&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg?resize=1024%2C143&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/pine_mtn_pano1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-993" class="wp-caption-text">Looking southwest into Utah and Colorado from Pine Mountain, Wyoming</figcaption></figure>
+<p><em><strong>Manuscript Abstract</strong></em></p>
+<figure id="attachment_1010" aria-describedby="caption-attachment-1010" style="width: 150px" class="wp-caption alignleft"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8514.jpg" target="_blank"><img class="wp-image-1010 size-thumbnail" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8514.jpg?resize=150%2C150" alt="Aspen stand on Cold Spring Mountain, Colorado (click to enlarge)." width="150" height="150" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8514.jpg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8514.jpg?zoom=2&amp;resize=150%2C150 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8514.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1010" class="wp-caption-text">Aspen stand on Cold Spring Mountain, Colorado (click to enlarge).</figcaption></figure>
+<p>The availability of land cover data at local scales is an important component in forest management and monitoring efforts. Regional land cover data seldom provide detailed information needed to support local management needs. Here we present a transferable<br />
+framework to model forest cover by major plant functional type using aerial photos, multi-date Système Pour l’Observation de la Terre (SPOT) imagery, and topographic variables. We developed probability of occurrence models for deciduous broad-leaved forest and needle-leaved evergreen forest using logistic regression in the southern portion of the Wyoming Basin Ecoregion. The model outputs were combined into a synthesis map depicting deciduous and coniferous forest cover type. We evaluated the models and synthesis map using a field-validated, independent data source. Results showed strong relationships between forest cover and model variables, and the synthesis map was accurate with an overall correct classification rate of 0.87 and Cohen’s kappa value of<br />
+0.81. The results suggest our method adequately captures the functional type, size, and distribution pattern of forest cover in a spatially heterogeneous landscape.</p>
+<p><strong>Literature Cited</strong></p>
+<figure id="attachment_1016" aria-describedby="caption-attachment-1016" style="width: 150px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8565.jpg" target="_blank"><img class="wp-image-1016 size-thumbnail" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8565.jpg?resize=150%2C150" alt="Forest-shrubland ecotone at the Wyoming-Colorado stateline (click to enlarge)." width="150" height="150" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8565.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8565.jpg?zoom=2&amp;resize=150%2C150 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/08/DSCN8565.jpg?zoom=3&amp;resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1016" class="wp-caption-text">Forest-shrubland ecotone at the Wyoming-Colorado stateline (click to enlarge).</figcaption></figure>
+<p>Assal, T., Anderson, P., Sibold, J., 2015. <a title="Manuscript Link" href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract" target="_blank">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764. <a title="Author's Pre-print" href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf" target="_blank">PDF Download</a></p>
+<p>Assal, T.J., Anderson, P.J., Sibold, J., 2016. <a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem. Forest Ecology and Management.</a> 365, 137-151.  <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2016/02/FEM_spatial-and-temporal-trends-of-drought.pdf" target="_blank">*PDF Download </a></em></p>
+<p>&nbsp;</p>
+<figure id="attachment_995" aria-describedby="caption-attachment-995" style="width: 2048px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg" target="_blank"><img class="wp-image-995 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg?resize=474%2C146" alt="Early autumn on Little Mountain, Wyoming (click to enlarge)." width="474" height="146" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg?w=2048&amp;ssl=1 2048w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg?resize=300%2C92&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg?resize=1024%2C316&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/08/2012-LM-056.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-995" class="wp-caption-text">Early autumn on Little Mountain, Wyoming (click to enlarge).</figcaption></figure>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">984</post-id>	</item>
+		<item>
+		<title>Raster Analysis in R: rescaling and conditional statements</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/#comments</comments>
+				<pubDate>Thu, 26 Feb 2015 00:57:37 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Centering data]]></category>
+		<category><![CDATA[conditional statement]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[Raster rescale function]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=859</guid>
+				<description><![CDATA[I frequently benefit from notes that others have posted regarding workflows in R. Recently I ran into some challenges working with raster data while writing code for species distribution modeling. Although some of the information is already out there, I decided to wrap it together here and add a little context. Like everything I do &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/" class="more-link">Continue reading <span class="screen-reader-text">Raster Analysis in R: rescaling and conditional statements</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I frequently benefit from notes that others have posted regarding workflows in R. Recently I ran into some challenges working with raster data while writing code for species distribution modeling. Although some of the information is already out there, I decided to wrap it together here and add a little context. Like everything I do in R, there are probably more efficient ways to accomplish these tasks, but I hope this is helpful.</p>
+<p>In this example, I am working with the outputs of predictive habitat distribution models of two forest cover types developed using logistic regression. Assume a raster is a surface indicating probability of occurrence (0-1) for a given cover type and only one cover type can be present for any given pixel. If a pixel is predicted to contain both forest types, the values from each model above the presence threshold need to be linearly rescaled from 0 to 1. Then the cover type with the highest occurrence probability will be assigned to the pixel.</p>
+<p>*Load the required packages</p><pre class="crayon-plain-tag">library(raster)
+library(rgdal)</pre><p>Rescale raster cell values between 0 and 1. I will try to post the example raster data set soon. The function below uses cellStats, so the entire range of values are considered.</p><pre class="crayon-plain-tag">#load raster
+r1&lt;-raster("base_raster.img")
+
+#fxn to rescale cell values between 0 and 1
+rasterRescale&lt;-function(r){
+  ((r-cellStats(r,"min"))/(cellStats(r,"max")-cellStats(r,"min")))
+}
+
+#run the fxn
+r2&lt;-rasterRescale(r1)
+plot(r2)</pre><p><figure id="attachment_889" aria-describedby="caption-attachment-889" style="width: 529px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-889 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg?resize=474%2C480" alt="Raster with values scaled between 0 and 1." width="474" height="480" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg?w=529&amp;ssl=1 529w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot2.jpeg?resize=296%2C300&amp;ssl=1 296w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-889" class="wp-caption-text">Plot of raster r2 with cell values scaled between 0 and 1.</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>The function above is not particularly helpful in our situation since we only want to rescale the data above a model selected threshold. We must first reclassify the data below the threshold (e.g. 0.6). In the example below, values of 0 could be reclassified to NA, but in my workflow it&#8217;s helpful to set values to 0 so the raster can be incorporated into raster math calculations later on.</p><pre class="crayon-plain-tag">#reclassify values below 0.6 to 0; retain cell values above 0.6
+r2[r2&lt;=0.6]=0
+plot(r2)</pre><p><figure id="attachment_888" aria-describedby="caption-attachment-888" style="width: 529px" class="wp-caption alignnone"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-888 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg?resize=474%2C480" alt=" " width="474" height="480" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg?w=529&amp;ssl=1 529w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot3.jpeg?resize=296%2C300&amp;ssl=1 296w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-888" class="wp-caption-text">Plot of raster r2 with cell values below the threshold (0.6) set to 0.</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>Now we can rescale the data above the threshold from 0 to 1. Compare the differences between the map above with the one below.</p><pre class="crayon-plain-tag">#fxn to rescale values between 0 and 1, but rmin and rmax must be specified
+rasterRescale.Set&lt;-function(r, rmin, rmax){
+  ((r-rmin)/(rmax-rmin))
+}
+
+#run fxn to rescale raster; rmin=0.6; rmax=1
+r3&lt;-rasterRescale.Set(r2, 0.6, 1)
+#ensure minimum values are set to 0
+r3[r3&lt;=0]=0
+plot(r3)</pre><p><figure id="attachment_887" aria-describedby="caption-attachment-887" style="width: 529px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-887 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg?resize=474%2C480" alt="Rplot4" width="474" height="480" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg?w=529&amp;ssl=1 529w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/02/Rplot4.jpeg?resize=296%2C300&amp;ssl=1 296w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-887" class="wp-caption-text">Plot of raster r3 with cell values above threshold rescaled between 0 and 1. Areas below threshold are set to 0, not NA.</figcaption></figure></p>
+<p>&nbsp;</p>
+<p>Once each raster is rescaled accordingly, we need to determine which raster has a higher value for a given cell and assign a new value accordingly. This is a straightforward exercise in ArcGIS, but it is a bit more complicated in R.</p>
+<p>In my example, one would want to identify the pixels where both species are predicted to occur. I won&#8217;t go into that step here, as the workflow below only addresses those pixels where there are probability values for each cover type.</p><pre class="crayon-plain-tag">#assume raster r5 and r6 have a range of values that overlap
+#r5 rmin=0.35, rmax=1
+#r6 rmin=0.6, rmax=1
+#determine which cell value is higher, assign 1 if r5, assign 2 if r6, if 0, assign a 0 again
+
+#returns all values of a Raster* object as a matrix
+as.matrix(r5)
+as.matrix(r6)
+
+#create an empty raster r7 that matches the extent of the other rasters
+r7&lt;-raster(ncol=518, nrow=428, xmn=643128.9, xmx=648308.9, ymn=4523269, ymx=4527549)
+projection(r7)="+proj=utm +zone=12 +ellps=WGS84 +units=m +no_defs" #assign projection to match
+
+#fxn to execute a conditional statement
+Con=function(condition, trueValue, falseValue){
+  return(condition * trueValue + (!condition)*falseValue)
+}
+
+#create a matrix m and execute conditional statement
+m = as.matrix(Con(r5&gt;r6,1,Con(r5&lt;r6, 2, 0))) #if r5&lt;r6, assign value of 1, else value of 2
+
+#assign values of matrix m to raster r7
+values(m)=r7
+
+#the raster r7 contains a value of 1 if r5 pixel had a higher value, 2 if r6 had a higher value and 0 if both input rasters had a value of 0.</pre><p>Now the raster r7 can be used to overwrite the value of a pixel in an ensemble model where both cover types are predicted to occur. Since pixels where only one cover type were predicted to occur are zeroed out, raster r7 can be incorporated into the ensemble model through a basic raster math calculation.</p>
+<p><strong>Literature Cited</strong></p>
+<p>Assal, T., Anderson, P., Sibold, J., 2015. <a title="Manuscript Link" href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract" target="_blank" rel="noopener noreferrer">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/02/25/raster-analysis-in-r-rescaling-and-conditional-statements/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">859</post-id>	</item>
+	</channel>
+</rss>

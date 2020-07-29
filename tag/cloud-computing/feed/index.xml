@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Cloud computing &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/cloud-computing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 13 Feb 2019 00:10:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Exploring Vegetation Dynamics using Google Earth Engine</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comments</comments>
+				<pubDate>Mon, 11 Feb 2019 20:28:56 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[Cuyahoga Valley National Park]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Kent State Univeristy]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019</guid>
+				<description><![CDATA[Below is an example from an upcoming lecture that I will be giving to the Department of Geography at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" class="more-link">Continue reading <span class="screen-reader-text">Exploring Vegetation Dynamics using Google Earth Engine</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[
+<p>Below is an example from an upcoming lecture that I will be giving to the <a href="https://www.kent.edu/geography#" target="_blank" rel="noreferrer noopener" aria-label="Department of Geography (opens in a new tab)">Department of Geography</a> at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI using Google Earth Engine with data from the cloud. Thanks to <a href="https://geohackweek.github.io/" target="_blank" rel="noopener">geohackweek</a> for some pointers on code. </p>
+
+
+
+<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noreferrer noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google’s cloud to run analyses without downloading the data to your local machine. You’ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noreferrer noopener">here.</a></p>
+
+
+
+<p>To execute the example below, please download the park shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2019/02/CVNP.zip" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a> (Note, I&#8217;ve merged the shapefile into a single-part file as GEE doesn&#8217;t seem to be able to handle multi-part files very well). You’ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Uploading table assets” section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Importing assets to your script” section).</p>
+
+
+
+<p>Copy and paste the following code into the Code Editor of GEE:</p>
+
+
+
+<pre class="crayon-plain-tag">// load all Landsat 8 SR image within park boundary for a given season
+var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR')
+//var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
+          .filterBounds(ParkBound)  
+          .filterDate('2018-06-01', '2018-09-30'); //leaf on season (June 1 to Sept 30)
+//          .filterDate('2017-11-15', '2018-03-01'); // leaf-off season Nov 15 to March 1
+
+print(l8collection);
+
+// Mask pixels with clouds and cloud shadows using the 'pixel_qa' band
+// that is based on the cfmask for surface reflectance. 
+// https://landsat.usgs.gov/landsat-surface-reflectance-quality-assessment
+
+// create function to mask clouds, cloud shadows, snow
+var maskClouds = function(image){
+  // make a new single band image from the pixel qa band
+  var pixel_qa = image.select('pixel_qa');
+  // retain clear (0) and water (1) pixels
+  return image.updateMask(pixel_qa.eq(322));   
+};
+
+// use "map" to apply the function to each image in the collection
+var l8masked = l8collection.map(maskClouds);
+print(l8masked);
+
+// create function to add NDVI using NIR (B5) and the red band (B4)
+var getNDVI = function(img){
+  return img.addBands(img.normalizedDifference(['B5','B4']).rename('NDVI'));
+};
+
+// map over image collection
+var l8ndvi = l8masked.map(getNDVI);
+
+// for each pixel, select the "best" set of bands from available images
+// based on the maximum NDVI/greenness
+var composite = l8ndvi.qualityMosaic('NDVI').clip(ParkBound);
+
+//set visualization parameters for NDVI            
+var ndviParams = {min: 0, max: 1, palette: ['red', 'yellow', 'green']};
+Map.addLayer(composite.select('NDVI'), ndviParams, 'NDVI image');
+            
+//export image
+// This will create a task in the 'tasks' tab
+// launch from tasks tab to export image
+Export.image.toDrive({
+  image: composite.select('NDVI'),
+  description: 'CVNP Leaf-on NDVI',
+  //description: 'CVNP Leaf-off NDVI',
+  scale:30 }); //meters</pre>
+
+
+
+
+
+
+
+<figure id="attachment_2027" aria-describedby="caption-attachment-2027" style="width: 300px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg" target="_blank" rel="noopener"><img class="wp-image-2027 " src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=300%2C621" alt="" width="300" height="621" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=145%2C300&amp;ssl=1 145w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2027" class="wp-caption-text">NDVI derived from the leaf-on season over the national park. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values.</figcaption></figure>
+<figure id="attachment_2028" aria-describedby="caption-attachment-2028" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg" target="_blank" rel="noopener"><img class="wp-image-2028 " src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=300%2C622" alt="" width="300" height="622" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=145%2C300&amp;ssl=1 145w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2028" class="wp-caption-text">NDVI derived from the leaf-off season over the national park. A quick comparison with the leaf-on image shows much lower NDVI values, indicating there are a lot of deciduous tree and shrub species within the park.</figcaption></figure>
+<p><em>*Banner image: Changing seasons on Middle Mountain, Colorado, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2019</post-id>	</item>
+		<item>
+		<title>Call for Papers: Remote Sensing of Land Change Science with Google Earth Engine</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/#respond</comments>
+				<pubDate>Thu, 01 Mar 2018 00:53:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1762</guid>
+				<description><![CDATA[The journal Remote Sensing of Environment has a call for papers that make use of Google Earth Engine (GEE) to analyze earth system processes. If you&#8217;re unfamiliar with Google Earth Engine, check out my recent post where I provide an example to calculate NDVI use GEE. Papers that incorporate data and tools developed with GEE &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Remote Sensing of Land Change Science with Google Earth Engine</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>The journal <a href="https://www.journals.elsevier.com/remote-sensing-of-environment" target="_blank" rel="noopener">Remote Sensing of Environment</a> has a call for papers that make use of Google Earth Engine (GEE) to analyze earth system processes.</p>
+<p>If you&#8217;re unfamiliar with Google Earth Engine, check out my recent <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener">post</a> where I provide an example to calculate NDVI use GEE.</p>
+<p>Papers that incorporate data and tools developed with GEE are encouraged. The call is open to a wide range of topics including data fusion, change detection, LCLU dynamics, ecosystem monitoring and modeling, urban dynamics, water resources, ecosystem response to climate change, etc. Full details can be found <a href="https://www.journals.elsevier.com/remote-sensing-of-environment/call-for-papers/-special-issue-remote-sensing-of-land-change-science-with-go" target="_blank" rel="noopener">here.</a></p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Tentative Dates: </span><span class="si-deadline"><strong>15 May</strong><b> 2018 (abstracts due); 30 September 2018 (manuscript submission)<br />
+</b></span></p>
+</div>
+<div><em>Guest Editors</em></div>
+<div></div>
+<div>
+<p>Dr. Le Wang, <em>Department of Geography at the State University of New York at Buffal</em>o, Email: <a href="mailto:lewang@buffalo.edu" target="_blank" rel="external noopener">lewang@buffalo.edu</a></p>
+<p>Dr. George Xian, <em>USGS Earth Resources Observation and Science Center, Sioux Falls, South Dakota</em>, E-mail: <a title="mailto:xian@usgs.gov" href="mailto:xian@usgs.gov" target="_blank" rel="external noopener">xian@usgs.gov</a></p>
+<p>Dr. Chunyuan Diao, <em>Department of Geography &amp; Geographic Information Science, , University of Illinois at Urbana-Champaign</em> Email: <a href="mailto:chunyuan@illinois.edu" target="_blank" rel="external noopener">chunyuan@illinois.edu</a></p>
+<p>Dr. David Thau, <em>Google LLC</em>. Email: <a href="mailto:thau@google.com" target="_blank" rel="external noopener">thau@google.com</a></p>
+</div>
+<div><em>*Banner image: post-fire landscape; Tolhuaca National Park, Chile<br />
+</em></div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/02/28/call-for-papers-remote-sensing-of-land-change-science-with-google-earth-engine/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1762</post-id>	</item>
+		<item>
+		<title>A Brief Foray into Google Earth Engine: Calculate NDVI from the Cloud</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/#respond</comments>
+				<pubDate>Wed, 10 Jan 2018 00:41:11 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[aerial photos]]></category>
+		<category><![CDATA[Cal Poly University]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[color-infrared]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[San Luis Obispo]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1659</guid>
+				<description><![CDATA[Google Earth Engine (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google&#8217;s cloud to run analyses without downloading the data to your local machine. You&#8217;ll need to sign up as a developer &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/" class="more-link">Continue reading <span class="screen-reader-text">A Brief Foray into Google Earth Engine: Calculate NDVI from the Cloud</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google&#8217;s cloud to run analyses without downloading the data to your local machine. You&#8217;ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noopener">here.</a></p>
+<p>Below is an example from an upcoming lecture to the Anthropology and Geography group of the <a href="https://socialsciences.calpoly.edu/" target="_blank" rel="noopener">Social Sciences Department</a> at Cal Poly University. In my talk I showed an example of the Normalized Difference Vegetation Index for Cal Poly&#8217;s campus. Here I&#8217;ll demonstrate the workflow I used to create NDVI using GEE with data from the cloud.</p>
+<p>To execute the example below, please download the campus shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/CalPoly_campus.zip" target="_blank" rel="noopener">here</a> (originally obtained from the <a href="https://afd.calpoly.edu/facilities/mapsplans/cadfiles/map/gis/" target="_blank" rel="noopener">campus website</a>). You&#8217;ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noopener">instructions</a> (see the &#8220;Uploading table assets&#8221; section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noopener">instructions</a> (see the &#8220;Importing assets to your script&#8221; section). If you&#8217;d like to run the example without downloading campus data, skip to the second code block below.</p>
+<p>Copy and paste the following code into the Code Editor of GEE:</p><pre class="crayon-plain-tag">// Load four 2016 NAIP quarter quads, different locations.
+var naip2016 = ee.ImageCollection('USDA/NAIP/DOQQ')
+  .filterBounds(ee.Geometry.Rectangle(-120.73857, 35.36587, -120.61841, 35.25408))
+  .filterDate('2016-01-01', '2016-12-31');
+
+// Spatially mosaic the images in the collection and display.
+var mosaic = naip2016.mosaic();
+
+// Get information about the bands as a list; prints in console at right
+var bandNames = mosaic.bandNames();
+print('Band names: ', bandNames); 
+
+//Get the projection of Band 1
+var b1proj = mosaic.select('B').projection();
+print ('Band 1 projection: ', b1proj);
+
+//set map center to Baker Lawn on CP's campus
+Map.setCenter(-120.65995, 35.9103, 12);
+//display natural color
+Map.addLayer(mosaic, {bands: ['R', 'G', 'B']}, 'NAIP DOQQ'); 
+//display false color IR
+//Map.addLayer(mosaic, {bands: ['N', 'R', 'G']}, 'NAIP DOQQ');  
+
+// Caculate NDVI.
+var ndvi = mosaic.normalizedDifference(['N', 'R']);
+
+// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green
+var ndviParams = {min: -1, max: 1, palette: ['8B0000','FF0000', 'FF4500', 'FFFF00', '00FF00','008000', '006400']};
+
+// Clip NDVI to campus boundary and add to map
+Map.setCenter(-120.65995, 35.31203, 13);
+Map.addLayer(ndvi.clip(table), ndviParams);
+
+//Display the outline of campus as a black line, no fill
+// Create an empty image into which to paint the features, cast to byte.
+var empty = ee.Image().byte();
+
+// Paint all the polygon edges with the same number and width, display.
+var outline = empty.paint({
+  featureCollection: table,
+  color: 1,
+  width: 1
+});
+Map.addLayer(outline, {palette: '000000'}, 'edges');</pre><p><figure id="attachment_1689" aria-describedby="caption-attachment-1689" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg" target="_blank" rel="noopener"><img class="wp-image-1689 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=474%2C383" alt="" width="474" height="383" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=1024%2C828&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=300%2C243&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?resize=768%2C621&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?w=1119&amp;ssl=1 1119w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/NDVI_CalPoly_whbck.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1689" class="wp-caption-text">NDVI derived from color-infrared aerial photos for Cal Poly&#8217;s campus. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values; grey pixels indicate a mask (values below -0.25).</figcaption></figure></p>
+<p>The code below does not require download of any campus data; however, it will calculate NDVI over the entire extent as opposed to the campus extent in the example above. Copy and paste the following code into the Code Editor of GEE:</p><pre class="crayon-plain-tag">// Load four 2016 NAIP quarter quads, different locations.
+var naip2016 = ee.ImageCollection('USDA/NAIP/DOQQ')
+  .filterBounds(ee.Geometry.Rectangle(-120.73857, 35.36587, -120.61841, 35.25408))
+  .filterDate('2016-01-01', '2016-12-31');
+
+// Spatially mosaic the images in the collection and display.
+var mosaic = naip2016.mosaic();
+
+// Get information about the bands as a list; prints in console at right
+var bandNames = mosaic.bandNames();
+print('Band names: ', bandNames); 
+
+//Get the projection of Band 1
+var b1proj = mosaic.select('B').projection();
+print ('Band 1 projection: ', b1proj);
+
+//set map center to Baker Lawn on CP's campus
+Map.setCenter(-120.65995, 35.9103, 12);
+//display natural color
+Map.addLayer(mosaic, {bands: ['R', 'G', 'B']}, 'NAIP DOQQ'); 
+//display false color IR
+
+// Caculate NDVI.
+var ndvi = mosaic.normalizedDifference(['N', 'R']);
+
+// Display the result using a color ramp: dark red, red, orange, yellow, lime, green, dark green
+var ndviParams = {min: -1, max: 1, palette: ['8B0000','FF0000', 'FF4500', 'FFFF00', '00FF00','008000', '006400']};
+//Map.addLayer(ndvi, ndviParams, 'NDVI image');
+
+// Add NDVI to map
+Map.setCenter(-120.65995, 35.31203, 13);
+Map.addLayer(ndvi, ndviParams);</pre><p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/01/09/a-brief-foray-into-google-earth-engine-calculate-ndvi-from-the-cloud/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1659</post-id>	</item>
+	</channel>
+</rss>

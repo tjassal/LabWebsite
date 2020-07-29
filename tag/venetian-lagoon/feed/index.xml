@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Venetian Lagoon &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/venetian-lagoon/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 30 Mar 2020 15:43:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Visualizing the COVID19 shutdown from space: The Venetian Lagoon</title>
+		<link>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/#respond</comments>
+				<pubDate>Sat, 28 Mar 2020 15:41:27 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coronavirus]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[Sentinel-2]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Venetian Lagoon]]></category>
+		<category><![CDATA[Venice]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2252</guid>
+				<description><![CDATA[The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I &#8230; <a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" class="more-link">Continue reading <span class="screen-reader-text">Visualizing the COVID19 shutdown from space: The Venetian Lagoon</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I forgot.</p>
+<p>There have been a number of social media clips depicting the reduction in emissions due to the slowdown of the global economy using satellite data. Notably from NASA&#8217;s Earth Observatory:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Nitrogen dioxide over <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> has dropped with the coronavirus quarantine, Chinese New Year, and a related economic slowdown. <a href="https://t.co/URfLNy0GZJ">https://t.co/URfLNy0GZJ</a> <a href="https://twitter.com/hashtag/NASA?src=hash&amp;ref_src=twsrc%5Etfw">#NASA</a> <a href="https://twitter.com/hashtag/COVID2019?src=hash&amp;ref_src=twsrc%5Etfw">#COVID2019</a> <a href="https://t.co/PM60uL772K">pic.twitter.com/PM60uL772K</a></p>
+<p>— NASA Earth (@NASAEarth) <a href="https://twitter.com/NASAEarth/status/1235330706827554817?ref_src=twsrc%5Etfw">March 4, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Italy has been extremely hard hit during this pandemic and the entire country was put on lockdown on March 9th. <a href="https://www.cnbc.com/2020/03/18/photos-water-in-venice-italys-canals-clear-amid-covid-19-lockdown.html" target="_blank" rel="noopener noreferrer">Cat Clifford</a> and <a href="https://www.nbcnews.com/science/environment/coronavirus-shutdowns-have-unintended-climate-benefits-n1161921" target="_blank" rel="noopener noreferrer">Denise Chow</a> each wrote brief articles last week detailing the increased clarity in the Venetian canal&#8217;s due to the coronavirus slowdown.</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">A ripple effect of the coronavirus lockdown provides a bit of reprieve for Venice. I imagine if that City were a woman, She&#8217;s stretching her aching back, tired from the constant parade of tourist plodding. <a href="https://t.co/Xq6R9zp8YR">https://t.co/Xq6R9zp8YR</a></p>
+<p>— Catherine Clifford (@CatClifford) <a href="https://twitter.com/CatClifford/status/1240324723382325248?ref_src=twsrc%5Etfw">March 18, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>I was pretty sure the Google Earth Engine archive would not have any imagery with the spatial detail to detect changes in the clarity of the canals (maybe the Grand Canal?). I decided to have a look though, as it would make a nice segue for my change detection lecture in my remote sensing course this week. The 10-m spatial resolution of <a href="https://tjassal.github.io/LabWebsite/?p=1263" target="_blank" rel="noopener noreferrer">Sentinel-2 imagery</a> is not adequate to detect changes in suspended sediment in any of the canals, but the lack of boat traffic around the island compared to this time last year is quite noticeable! Below are two false-color composite images &#8211; one from last March and one from last week &#8211; for visual comparison.</p>
+<p><strong>The Venetian Lagoon March 15, 2019:</strong></p>
+<figure id="attachment_2262" aria-describedby="caption-attachment-2262" style="width: 637px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2262 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?w=637&amp;ssl=1 637w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2262" class="wp-caption-text">The Venetian Lagoon March 15, 2019. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the visible wakes from boat traffic around the island.</figcaption></figure>
+<p><strong>The Venetian Lagoon March 16, 2020:</strong></p>
+<figure id="attachment_2263" aria-describedby="caption-attachment-2263" style="width: 637px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg"><img class="wp-image-2263 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?w=637&amp;ssl=1 637w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2263" class="wp-caption-text">The Venetian Lagoon March 16, 2020. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the reduction in boat wakes around the island.</figcaption></figure>
+<p>For more information on Google Earth Engine, see my previous posts <a href="https://tjassal.github.io/LabWebsite/?p=2019" target="_blank" rel="noopener noreferrer">here</a> and <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener noreferrer">here</a>. See below for the code used in Google Earth Engine to generate the images:</p><pre class="crayon-plain-tag">//pull down specific granule, add layer and set display parameters
+var s2a= ee.Image('COPERNICUS/S2_SR/20190315T101021_20190315T101043_T32TQR');
+Map.addLayer(s2a, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_15March2019')
+
+var s2b= ee.Image('COPERNICUS/S2_SR/20200316T100021_20200316T100023_T32TQR');
+Map.addLayer(s2b, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_16March2020')
+
+// Center map on Venice, Italy
+Map.setCenter(12.33, 45.43, 13);</pre><p><em>*Banner image: The Grand Canal (left) and Piazza San Marco (right) viewed from San Giorgio Maggiore </em><em>during busier times (circa 2007), Venice, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2252</post-id>	</item>
+	</channel>
+</rss>

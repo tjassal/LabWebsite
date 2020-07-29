@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>evapotranspiration &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/evapotranspiration/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 28 Nov 2016 06:20:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Using &#8216;open data&#8217; to monitor drought resistance in California ecosystems</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/#respond</comments>
+				<pubDate>Mon, 28 Nov 2016 06:20:57 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[California drought]]></category>
+		<category><![CDATA[carbon dynamics]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[ecosystem monitoring]]></category>
+		<category><![CDATA[ecosystem water use efficiency]]></category>
+		<category><![CDATA[evapotranspiration]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[net primary productivity]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[scientific synthesis]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[synthesis collaboration]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1399</guid>
+				<description><![CDATA[We recently published a paper in the open access journal Ecosphere, entitled “Drought resistance across California ecosystems: evaluating changes in carbon dynamics using satellite imagery.” The paper is the product of a collaboration cultivated from  Open Science for Synthesis (OSS) training hosted by UC Santa Barbara’s National Center for Ecological Analysis and Synthesis (NCEAS) in &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/" class="more-link">Continue reading <span class="screen-reader-text">Using &#8216;open data&#8217; to monitor drought resistance in California ecosystems</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>We recently published a paper in the open access journal <em><a href="http://esajournals.onlinelibrary.wiley.com/hub/journal/10.1002/(ISSN)2150-8925/" target="_blank">Ecosphere</a>,</em> entitled “<a href="http://onlinelibrary.wiley.com/doi/10.1002/ecs2.1561/full" target="_blank"><em>Drought resistance across California ecosystems: evaluating changes in carbon dynamics using satellite imagery</em></a>.” The paper is the product of a collaboration cultivated from  <a title="NCEAS OSS" href="https://www.nceas.ucsb.edu/OSS" target="_blank">Open Science for Synthesis (OSS)</a> training hosted by UC Santa Barbara’s National Center for Ecological Analysis and Synthesis (<a title="NCEAS" href="https://www.nceas.ucsb.edu/" target="_blank">NCEAS</a>) in 2014. Our scientific synthesis group (Hampton and Parker 2011) chose this topic in part because we were able to utilize readily available data (i.e. open data (Reichman, Jones and Schildhauer 2011)) to address a timely ecological problem and draw upon our diverse backgrounds.  More information on that experience can be found <a href="https://tjassal.github.io/LabWebsite/?p=700" target="_blank">here</a>.</p>
+<figure id="attachment_742" aria-describedby="caption-attachment-742" style="width: 300px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg" target="_blank"><img class="wp-image-742 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=300%2C231" alt="Source: US Drought Monitor (droughtmonitor.unl.edu/)" width="300" height="231" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=300%2C231&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=1024%2C791&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?w=1056&amp;ssl=1 1056w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-742" class="wp-caption-text">The US Drought Monitor indicated the majority of the state of California was classified as extreme or exceptional drought during the summer of 2014 (source: droughtmonitor.unl.edu/)</figcaption></figure>
+<p>Prompted by the recent drought, we sought to understand differences in drought sensitivity across California ecosystems. Our analysis, spearheaded by my colleague <a href="http://www.sparklelmalone.com/" target="_blank">Sparkle Malone</a>, considered deviations in ecosystem functionality (i.e. ecosystem water use efficiency) during drought periods compared to baseline (non-drought) conditions. Water use efficiency makes for a good indicator of ecosystem function because it measures net primary productivity per amount of water lost through evapotranspiration. In other words, the net amount of carbon pushed into an ecosystem compared to the amount of water lost from plants to the atmosphere. We also chose this metric because the input data sets (net primary productivity, evapotranspiration and leaf area index) can be derived from freely available <a href="https://modis.gsfc.nasa.gov/" target="_blank">MODIS</a> satellite data (also known as open data). The continuous dataset is an alternative to single point flux tower measurements and allows for analysis of ecosystem function (e.g. ecosystem water use efficiency) at broad scales.</p>
+<p>Our results indicate ecosystem resistance during the recent drought is not uniform across large areas (Malone et al. 2016). For example, resistance was lower in high productivity areas of the state (typically found in northern California) compared to more arid areas that are adapted to limited water resources. Climate change projections indicate extreme events, such as drought, will become more common in the future. Therefore, it is important to evaluate how different ecosystems respond to these events so we can gain a better understanding of how climate change may alter ecosystem structure and function in the future.</p>
+<figure id="attachment_1418" aria-describedby="caption-attachment-1418" style="width: 720px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg" target="_blank"><img class="wp-image-1418 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg?resize=474%2C316" alt="As of late 2016, drought still has a grip on the southern part of the state. " width="474" height="316" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg?w=720&amp;ssl=1 720w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg?resize=300%2C200&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1418" class="wp-caption-text">As of late 2016, drought still has a grip on the southern part of the state. A much more conspicuous indicator of drought than ecosystem water use efficiency, water storage capacity has been greatly reduced throughout much of the state, including Santa Barbara&#8217;s water supply shown above (source: NASA Earth Observatory).</figcaption></figure>
+<p><strong>Literature Cited<br />
+</strong></p>
+<ul>
+<li>Hampton, S. E. &amp; Parker, J. N. Collaboration and Productivity in Scientific Synthesis. 2011. Bioscience 61, 900–910.</li>
+<li>Malone, S. L., M. G. Tulbure, A. J. Pérez-Luque, T. J. Assal, L. L. Bremer, D. P. Drucker, V. Hillis, S. Varela, and M. L. Goulden. 2016. Drought resistance across California ecosystems: evaluating changes in carbon dynamics using satellite imagery. Ecosphere 7(11): e01561. <a href="http://dx.doi.org/10.1002/ecs2.1561" target="_blank">10.1002/ecs2.1561</a></li>
+<li>Reichman, O.J., M.B. Jones, and M.P. Schildhauer. Challenges and Opportunities of Open Data in Ecology. 2011. Science. 331, 703-705</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1399</post-id>	</item>
+	</channel>
+</rss>

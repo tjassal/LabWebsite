@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Lodgepole Pine &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/lodgepole-pine/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 17 Oct 2017 18:29:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Call for Papers: Bark Beetle Epidemics &#8211; causes and consequences</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/#respond</comments>
+				<pubDate>Tue, 17 Oct 2017 18:29:38 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Call for papers]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[Dendrochtonus ponderosae]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Lodgepole Pine]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Ponderosa Pine]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1609</guid>
+				<description><![CDATA[The open access journal Forests has a call for papers related to the causes and consequences of bark beetle epidemics on tree, forest and ecosystem processes. Papers that identify environmental or ecological factors that contributed to the recent epidemic, describe mountain pine beetle impacts on ecosystem processes or identify management opportunities that may prevent or &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Bark Beetle Epidemics &#8211; causes and consequences</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>The open access journal <a href="http://www.mdpi.com/journal/forests" target="_blank" rel="noopener">Forests</a> has a call for papers related to the causes and consequences of bark beetle epidemics on tree, forest and ecosystem processes. Papers that identify environmental or ecological factors that contributed to the recent epidemic, describe mountain pine beetle impacts on ecosystem processes or identify management opportunities that may prevent or limit the extent of future outbreaks are encouraged. The call is open to a wide variety of subjects including experimental, monitoring and modeling approaches that further our understanding of the causes and consequences of large scale bark beetle epidemics. Full details can be found <a href="http://www.mdpi.com/si/forests/bark_beetle" target="_blank" rel="noopener">here.</a></p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Deadline for manuscript submissions: <strong>10 June</strong><b> 2018</b></span></p>
+<div>Dr. Robert M. Hubbard, USDA, Forest Service</div>
+</div>
+<div><em>Guest Editor</em></div>
+<div></div>
+<div><em>*Banner image: beetle-induced forest mortality on Pine Mountain, Wyoming.</em></div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/10/17/call-for-papers-bark-beetle-epidemics-causes-and-consequences/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1609</post-id>	</item>
+	</channel>
+</rss>

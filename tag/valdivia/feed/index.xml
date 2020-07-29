@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Valdivia &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/valdivia/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 23 Jul 2012 21:07:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Travel Map &#8211; Chile &#038; Argentina 2012</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/07/23/96/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2012/07/23/96/#respond</comments>
+				<pubDate>Mon, 23 Jul 2012 21:07:10 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[Parque Nacional Tolhuaca]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[Valdivia]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=96</guid>
+				<description><![CDATA[Companion map for my photos (dynamic map below). [googlemaps https://maps.google.com/maps/ms?msa=0&#38;amp;msid=206718246504044193440.0004ac5c3f1118284da2f&#38;amp;hl=en&#38;amp;ie=UTF8&#38;amp;t=p&#38;amp;ll=-39.639538,-72.421875&#38;amp;spn=4.060666,7.03125&#38;amp;z=7&#38;amp;output=embed&#38;w=640&#38;h=480]]]></description>
+								<content:encoded><![CDATA[<p>Companion map for my photos (dynamic map below).</p>
+<figure id="attachment_439" aria-describedby="caption-attachment-439" style="width: 497px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg"><img class="size-full wp-image-439" alt="Click for higher resolution." src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg?resize=474%2C613" width="474" height="613" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg?w=2550&amp;ssl=1 2550w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg?resize=231%2C300&amp;ssl=1 231w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg?resize=791%2C1024&amp;ssl=1 791w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2013/12/ch_ar1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-439" class="wp-caption-text">Click for higher resolution.</figcaption></figure>
+<p>[googlemaps https://maps.google.com/maps/ms?msa=0&amp;amp;msid=206718246504044193440.0004ac5c3f1118284da2f&amp;amp;hl=en&amp;amp;ie=UTF8&amp;amp;t=p&amp;amp;ll=-39.639538,-72.421875&amp;amp;spn=4.060666,7.03125&amp;amp;z=7&amp;amp;output=embed&amp;w=640&amp;h=480]</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2012/07/23/96/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">96</post-id>	</item>
+	</channel>
+</rss>

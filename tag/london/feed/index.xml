@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>London &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/london/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 01 Aug 2012 18:06:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Geography of the &#8220;London&#8221; Games</title>
+		<link>https://tjassal.github.io/LabWebsite/2012/08/01/geography-of-the-london-games/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2012/08/01/geography-of-the-london-games/#respond</comments>
+				<pubDate>Wed, 01 Aug 2012 18:06:05 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[2012 games]]></category>
+		<category><![CDATA[London]]></category>
+		<category><![CDATA[olympic geography]]></category>
+		<category><![CDATA[United Kingdom]]></category>
+		<category><![CDATA[venue map]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=167</guid>
+				<description><![CDATA[Geography and sport are two of my favorite things. The Olympic venues are not only found throughout London, but across the entire United Kingdom. I only have time for a few highlights and I&#8217;m feeling spatially ignorant about these games. The official Olympic website has a very comprehensive interactive map, but it&#8217;s a bit overwhelming &#8230; <a href="https://tjassal.github.io/LabWebsite/2012/08/01/geography-of-the-london-games/" class="more-link">Continue reading <span class="screen-reader-text">Geography of the &#8220;London&#8221; Games</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Geography and sport are two of my favorite things. The Olympic venues are not only found throughout London, but across the entire United Kingdom. I only have time for a few highlights and I&#8217;m feeling spatially ignorant about these games. The official Olympic website has a very comprehensive interactive map, but it&#8217;s a bit overwhelming at the national scale. It turns out there are nine venues located outside of greater London which I define as the London Orbital (aka the beltway). Football will be played at five locations throughout the UK. Mountain Bike, Sailing, Rowing, Canoe Sprint and Canoe Slalom will all take place in southern England.</p>
+<p>I was unable to find a map that quickly conveyed this information, but hopefully the one below will.</p>
+<h3>Olympic Venues outside of Greater London</h3>
+<p>[googlemaps https://maps.google.com/maps/ms?msa=0&amp;amp;msid=206718246504044193440.0004c637a24cd7baf67aa&amp;amp;hl=en&amp;amp;ie=UTF8&amp;amp;t=p&amp;amp;ll=53.357109,-2.109375&amp;amp;spn=6.29719,14.0625&amp;amp;z=6&amp;amp;output=embed&amp;w=640&amp;h=480]</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2012/08/01/geography-of-the-london-games/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">167</post-id>	</item>
+	</channel>
+</rss>

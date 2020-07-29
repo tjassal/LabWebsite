@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>stratified random sample &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/stratified-random-sample/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 09 May 2017 00:59:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Stratified random sampling for Landscape Analysis</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/04/30/stratified-random-sampling-for-landscape-analysis/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/04/30/stratified-random-sampling-for-landscape-analysis/#respond</comments>
+				<pubDate>Mon, 01 May 2017 00:34:57 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[ecological sampling]]></category>
+		<category><![CDATA[landscape facets]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[raster sampling]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[SpatialPointsDataFrame]]></category>
+		<category><![CDATA[stratified random sample]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1511</guid>
+				<description><![CDATA[Random sampling is common in ecology. We often stratify the sample to ensure an equal (or minimum) amount of plots fall within some category (e.g. soils, elevation, cover type, etc.) that is meaningful to the central question of the study. Ecologists often stratify their study area based on landscape facets (Assal et al. 2014). Furthermore, &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/04/30/stratified-random-sampling-for-landscape-analysis/" class="more-link">Continue reading <span class="screen-reader-text">Stratified random sampling for Landscape Analysis</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Random sampling is common in ecology. We often stratify the sample to ensure an equal (or minimum) amount of plots fall within some category (e.g. soils, elevation, cover type, etc.) that is meaningful to the central question of the study. Ecologists often stratify their study area based on landscape facets (Assal et al. 2014). Furthermore, it can be advantageous to use this approach when working with remotely sensed covariates, as segregating the landscape into sub-regions of similar biophysical characteristics can isolate spectral gradients (Homer et al. 2004)</p>
+<p>This can be accomplished very efficiently using a raster-based approach in R. In this example, I will randomly sample 5 cells in three strata, then obtain the coordinates of the cell centroid and convert the points to a SpatialPointsDataFrame using the <a href="https://cran.r-project.org/web/packages/raster/raster.pdf" target="_blank" rel="noopener noreferrer">raster</a> library. The code below is very basic, but it can be modified to work with any discrete raster that represents the complex landscape facets of interest.</p><pre class="crayon-plain-tag">######
+# load R logo as base raster
+######
+library(raster)
+logo &lt;- raster(system.file("external/rlogo.grd", package="raster"))
+logo
+plot(logo)</pre><p><figure id="attachment_1523" aria-describedby="caption-attachment-1523" style="width: 696px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot1.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1523 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot1.jpeg?resize=474%2C314" alt="" width="474" height="314" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot1.jpeg?w=696&amp;ssl=1 696w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot1.jpeg?resize=300%2C199&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1523" class="wp-caption-text">Plot of a continuous raster layer.</figcaption></figure></p><pre class="crayon-plain-tag">######
+# reclassify into three levels based on quantiles
+######
+quantile(logo, c(0.33)) #get 33rd percentile
+quantile(logo, c(0.66)) #get 66th percentile
+#classify into three strata based on 33rd and 66th quantiles
+logo.rc&lt;-reclassify(logo, c(-Inf,quantile(logo, c(0.33)),1, quantile(logo, c(0.33)),quantile(logo, c(0.66)),2, quantile(logo, c(0.66)),Inf,3))
+plot(logo.rc)</pre><p><figure id="attachment_1524" aria-describedby="caption-attachment-1524" style="width: 696px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot2.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1524 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot2.jpeg?resize=474%2C314" alt="" width="474" height="314" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot2.jpeg?w=696&amp;ssl=1 696w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot2.jpeg?resize=300%2C199&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1524" class="wp-caption-text">Plot of reclassified raster into three strata (white, yellow, green).</figcaption></figure></p><pre class="crayon-plain-tag">######
+# conduct stratified random sample
+######
+names(logo.rc) &lt;- 'stratum'
+#select 5 cells from each of the 3 stratums; total of 15 samples
+sample.cells&lt;-sampleStratified(logo.rc, size=5) #result is a matrix with cell number and stratum code
+#convert from matrix to DF
+sample.cells.DF&lt;-as.data.frame(sample.cells)
+#get lat long of cell centroids
+sample.coords&lt;-xyFromCell(logo.rc, sample.cells.DF[,1])
+#convert from matrix to DF
+sample.coords.DF&lt;-as.data.frame(sample.coords)
+#merge dataframes
+sample.out&lt;-cbind(sample.coords.DF, sample.cells.DF)
+#promote to spatialpointsdataframe
+coordinates(sample.out) = c("x", "y") 
+#add points to plot
+points(sample.out)</pre><p><figure id="attachment_1521" aria-describedby="caption-attachment-1521" style="width: 696px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot3.jpeg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1521 size-full" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot3.jpeg?resize=474%2C314" alt="" width="474" height="314" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot3.jpeg?w=696&amp;ssl=1 696w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2017/05/plot3.jpeg?resize=300%2C199&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1521" class="wp-caption-text">Plot of reclassified raster with sample points.</figcaption></figure></p>
+<p>The sample points can now be projected and/or exported to another format (e.g. shapefile) for further analysis.</p>
+<p><strong>Literature Cited</strong></p>
+<p>Assal, T.J., Sibold, J., and R. Reich. 2014. <a title="RSE Article" href="http://www.sciencedirect.com/science/article/pii/S0034425714003435" target="_blank" rel="noopener noreferrer">Modeling a Historical Mountain Pine Beetle Outbreak Using Landsat MSS and Multiple Lines of Evidence.</a> <em>Remote Sensing of Environment </em>155:275-288.<em> </em></p>
+<p>Homer, C., Huang, C., Yang, L., Wylie, B., &amp; Coan, M. 2004. Development of a 2001 Na- tional Land-Cover Database for the United States. Photogrammetric Engineering &amp; Remote Sensing 70:829-840.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/04/30/stratified-random-sampling-for-landscape-analysis/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1511</post-id>	</item>
+	</channel>
+</rss>

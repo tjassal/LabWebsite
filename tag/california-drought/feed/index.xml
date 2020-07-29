@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>California drought &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/california-drought/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Tue, 09 Jan 2018 16:58:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>RasterViz in R: Drought Anomalies on California&#8217;s Central Coast</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/#respond</comments>
+				<pubDate>Wed, 03 Jan 2018 00:37:19 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cal Poly University]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[California drought]]></category>
+		<category><![CDATA[Data Visualization]]></category>
+		<category><![CDATA[DataViz]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[eMODIS]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[San Luis Obispo]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1665</guid>
+				<description><![CDATA[Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I will use in an upcoming lecture to the Anthropology and Geography group of the Social Sciences Department at Cal Poly University. The goal is to gain a brief understanding on vegetation productivity &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/" class="more-link">Continue reading <span class="screen-reader-text">RasterViz in R: Drought Anomalies on California&#8217;s Central Coast</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Below is a brief example of raster visualization in R. It is a more thorough explanation of an example of rasterVIS that I will use in an upcoming lecture to the Anthropology and Geography group of the <a href="https://socialsciences.calpoly.edu/" target="_blank" rel="noopener">Social Sciences Department</a> at Cal Poly University. The goal is to gain a brief understanding on vegetation productivity dynamics in the vicinity of San Luis Obispo and the Central Coast using remote sensing and R. I&#8217;ve selected 17 HUC 10 watersheds from the <a href="https://nhd.usgs.gov/" target="_blank" rel="noopener">National Hydrography Dataset</a> as the area of interest.</p>
+<p>We know when the drought hit at a statewide level from the <a href="http://droughtmonitor.unl.edu/" target="_blank" rel="noopener">US Drought Monitor</a>. Now let&#8217;s use satellite data and R to visualize the drought at a local scale using a reproducible example in R.</p>
+<figure id="attachment_1676" aria-describedby="caption-attachment-1676" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg" target="_blank" rel="noopener"><img class="wp-image-1676 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=474%2C185" alt="" width="474" height="185" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=1024%2C399&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=300%2C117&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?resize=768%2C299&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/UNL_CA_drought-1.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1676" class="wp-caption-text">Data from US Drought Monitoring Center indicates the Central Coast did not experience drought conditions in mid-August of 2006 (left); whereas it experienced exceptional drought in mid-August of 2014 (right).</figcaption></figure>
+<p>I used <a href="https://lta.cr.usgs.gov/emodis" target="_blank" rel="noopener">eMODIS</a> (EROS Moderate Resolution Imaging Spectroradiometer) data to characterize the NDVI derived productivity of the AOI during the month of August. eMODIS is a standardized product which uses MODIS surface reflectance from a 7-day composite period (Brown et al. 2015). I used all eMODIS images from August during the period 2000 through 2016 to calculate the 17-year August mean. I then calculated August productivity anomalies for a dry year (2014) and an average year (2006) to identify the spatial and temporal variability in productivity within the watershed.</p>
+<p>To execute the example below, please download the data <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2018/01/SLO_Data.zip" target="_blank" rel="noopener">here.</a> I have not included the base data or code to calculate the global mean and annual anomalies.</p>
+<p>Load the required packages in R (note: the Rcolorbrewer library is loaded with the <a href="https://oscarperpinan.github.io/rastervis/" target="_blank" rel="noopener">rasterVis</a> library).</p><pre class="crayon-plain-tag">library(rgdal)   #Geospatial Data Abstraction Library
+library(raster)  #Geographic data analysis &amp; modeling Lib
+library(rasterVis) #Raster Visualization library</pre><p>Load the required data:</p><pre class="crayon-plain-tag">#load .shp (proj is the same as the raster data)
+huc.shp &lt;- readOGR(".", "SLO_HUC10_LEA")
+
+#load raster data
+Global.mean.August&lt;-raster("August_GLOBAL_MEAN.tif")
+August.2006.Z&lt;-raster("August_2006_Z.tif")
+August.2014.Z&lt;-raster("August_2014_Z.tif")</pre><p>Plot the mean productivity for August (2000-2016):</p><pre class="crayon-plain-tag">#plot mean August NDVI 2000-2016
+# set a color ramp of yellow to green
+cols &lt;- colorRampPalette(brewer.pal(9,"YlGn"))
+# create a level plot - for Mean August NDVI
+p&lt;-levelplot(Global.mean.August,main="Average August Productivity (NDVI; 2000-2016)",
+             col.regions=cols)
+# overlay the spatialpolygonsdataframe
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+#plot the data
+plot(map.overlay)
+
+#export graphic
+jpeg("Global_mean_August.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><figure id="attachment_1681" aria-describedby="caption-attachment-1681" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg" target="_blank" rel="noopener"><img class="wp-image-1681 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=150%2C150&amp;ssl=1 150w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=300%2C300&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?resize=768%2C768&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/Global_mean_August.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1681" class="wp-caption-text">Note: the NDVI values are scaled by a value of 10000. The gray graphics along the top and left axes represent the mean of the row (right) and column (top) values.</figcaption></figure></p>
+<p>Plot the 2014 and 2006 August productivity anomalies:</p><pre class="crayon-plain-tag">#plot Aug 2014 anomaly (dry year)
+# set a color ramp of red to blue
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2014.Z,main="August 2014 NDVI Anomaly",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+plot(map.overlay)
+
+#export graphic
+jpeg("Aug2014_Anomaly.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device
+
+#plot Aug 2006 anomaly (average year)
+cols &lt;- colorRampPalette(brewer.pal(9,"RdBu"))
+p&lt;-levelplot(August.2006.Z,main="August 2006 NDVI Anomaly",
+             col.regions=cols)
+map.overlay&lt;-p+layer(sp.lines(huc.shp, lwd=1, col='black'))
+plot(map.overlay)
+
+#export graphic
+jpeg("Aug2006_Anomaly.jpg",width=8,height=8,units="in",res=1200)
+plot(map.overlay)
+dev.off() # turn off png device</pre><p><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg" target="_blank" rel="noopener"><img class="aligncenter wp-image-1680 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2014_Anomaly.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a></p>
+<figure id="attachment_1679" aria-describedby="caption-attachment-1679" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg" target="_blank" rel="noopener"><img class="wp-image-1679 size-large" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=474%2C474" alt="" width="474" height="474" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=150%2C150&amp;ssl=1 150w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=300%2C300&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?resize=768%2C768&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2018/01/Aug2006_Anomaly.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1679" class="wp-caption-text">Compare drought-year anomalies (top) with average-year anomalies (bottom). The anomalies are analogous to Z-scores and were calculated as the deviation from mean, normalized by the standard deviation. These maps clearly indicate that the majority of the area experienced very strong negative anomalies (dark red) in 2014 and a mix of positive (blue) and subtle negative anomalies (light red) in 2006.</figcaption></figure>
+<p><strong>Literature Cited</strong></p>
+<p>Brown, J. F., D. Howard, B. Wylie, A. Frieze, L. Ji, and C. Gacke. 2015. Application-ready expedited MODIS data for operational land surface monitoring of vegetation condition. Remote Sensing 7:16226–16240.</p>
+<p><em>*Banner image: MODIS image of central California from <a href="https://earthobservatory.nasa.gov/IOTD/view.php?id=91379" target="_blank" rel="noopener">NASA Earth Observatory.</a></em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/01/02/rasterviz-in-r-drought-anomalies-on-californias-central-coast/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1665</post-id>	</item>
+		<item>
+		<title>Using &#8216;open data&#8217; to monitor drought resistance in California ecosystems</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/#respond</comments>
+				<pubDate>Mon, 28 Nov 2016 06:20:57 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[California drought]]></category>
+		<category><![CDATA[carbon dynamics]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[ecosystem monitoring]]></category>
+		<category><![CDATA[ecosystem water use efficiency]]></category>
+		<category><![CDATA[evapotranspiration]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[net primary productivity]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[scientific synthesis]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[synthesis collaboration]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1399</guid>
+				<description><![CDATA[We recently published a paper in the open access journal Ecosphere, entitled “Drought resistance across California ecosystems: evaluating changes in carbon dynamics using satellite imagery.” The paper is the product of a collaboration cultivated from  Open Science for Synthesis (OSS) training hosted by UC Santa Barbara’s National Center for Ecological Analysis and Synthesis (NCEAS) in &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/" class="more-link">Continue reading <span class="screen-reader-text">Using &#8216;open data&#8217; to monitor drought resistance in California ecosystems</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>We recently published a paper in the open access journal <em><a href="http://esajournals.onlinelibrary.wiley.com/hub/journal/10.1002/(ISSN)2150-8925/" target="_blank">Ecosphere</a>,</em> entitled “<a href="http://onlinelibrary.wiley.com/doi/10.1002/ecs2.1561/full" target="_blank"><em>Drought resistance across California ecosystems: evaluating changes in carbon dynamics using satellite imagery</em></a>.” The paper is the product of a collaboration cultivated from  <a title="NCEAS OSS" href="https://www.nceas.ucsb.edu/OSS" target="_blank">Open Science for Synthesis (OSS)</a> training hosted by UC Santa Barbara’s National Center for Ecological Analysis and Synthesis (<a title="NCEAS" href="https://www.nceas.ucsb.edu/" target="_blank">NCEAS</a>) in 2014. Our scientific synthesis group (Hampton and Parker 2011) chose this topic in part because we were able to utilize readily available data (i.e. open data (Reichman, Jones and Schildhauer 2011)) to address a timely ecological problem and draw upon our diverse backgrounds.  More information on that experience can be found <a href="https://tjassal.github.io/LabWebsite/?p=700" target="_blank">here</a>.</p>
+<figure id="attachment_742" aria-describedby="caption-attachment-742" style="width: 300px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg" target="_blank"><img class="wp-image-742 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=300%2C231" alt="Source: US Drought Monitor (droughtmonitor.unl.edu/)" width="300" height="231" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=300%2C231&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?resize=1024%2C791&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?w=1056&amp;ssl=1 1056w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2014/12/20140812_ca_trd.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-742" class="wp-caption-text">The US Drought Monitor indicated the majority of the state of California was classified as extreme or exceptional drought during the summer of 2014 (source: droughtmonitor.unl.edu/)</figcaption></figure>
+<p>Prompted by the recent drought, we sought to understand differences in drought sensitivity across California ecosystems. Our analysis, spearheaded by my colleague <a href="http://www.sparklelmalone.com/" target="_blank">Sparkle Malone</a>, considered deviations in ecosystem functionality (i.e. ecosystem water use efficiency) during drought periods compared to baseline (non-drought) conditions. Water use efficiency makes for a good indicator of ecosystem function because it measures net primary productivity per amount of water lost through evapotranspiration. In other words, the net amount of carbon pushed into an ecosystem compared to the amount of water lost from plants to the atmosphere. We also chose this metric because the input data sets (net primary productivity, evapotranspiration and leaf area index) can be derived from freely available <a href="https://modis.gsfc.nasa.gov/" target="_blank">MODIS</a> satellite data (also known as open data). The continuous dataset is an alternative to single point flux tower measurements and allows for analysis of ecosystem function (e.g. ecosystem water use efficiency) at broad scales.</p>
+<p>Our results indicate ecosystem resistance during the recent drought is not uniform across large areas (Malone et al. 2016). For example, resistance was lower in high productivity areas of the state (typically found in northern California) compared to more arid areas that are adapted to limited water resources. Climate change projections indicate extreme events, such as drought, will become more common in the future. Therefore, it is important to evaluate how different ecosystems respond to these events so we can gain a better understanding of how climate change may alter ecosystem structure and function in the future.</p>
+<figure id="attachment_1418" aria-describedby="caption-attachment-1418" style="width: 720px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg" target="_blank"><img class="wp-image-1418 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg?resize=474%2C316" alt="As of late 2016, drought still has a grip on the southern part of the state. " width="474" height="316" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg?w=720&amp;ssl=1 720w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/11/cachuma_oli_2016293.jpg?resize=300%2C200&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1418" class="wp-caption-text">As of late 2016, drought still has a grip on the southern part of the state. A much more conspicuous indicator of drought than ecosystem water use efficiency, water storage capacity has been greatly reduced throughout much of the state, including Santa Barbara&#8217;s water supply shown above (source: NASA Earth Observatory).</figcaption></figure>
+<p><strong>Literature Cited<br />
+</strong></p>
+<ul>
+<li>Hampton, S. E. &amp; Parker, J. N. Collaboration and Productivity in Scientific Synthesis. 2011. Bioscience 61, 900–910.</li>
+<li>Malone, S. L., M. G. Tulbure, A. J. Pérez-Luque, T. J. Assal, L. L. Bremer, D. P. Drucker, V. Hillis, S. Varela, and M. L. Goulden. 2016. Drought resistance across California ecosystems: evaluating changes in carbon dynamics using satellite imagery. Ecosphere 7(11): e01561. <a href="http://dx.doi.org/10.1002/ecs2.1561" target="_blank">10.1002/ecs2.1561</a></li>
+<li>Reichman, O.J., M.B. Jones, and M.P. Schildhauer. Challenges and Opportunities of Open Data in Ecology. 2011. Science. 331, 703-705</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/11/27/using-open-data-to-monitor-drought-resistance-in-california-ecosystems/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1399</post-id>	</item>
+	</channel>
+</rss>

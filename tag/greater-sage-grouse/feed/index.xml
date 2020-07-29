@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Greater Sage-grouse &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/greater-sage-grouse/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Fri, 07 Jul 2017 23:51:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>New Paper on Grazing and Sage-grouse</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/07/07/new-paper-on-grazing-and-sage-grouse/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/07/07/new-paper-on-grazing-and-sage-grouse/#respond</comments>
+				<pubDate>Fri, 07 Jul 2017 23:51:38 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Greater Sage-grouse]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1557</guid>
+				<description><![CDATA[Our new paper, lead by my colleagues at Colorado State University and published in the journal Ecological Applications,  evaluates responses of sage-grouse population trends to the timing and level of grazing at broad spatial and temporal scales. We think this work is noteworthy because it deals with both an important species in the West (Greater Sage-grouse) &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/07/07/new-paper-on-grazing-and-sage-grouse/" class="more-link">Continue reading <span class="screen-reader-text">New Paper on Grazing and Sage-grouse</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Our new paper, lead by my colleagues at Colorado State University and published in the journal <a href="http://esajournals.onlinelibrary.wiley.com/hub/issue/10.1002/eap.2017.27.issue-4/" target="_blank" rel="noopener"><em>Ecological Applications</em></a>,  evaluates responses of sage-grouse population trends to the timing and level of grazing at broad spatial and temporal scales. We think this work is noteworthy because it deals with both an important species in the West (Greater Sage-grouse) and an important land-use related to livelihoods (grazing). The work could not have been accomplished without the use of two open data sources: 1) grazing records from the Bureau of Land Management, and 2) productivity data derived from the <a href="https://modis.gsfc.nasa.gov/" target="_blank" rel="noopener">MODIS</a> archive.</p>
+<ul>
+<li>Monroe, A.P., C.L. Aldridge, T.J. Assal, K.E. Veblen, D.A. Pyke, M.L. Casazza. 2017. <a href="http://onlinelibrary.wiley.com/doi/10.1002/eap.1512/abstract" target="_blank" rel="noopener">Patterns in Greater Sage-grouse population dynamics correspond with public grazing records at broad scales.</a> Ecological Applications. 27, 1096-1107.</li>
+<li>For more information, please see the <a href="https://www.usgs.gov/news/livestock-grazing-effects-sage-grouse-study-identifies-options-sustain-ranching-and-help" target="_blank" rel="noopener">USGS press release</a>.</li>
+</ul>
+<p><em>*Banner image: sage-grouse (center of image) photographed on Seedskadee National Wildlife Refuge, Wyoming.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/07/07/new-paper-on-grazing-and-sage-grouse/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1557</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>New Mexico &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/new-mexico/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 03 Apr 2019 18:21:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the American Association of Geographers 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/#respond</comments>
+				<pubDate>Wed, 03 Apr 2019 18:21:43 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Fire]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[New Mexico]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[vegetation change]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2054</guid>
+				<description><![CDATA[I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham. Abstract link: Big fires lead to &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Association of Geographers 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on fire-driven vegetation change in the Jemez Mountains of New Mexico at the AAG Annual Meeting in Washington, DC. My talk is part of the session entitled: Fire-driven vegetation change on Thursday morning (9:00 am), April 4th, in the Regency Ballroom at the Omni Shoreham.</p>
+<p>Abstract link:</p>
+<p><a href="https://aag.secure-abstracts.com/AAG%20Annual%20Meeting%202019/abstracts-gallery/21175" target="_blank" rel="noopener noreferrer">Big fires lead to big changes in the vegetation structure of the Jemez Mountains, New Mexico</a></p>
+<figure id="attachment_1749" aria-describedby="caption-attachment-1749" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-1749 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=474%2C316" alt="" width="474" height="316" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?resize=768%2C512&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2018/01/2017-NM-157.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1749" class="wp-caption-text">Extensive forest mortality in the Jemez Mountains from the Las Conchas Fire (2011). Photo taken Autumn 2017.</figcaption></figure>
+<p><em>*Banner image: The sun sets on Saint Peter&#8217;s Dome, Jemez Mountains, New Mexico, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/04/03/presentation-at-the-american-association-of-geographers-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2054</post-id>	</item>
+	</channel>
+</rss>

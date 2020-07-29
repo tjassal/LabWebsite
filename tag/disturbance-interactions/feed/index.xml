@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>disturbance interactions &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/disturbance-interactions/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 10 Aug 2016 16:22:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Research Presentation at the Ecological Society of America 2016 Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/#respond</comments>
+				<pubDate>Mon, 08 Aug 2016 07:04:20 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[disturbance interactions]]></category>
+		<category><![CDATA[ESA 2016]]></category>
+		<category><![CDATA[ESA2016]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Glacier National Park]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Mountain Pine Beetle]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1333</guid>
+				<description><![CDATA[I will present my research on the influence of an historical mountain pine beetle outbreak (~1970s) on burn severity of subsequent wildfires (1988-2006) in Glacier National Park at the ESA annual meeting in Fort Lauderdale, FL. My talk is part of the session entitled: (COS 93) Ecosystem Stability and Resilience on Friday morning, August 12th, &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the Ecological Society of America 2016 Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present my research on the influence of an historical mountain pine beetle outbreak (~1970s) on burn severity of subsequent wildfires (1988-2006) in Glacier National Park at the ESA annual meeting in Fort Lauderdale, FL. My talk is part of the session entitled:<a href="https://eco.confex.com/eco/2016/webprogram/Session12185.html" target="_blank"><span style="color: #ff6600;"> (COS 93) <em>Ecosystem Stability and Resilience </em></span></a>on Friday morning, August 12th, in Palm B, Ft. Lauderdale Convention Center.</p>
+<figure id="attachment_1338" aria-describedby="caption-attachment-1338" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg" target="_blank"><img class="wp-image-1338 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=474%2C260" alt="dfdfdf" width="474" height="260" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=1024%2C562&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=300%2C165&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?resize=768%2C421&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/08/IMG_0110b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1338" class="wp-caption-text">Subapline forest in the gray phase from the recent (~late 90&#8217;s-early 2000&#8217;s) mountain pine beetle outbreak in northern Colorado (photo taken July 2016).</figcaption></figure>
+<p class="subtitle"><span style="text-decoration: underline; color: #008000;"><em><strong><a href="https://eco.confex.com/eco/2016/webprogram/Paper60905.html" target="_blank">After the gray phase: Can an historic mountain pine beetle outbreak influence subsequent patterns of burn severity? (COS 93-4)</a><br />
+</strong></em></span></p>
+<div class="paperauthors"><b>Abstract</b></div>
+<div class="media"></div>
+<div class="abstract">
+<p><b>Background/Question/Methods </b>Native bark beetles are capable of causing widespread mortality during outbreak events in the forests of western North America. These disturbances can have vast effects on forest structure and there is concern that such changes could influence subsequent wildfire behavior and its impact on ecosystems. New research has considered the recent mountain pine beetle outbreak (~1996-2006), but few studies have analyzed the ecological legacies of historic events. Northern Rocky Mountain forests were impacted by a widespread mountain pine beetle outbreak in the late 1970s through the early 1980s. In this study, we evaluated the effect of the historic beetle outbreak and other biophysical variables on the burn severity (derived from Landsat data) of 11 different fires in Glacier National Park over an 18-year period (1988-2006). The extent and arrangement of these disturbances presented a unique opportunity to evaluate the influence of an earlier disturbance on ensuing wildfires. We used sequential autoregression to obtain accurate estimates of model parameters given the high level of spatial autocorrelation associated with wildfire. Models included additional explanatory variables known to influence burn severity such as topography and fuel moisture and variables were evaluated at increasing spatial scales.</p>
+<p><b>Results/Conclusions </b></p>
+<p>The models explained between 54% and 80% of the variability in burn severity of each fire. Historic mountain pine beetle severity was a significant predictor of burn severity in 10 of the 11 fires. The relationship between beetle severity and burn severity was positive across all models and we found no relationship between the effect size of beetle severity and time since the beetle outbreak. However, our results suggest the influence of the beetle outbreak on burn severity is scale-dependent on the pattern of beetle intensity. Fires where beetle severity was the best predictor at broad scales tended to have a larger beetle effect size compared to fires where local beetle severity was the best predictor. A number of factors, including topography and weather, are responsible for the burn severity associated with a given fire. However, our work shows an historic high severity beetle outbreak can influence the burn severity of wildfire for many years after the initial disturbance event. Furthermore, our analysis of historic events can shed light on future compounded disturbances as much of the landscape impacted by the recent beetle outbreak moves beyond the gray phase.</p>
+</div>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Sibold, J., and R. Reich. 2014. <a title="RSE Article" href="http://www.sciencedirect.com/science/article/pii/S0034425714003435" target="_blank">Modeling a Historical Mountain Pine Beetle Outbreak Using Landsat MSS and Multiple Lines of Evidence.</a> <em>Remote Sensing of Environment </em>155:275-288.<em> </em></li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/08/08/research-presentation-at-the-ecological-society-of-america-2016-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1333</post-id>	</item>
+	</channel>
+</rss>

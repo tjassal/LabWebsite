@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Current research &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/current-research/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 02 Nov 2016 23:56:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/#respond</comments>
+				<pubDate>Tue, 01 Nov 2016 00:30:31 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Current research]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[ggplot2]]></category>
+		<category><![CDATA[growing season anomalies]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[vegetation indices]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1378</guid>
+				<description><![CDATA[Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (Artemisia spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (also an excellent PBS NATURE program by the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/" class="more-link">Continue reading <span class="screen-reader-text">Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (<em>Artemisia</em> spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (<a href="http://www.pbs.org/wnet/nature/sagebrush-sea-about/12170/" target="_blank">also an excellent PBS NATURE program by the same name</a>) and a lot of things eat it, nest in it, and use it for cover. Sagebrush mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) and I am collaborating with a number of folks to understand the extent, severity and timing of the mortality event.</p>
+<figure id="attachment_1391" aria-describedby="caption-attachment-1391" style="width: 300px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg" target="_blank"><img class="wp-image-1391 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225" alt="dfdfdfd" width="300" height="225" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=1422 1422w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1391" class="wp-caption-text">Sagebrush mortality in southwestern Wyoming. Photo: June 2015.</figcaption></figure>
+<p>Numerous causes have been suggested, but recent drought in 2012-13 (see figure below) is the likely mechanism of mortality in this water-limited ecosystem. We will be using a time series of satellite images to gain an understanding of the variability in patterns of vegetation productivity during periods of high, low and average precipitation. Our goal is to use this information to exploit landscape scale remote sensing for detection of subtle changes in productivity in this sparsely vegetated ecosystem to detect sagebrush mortality.</p>
+<figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=474%2C356" alt="dfdfdfdf" width="474" height="356" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Partial sagebrush mortality in southwestern Wyoming (6 inch field notebook for scale). Photo: July 2016.</figcaption></figure>
+<p>If you have any information about sagebrush mortality or questions about our current research, please contact me.</p>
+<p><strong><em>More to come&#8230;</em></strong></p>
+<figure id="attachment_1389" aria-describedby="caption-attachment-1389" style="width: 3375px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg" target="_blank"><img class="wp-image-1389 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=474%2C211" alt="spdsi_1980-2016" width="474" height="211" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=3375&amp;ssl=1 3375w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=300%2C133&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=768%2C341&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=1024%2C455&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1389" class="wp-caption-text">Self-calibrating Palmer Drought Severity Index (sPDSI) for the Upper Green River Basin. Data source: Western Regional Climate Center, WestWide Drought Tracker, http://www.wrcc.dri.edu/wwdt/time/; accessed 14 Oct 2016.</figcaption></figure>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1378</post-id>	</item>
+	</channel>
+</rss>

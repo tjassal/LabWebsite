@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Krabi &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/krabi/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 31 Dec 2014 18:35:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Travel Map &#8211; Southeast Asia 2013</title>
+		<link>https://tjassal.github.io/LabWebsite/2013/12/20/travel-map-southeast-asia-2013/</link>
+				<pubDate>Fri, 20 Dec 2013 21:18:02 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Angkor]]></category>
+		<category><![CDATA[Ao Nang]]></category>
+		<category><![CDATA[Cambodia]]></category>
+		<category><![CDATA[Halong Bay]]></category>
+		<category><![CDATA[Krabi]]></category>
+		<category><![CDATA[Thailand]]></category>
+		<category><![CDATA[Vietnam]]></category>
+
+		<guid isPermaLink="false">http://biogeographia.wordpress.com/?p=441</guid>
+				<description><![CDATA[Companion map to my photos (dynamic map below). [googlemaps https://maps.google.com/maps/ms?msa=0&#38;amp;msid=206718246504044193440.0004edfd89b71418d174b&#38;amp;ie=UTF8&#38;amp;t=p&#38;amp;ll=15.961329,102.568359&#38;amp;spn=29.278103,37.353516&#38;amp;z=4&#38;amp;output=embed&#38;w=425&#38;h=350]]]></description>
+								<content:encoded><![CDATA[<p>Companion map to my photos (dynamic map below).</p>
+<figure id="attachment_445" aria-describedby="caption-attachment-445" style="width: 497px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg"><img class="size-large wp-image-445" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg?resize=474%2C613" alt="Click for higher resolution" width="474" height="613" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg?w=2550&amp;ssl=1 2550w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg?resize=231%2C300&amp;ssl=1 231w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg?resize=791%2C1024&amp;ssl=1 791w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2013/12/sea21.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-445" class="wp-caption-text">Click for higher resolution</figcaption></figure>
+<p>[googlemaps https://maps.google.com/maps/ms?msa=0&amp;amp;msid=206718246504044193440.0004edfd89b71418d174b&amp;amp;ie=UTF8&amp;amp;t=p&amp;amp;ll=15.961329,102.568359&amp;amp;spn=29.278103,37.353516&amp;amp;z=4&amp;amp;output=embed&amp;w=425&amp;h=350]</p>
+]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">441</post-id>	</item>
+	</channel>
+</rss>

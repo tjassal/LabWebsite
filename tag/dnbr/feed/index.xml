@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>dNBR &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/dnbr/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Mon, 07 Aug 2017 02:03:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Presentation at the Ecological Society of America 2017 Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/#respond</comments>
+				<pubDate>Sun, 06 Aug 2017 19:55:50 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Andes Mountains]]></category>
+		<category><![CDATA[Araucaria araucana]]></category>
+		<category><![CDATA[Araucaria-Nothofagus forest]]></category>
+		<category><![CDATA[burn severity]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[dNBR]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[Nothofagus dombeyi]]></category>
+		<category><![CDATA[RdNBR]]></category>
+		<category><![CDATA[regeneration]]></category>
+		<category><![CDATA[relative dNBR]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[South America]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[temperate forests]]></category>
+		<category><![CDATA[Tolhuaca National Park]]></category>
+		<category><![CDATA[wildfire]]></category>
+		<category><![CDATA[Zero-inflated negative binomial model]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1576</guid>
+				<description><![CDATA[I will present research of burn severity controls on post-fire Araucaria-Nothofagus regeneration in the Andean Cordillera at the ESA annual meeting in Portland, OR. My talk is part of the session entitled: (COS 153) – Communities: Spatial Patterns and Environmental Gradients on Thursday afternoon (2:10 pm), August 10th, in the Oregon Convention Center, C120-121. Details: &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the Ecological Society of America 2017 Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research of burn severity controls on post-fire <em>Araucaria-Nothofagus</em> regeneration in the Andean Cordillera at the <a href="http://www.esa.org/portland/" target="_blank" rel="noopener">ESA annual meeting</a> in Portland, OR. My talk is part of the session entitled: <a href="https://eco.confex.com/eco/2017/webprogram/Session13800.html" target="_blank" rel="noopener">(COS 153) – Communities: Spatial Patterns and Environmental Gradients</a> on Thursday afternoon (2:10 pm), August 10<sup>th</sup>, in the Oregon Convention Center, C120-121.</p>
+<p>Details:</p>
+<p class="subtitle"><a href="https://eco.confex.com/eco/2017/webprogram/Paper66665.html" target="_blank" rel="noopener">Burn severity and post-fire regeneration in Chilean <em>Araucaria</em>&#8211;<em>Nothofagus</em> forest (COS 153 &#8211; 3)</a></p>
+<figure id="attachment_843" aria-describedby="caption-attachment-843" style="width: 474px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg"><img class="size-large wp-image-843" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=474%2C356" alt="" width="474" height="356" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?resize=300%2C225&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2015/01/tnp14.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-843" class="wp-caption-text">Araucaria forest mortality in Tolhuaca National Park from the 2002 wildfire. Photo taken in March 2012.</figcaption></figure>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/08/06/presentation-at-the-ecological-society-of-america-2017-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1576</post-id>	</item>
+	</channel>
+</rss>

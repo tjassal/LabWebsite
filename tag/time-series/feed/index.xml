@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>time series &#8211; The Biogoegraphy &amp; Landscape Dynamics Lab</title>
+	<atom:link href="https://tjassal.github.io/LabWebsite/tag/time-series/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tjassal.github.io/LabWebsite/</link>
+	<description>Research focused on biogeography, spatial ecology and landscape change at Kent State University</description>
+	<lastBuildDate>Wed, 27 Jun 2018 23:35:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">77891341</site>	<item>
+		<title>Visualizing the COVID19 shutdown from space: The Venetian Lagoon</title>
+		<link>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/#respond</comments>
+				<pubDate>Sat, 28 Mar 2020 15:41:27 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coronavirus]]></category>
+		<category><![CDATA[COVID19]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[Sentinel-2]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Venetian Lagoon]]></category>
+		<category><![CDATA[Venice]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2252</guid>
+				<description><![CDATA[The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I &#8230; <a href="https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/" class="more-link">Continue reading <span class="screen-reader-text">Visualizing the COVID19 shutdown from space: The Venetian Lagoon</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>The coronavirus has gripped the world the last few weeks. Many things are uncertain, anxiety is running high and academia has transitioned to remote course offerings. We as a society owe a huge debt of gratitude to our first responders, healthcare workers, scientists, researchers, food producers, restaurateurs, grocery clerks &#8230;.. and all of those I forgot.</p>
+<p>There have been a number of social media clips depicting the reduction in emissions due to the slowdown of the global economy using satellite data. Notably from NASA&#8217;s Earth Observatory:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Nitrogen dioxide over <a href="https://twitter.com/hashtag/China?src=hash&amp;ref_src=twsrc%5Etfw">#China</a> has dropped with the coronavirus quarantine, Chinese New Year, and a related economic slowdown. <a href="https://t.co/URfLNy0GZJ">https://t.co/URfLNy0GZJ</a> <a href="https://twitter.com/hashtag/NASA?src=hash&amp;ref_src=twsrc%5Etfw">#NASA</a> <a href="https://twitter.com/hashtag/COVID2019?src=hash&amp;ref_src=twsrc%5Etfw">#COVID2019</a> <a href="https://t.co/PM60uL772K">pic.twitter.com/PM60uL772K</a></p>
+<p>— NASA Earth (@NASAEarth) <a href="https://twitter.com/NASAEarth/status/1235330706827554817?ref_src=twsrc%5Etfw">March 4, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Italy has been extremely hard hit during this pandemic and the entire country was put on lockdown on March 9th. <a href="https://www.cnbc.com/2020/03/18/photos-water-in-venice-italys-canals-clear-amid-covid-19-lockdown.html" target="_blank" rel="noopener noreferrer">Cat Clifford</a> and <a href="https://www.nbcnews.com/science/environment/coronavirus-shutdowns-have-unintended-climate-benefits-n1161921" target="_blank" rel="noopener noreferrer">Denise Chow</a> each wrote brief articles last week detailing the increased clarity in the Venetian canal&#8217;s due to the coronavirus slowdown.</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">A ripple effect of the coronavirus lockdown provides a bit of reprieve for Venice. I imagine if that City were a woman, She&#8217;s stretching her aching back, tired from the constant parade of tourist plodding. <a href="https://t.co/Xq6R9zp8YR">https://t.co/Xq6R9zp8YR</a></p>
+<p>— Catherine Clifford (@CatClifford) <a href="https://twitter.com/CatClifford/status/1240324723382325248?ref_src=twsrc%5Etfw">March 18, 2020</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>I was pretty sure the Google Earth Engine archive would not have any imagery with the spatial detail to detect changes in the clarity of the canals (maybe the Grand Canal?). I decided to have a look though, as it would make a nice segue for my change detection lecture in my remote sensing course this week. The 10-m spatial resolution of <a href="https://tjassal.github.io/LabWebsite/?p=1263" target="_blank" rel="noopener noreferrer">Sentinel-2 imagery</a> is not adequate to detect changes in suspended sediment in any of the canals, but the lack of boat traffic around the island compared to this time last year is quite noticeable! Below are two false-color composite images &#8211; one from last March and one from last week &#8211; for visual comparison.</p>
+<p><strong>The Venetian Lagoon March 15, 2019:</strong></p>
+<figure id="attachment_2262" aria-describedby="caption-attachment-2262" style="width: 637px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg" target="_blank" rel="noopener noreferrer"><img class="wp-image-2262 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?w=637&amp;ssl=1 637w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_15March2019.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2262" class="wp-caption-text">The Venetian Lagoon March 15, 2019. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the visible wakes from boat traffic around the island.</figcaption></figure>
+<p><strong>The Venetian Lagoon March 16, 2020:</strong></p>
+<figure id="attachment_2263" aria-describedby="caption-attachment-2263" style="width: 637px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg"><img class="wp-image-2263 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=474%2C372" alt="" width="474" height="372" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?w=637&amp;ssl=1 637w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2020/03/GEE_S2_16March2020.jpg?resize=300%2C235&amp;ssl=1 300w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2263" class="wp-caption-text">The Venetian Lagoon March 16, 2020. False-color composite image from Sentinel-2 Bottom of Atmosphere reflectance; using the near-infrared, red and green bands (bands 8, 4, 3 respectively). Note the reduction in boat wakes around the island.</figcaption></figure>
+<p>For more information on Google Earth Engine, see my previous posts <a href="https://tjassal.github.io/LabWebsite/?p=2019" target="_blank" rel="noopener noreferrer">here</a> and <a href="https://tjassal.github.io/LabWebsite/?p=1659" target="_blank" rel="noopener noreferrer">here</a>. See below for the code used in Google Earth Engine to generate the images:</p><pre class="crayon-plain-tag">//pull down specific granule, add layer and set display parameters
+var s2a= ee.Image('COPERNICUS/S2_SR/20190315T101021_20190315T101043_T32TQR');
+Map.addLayer(s2a, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_15March2019')
+
+var s2b= ee.Image('COPERNICUS/S2_SR/20200316T100021_20200316T100023_T32TQR');
+Map.addLayer(s2b, {bands: ['B8', 'B4', 'B3'], max: 4000}, 'S2_16March2020')
+
+// Center map on Venice, Italy
+Map.setCenter(12.33, 45.43, 13);</pre><p><em>*Banner image: The Grand Canal (left) and Piazza San Marco (right) viewed from San Giorgio Maggiore </em><em>during busier times (circa 2007), Venice, Italy.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2020/03/28/visualizing-the-shutdown-from-covid19-the-venetian-lagoon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2252</post-id>	</item>
+		<item>
+		<title>Presentation at the American Geophysical Union Fall 2019 Annual Meeting</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/#respond</comments>
+				<pubDate>Sun, 08 Dec 2019 19:25:48 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2195</guid>
+				<description><![CDATA[I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds on Wednesday afternoon, December 11th in the Moscone &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/" class="more-link">Continue reading <span class="screen-reader-text">Presentation at the American Geophysical Union Fall 2019 Annual Meeting</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I will present research on an approach to track post-fire changes in plant functional type at the AGU Annual Fall Meeting in San Francisco this week. My poster is part of the session entitled <em>Fire in the Environment: Pyrogenic Organic Matter Cycling and Environmental Impacts Across Watersheds </em>on Wednesday afternoon, December 11th in the Moscone South poster hall. If you&#8217;re AGU this year, please stop by.</p>
+<p>Abstract link:</p>
+<p><a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/611491" target="_blank" rel="noopener noreferrer">An Open-Access Framework to Track Post-fire Shifts in Dominant Plant Functional Type at the Watershed Scale</a></p>
+<p><em>*Banner image: Market Street aglow, Twin Peaks, San Francisco.<br />
+</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/12/08/presentation-at-the-american-geophysical-union-fall-2019-annual-meeting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2195</post-id>	</item>
+		<item>
+		<title>Exploring Vegetation Dynamics using Google Earth Engine</title>
+		<link>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/#comments</comments>
+				<pubDate>Mon, 11 Feb 2019 20:28:56 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Cloud computing]]></category>
+		<category><![CDATA[Cuyahoga Valley National Park]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Google Earth Engine]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Kent State Univeristy]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=2019</guid>
+				<description><![CDATA[Below is an example from an upcoming lecture that I will be giving to the Department of Geography at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI &#8230; <a href="https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/" class="more-link">Continue reading <span class="screen-reader-text">Exploring Vegetation Dynamics using Google Earth Engine</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[
+<p>Below is an example from an upcoming lecture that I will be giving to the <a href="https://www.kent.edu/geography#" target="_blank" rel="noreferrer noopener" aria-label="Department of Geography (opens in a new tab)">Department of Geography</a> at Kent State University. In my talk I&#8217;ll show an example which compares plant productivity during the leaf-on and leaf-off seasons for nearby Cuyahoga Valley National Park. Below I’ll demonstrate the workflow I used to create NDVI using Google Earth Engine with data from the cloud. Thanks to <a href="https://geohackweek.github.io/" target="_blank" rel="noopener">geohackweek</a> for some pointers on code. </p>
+
+
+
+<p><a href="https://developers.google.com/earth-engine/" target="_blank" rel="noreferrer noopener">Google Earth Engine</a> (GEE) is a cloud-based platform for planetary-scale environmental data analysis which uses a JavaScript API and an online IDE code editor. In short, you can utilize remotely sensed imagery available in Google’s cloud to run analyses without downloading the data to your local machine. You’ll need to sign up as a developer to gain access <a href="https://signup.earthengine.google.com/#!/" target="_blank" rel="noreferrer noopener">here.</a></p>
+
+
+
+<p>To execute the example below, please download the park shapefile <a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2019/02/CVNP.zip" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a> (Note, I&#8217;ve merged the shapefile into a single-part file as GEE doesn&#8217;t seem to be able to handle multi-part files very well). You’ll need to upload the shapefile into GEE using these <a href="https://developers.google.com/earth-engine/importing" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Uploading table assets” section) and load the data into your script using these <a href="https://developers.google.com/earth-engine/asset_manager#importing-assets-to-your-script" target="_blank" rel="noreferrer noopener">instructions</a> (see the “Importing assets to your script” section).</p>
+
+
+
+<p>Copy and paste the following code into the Code Editor of GEE:</p>
+
+
+
+<pre class="crayon-plain-tag">// load all Landsat 8 SR image within park boundary for a given season
+var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_SR')
+//var l8collection = ee.ImageCollection('LANDSAT/LC08/C01/T1_TOA')
+          .filterBounds(ParkBound)  
+          .filterDate('2018-06-01', '2018-09-30'); //leaf on season (June 1 to Sept 30)
+//          .filterDate('2017-11-15', '2018-03-01'); // leaf-off season Nov 15 to March 1
+
+print(l8collection);
+
+// Mask pixels with clouds and cloud shadows using the 'pixel_qa' band
+// that is based on the cfmask for surface reflectance. 
+// https://landsat.usgs.gov/landsat-surface-reflectance-quality-assessment
+
+// create function to mask clouds, cloud shadows, snow
+var maskClouds = function(image){
+  // make a new single band image from the pixel qa band
+  var pixel_qa = image.select('pixel_qa');
+  // retain clear (0) and water (1) pixels
+  return image.updateMask(pixel_qa.eq(322));   
+};
+
+// use "map" to apply the function to each image in the collection
+var l8masked = l8collection.map(maskClouds);
+print(l8masked);
+
+// create function to add NDVI using NIR (B5) and the red band (B4)
+var getNDVI = function(img){
+  return img.addBands(img.normalizedDifference(['B5','B4']).rename('NDVI'));
+};
+
+// map over image collection
+var l8ndvi = l8masked.map(getNDVI);
+
+// for each pixel, select the "best" set of bands from available images
+// based on the maximum NDVI/greenness
+var composite = l8ndvi.qualityMosaic('NDVI').clip(ParkBound);
+
+//set visualization parameters for NDVI            
+var ndviParams = {min: 0, max: 1, palette: ['red', 'yellow', 'green']};
+Map.addLayer(composite.select('NDVI'), ndviParams, 'NDVI image');
+            
+//export image
+// This will create a task in the 'tasks' tab
+// launch from tasks tab to export image
+Export.image.toDrive({
+  image: composite.select('NDVI'),
+  description: 'CVNP Leaf-on NDVI',
+  //description: 'CVNP Leaf-off NDVI',
+  scale:30 }); //meters</pre>
+
+
+
+
+
+
+
+<figure id="attachment_2027" aria-describedby="caption-attachment-2027" style="width: 300px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg" target="_blank" rel="noopener"><img class="wp-image-2027 " src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=300%2C621" alt="" width="300" height="621" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?resize=145%2C300&amp;ssl=1 145w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafON.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2027" class="wp-caption-text">NDVI derived from the leaf-on season over the national park. The code block above will produce this image in Google Earth Engine. Dark green pixels indicate high values of NDVI; orange/red pixels indicate low values.</figcaption></figure>
+<figure id="attachment_2028" aria-describedby="caption-attachment-2028" style="width: 300px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg" target="_blank" rel="noopener"><img class="wp-image-2028 " src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=300%2C622" alt="" width="300" height="622" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=494%2C1024&amp;ssl=1 494w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?resize=145%2C300&amp;ssl=1 145w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2019/02/CVNP_NDVI_LeafOFF.jpg?w=553&amp;ssl=1 553w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-2028" class="wp-caption-text">NDVI derived from the leaf-off season over the national park. A quick comparison with the leaf-on image shows much lower NDVI values, indicating there are a lot of deciduous tree and shrub species within the park.</figcaption></figure>
+<p><em>*Banner image: Changing seasons on Middle Mountain, Colorado, USA.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2019/02/11/exploring-vegetation-dynamics-using-google-earth-engine/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">2019</post-id>	</item>
+		<item>
+		<title>New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</title>
+		<link>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/#respond</comments>
+				<pubDate>Wed, 27 Jun 2018 23:35:10 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[forest ecology]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[NDVI time series]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[phenology]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[randomForests]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1827</guid>
+				<description><![CDATA[We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen &#8230; <a href="https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/" class="more-link">Continue reading <span class="screen-reader-text">New Data Set &#8211; Deciduous Vegetation Map in the Bighorn Mountains, Wyoming</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p dir="ltr">We recently published a new data set associated with the project: “Status and Trends of Deciduous Communities in the Bighorn Mountains”. The aim of the study is to assess the current trends of deciduous communities in the Bighorn National Forest in north-central Wyoming and this project was spurred on by the 2016 and 2017 Aspen Days workshops. The data here represents phase I of the project (i.e. development of more accurate maps of conifer and deciduous vegetation). We (myself and my collaborator, Valerie Steen), created a synthesis map of coniferous and deciduous communities in the Bighorn Mountains of Wyoming using a species distribution modeling approach developed in the Wyoming Landscape Conservation Initiative (WLCI) (Assal et al. 2015). We used a RandomForest modeling framework and utilized a number of topographic covariates and temporal remote sensing data from the early, mid and late growing season to capitalize on phenological differences in vegetation types.</p>
+<p dir="ltr">In Phase II of this project (to be completed in FY2018 and 2019), we will conduct a preliminary assessment on the baseline condition of riparian deciduous communities. This will be a proof-of-concept study where the USGS will apply a framework used in prior research in upland aspen and sagebrush communities to detect trends in riparian vegetation condition from the mid-1980s to present (manuscript to follow). We are collaborating with the Wyoming Game and Fish Department, US Forest Service and Wyoming State Forestry Division.</p>
+<ul>
+<li dir="ltr"> Assal, T.J., 2018, Bighorn Mountains, Wyoming Forest Mapping, 2013-2017: U.S. Geological Survey data release, <a href="https://doi.org/10.5066/P98OS2XK" target="_blank" rel="noopener">https://doi.org/10.5066/P98OS2<wbr />XK</a>.</li>
+<li dir="ltr">Assal, T.J., Anderson, P., Sibold, J., 2015. <a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.    <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf">*PDF Download     </a><a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F1639MP5">*Data Download</a></em></li>
+</ul>
+<p><figure id="attachment_1833" aria-describedby="caption-attachment-1833" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg"><img class="wp-image-1833 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=474%2C318" alt="" width="474" height="318" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=1024%2C686&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=300%2C201&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?resize=768%2C515&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2018/06/2017-BH-131b.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1833" class="wp-caption-text">Aspen Days workshop discussion in the Bighorn Mountains, Wyoming, August 2017 with representatives from the Wyoming Game and Fish Department, US Bureau of Land Management, US Forest Service, Western Aspen Alliance, US Geological Survey and many others .</figcaption></figure></p>
+<p><em>*Banner image: Magic bus in the Bighorn National Forest, Wyoming.</em></p>
+<div>
+<div></div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2018/06/27/new-data-set-deciduous-vegetation-map-in-the-bighorn-mountains-wyoming/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1827</post-id>	</item>
+		<item>
+		<title>Call for Papers: Remote Sensing of Vegetation Parameters</title>
+		<link>https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/#respond</comments>
+				<pubDate>Thu, 29 Jun 2017 12:16:35 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[leaf area index]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[radiative transfer models]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[retrieval of vegetation biophysical parameters]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[vegetation monitoring applications]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1548</guid>
+				<description><![CDATA[The open access journal Forests has a call for papers related to remote sensing of leaf area index and other vegetation parameters. The call is open to a wide variety of applications including ecology, agriculture, forestry, food security, etc. Full details can be found here. Deadline for manuscript submissions: 15 April 2018 Dr. Javier García-Haro Prof. &#8230; <a href="https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/" class="more-link">Continue reading <span class="screen-reader-text">Call for Papers: Remote Sensing of Vegetation Parameters</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>The open access journal <a href="http://www.mdpi.com/journal/forests" target="_blank" rel="noopener">Forests</a> has a call for papers related to remote sensing of leaf area index and other vegetation parameters. The call is open to a wide variety of applications including ecology, agriculture, forestry, food security, etc. Full details can be found <a href="http://www.mdpi.com/si/forests/LAI_remotesensing" target="_blank" rel="noopener">here</a>.</p>
+</div>
+<div id="stcpDiv">
+<p><span class="si-deadline">Deadline for manuscript submissions: <strong>15 A</strong><b>pril 2018</b></span></p>
+<div>Dr. Javier García-Haro</div>
+<div>Prof. Dr. Hongliang Fang</div>
+<div>Prof. Dr. Juan Manuel Lopez-Sanchez</div>
+</div>
+<div><em>Guest Editors</em></div>
+<div></div>
+<div>
+<div></div>
+<div></div>
+<div>
+<p><em>*Banner image: aspen canopy on Cold Spring Mountain, Colorado.</em></p>
+</div>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2017/06/29/call-for-papers-remote-sensing-of-vegetation-parameters/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1548</post-id>	</item>
+		<item>
+		<title>Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/#respond</comments>
+				<pubDate>Tue, 01 Nov 2016 00:30:31 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Current research]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecosystem disturbance]]></category>
+		<category><![CDATA[ggplot2]]></category>
+		<category><![CDATA[growing season anomalies]]></category>
+		<category><![CDATA[MODIS]]></category>
+		<category><![CDATA[productivity]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[sagebrush mortality]]></category>
+		<category><![CDATA[sagebrush steppe]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[vegetation indices]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[WY]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1378</guid>
+				<description><![CDATA[Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (Artemisia spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (also an excellent PBS NATURE program by the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/" class="more-link">Continue reading <span class="screen-reader-text">Sagebrush &#8211; love it or hate it&#8230; you&#8217;ve gotta respect it</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>Dr. Dennis Knight at the University of Wyoming (now retired) once used that phrase to describe the impressive ecological qualities of sagebrush (<em>Artemisia</em> spp.). In western North America, sagebrush grows in challenging environments characterized by low levels of precipitation. Several species of sagebrush anchor the sagebrush sea (<a href="http://www.pbs.org/wnet/nature/sagebrush-sea-about/12170/" target="_blank">also an excellent PBS NATURE program by the same name</a>) and a lot of things eat it, nest in it, and use it for cover. Sagebrush mortality has recently been reported in the Upper Green River Basin (Wyoming, USA) and I am collaborating with a number of folks to understand the extent, severity and timing of the mortality event.</p>
+<p><figure id="attachment_1391" aria-describedby="caption-attachment-1391" style="width: 300px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg" target="_blank"><img class="wp-image-1391 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225" alt="dfdfdfd" width="300" height="225" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/152.jpg?w=1422 1422w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1391" class="wp-caption-text">Sagebrush mortality in southwestern Wyoming. Photo: June 2015.</figcaption></figure></p>
+<p>Numerous causes have been suggested, but recent drought in 2012-13 (see figure below) is the likely mechanism of mortality in this water-limited ecosystem. We will be using a time series of satellite images to gain an understanding of the variability in patterns of vegetation productivity during periods of high, low and average precipitation. Our goal is to use this information to exploit landscape scale remote sensing for detection of subtle changes in productivity in this sparsely vegetated ecosystem to detect sagebrush mortality.</p>
+<p><figure id="attachment_1392" aria-describedby="caption-attachment-1392" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg" target="_blank"><img class="wp-image-1392 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=474%2C356" alt="dfdfdfdf" width="474" height="356" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/10/2016-Trip1-051.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1392" class="wp-caption-text">Partial sagebrush mortality in southwestern Wyoming (6 inch field notebook for scale). Photo: July 2016.</figcaption></figure></p>
+<p>If you have any information about sagebrush mortality or questions about our current research, please contact me.</p>
+<p><strong><em>More to come&#8230;</em></strong></p>
+<p><figure id="attachment_1389" aria-describedby="caption-attachment-1389" style="width: 3375px" class="wp-caption aligncenter"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg" target="_blank"><img class="wp-image-1389 size-full" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=474%2C211" alt="spdsi_1980-2016" width="474" height="211" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=3375&amp;ssl=1 3375w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=300%2C133&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=768%2C341&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?resize=1024%2C455&amp;ssl=1 1024w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/10/sPDSI_1980-2016.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1389" class="wp-caption-text">Self-calibrating Palmer Drought Severity Index (sPDSI) for the Upper Green River Basin. Data source: Western Regional Climate Center, WestWide Drought Tracker, http://www.wrcc.dri.edu/wwdt/time/; accessed 14 Oct 2016.</figcaption></figure></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/10/31/sagebrush-love-it-or-hate-it-youve-gotta-respect-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1378</post-id>	</item>
+		<item>
+		<title>Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/#respond</comments>
+				<pubDate>Fri, 30 Sep 2016 00:42:30 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[science outreach]]></category>
+		<category><![CDATA[spatial ecology]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[species distribution modeling]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[WLCI]]></category>
+		<category><![CDATA[Wyoming]]></category>
+		<category><![CDATA[Wyoming Landscape Conservation Initiative]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1354</guid>
+				<description><![CDATA[“A map is the greatest of all epic poems.” Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954) That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/" class="more-link">Continue reading <span class="screen-reader-text">Spatially Explicit Information (i.e. Maps!) for Natural Resource Managers in the WLCI</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>“<em>A map is the greatest of all epic poems.</em>”</p>
+<p><strong>Gilbert H. Grosvenor, Editor of National Geographic (1903- 1954)</strong></p>
+<p>That&#8217;s a pretty strong quote to apply to these maps, but point taken Mr. Grosvenor. Elaborate spatial models have little utility if the information contained in them is not conveyed (in a map) to the natural resource managers charged with making decisions. Below are maps of <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">forest cover</a> (<a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289" target="_blank">Assal et al. 2015</a>) and  <a href="https://tjassal.github.io/LabWebsite/?p=1129" target="_blank">trend of forest canopy condition</a> (<a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Assal et al. 2016</a>) in the Little Mountain Ecosystem in southwest Wyoming and northwest Colorado prepared for our agency partners in the Wyoming Landscape Conservation Initiative.</p>
+<p>See below for images of maps (click for higher resolution view); high resolution pdf files can be downloaded from figshare. Please see the publications for detailed methodology.</p>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li> Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Forest Cover Maps. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3863262.v1" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3863262.v1 </a>Retrieved: 18 37, Sep 29, 2016 (GMT)</li>
+<li>Assal, Timothy (2016): Little Mountain Ecosystem &#8211; Trends Maps of Forest Canopy Condition. figshare. <a href="https://dx.doi.org/10.6084/m9.figshare.3971421.v2" target="_blank">https://dx.doi.org/10.6084/m9.figshare.3971421.v2</a> Retrieved: 18 45, Sep 29, 2016 (GMT)</li>
+</ul>
+<p style="text-align: center;"><em><strong>Little Mountain and Pine Mountain (Wyoming) Forest Cover:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1356 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300" alt="lmpm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LMPM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><strong><em>Middle Mountain, Diamond Peak and Cold Spring Mountain (Colorado) Forest Cover:</em></strong></p>
+<p style="text-align: center;"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg" target="_blank"><img class="aligncenter wp-image-1365 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300" alt="dpmmcsm_forestcover_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMMCSM_ForestCover_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Little Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1367 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300" alt="lm_trends_map" width="240" height="300" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=948 948w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/09/LM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Pine Mountain (Wyoming) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1370 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300" alt="pm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/PM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+<p style="text-align: center;"><em><strong>Middle Mountain and Diamond Peak (Colorado) Trend Map of Forest Canopy Condition:<a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1371 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300" alt="dpmm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/DPMM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></strong></em></p>
+<p style="text-align: center;"><em><strong>Cold Spring Mountain (Colorado) Trend Map of Forest Canopy Condition:</strong></em></p>
+<p style="text-align: center;"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg" target="_blank"><img class="aligncenter wp-image-1372 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300" alt="csm_trends_map" width="240" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=240%2C300&amp;ssl=1 240w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=768%2C960&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?resize=819%2C1024&amp;ssl=1 819w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=948 948w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/09/CSM_Trends_map.jpg?w=1422 1422w" sizes="(max-width: 240px) 100vw, 240px" data-recalc-dims="1" /></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/09/29/spatially-explicit-information-i-e-maps-for-natural-resource-managers-in-the-wlci/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1354</post-id>	</item>
+		<item>
+		<title>NetCDF Data in R: rearranging the dimensions for raster analysis</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/#comments</comments>
+				<pubDate>Tue, 29 Mar 2016 23:19:19 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Array]]></category>
+		<category><![CDATA[Climate Data]]></category>
+		<category><![CDATA[Fuel Moisture Data]]></category>
+		<category><![CDATA[Gridded Surface Meteorological Data]]></category>
+		<category><![CDATA[Matrix]]></category>
+		<category><![CDATA[netCDF]]></category>
+		<category><![CDATA[Network Common Data Form]]></category>
+		<category><![CDATA[Open Science]]></category>
+		<category><![CDATA[R statistics]]></category>
+		<category><![CDATA[Raster]]></category>
+		<category><![CDATA[Spatial Statistics]]></category>
+		<category><![CDATA[time series]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1210</guid>
+				<description><![CDATA[I recently ran into some challenges working with netCDF data in R. Specifically, I wanted to extract data from a netCDF file and convert the file to a raster for additional analyses. It is pretty straightforward to import each time slice of a variable into a RasterBrick. However, once I tried this I realized the &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/" class="more-link">Continue reading <span class="screen-reader-text">NetCDF Data in R: rearranging the dimensions for raster analysis</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<p>I recently ran into some challenges working with netCDF data in R. Specifically, I wanted to extract data from a netCDF file and convert the file to a raster for additional analyses. It is pretty straightforward to import each time slice of a variable into a RasterBrick. However, once I tried this I realized the columns, rows, and layers from the netCDF file were not being read properly in R, resulting in an incorrect raster layer. The solution is to import the netCDF file into R as an array and then reorganize the array into the proper dimensions. I hope this is helpful and please let me know if you know of a better solution.</p>
+<p>In this example, I am working with dead fuel moisture data available from Dr. John Abatzoglou’s Applied Climate Science Lab <a href="http://climate.nkn.uidaho.edu/METDATA/" target="_blank">website</a>.</p><pre class="crayon-plain-tag">library(ncdf)
+nc &lt;- open.ncdf("fm100_2003.nc");
+print(nc)
+[1] "file fm100_2003.nc has 3 dimensions:"
+[1] "lon   Size: 1386"
+[1] "lat   Size: 585"
+[1] "day   Size: 365"
+[1] "------------------------"
+[1] "file fm100_2003.nc has 1 variables:"
+[1] "short dead_fuel_moisture_100hr[day,lon,lat]  Longname:dead_fuel_moisture_100hr Missval:-9999"</pre><p>The netCDF file has 3 dimensions and the size of the day dimension corresponds to daily dead fuel moisture of 100-hour fuels for one year (365 days).  I can import these into a RasterBrick for additional analyses:</p><pre class="crayon-plain-tag">r &lt;- "fm100_2003.nc"
+b &lt;- brick(r,varname="dead_fuel_moisture_100hr")</pre><p>However, the issue is that the columns and layers in the RasterBrick are switched, which results in an incorrect raster<code></code> for each layer in the brick. The dimensions of the RasterBrick<code></code> should read 585, 1386, 810810, 365 instead of the dimensions below:</p><pre class="crayon-plain-tag">class       : RasterBrick 
+dimensions  : 1386, 365, 505890, 585  (nrow, ncol, ncell, nlayers)
+resolution  : 1, 0.04166667  (x, y)
+extent      : 37619.5, 37984.5, -124.793, -67.043  (xmin, xmax, ymin, ymax)
+coord. ref. : NA 
+data source : fm100_2003.nc 
+names       : X49.3960227966309, X49.3543561299642, X49.3126894632975, X49.2710227966309, X49.2293561299642, X49.1876894632975, X49.1460227966309, X49.1043561299642, X49.0626894632975, X49.0210227966309, X48.9793561299642, X48.9376894632975, X48.8960227966309, X48.8543561299642, X48.8126894632975, ... 
+degrees_north: 25.0626894632975, 49.3960227966309 (min, max)
+varname     : dead_fuel_moisture_100hr</pre><p>The solution is to import the netCDF file into R as an array and then reorganize the array into the proper dimensions.</p>
+<p>Import the netCDF  file as an array:</p><pre class="crayon-plain-tag">dname &lt;- "dead_fuel_moisture_100hr"
+array1 &lt;- get.var.ncdf(nc, dname) 
+dim(array1)
+[1]  365 1386  585</pre><p>The dimensions of array1 are days, columns, rows which need to be rearranged:</p><pre class="crayon-plain-tag">array2&lt;-aperm(array1, c(3, 2, 1))
+dim(array2)
+[1]  585 1386  365</pre><p>Now the array is organized properly into rows, columns, days. At this point you can access the depth range or each time slice (days 1 through 365) as a matrix:</p><pre class="crayon-plain-tag">#extract day 001 to a matrix
+fm.day.001&lt;-array2[,,1]
+...
+#extract day 365 to a matrix
+fm.day.365&lt;-array2[,,365]</pre><p>If needed, the matrix can be converted to a raster:</p><pre class="crayon-plain-tag">r2&lt;-raster(nrow=585,ncol=1386,vals=fm.day.001, xmn=-124.7722, xmx=-67.06383,  ymn=25.06269, ymx=49.39602)</pre><p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/03/29/netcdf-data-in-r-rearranging-the-dimensions-for-raster-analysis/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1210</post-id>	</item>
+		<item>
+		<title>New paper documents spatial and temporal trends of drought in a semi-arid forest ecosystem</title>
+		<link>https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/#respond</comments>
+				<pubDate>Wed, 17 Feb 2016 05:00:42 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[Colorado]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[ecotone]]></category>
+		<category><![CDATA[fisheye photo]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Forest Ecology and Management]]></category>
+		<category><![CDATA[hemispheric photo]]></category>
+		<category><![CDATA[Landsat]]></category>
+		<category><![CDATA[lay summary]]></category>
+		<category><![CDATA[leaf area index]]></category>
+		<category><![CDATA[NDMI]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[open access]]></category>
+		<category><![CDATA[open data]]></category>
+		<category><![CDATA[plant area index]]></category>
+		<category><![CDATA[quaking aspen]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[science communication]]></category>
+		<category><![CDATA[subalpine fir decline]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[Wyoming]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1129</guid>
+				<description><![CDATA[**A special thanks to the NASA Landsat Program for featuring our work on their Science Blog** We recently published an open access paper in the journal Forest Ecology and Management, entitled &#8220;Spatial and temporal trends of drought effects in a heterogeneous semi-arid forest ecosystem.&#8221; This is our second paper from this study which took place &#8230; <a href="https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/" class="more-link">Continue reading <span class="screen-reader-text">New paper documents spatial and temporal trends of drought in a semi-arid forest ecosystem</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<h3><span style="color: #ff0000;"><strong><em>**A special thanks to the NASA Landsat Program for featuring our work on their <a style="color: #ff0000;" href="http://landsat.gsfc.nasa.gov/?p=12121" target="_blank">Science Blog</a>**</em></strong></span></h3>
+<p>We recently published an open access paper in the journal <em><a href="http://www.journals.elsevier.com/forest-ecology-and-management/" target="_blank">Forest Ecology and Management</a>,</em> entitled &#8220;Spatial and temporal trends of drought effects in a heterogeneous semi-arid forest ecosystem.&#8221; This is our second paper from this study which took place in southwestern Wyoming and northwestern Colorado. <a href="https://tjassal.github.io/LabWebsite/?p=984" target="_blank">We published a paper in 2015</a> mapping forest functional type across the forest-shrubland ecotone, which represents important habitat for a host of species.</p>
+<p><figure id="attachment_1156" aria-describedby="caption-attachment-1156" style="width: 300px" class="wp-caption alignleft"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg" target="_blank" rel="attachment wp-att-1156"><img class="wp-image-1156 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=300%2C300" alt="Extent of the forest in the study area (Assal et al., 2015)." width="300" height="300" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=300%2C300&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=150%2C150&amp;ssl=1 150w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=768%2C768&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?resize=1024%2C1024&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?w=1062&amp;ssl=1 1062w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Figure1.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1156" class="wp-caption-text">Extent of the forest in the study area (Assal et al., 2015).</figcaption></figure></p>
+<p>The study area experienced a relatively dry period since 2000, while 2002 and 2012 were both extreme drought years. However, little attention has been given to the effect of top down climatic controls on the condition of the forest across the region. Recent drought-related mortality of aspen has been documented in western North America (Michaelian et al., 2011; Worrall et al., 2008) and multiple studies have documented an increase in mortality rates of coniferous species throughout the western United States over the later part of the 20<sup>th</sup> century (van Mantgem et al., 2009). This prompted the question:</p>
+<p><em>What are the spatial and temporal trends of recent drought in a forested ecosystem expected to be vulnerable to climate change?</em></p>
+<p><figure id="attachment_1161" aria-describedby="caption-attachment-1161" style="width: 300px" class="wp-caption alignleft"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg" target="_blank" rel="attachment wp-att-1161"><img class="wp-image-1161 size-medium" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=300%2C133" alt="The standardized precipitation index for the study area, identifying wet and dry years." width="300" height="133" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=300%2C133&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=768%2C341&amp;ssl=1 768w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?resize=1024%2C455&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2016/02/SPI_figure.jpg?w=1422 1422w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1161" class="wp-caption-text">The standardized precipitation index for the study area, use to identify wet and dry years.</figcaption></figure></p>
+<p>We had no baseline data or long-term plots in the area, so we turned to the remote sensing archive to determine if drought altered forest structure over the course of a decade-and-a-half. We analyzed 22 years of Landsat satellite data to determine changes in forest condition between 1985 and 2012. The driving concept of the analysis was to assess the relationship between recent satellite imagery and the condition of vegetation on the ground; then backcast the relationship over the last thirty years to determine when and where change occurred. We assessed the relationship between plant moisture (a proxy for plant productivity derived from satellite data) and a number of ground based measurements.</p>
+<p><figure id="attachment_1165" aria-describedby="caption-attachment-1165" style="width: 300px" class="wp-caption alignright"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg" target="_blank" rel="attachment wp-att-1165"><img class="wp-image-1165 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?resize=300%2C212" alt="Left: example of fisheye photos collected from two field sites. Right: classified photos indicating plant material in green. " width="300" height="212" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?resize=300%2C212&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?resize=768%2C543&amp;ssl=1 768w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?w=1019&amp;ssl=1 1019w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/scaling_up.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1165" class="wp-caption-text">Left: example of fisheye photos collected from two field sites. Right: classified photos indicating plant material in green.</figcaption></figure></p>
+<p>In one set of measurements we used hemispheric or fisheye photos to measure the amount of aboveground plant material in a plot. Our results indicate there is a strong linear relationship between the amount of plant material on the ground and plant moisture measured from a satellite.</p>
+<p><figure id="attachment_1168" aria-describedby="caption-attachment-1168" style="width: 300px" class="wp-caption alignleft"><a href="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg" target="_blank" rel="attachment wp-att-1168"><img class="wp-image-1168 size-medium" src="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg?resize=300%2C165" alt="Hypothesized trajectories of forest productivity over time." width="300" height="165" srcset="https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg?resize=300%2C165&amp;ssl=1 300w, https://i2.wp.com/www.timassal.com/wp-content/uploads/2016/02/Linear_trend_analysis_hypothesis_slide.jpg?w=456&amp;ssl=1 456w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1168" class="wp-caption-text">Hypothesized trajectories of forest productivity over time with respect to drought.</figcaption></figure></p>
+<p>We hypothesized the long-term trajectory of plant moisture could be used to identify areas of forest that are resistant, persistent or vulnerable to severe drought. To do this, we ran simultaneous regression analyses for every 30 square meter Landsat pixel (upwards of 100,000 regressions) that incorporated plant moisture as the dependent variable and time as the explanatory variable. We then mapped the direction of the slope in each regression equation across the study area to identify trends in forest condition.</p>
+<p><figure id="attachment_1159" aria-describedby="caption-attachment-1159" style="width: 300px" class="wp-caption alignright"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg" target="_blank" rel="attachment wp-att-1159"><img class="wp-image-1159 size-medium" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=300%2C183" alt="Locations of forest pixels with positive, negative and no trend over time (Assal et al., 2016). Note, positive and negative trends are significant at the 95% confidence level. Each map panel is displayed at the same scale." width="300" height="183" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=300%2C183&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=768%2C468&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?resize=1024%2C624&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?w=1437&amp;ssl=1 1437w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/Map_trends_figure.jpg?w=948 948w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1159" class="wp-caption-text">Locations of forest pixels with positive, negative and no trend over time (Assal et al., 2016). Note, positive and negative trends are significant at the 95% confidence level. Each map panel is displayed at the same scale.</figcaption></figure></p>
+<p>Field plots with a negative trend had a lower live tree density, and higher amounts of standing dead and down trees compared to plots with no trend. We can use this information to analyze individual forest stands and analyze the timing of changes in the plant moisture trajectory.</p>
+<p><figure id="attachment_1174" aria-describedby="caption-attachment-1174" style="width: 474px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg" target="_blank" rel="attachment wp-att-1174"><img class="wp-image-1174 size-large" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=474%2C233" alt="Top: example of a vulnerable plot (negative trend) with high levels of plant mortality. The trend begins to decline in the early 2000s. Bottom: example of a persistent plot (no statistical trend) with low levels of plant mortality. The fisheye photos indicate low plant material in the vulnerable plot and a high amount of plant material in the persistent plot (bottom right). " width="474" height="233" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=1024%2C503&amp;ssl=1 1024w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=300%2C147&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?resize=768%2C378&amp;ssl=1 768w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?w=1253&amp;ssl=1 1253w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/trend_examples.jpg?w=948 948w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1174" class="wp-caption-text">Subtle changes in forest structure are difficult to detect with satellite observations, therefore, drought studies require long-term series of observations. Top: example of a vulnerable plot (negative trend) with high levels of plant mortality. The trend begins to decline in the early 2000s. Bottom: example of a persistent plot (no statistical trend) with low levels of plant mortality. The fisheye photos indicate low plant material in the vulnerable plot (top right) and a high amount of plant material in the persistent plot (bottom right).</figcaption></figure></p>
+<p>Our results identify areas of forest that are resistant, persistent or vulnerable to severe drought. The analysis gives natural resource managers a long-term perspective of the forest dynamics of this ecosystem and could inform treatment options or monitoring efforts. The spatial data generated from the analysis gives managers a glimpse into the recent past and it may hold clues as to how this system will respond to projected climate change. Our framework relies heavily on open access satellite data and could be applied to long-term monitoring of similar ecosystems.</p>
+<p><figure id="attachment_1177" aria-describedby="caption-attachment-1177" style="width: 840px" class="wp-caption aligncenter"><a href="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg" target="_blank" rel="attachment wp-att-1177"><img class="wp-image-1177 size-full" src="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?resize=474%2C119" alt="Our analysis capitalizes on the changes in moisture over time between a live canopy, a standing dead canopy and even down trees." width="474" height="119" srcset="https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?w=840&amp;ssl=1 840w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?resize=300%2C75&amp;ssl=1 300w, https://i0.wp.com/www.timassal.com/wp-content/uploads/2016/02/tree_photos.jpg?resize=768%2C192&amp;ssl=1 768w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1177" class="wp-caption-text">Our analysis capitalizes on the difference in moisture over time between a live canopy, a standing dead canopy and even down trees.</figcaption></figure></p>
+<p><strong>Literature Cited</strong></p>
+<ul>
+<li>Assal, T.J., Anderson, P.J., Sibold, J., 2016. <a href="http://www.sciencedirect.com/science/article/pii/S0378112716000189" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem. Forest Ecology and Management.</a> 365, 137-151.  <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2016/02/FEM_spatial-and-temporal-trends-of-drought.pdf" target="_blank">*PDF Download </a></em></li>
+<li>Assal, T.J., Anderson, P., Sibold, J., 2015. <a href="http://www.tandfonline.com/doi/full/10.1080/2150704X.2015.1072289#abstract">Mapping forest functional type in a forest-shrubland ecotone using SPOT imagery and predictive habitat distribution modelling.</a> <em>Remote Sensing Letters</em>. 6, 755–764.    <em><a href="https://tjassal.github.io/LabWebsite/wp-content/uploads/2015/08/Assal_2014_RSL_Pre-print.pdf">*PDF Download     </a><a href="https://knb.ecoinformatics.org/#view/doi:10.5063/F1639MP5">*Data Download</a></em></li>
+</ul>
+<ul>
+<li>Michaelian, M., Hogg, E.H., Hall, R.J., Arsenault, E., 2011. Massive mortality of aspen following severe drought along the southern edge of the Canadian boreal forest. Global. Change Biology. 17, 2084–2094.</li>
+<li>Van Mantgem, P.J., Stephenson, N.L., Byrne, J.C., Daniels, L.D., Franklin, J.F., Fulé, P.Z., Harmon, M.E., Larson, A.J., Smith, J.M., Taylor, A.H., Veblen, T.T., 2009. Widespread increase of tree mortality rates in the western United States. Science 323 (80), 521–524.</li>
+<li>Worrall, J.J., Egeland, L., Eager, T., Mask, R.A., Johnson, E.W., Kemp, P.A., Shepperd, W. D., 2008. Rapid mortality of Populus tremuloides in southwestern Colorado, USA. Forest Ecology and Management. 255, 686–696.</li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2016/02/16/new-paper-documents-spatial-and-temporal-trends-of-drought-in-a-semi-arid-forest-ecosystem/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1129</post-id>	</item>
+		<item>
+		<title>Research Presentation at the American Geophysical Union Fall Meeting 2015</title>
+		<link>https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/</link>
+				<comments>https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/#respond</comments>
+				<pubDate>Mon, 14 Dec 2015 10:12:09 +0000</pubDate>
+		<dc:creator><![CDATA[tim.assal@gmail.com]]></dc:creator>
+				<category><![CDATA[Blog-lite]]></category>
+		<category><![CDATA[AGU 2015]]></category>
+		<category><![CDATA[AGU15]]></category>
+		<category><![CDATA[coniferous forest]]></category>
+		<category><![CDATA[deciduous forest]]></category>
+		<category><![CDATA[Digital hemispheric photos]]></category>
+		<category><![CDATA[drought]]></category>
+		<category><![CDATA[fisheye photos]]></category>
+		<category><![CDATA[Forest Disturbance]]></category>
+		<category><![CDATA[Normalized Difference Moisture Index]]></category>
+		<category><![CDATA[remote sensing]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[time series]]></category>
+		<category><![CDATA[trend analysis]]></category>
+
+		<guid isPermaLink="false">https://tjassal.github.io/LabWebsite/?p=1099</guid>
+				<description><![CDATA[I will present my research on the effects of drought on deciduous and coniferous forest communities along the shrubland ecotone at the AGU Fall Meeting in San Francisco, CA. My poster presentation is part of the session entitled: (B53F) Remote Sensing to Support Investigations in Plant-Climate Interactions  on Friday afternoon, December 18, in Moscone South. &#8230; <a href="https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/" class="more-link">Continue reading <span class="screen-reader-text">Research Presentation at the American Geophysical Union Fall Meeting 2015</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+								<content:encoded><![CDATA[<div id="stcpDiv">
+<p>I will present my research on the effects of drought on deciduous and coniferous forest communities along the shrubland ecotone at the AGU Fall Meeting in San Francisco, CA. My poster presentation is part of the session entitled: (<span class="FinalNumber">B53F) </span><em> Remote Sensing to Support Investigations in Plant-Climate Interactions</em>  on Friday afternoon, December 18, in Moscone South.</p>
+</div>
+<div id="stcpDiv">
+<section class="itemSelection "></section>
+<p><em><strong><a href="https://agu.confex.com/agu/fm15/meetingapp.cgi/Paper/82817" target="_blank">Spatial and Temporal Trends of Drought Effects in a Heterogeneous Semi-Arid Forest Ecosystem (B53F-0631)</a></strong></em></p>
+<p><strong>Abstract</strong></p>
+<p>Drought-induced forest mortality has been documented across genera in recent years in western North America. Understanding patterns of mortality and plant response to severe drought is important to resource managers, given the frequency of these events are expected to increase in the future. Remote sensing studies have documented changes in forest properties due to direct and indirect effects of drought; however, few have addressed this at local scales needed to characterize highly heterogeneous ecosystems in the forest-shrubland ecotone. We analyzed a 22-year Landsat time series (1985-2012) to determine changes in forest that experienced a relatively dry decade punctuated by two years of extreme drought. We assessed the relationship between vegetation indices and field measures, applied the index to trend analysis to uncover the location, direction and timing of change, and assessed the interaction of climate on topography. The Normalized Difference Moisture Index (NDMI) had the strongest correlation with plant area index (R<sup>2</sup> = 0.64) and canopy gap fraction (R<sup>2</sup> = 0.65). During the study period, 25% of the forested area experienced a significant (p &lt; 0.05) negative trend in NDMI, compared to less than 10% in a positive trend. Trends were not consistent across forest type as a larger amount of coniferous forest was impacted by negative trends than deciduous forest. Southern aspects were least likely to exhibit a negative trend and north aspects were most prevalent. Field plots with a negative trend had a lower live density, and higher amounts of standing dead and down trees compared to plots with no trend. Our analysis identifies spatially explicit patterns of long-term trends anchored with ground based evidence to highlight areas of forest that are resistant, persistent and vulnerable to severe drought. The results provide a long-term perspective for the resource management of this area and can be applied to similar ecosystems throughout western North America.</p>
+<p><figure id="attachment_1108" aria-describedby="caption-attachment-1108" style="width: 474px" class="wp-caption aligncenter"><a href="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg" target="_blank"><img class="wp-image-1108 size-large" src="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?resize=474%2C316" alt="Click for higher resolution." width="474" height="316" srcset="https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?resize=1024%2C683&amp;ssl=1 1024w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?resize=300%2C200&amp;ssl=1 300w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?w=948 948w, https://i1.wp.com/www.timassal.com/wp-content/uploads/2015/12/Assal_poster_FINAL.jpg?w=1422 1422w" sizes="(max-width: 474px) 100vw, 474px" data-recalc-dims="1" /></a><figcaption id="caption-attachment-1108" class="wp-caption-text">Click for higher resolution.</figcaption></figure></p>
+<p>The poster can be accessed and downloaded from figshare <a href="https://figshare.com/articles/Assal_AGU2015_poster_pdf/2058846" target="_blank">here</a>.</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://tjassal.github.io/LabWebsite/2015/12/14/research-presentation-at-the-american-geophysical-union-fall-meeting-2015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">1099</post-id>	</item>
+	</channel>
+</rss>
